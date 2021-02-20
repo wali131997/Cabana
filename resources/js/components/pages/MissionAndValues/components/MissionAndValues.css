@@ -1,0 +1,24 @@
+.missionCard {
+  margin: 0 auto;
+  text-align: center;
+}
+.missionCircle {
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 30px;
+  background-color: #291023;
+}
+.missionImg {
+  width: 100%;
+  height: auto;
+  margin-top: -5px;
+}
+.missionTitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.missionText {
+  font-size: 0.7rem;
+}
