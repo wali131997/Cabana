@@ -47,10 +47,25 @@ export default class Footer extends Component {
           </div>
           <div className="col-md-4 col-sm-12 footerCol">
             <h3 className=" footerLinkTitle">QUICK LINK</h3>
+            <Link to="/cookie-policy">
             <p className="footerLinkText">{"\u00BB"} Cookie Policy</p>
+              
+            </Link>
+            <Link to="/regulatory-compliance">
             <p className="footerLinkText">{"\u00BB"} Regulatory/compliance</p>
+
+            </Link>
+            
+            <Link to="/privacy-policy">
             <p className="footerLinkText">{"\u00BB"} Privacy Policy</p>
+
+            </Link>
+            <Link to="/risk-disclouser">
             <p className="footerLinkText">{"\u00BB"} Risk Disclosure</p>
+            </Link>
+            
+          
+           
             <p className="footerLinkText">{"\u00BB"} Safety Of Fund</p>
             <Link to="/terms-and-condition">
               <p className="footerLinkText">{"\u00BB"} Terms and Conditions</p>
@@ -59,22 +74,12 @@ export default class Footer extends Component {
           </div>
           <div className="col-md-4 col-sm-12 footerCol">
             <h3 className=" footerLinkTitle">CONTACT</h3>
-            <p className="footerText textBold">London Office</p>
-            <p className="footerText">
-              71-75, Shelton Street,
-              <br />
-              Covent Garden,
-              <br />
-              London, WC2H <br />
-              9JQ Tel - +44 2081244440 <br />
-              support@cabanacapitals.com
-            </p>
-            <p className="footerText textBold">Dubai Office</p>
-            <p className="footerText">
-              Office No. 2005, 20th Floor, Prism Tower
-              <br />
-              Business Bay, Dubai, UAE
-            </p>
+            <Link to="/our-location" >
+
+            <p className="footerLinkText">{"\u00BB"} Our Location</p>
+
+            </Link>
+            <p className="footerLinkText">{"\u00BB"} Contact Us</p>
           </div>
         </div>
         <div className="row footerSecondRow">

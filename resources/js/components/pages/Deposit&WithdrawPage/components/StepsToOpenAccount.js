@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class StepsToOpenAccount extends Component {
     render() {
-        const {newStyleClass}=this.props
+        
         return (
             <div className="container-fluid">
-            <div style={window.location.pathname == '/trading-instruments' ? {background:'antiquewhite'} : ''} className="row depositCardRow">
+            <div  className="row depositCardRow">
           <div className="col-12 text-center">  <div className="depositStepsTitle">Start Trading in 4 Steps</div>
           <div>
                 <hr className="depositDivider" />

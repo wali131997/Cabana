@@ -20,16 +20,7 @@ export default class TradingPlatforms extends Component {
                 <div className="col-md-6 col-sm-12">
                   <h2 className="titleFont pt-4">EDUCATIONAL VIDEOS</h2>
                   <p className="textFont mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat
-                    <br />
-                    nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                  Forex trading for beginners can be especially tough. Therefore, we are providing a set of our educational videos to learn Forex Trading visually & comprehensively. The videos provide a full set of tutorials to understand all ins and outs of currency trading; for all levels from beginners to advance.Learn about key Forex, trading and technical analysis concepts with our short and easy-to-understand educational videos
                   </p>
                   <button className="btnPrimaryPink">LEARN MORE</button>
                 </div>

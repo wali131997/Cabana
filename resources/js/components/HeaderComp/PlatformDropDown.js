@@ -11,6 +11,7 @@ export default class PlatformDropDown extends Component {
           >
             <h5 className="headerDropDownTitle">PLATFORMS</h5>
             <Link to="/platform/mt5">
+              
               <div className="headerDropDownItem">MetaTrader 5</div>
             </Link>
             <Link to="/platform/mt5">

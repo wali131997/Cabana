@@ -281,6 +281,7 @@
   .footerLinkText {
     font-size: 0.8rem;
     line-height: 1;
+    cursor: pointer;
   }
   .footerLinkText:hover {
     color: #eb1597;

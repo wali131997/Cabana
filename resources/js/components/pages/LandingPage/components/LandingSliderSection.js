@@ -49,7 +49,9 @@ export default class LandingSliderSection extends Component {
                     </div>
                     <h2 className="featureTitle">Swap Free Account</h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    Seamless interest-free trading. 
+*Swap Free Accounts are available to all clients
+
                     </p>
                   </div>
                 </div>
@@ -63,10 +65,12 @@ export default class LandingSliderSection extends Component {
                       ></img>
                     </div>
                     <h2 className="featureTitle">
-                      No Deposite/Withdrawl Charges
+                      No Deposit/Withdrawal Charges
                     </h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    ZERO deposit & withdrawal charges to earn 
+maximum profits at minimum trading cost
+
                     </p>
                   </div>
                 </div>
@@ -79,9 +83,11 @@ export default class LandingSliderSection extends Component {
                         src="/assets/images/fFixed.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">FIXED & VAIRIABLE SPREADS</h2>
+                    <h2 className="featureTitle">FIXED & VARIABLE SPREADS</h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    Offers lowest trading cost in the market (0.0 Pips) 
+to earn highest profits possible
+
                     </p>
                   </div>
                 </div>
@@ -94,9 +100,11 @@ export default class LandingSliderSection extends Component {
                         src="/assets/images/fLeverage.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">LEAVRAGE UPTO 1:500</h2>
+                    <h2 className="featureTitle">LEVERAGE UPTO 1:500</h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    Access to a larger portion of financial market
+& increase potential profits
+
                     </p>
                   </div>
                 </div>
@@ -110,10 +118,12 @@ export default class LandingSliderSection extends Component {
                       ></img>
                     </div>
                     <h2 className="featureTitle">
-                      NEGETIVE BALANCE PROTECTION
+                      NEGATIVE BALANCE PROTECTION
                     </h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    Secure trading with NBP allows you to
+not lose more than deposited
+
                     </p>
                   </div>
                 </div>
@@ -130,7 +140,9 @@ export default class LandingSliderSection extends Component {
                       24/5 MULTILINGUAL <br /> SERVICE
                     </h2>
                     <p className="featureText">
-                      open swap free account and enjoy hassel free trading
+                    Dedicated customer support team available
+to assist you via various contact channels
+
                     </p>
                   </div>
                 </div>
@@ -161,7 +173,7 @@ export default class LandingSliderSection extends Component {
                       </div>
                       <div className="demoTextFlex mt-2">
                         <h4 className="demoAccountText ">
-                          Step-by step tutorials & articales
+                          Step-by step tutorials & articles
                         </h4>
                         <div className="demoIcon ">
                           <FontAwesomeIcon

@@ -1,0 +1,14 @@
+.footerLinkPage .basicRow{
+    padding: 8vw 10vw;
+}
+.footerLinkPage .basicTitle{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+.footerLinkPage .qTitle{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

@@ -47,10 +47,7 @@ import HeaderIem from "./HeaderComp/HeaderIem";
               <HeaderIem styles={{borderLeft:'0'}}  title="FX TRADING">
                 <AccountDropDown />
               </HeaderIem>
-              <HeaderIem title="TRADING PLATFORMS">
-              <PlatformDropDown />
-                
-              </HeaderIem>
+            
               <HeaderIem title="TRADING INSTRUMENTS">
               <PaymentDropDown />
               </HeaderIem>

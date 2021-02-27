@@ -70,12 +70,6 @@ export default class HeaderMobile extends Component {
             >
               <span> FX TRADING</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-            </div><div
-              className="sideBarItem"
-              onClick={() => this.handleChangeDropDown("platform")}
-            >
-              <span> TRADING PLATFORMS</span>
-              <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
             <div
               className="sideBarItem"
@@ -143,6 +137,11 @@ export default class HeaderMobile extends Component {
                       <Link to="/trading-instruments">
                         <div className="sideBarItem">
                           <span> Trading Instruments</span>
+                        </div>
+                      </Link>
+                      <Link to="/platform/mt5">
+                        <div className="sideBarItem">
+                          <span> Trading Platform</span>
                         </div>
                       </Link>
                       <Link to="/trading-currencies">

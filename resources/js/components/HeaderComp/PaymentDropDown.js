@@ -15,17 +15,17 @@ export default class PaymentDropDown extends Component {
             </Link>
           </div>
           <div
-            className="headerDropDownItemDiv"
+            className="headerDropDownItemDiv opacityZero"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">ACCOUNTS</h5>
-            <Link to="/account-type">
+            <Link to="">
               <div className="headerDropDownItem">Account Type</div>
             </Link>
-            <Link to="/trading-instruments">
+            <Link to="">
               <div className="headerDropDownItem">Trading Instruments</div>
             </Link>
-            <Link to="/trading-currencies">
+            <Link to="">
               <div className="headerDropDownItem">Currencies (FX)</div>
             </Link>
           </div>

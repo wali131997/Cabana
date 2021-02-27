@@ -16,6 +16,10 @@ export default class AccountDropDown extends Component {
             <Link to="/trading-instruments">
               <div className="headerDropDownItem">Trading Instruments</div>
             </Link>
+            <Link to="/platform/mt5">
+              
+              <div className="headerDropDownItem">Trading Platforms</div>
+            </Link>
             <Link to="/trading-currencies">
               <div className="headerDropDownItem">Currencies (FX)</div>
             </Link>

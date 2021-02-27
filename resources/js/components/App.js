@@ -20,6 +20,11 @@ import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPag
 import HeaderMobile from "./HeaderMobile";
 import './Front.css';
 import AboutUsPage2 from "./pages/AboutUsPage2/AboutUsPage2";
+import OurLocationPage from "./pages/OurLocationPage/OurLocationPage";
+import CookiePolicy from "./pages/FooterLinkPages/CookiePolicy";
+import CompliancePage from "./pages/OurLocationPage/CompliancePage";
+import PrivacyPolicy from "./pages/FooterLinkPages/PrivacyPolicy";
+import RiskPage from "./pages/FooterLinkPages/RiskPage";
  class App extends Component {
   // state
   constructor(props) {
@@ -79,6 +84,11 @@ import AboutUsPage2 from "./pages/AboutUsPage2/AboutUsPage2";
           <Route path="/promotion" component={PromotionPage}></Route>
           <Route path="/platform/mt5" component={PlatformMT5}></Route>
           <Route path="/PAMM" component={PAMMpage}></Route>
+          <Route path="/our-location" component={OurLocationPage}></Route>
+          <Route path="/cookie-policy" component={CookiePolicy}></Route>
+          <Route path="/regulatory-compliance" component={CompliancePage}></Route>
+          <Route path="/privacy-policy" component={PrivacyPolicy}></Route>
+          <Route path="/risk-disclouser" component={RiskPage}></Route>
           <Route
             path="/deposite-withdraw"
             component={DepositWithdrawPage}

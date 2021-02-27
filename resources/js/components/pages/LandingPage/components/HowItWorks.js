@@ -28,8 +28,7 @@ export default class HowItWorks extends Component {
               <div className="col-8">
                 <h2 className="howPointTitle">CREATE ACCOUNT</h2>
                 <p className="howItText">
-                  Register your account with Cabana Capitals and enjoys hassel
-                  free forex trading
+                Sign up and open your live trading account
                 </p>
               </div>
             </div>
@@ -46,7 +45,7 @@ export default class HowItWorks extends Component {
               <div className="col-8">
                 <h2 className="howPointTitle">VERIFY</h2>
                 <p className="howItText">
-                  Register your account with Cabana Capitals and enjoys hassel
+                Upload your documents to verify your accountwith Cabana Capitals and enjoys hassel
                   free forex trading
                 </p>
               </div>
@@ -64,8 +63,7 @@ export default class HowItWorks extends Component {
               <div className="col-8">
                 <h2 className="howPointTitle">FUNDS</h2>
                 <p className="howItText">
-                  Register your account with Cabana Capitals and enjoys hassel
-                  free forex trading
+                Login to Cabana Capitals &fund your account
                 </p>
               </div>
             </div>
@@ -82,8 +80,7 @@ export default class HowItWorks extends Component {
               <div className="col-8">
                 <h2 className="howPointTitle">TRADE</h2>
                 <p className="howItText">
-                  Register your account with Cabana Capitals and enjoys hassel
-                  free forex trading
+                Enjoy hassle free trading on more than 250 instruments
                 </p>
               </div>
             </div>
