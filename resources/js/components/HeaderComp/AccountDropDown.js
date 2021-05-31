@@ -13,31 +13,28 @@ export default class AccountDropDown extends Component {
             <Link to="/account-type">
               <div className="headerDropDownItem">Account Type</div>
             </Link>
-            <Link to="/trading-instruments">
-              <div className="headerDropDownItem">Trading Instruments</div>
-            </Link>
-            <Link to="/platform/mt5">
-              
-              <div className="headerDropDownItem">Trading Platforms</div>
-            </Link>
-            <Link to="/trading-currencies">
-              <div className="headerDropDownItem">Currencies (FX)</div>
-            </Link>
+
+
           </div>
           <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">More</h5>
-            <Link to="/account-type">
-              <div className="headerDropDownItem">Precious Metals (Spot)</div>
+            <h5 className="headerDropDownTitle">PLATFORMS</h5>
+            <Link to="/platform/mt5">
+
+              <div className="headerDropDownItem">MetaTrader 5</div>
             </Link>
-            <Link to="/trading-instruments">
-              <div className="headerDropDownItem">Commodities (Spot)</div>
+            <Link to="/platform/mt5">
+              <div className="headerDropDownItem">MetaTrader 4 Client Desktop</div>
             </Link>
-            <Link to="/trading-currencies">
-              <div className="headerDropDownItem">CFD indices (Spot)</div>
+            <Link to="/platform/mt5">
+              <div className="headerDropDownItem">MetaTrader 5 Android</div>
             </Link>
+            <Link to="/platform/mt5">
+              <div className="headerDropDownItem">MetaTrader 4 Android</div>
+            </Link>
+
           </div>
           <div className="headerDropDownImgDiv">
             <img

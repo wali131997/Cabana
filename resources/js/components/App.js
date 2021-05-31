@@ -25,6 +25,8 @@ import CookiePolicy from "./pages/FooterLinkPages/CookiePolicy";
 import CompliancePage from "./pages/OurLocationPage/CompliancePage";
 import PrivacyPolicy from "./pages/FooterLinkPages/PrivacyPolicy";
 import RiskPage from "./pages/FooterLinkPages/RiskPage";
+import NewPromo35PerB from "./pages/NewPromoPages/NewPromo35PerB";
+import SafetyOfFunds from "./pages/FooterLinkPages/SafetyOfFunds";
  class App extends Component {
   // state
   constructor(props) {
@@ -81,7 +83,8 @@ import RiskPage from "./pages/FooterLinkPages/RiskPage";
             component={TradingCurrencisePage}
           ></Route>
           <Route path="/patnership" component={PatnershipPage}></Route>
-          <Route path="/promotion" component={PromotionPage}></Route>
+          <Route path="/promotion"  component={PromotionPage}></Route>
+          <Route path="/newPromotion" component={NewPromo35PerB}></Route>
           <Route path="/platform/mt5" component={PlatformMT5}></Route>
           <Route path="/PAMM" component={PAMMpage}></Route>
           <Route path="/our-location" component={OurLocationPage}></Route>
@@ -89,6 +92,8 @@ import RiskPage from "./pages/FooterLinkPages/RiskPage";
           <Route path="/regulatory-compliance" component={CompliancePage}></Route>
           <Route path="/privacy-policy" component={PrivacyPolicy}></Route>
           <Route path="/risk-disclouser" component={RiskPage}></Route>
+          <Route path="/instruction-security" component={SafetyOfFunds}></Route>
+          <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
           <Route
             path="/deposite-withdraw"
             component={DepositWithdrawPage}

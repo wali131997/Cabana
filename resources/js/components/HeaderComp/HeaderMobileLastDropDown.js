@@ -9,10 +9,10 @@ export default class HeaderMobileLastDropDown extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeDropDown: false,
+      activeDropDown: true,
     };
   }
-  
+
 
   // handleDropDown fun
   handleDropDown () {
@@ -25,7 +25,7 @@ export default class HeaderMobileLastDropDown extends Component {
     return (
       <div>
         <div onClick={this.handleDropDown.bind(this)} className="sideBarItem">
-          <span> {this.props.title}</span>
+          <span style={{fontSize:'28px'}}> {this.props.title}</span>
           <FontAwesomeIcon
             icon={activeDropDown ? faAngleUp : faAngleDown}
           ></FontAwesomeIcon>

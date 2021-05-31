@@ -13,9 +13,9 @@ export default class HeaderMobile extends Component {
   constructor(props) {
     super(props);
     this.state = { activeDropDown: null };
-    
+
   }
-  
+
 
   // handleChange drop down fun
   handleChangeDropDown  (value) {
@@ -35,6 +35,7 @@ export default class HeaderMobile extends Component {
           }
         >
           <div className="sideBarHead">
+              <h2 className="text-light ">Menu</h2>
             <span>
               {this.state.activeDropDown && (
                 <div onClick={() => this.handleChangeDropDown(null)}>
@@ -73,12 +74,19 @@ export default class HeaderMobile extends Component {
             </div>
             <div
               className="sideBarItem"
-              onClick={() => this.handleChangeDropDown("payment")}
+              onClick={() => this.handleChangeDropDown("trading")}
             >
               <span> TRADING INSTRUMENTS</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
-            
+            <div
+              className="sideBarItem"
+              onClick={() => this.handleChangeDropDown("payment")}
+            >
+              <span> PAYMENTS</span>
+              <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
+            </div>
+
             <div
               className="sideBarItem"
               onClick={() => this.handleChangeDropDown("promotion")}
@@ -91,7 +99,7 @@ export default class HeaderMobile extends Component {
               className="sideBarItem"
               onClick={() => this.handleChangeDropDown("analytic")}
             >
-              <span> REFERAL PROGRAM</span>
+              <span> REFERRAL PROGRAM</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
             <div
@@ -105,7 +113,7 @@ export default class HeaderMobile extends Component {
               className="sideBarItem"
               onClick={() => this.handleChangeDropDown("aboutUs")}
             >
-              <span> SOCIAL TRADING</span>
+              <span>ABOUT US</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
           </div>
@@ -134,21 +142,49 @@ export default class HeaderMobile extends Component {
                           <span> Account Type</span>
                         </div>
                       </Link>
-                      <Link to="/trading-instruments">
-                        <div className="sideBarItem">
-                          <span> Trading Instruments</span>
-                        </div>
-                      </Link>
-                      <Link to="/platform/mt5">
-                        <div className="sideBarItem">
-                          <span> Trading Platform</span>
-                        </div>
-                      </Link>
-                      <Link to="/trading-currencies">
-                        <div className="sideBarItem">
-                          <span> Currencies (Fx)</span>
-                        </div>
-                      </Link>
+                      <h3 className="header_mob ml-3">PLATFORMS</h3>
+            <Link to="/platform/mt5">
+
+              <div className="sideBarItem">MetaTrader 5</div>
+            </Link>
+            <Link to="/platform/mt5">
+              <div className="sideBarItem">MetaTrader 4 Client Desktop</div>
+            </Link>
+            <Link to="/platform/mt5">
+              <div className="sideBarItem">MetaTrader 5 Android</div>
+            </Link>
+            <Link to="/platform/mt5">
+              <div className="sideBarItem">MetaTrader 4 Android</div>
+            </Link>
+                    </div>
+                  </HeaderMobileLastDropDown>
+                </>
+              )}
+            {this.state.activeDropDown === "trading" && (
+                <>
+                  <HeaderMobileLastDropDown title="Trading Instruments">
+                    <div
+                      onClick={() => {
+                        this.handleChangeDropDown(true);
+                        this.props.closeHeader();
+                        return;
+                      }}
+                    >
+                        <Link to="/trading-instruments">
+                        <div className="sideBarItem">Trading Instruments</div>
+                        </Link>
+                        <Link to="/trading-currencies">
+              <div className="sideBarItem">Currencies (FX)</div>
+            </Link>
+            <Link to="/account-type">
+              <div className="sideBarItem">Precious Metals (Spot)</div>
+            </Link>
+            <Link to="/trading-instruments">
+              <div className="sideBarItem">Commodities (Spot)</div>
+            </Link>
+            <Link to="/trading-currencies">
+              <div className="sideBarItem">CFD indices (Spot)</div>
+            </Link>
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -193,7 +229,7 @@ export default class HeaderMobile extends Component {
               )}
               {this.state.activeDropDown === "promotion" && (
                 <>
-                  <HeaderMobileLastDropDown title="Promotion">
+                  <HeaderMobileLastDropDown title="Promotions">
                     <div
                       onClick={() => {
                         this.handleChangeDropDown(null);
@@ -201,28 +237,12 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                      <Link to="/promotion">
-                        <div className="sideBarItem">
-                          <span> Promotion</span>
-                        </div>
-                      </Link>
+                      <Link to="/newPromotion" className="headerLink">
+              <div className="sideBarItem">Get 35% bonus on deposit </div>
+            </Link>
                     </div>
                   </HeaderMobileLastDropDown>
-                  <HeaderMobileLastDropDown title="Patnership">
-                    <div
-                      onClick={() => {
-                        this.handleChangeDropDown(null);
-                        this.props.closeHeader();
-                        return;
-                      }}
-                    >
-                      <Link to="/patnership">
-                        <div className="sideBarItem">
-                          <span> Patnership</span>
-                        </div>
-                      </Link>
-                    </div>
-                  </HeaderMobileLastDropDown>
+
                 </>
               )}
               {this.state.activeDropDown === "analytic" && (
@@ -235,23 +255,23 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                      <Link to="/education">
-                        <div className="sideBarItem">
-                          <span> Education</span>
-                        </div>
-                      </Link>
-                      <Link to="/education/meta-trader-4">
-                        <div className="sideBarItem">
-                          <span> MetaTrader 4</span>
-                        </div>
-                      </Link>
+                        <Link to="/newPromotion" className="headerLink">
+                        <div className="headerDropDownItem">Inroducing Broker </div>
+                        </Link>
+                        <Link to="/newPromotion" className="headerLink">
+                        <div className="headerDropDownItem">Affiliate Program</div>
+                        </Link>
+                        <Link to="/newPromotion" className="headerLink">
+                        <div className="headerDropDownItem">White Label</div>
+                        </Link>
+
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
               )}
               {this.state.activeDropDown === "pamm" && (
                 <>
-                  <HeaderMobileLastDropDown title="PAMM">
+                  <HeaderMobileLastDropDown title="Analysis & Education">
                     <div
                       onClick={() => {
                         this.handleChangeDropDown(null);
@@ -259,11 +279,21 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                      <Link to="/PAMM">
+                          <Link to="/education">
                         <div className="sideBarItem">
-                          <span> PAMM Manager</span>
+                          <span> Education</span>
                         </div>
                       </Link>
+                      <Link to="/education/meta-trader-4">
+                        <div className="sideBarItem">
+                          <span> Analytics</span>
+                        </div>
+                      </Link>
+                        {/* <Link to="/PAMM">
+                            <div className="sideBarItem">
+                            <span> PAMM Manager</span>
+                            </div>
+                        </Link> */}
                     </div>
                   </HeaderMobileLastDropDown>
                 </>

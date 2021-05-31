@@ -10,11 +10,11 @@ export default class PromotionDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">PROMOTION</h5>
-            <Link to="/promotion" className="headerLink">
-              <div className="headerDropDownItem">Promotion </div>
+            <Link to="/newPromotion" className="headerLink">
+              <div className="headerDropDownItem">Get 35% bonus on deposit </div>
             </Link>
           </div>
-          <div
+          {/* <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
@@ -22,7 +22,7 @@ export default class PromotionDropDown extends Component {
             <Link to="/patnership" className="headerLink">
               <div className="headerDropDownItem">Patnership </div>
             </Link>
-          </div>
+          </div> */}
           <div className="headerDropDownImgDiv">
             <img
               className="headerDropDownImg"

@@ -9,12 +9,12 @@ export default class AnalyticsDropDown extends Component {
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">ANALYTICS</h5>
+            <h5 className="headerDropDownTitle opacityZero">ANALYTICS</h5>
             <Link to="/education">
               <div className="headerDropDownItem">Education</div>
             </Link>
             <Link to="/education/meta-trader-4">
-              <div className="headerDropDownItem">MetaTrader 4</div>
+              <div className="headerDropDownItem">Analytics</div>
             </Link>
           </div>
           <div

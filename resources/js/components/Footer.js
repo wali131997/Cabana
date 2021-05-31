@@ -63,15 +63,22 @@ export default class Footer extends Component {
             <Link to="/risk-disclouser">
             <p className="footerLinkText">{"\u00BB"} Risk Disclosure</p>
             </Link>
+            <Link to="/instruction-security">
+            <p className="footerLinkText">{"\u00BB"} Safety Of Fund</p>
+            </Link>
             
           
            
-            <p className="footerLinkText">{"\u00BB"} Safety Of Fund</p>
+           
             <Link to="/terms-and-condition">
               <p className="footerLinkText">{"\u00BB"} Terms and Conditions</p>
             </Link>
+            <a href="https://cabanacapitals.com/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
             <p className="footerLinkText">{"\u00BB"} Client Agreement</p>
+          </a>
+           
           </div>
+          
           <div className="col-md-4 col-sm-12 footerCol">
             <h3 className=" footerLinkTitle">CONTACT</h3>
             <Link to="/our-location" >
@@ -79,7 +86,7 @@ export default class Footer extends Component {
             <p className="footerLinkText">{"\u00BB"} Our Location</p>
 
             </Link>
-            <p className="footerLinkText">{"\u00BB"} Contact Us</p>
+            {/* <p className="footerLinkText">{"\u00BB"} Contact Us</p> */}
           </div>
         </div>
         <div className="row footerSecondRow">

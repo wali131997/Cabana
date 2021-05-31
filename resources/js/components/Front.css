@@ -12,7 +12,7 @@
   .navbar{
     background-color: #181422 !important;
   }
-  
+
   .ph5vw {
     padding-left: 5vw;
     padding-right: 5vw;
@@ -73,7 +73,7 @@
     .hide_on_web{
       display: none;
     }
-    
+
   }
   @media (max-width:480px){
     .hide_on_mob{
@@ -98,7 +98,7 @@
     width: fit-content;
   }
   /* Header CSS */
-  
+
   .headerLogo {
     width: 120px;
     height: 40px;
@@ -110,7 +110,7 @@
   .navItemRow {
     padding-left: 0.8rem;
   }
-  
+
   .navBarItem {
     font-size: 13px !important;
     font-weight: bold;
@@ -139,7 +139,7 @@
     justify-content: space-around;
     align-items: center;
     transition: ease-in 0.2s;
-    background-color: #181422d8;
+    background-color: #181422f6;
     cursor: default;
   }
   .navbar {
@@ -158,7 +158,7 @@
     width: fit-content;
     height: 100%;
     justify-content: center;
-  
+
     margin-top: 20px;
   }
   .headerDropDownItem {
@@ -172,11 +172,19 @@
     padding-left: 10px;
     text-transform: uppercase;
   }
+  .header_mob {
+    font-size: 22px;
+    /* font-weight: 500; */
+    color: #fff;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
   .headerDropDownImg {
     width: 200px;
     height: auto;
   }
-  
+
   /* sidebar csss */
   .headerMobile {
     position: fixed;
@@ -232,9 +240,9 @@
   .sideBarItem:focus {
     background-color: #262b2e;
   }
-  
+
   /* FOOTER CSS */
-  
+
   .footerRow {
     background-color: #000;
     color: #fff;
@@ -311,9 +319,9 @@
     margin: 0 auto;
     font-weight: bold;
   }
-  
+
   /* MEEDIA QURIES CSS */
-  
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     .fixed-top{
@@ -323,9 +331,9 @@
       padding-top: 100px;
     }
   }
-  
+
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  
+
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .footerCol {
@@ -337,14 +345,13 @@
     .margin_left{
       margin-left:10% !important;
     }
-    
+
   }
-  
+
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
   }
-  
+
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
   }
-  

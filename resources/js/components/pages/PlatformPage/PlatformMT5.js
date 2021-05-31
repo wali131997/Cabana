@@ -43,7 +43,7 @@ export default class PlatformMT5 extends Component {
             access new trading opportunities!
           </p>
           <h4 className="aboutDetailTitle mt-5">
-            Download MetaTrader 5 and expernice the best of trading!
+            Download MetaTrader 5 and experince the best of trading!
           </h4>
           <button className="btnPrimaryPink mt-4">DOWNLOAD</button>
         </div>

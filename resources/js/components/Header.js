@@ -11,6 +11,9 @@ import PAMMsDropDown from "./HeaderComp/PAMMsDropDown";
 import AboutUsDropDown from "./HeaderComp/AboutUsDropDown";
 import PromotionDropDown from "./HeaderComp/PromotionDropDown";
 import HeaderIem from "./HeaderComp/HeaderIem";
+import Refferal from "./HeaderComp/Refferal";
+import TradingInstruments from "./HeaderComp/TradingInstruments";
+
  class Header extends Component {
 
   componentDidMount(){
@@ -27,7 +30,7 @@ import HeaderIem from "./HeaderComp/HeaderIem";
   constructor(){
     super();
     this.state={activeAboutUs:false}
-    
+
   }
   render() {
     const {activeAboutUs}=this.state
@@ -47,20 +50,27 @@ import HeaderIem from "./HeaderComp/HeaderIem";
               <HeaderIem styles={{borderLeft:'0'}}  title="FX TRADING">
                 <AccountDropDown />
               </HeaderIem>
-            
+
               <HeaderIem title="TRADING INSTRUMENTS">
+              <TradingInstruments />
+              </HeaderIem>
+              <HeaderIem title="PAYMENTS">
               <PaymentDropDown />
               </HeaderIem>
               <HeaderIem title="NEW PROMOTIONS">
                 <PromotionDropDown />
               </HeaderIem>
-              <HeaderIem title="REFERAL PROGRAM">
-                <AnalyticsDropDown />
+              <HeaderIem title="REFERRAL PROGRAM">
+                <Refferal />
               </HeaderIem>
               <HeaderIem title="ANALYSIS & EDUCATION">
-                <PAMMsDropDown />
+              <AnalyticsDropDown />
+                {/* <PAMMsDropDown /> */}
               </HeaderIem>
-              <HeaderIem title="SOCIAL TRADING">
+              {/* <HeaderIem title="SOCIAL TRADING">
+                <AboutUsDropDown />
+              </HeaderIem> */}
+              <HeaderIem title="ABOUT US">
                 <AboutUsDropDown />
               </HeaderIem>
               {/* <HeaderIem title="ABOUT US">
