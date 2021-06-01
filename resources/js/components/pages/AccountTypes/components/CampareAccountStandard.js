@@ -18,7 +18,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountInfo">
-              
+
               <div className="centerDiv mt-4">
                 <img
                   src="/assets/images/accountsMt4.png"
@@ -33,6 +33,18 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
+              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $50</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
+
               <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
                 NOVICE <br />
@@ -45,7 +57,7 @@ export default class CampareAccountStandard extends Component {
                 </button>
               </div>
             </div>
-           
+
             <div className="compareAccountDetail">
               <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
               <p className="text">Spread: From 2.5</p>
@@ -98,7 +110,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountInfo compareAccountBg2 ">
-             
+
               <div className="centerDiv mt-4">
                 <img
                   src="/assets/images/accountsMt4.png"
@@ -113,6 +125,17 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
+              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $100</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
               <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
                 NOVICE <br />
@@ -125,7 +148,7 @@ export default class CampareAccountStandard extends Component {
                 </button>
               </div>
             </div>
-           
+
             <div className="compareAccountDetail">
 
               <h4 className="title">Spread</h4>
@@ -193,6 +216,18 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
+              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText "><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $200</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
+              <hr className="compareAccountDivider" />
+              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
+
               <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
                 NOVICE <br />
@@ -205,7 +240,7 @@ export default class CampareAccountStandard extends Component {
                 </button>
               </div>
             </div>
-           
+
             <div className="compareAccountDetail">
             <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
             <p className="text">Spread: From 1.5</p>

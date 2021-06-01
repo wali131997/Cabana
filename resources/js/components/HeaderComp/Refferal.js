@@ -6,14 +6,14 @@ export default class Refferal extends Component {
       <div>
         <div className="headerDropDown">
           <div
-            className="headerDropDownItemDiv"
+            className="headerDropDownItemDiv offset-md-1"
             onClick={this.props.dropDownHandler}
           >
             {/* <h5 className="headerDropDownTitle">PROMOTION</h5> */}
-            <Link to="/newPromotion" className="headerLink">
+            <Link to="/patnership" className="headerLink">
               <div className="headerDropDownItem">Inroducing Broker </div>
             </Link>
-            <Link to="/newPromotion" className="headerLink">
+            <Link to="/affiliate-program" className="headerLink">
               <div className="headerDropDownItem">Affiliate Program</div>
             </Link>
             <Link to="/newPromotion" className="headerLink">

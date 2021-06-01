@@ -55,7 +55,7 @@
 }
 .compareAccountInfo {
   background-color: #b41375;
-  height: 380px;
+  height: 750px;
   padding: 30px;
 }
 .compareAccountImg {
@@ -79,6 +79,16 @@
   font-size: 0.6rem;
   text-align: center;
 }
+.compareAccountNorText {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .compareAccountNorMobText {
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+  }
 .compareAccountTextSm {
   color: #fff;
   font-size: 0.6rem;
@@ -198,7 +208,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .compareAccountRow {
-    padding: 0 8vw;
+    padding: 0 4vw;
   }
   .compareAccountInfoTitle{
     font-size: 1.6rem;
@@ -208,7 +218,7 @@
   }
   .compareAccountDetail .text {
     font-size: 14px;
-  
+
     color: #000;
   }
   .compareAccountText {

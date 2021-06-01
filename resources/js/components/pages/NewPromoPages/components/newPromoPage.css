@@ -10,7 +10,55 @@
    display: flex;
    align-items: center;
 }
-
+.affliateBg{
+    background-image: url("/assets/images/affiliyatebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.atitle{
+    font-size: 48px;
+    color: #5b0156;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+@media screen and (max-width:480px){
+        .atitle{
+            font-size: 30px !important;
+        }
+}
+.acard_img{
+    /* width: 140px; */
+    height: 120px;
+    text-align: left;
+    margin-left: auto;
+}
+.card_light{
+    background-color: #f9e7f3;
+}
+.card_dark{
+    background-color: #5b0156;
+}
+.acard_text{
+    color: #5b0156;
+    font-size: 18px;
+    padding: 20px;
+}
+.affliateBg .title{
+    font: bold 62px gothic  ;
+    color: #fff;
+}
+.affliateBg .title2{
+    font: bold 30px gothic  ;
+    color: #fff;
+}
 .newPromoBg .title{
     font: bold 25px gothic  ;
     color: #fff;
@@ -22,7 +70,7 @@
 }
 .newPromoBg .perText{
     font: bolder 70px gothic !important  ;
-    
+
     color: #C70079;
 }
 .newPromoBg .titleLg{
@@ -48,7 +96,7 @@ color: #fff;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 .promoUpto .contentSec .title{
     font: bolder 20px gothic ;
@@ -72,7 +120,7 @@ color: #fff;
 /* open acc */
 .promoOpenAcc{
  background-color: #FCEEF5;
- 
+
  padding-bottom: 50px;
 }
 .promoOpenAcc .mainFlex{
@@ -101,12 +149,12 @@ color: #fff;
 
 }
 .promoOpenAcc .contentSec .title{
-    font: bolder 20px gothic;   
+    font: bolder 20px gothic;
     margin-bottom: 20px;
 
 }
 .promoOpenAcc .contentSec .text{
-    font:  15px gothic;   
+    font:  15px gothic;
 
 }
 .promoOpenAcc  .img{
@@ -127,11 +175,11 @@ color: #fff;
 .promoOpenAcc .liveAccBtn{
     background-color: #B41576;
     color: #fff;
-    
+
 }
 .promoOpenAcc .demoAccBtn{
     background-color: #fff;
- 
+
 }
 
 /* promoDesposite */
@@ -154,14 +202,14 @@ color: #fff;
     width: 90%;
 }
 .promoDeposit .contentSec .title{
-    font: bolder 20px gothic;   
+    font: bolder 20px gothic;
    position: absolute;
   left: 40px;
    bottom: 0;
 
 }
 .promoDeposit .contentSec .text{
-    font:  15px gothic;   
+    font:  15px gothic;
 margin-top: 40px;
 }
 .promoDeposit{
@@ -186,20 +234,20 @@ margin-top: 40px;
     width: 100%;
 }
 .promoBonus  .title{
-    font: bolder 20px gothic;   
+    font: bolder 20px gothic;
   color: #fff;
   margin-top: 20px;
 
 }
 .promoBonus  .text{
-    font:  15px gothic;   
+    font:  15px gothic;
 margin-top: 40px;
 color: #fff;
 margin-bottom: 20px;
 }
 .colorPromo{
     color: #C70079;
-    
+
 }
 /* promoTrade */
 .promoTrade .mainFlex{
@@ -220,14 +268,14 @@ margin-bottom: 20px;
     width: 100%;
 }
 .promoTrade .contentSec .title{
-    font: bolder 20px gothic;   
+    font: bolder 20px gothic;
    position: absolute;
   left: 50px;
    bottom: 10px;
 
 }
 .promoTrade .contentSec .text{
-    font:  15px gothic;   
+    font:  15px gothic;
 margin-top: 40px;
 }
 .promoTrade{
@@ -246,7 +294,7 @@ margin-top: 40px;
  @media only screen and (min-width: 768px) {
     .newPromoBg .title{
         font: bold 35px gothic  ;
-       
+
     }
     .newPromoBg .text{
         font: bold 15px gothic  ;
@@ -263,12 +311,12 @@ margin-top: 40px;
         padding: 30px 0;
     }
     .newPromoBg .btnRegister{
-   
+
     padding: 15px 15px;
     font: bold 28px gothic;
     margin-top: 20px;
-   
-    
+
+
     }
     .promoUpto{
         padding-top: 0;
@@ -282,61 +330,61 @@ margin-top: 40px;
         flex:0.5
     }
     .promoUpto .mainFlex{
-        
+
         align-items: flex-start;
-        
-        
+
+
     }
     .promoUpto .point {
-        
+
         font: 20px gothic;
       }
       .promoUpto .contentSec .title{
         font: bolder 40px gothic ;
-      
+
     }
- 
+
     .promoUpto .point .pointDone {
         display: inline;
        width: 40px;
        flex-shrink: 0;
     }
     .promoOpenAcc .contentSec .title{
-        font: bolder 35px gothic;   
+        font: bolder 35px gothic;
         margin-bottom: 40px;
-    
+
     }
     .promoOpenAcc .contentSec .text{
-        font:  20px gothic;   
-    
+        font:  20px gothic;
+
     }
     .promoOpenAcc .contentSec .number{
         font: bolder 20vw gothic;
-        
+
     }
     .promoDeposit .contentSec .number{
         font: bolder 20vw gothic;
-        
+
     }
     .promoDeposit .contentSec .title{
-        font: bolder 35px gothic;   
+        font: bolder 35px gothic;
        position: absolute;
       left: 50px;
        bottom: 40px;
-    
+
     }
     .promoDeposit .contentSec .text{
-        font:  20px gothic;   
+        font:  20px gothic;
     margin-top: 40px;
     }
     .promoBonus  .title{
-        font: bolder 35px gothic;   
+        font: bolder 35px gothic;
       color: #fff;
       padding-top: 70px;
-    
+
     }
     .promoBonus  .text{
-        font:  20px gothic;   
+        font:  20px gothic;
     margin-top: 200px;
     color: #fff;
     padding-bottom: 70px;
@@ -346,21 +394,21 @@ margin-top: 40px;
     .promoTrade .contentSec .number{
         font: bolder 20vw gothic;
         color: #C70079;
-    
+
     }
-  
+
     .promoTrade .contentSec .title{
-        font: bolder 35px gothic;   
+        font: bolder 35px gothic;
        position: absolute;
       left: 150px;
        bottom: 70px;
-    
+
     }
     .promoTrade .contentSec .text{
-        font:  20px gothic;   
+        font:  20px gothic;
     margin-top: 40px;
     }
-   
+
     .promoTrade .getStarted{
         border: none;
         background-color: #B41576;
@@ -369,5 +417,5 @@ margin-top: 40px;
         padding: 10px 20px;
         margin-top: 50px;
     }
-   
+
  }

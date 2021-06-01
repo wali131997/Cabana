@@ -6,18 +6,21 @@ export default class AboutUsDropDown extends Component {
       <div>
         <div className="headerDropDown">
           <div
-            className="headerDropDownItemDiv"
+            className="headerDropDownItemDiv offset-md-2"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">ABOUT US</h5>
+            {/* <h5 className="headerDropDownTitle">ABOUT US</h5> */}
             <Link to="/about-us">
-              <div className="headerDropDownItem">About Us</div>
+              <div className="headerDropDownItem">News and Events</div>
             </Link>
-            <Link to="/mission-and-values">
-              <div className="headerDropDownItem">Mission And Values</div>
+            <Link to="/about-us">
+              <div className="headerDropDownItem">Why Cabana</div>
+            </Link>
+            <Link to="/our-location">
+              <div className="headerDropDownItem">Contact Us</div>
             </Link>
             <Link to="/trading-terms">
-              <div className="headerDropDownItem">Trading Terms</div>
+              <div className="headerDropDownItem">FAQ's</div>
             </Link>
           </div>
           <div

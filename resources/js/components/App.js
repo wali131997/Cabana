@@ -27,14 +27,15 @@ import PrivacyPolicy from "./pages/FooterLinkPages/PrivacyPolicy";
 import RiskPage from "./pages/FooterLinkPages/RiskPage";
 import NewPromo35PerB from "./pages/NewPromoPages/NewPromo35PerB";
 import SafetyOfFunds from "./pages/FooterLinkPages/SafetyOfFunds";
+import Affiliyate from "./pages/Patnership&Promotion/Affiliyate";
  class App extends Component {
   // state
   constructor(props) {
     super(props);
     this.state = { sideBar: false };
   }
-  
-  
+
+
   // handle sideBar
 
   handleSideBar  ()  {
@@ -42,29 +43,29 @@ import SafetyOfFunds from "./pages/FooterLinkPages/SafetyOfFunds";
       {
         sideBar: !this.state.sideBar,
       },
-      
+
     );
   };
 
   render() {
     return (
       <div >
-       
+
         <BrowserRouter>
-       
+
         <AffixBar />
         <Header handleSideBar={this.handleSideBar.bind(this)} />
         <HeaderMobile
           active={this.state.sideBar}
           closeHeader={this.handleSideBar.bind(this)}
         />
-  
+
           <Route path="/" exact component={LandingPage}></Route>
-          
+
           <Route path="/about-us" component={AboutUsPage2}></Route>
           <Route path="/trading-terms" component={TermsAndCondition}></Route>
           <Route path="/account-type" component={AccountTypes}></Route>
-          
+          <Route path="/affiliate-program" component={Affiliyate}></Route>
           <Route
             path="/mission-and-values"
             component={MissionAndValues}
@@ -98,7 +99,7 @@ import SafetyOfFunds from "./pages/FooterLinkPages/SafetyOfFunds";
             path="/deposite-withdraw"
             component={DepositWithdrawPage}
           ></Route>
-     
+
         <Footer />
         </BrowserRouter>
       </div>

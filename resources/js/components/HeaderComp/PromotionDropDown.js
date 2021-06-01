@@ -6,7 +6,7 @@ export default class PromotionDropDown extends Component {
       <div>
         <div className="headerDropDown">
           <div
-            className="headerDropDownItemDiv"
+            className="headerDropDownItemDiv offset-md-2"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">PROMOTION</h5>

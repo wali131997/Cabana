@@ -6,7 +6,7 @@ export default class AnalyticsDropDown extends Component {
       <div>
         <div className="headerDropDown">
           <div
-            className="headerDropDownItemDiv"
+            className="headerDropDownItemDiv offset-md-3"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle opacityZero">ANALYTICS</h5>

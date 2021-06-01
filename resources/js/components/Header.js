@@ -46,33 +46,38 @@ import TradingInstruments from "./HeaderComp/TradingInstruments";
           </Navbar.Brand>
           <Navbar.Toggle onClick={this.props.handleSideBar} aria-controls="" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto d-none d-md-flex navItemRow">
-              <HeaderIem styles={{borderLeft:'0'}}  title="FX TRADING">
+            <Nav className="ml-auto mr-4 d-none d-md-flex navItemRow">
+                <HeaderIem styles={{borderLeft:'0'}} title="ABOUT US">
+                <AboutUsDropDown />
+                </HeaderIem>
+              <HeaderIem   title="FX TRADING">
                 <AccountDropDown />
               </HeaderIem>
 
-              <HeaderIem title="TRADING INSTRUMENTS">
+              {/* <HeaderIem title="TRADING INSTRUMENTS">
               <TradingInstruments />
-              </HeaderIem>
-              <HeaderIem title="PAYMENTS">
-              <PaymentDropDown />
-              </HeaderIem>
-              <HeaderIem title="NEW PROMOTIONS">
-                <PromotionDropDown />
-              </HeaderIem>
-              <HeaderIem title="REFERRAL PROGRAM">
+              </HeaderIem> */}
+                <HeaderIem title="Partnership Program">
                 <Refferal />
               </HeaderIem>
-              <HeaderIem title="ANALYSIS & EDUCATION">
+              {/* <HeaderIem title="PAYMENTS">
+              <PaymentDropDown />
+              </HeaderIem> */}
+              <HeaderIem title="Promotions and Contests">
+                <PromotionDropDown />
+              </HeaderIem>
+
+              <HeaderIem title="Market Research & Education">
               <AnalyticsDropDown />
                 {/* <PAMMsDropDown /> */}
+              </HeaderIem>
+              <HeaderIem title="Cabana Invest">
+                <PAMMsDropDown />
               </HeaderIem>
               {/* <HeaderIem title="SOCIAL TRADING">
                 <AboutUsDropDown />
               </HeaderIem> */}
-              <HeaderIem title="ABOUT US">
-                <AboutUsDropDown />
-              </HeaderIem>
+
               {/* <HeaderIem title="ABOUT US">
                 <AboutUsDropDown />
               </HeaderIem> */}

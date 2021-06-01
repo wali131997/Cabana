@@ -17,8 +17,8 @@ export default class LandingSliderSection extends Component {
                     True ECN Spreads From 0.0 Pips
                   </p>
                   <div className="trueButtonBox">
-                    <button className="btnLogin">LOG IN</button>
-                    <button className="btnSignUp">SIGN UP</button>
+                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
+                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ export default class LandingSliderSection extends Component {
                     </div>
                     <h2 className="featureTitle">Swap Free Account</h2>
                     <p className="featureText">
-                    Seamless interest-free trading. 
+                    Seamless interest-free trading.
 *Swap Free Accounts are available to all clients
 
                     </p>
@@ -68,7 +68,7 @@ export default class LandingSliderSection extends Component {
                       No Deposit/Withdrawal Charges
                     </h2>
                     <p className="featureText">
-                    ZERO deposit & withdrawal charges to earn 
+                    ZERO deposit & withdrawal charges to earn
 maximum profits at minimum trading cost
 
                     </p>
@@ -85,7 +85,7 @@ maximum profits at minimum trading cost
                     </div>
                     <h2 className="featureTitle">FIXED & VARIABLE SPREADS</h2>
                     <p className="featureText">
-                    Offers lowest trading cost in the market (0.0 Pips) 
+                    Offers lowest trading cost in the market (0.0 Pips)
 to earn highest profits possible
 
                     </p>
@@ -209,7 +209,7 @@ to assist you via various contact channels
                       </div>
                     </div>
                     <div className="text-center">
-                      <button className="btnDemoAccount">
+                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnDemoAccount">
                        Open Demo Account
                       </button>
                     </div>
@@ -219,7 +219,7 @@ to assist you via various contact channels
                   <div className="demoAccountBox">
                     <div className="demoAccountTitleBox">
                     <h2 className="demoAccountTitle">GO LIVE</h2>
-                      
+
                     </div>
 
                     <div className="demoAccountInfoBox">
@@ -271,13 +271,13 @@ to assist you via various contact channels
                       </div>
                     </div>
                     <div className="text-center">
-                      <button className="btnDemoAccount_live">
+                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnDemoAccount_live">
                         OPEN LIVE ACCOUNT
                       </button>
                     </div>
                   </div>
                 </div>
-              
+
               </div>
             </div>
           </div>
