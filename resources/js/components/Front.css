@@ -6,8 +6,12 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
   } */
+  @font-face {
+    font-family: century;
+    src: url('/fonts/Century Gothic.ttf');
+  }
   body {
-    font-family: Helvetica !important;
+    font-family: century !important;
   }
   .navbar{
     background-color: #181422 !important;

@@ -54,7 +54,7 @@
   text-transform: uppercase;
 }
 .compareAccountInfo {
-  background-color: #eb1697;
+  background-color: #b41375;
   height: 380px;
   padding: 30px;
 }
@@ -136,7 +136,7 @@
 }
 .compareAccountDetail {
   text-align: center;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 .compareAccountDetail .title {
   font-size: 0.8rem;
@@ -207,7 +207,7 @@
     font-size: 1rem;
   }
   .compareAccountDetail .text {
-    font-size: 0.8rem;
+    font-size: 14px;
   
     color: #000;
   }
