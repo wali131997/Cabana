@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet"type="text/css" href="{{asset('css/app.css')}}">
         <link rel="stylesheet"type="text/css" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link
       rel="stylesheet"
@@ -19,7 +21,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 
         <!-- Styles -->
-        
+
     </head>
     <body>
         <div id="root">

@@ -8,68 +8,50 @@ class CompareAccountEcnM extends Component {
                <div className="compareAccountBgM borderRightBlack">
                <h4 className="compareAccountInfoTitle text-black ">PREMIUM</h4>
                <p className="compareAccountPrice text-black">$300/min</p>
-
-
               </div>
               <h4 className="platformText pt-0 mb-0">MetaTrader 5</h4>
                <h4 className="platformText mb-3">MetaTrader 4</h4>
-               <h2 className="compareAccountNorMobText mt-2"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText text-dark"><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Minimum Deposit: </strong> $300</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Commission: </strong> NIl</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Order Execution: </strong> Market Execution</h2>
+
                <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
-              <h4 className="compareAccountInfoTitle text-black">
-                NOVICE <br />
+              <h4 style={{fontSize:'16px'}} className="compareAccountInfoTitle text-black">
+              EXPERT <br />
                 TRADER
               </h4>
-              <p className="compareAccountTextSm mt-4 text-black">For Small Investment</p>
 
-              <div className="compareAccountBgM title  ">
-                <span className="opacityZero">
-                Spread
-                </span>
 
-              </div>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Fee</p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title"><span className="opacityZero">Commision /Spread Markup</span></h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title"><span className="opacityZero">Instruments</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h2 className="compareAccountNorMobText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
+              <p className="compareAccountNorMobText">From 1.0</p>
+              <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
+              <h2 className="compareAccountNorMobText"> Nill</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
+              <h2 className="compareAccountNorMobText"> $300</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h2 className="compareAccountNorMobText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
+             <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">PRECISION</span></h4>
+             <h2 className="compareAccountNorMobText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MARGIN CALL/STOP OUT LEVEL</span></h4>
+             <h2 className="compareAccountNorMobText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="opacityZero">HeDGING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SCALPING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
 
-              <p className="text pt-4">
-
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <h4 className="title compareAccountBgM">
-              <span className="opacityZero">RECOMMENDED Deposit</span></h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-
-              <h4 className="compareAccountBgM title"> <span className="opacityZero">Maximum</span></h4>
-
-              <p className="text">
-
-                Number of Orders:500
-              </p>
-              <hr className="divider" />
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED
               </button>
@@ -85,59 +67,45 @@ class CompareAccountEcnM extends Component {
               </div>
               <h4 className="platformText pt-0 mb-0">MetaTrader 5</h4>
                <h4 className="platformText mb-3">MetaTrader 4</h4>
-               <h2 className="compareAccountNorMobText mt-2"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText text-dark"><strong>Leverage/Margin Requriements</strong>: Up to 1:200 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Minimum Deposit: </strong> $500</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Commission: </strong> $7</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Order Execution: </strong> Market Execution</h2>
+
                <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
-              <h4 className="compareAccountInfoTitle text-black">
-                NOVICE <br />
+              <h4 style={{fontSize:'16px'}} className="compareAccountInfoTitle text-black">
+              PROFFESSIONAL <br />
                 TRADER
               </h4>
-              <p className="compareAccountTextSm mt-4 text-black">For Small Investment</p>
 
-              <div className="compareAccountBgM title ">
-                Spread
-              </div>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Fee</p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title">Commision
-              /Spread Markup</h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title">Instruments</h4>
-
-              <p className="text pt-4">
-
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <h4 className="title compareAccountBgM">RECOMMENDED Deposit</h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title">Maximum</h4>
-
-              <p className="text">
-
-                Number of Orders:500
-              </p>
-              <hr className="divider" />
+              <h4 className="title d-inine "><span className="">CURRENCY</span></h4>
+            <h2 className="compareAccountNorMobText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="">Spread</span></h4>
+              <p className="compareAccountNorMobText">NILL</p>
+              <h4 className="title d-inine "><span className="">Commission Markup</span></h4>
+              <h2 className="compareAccountNorMobText"> $7</h2>
+              <h4 className="title d-inine "><span className="">Minimum Deposit</span></h4>
+              <h2 className="compareAccountNorMobText"> $500</h2>
+              <h4 className="title d-inine "><span className="">Leverage</span></h4>
+              <h2 className="compareAccountNorMobText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="">Instruments</span></h4>
+             <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="">SWAP</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="">PRECISION</span></h4>
+             <h2 className="compareAccountNorMobText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine "><span className="">MARGIN CALL/STOP OUT LEVEL</span></h4>
+             <h2 className="compareAccountNorMobText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="">HeDGING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="">SCALPING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="">EXECUTION TIME</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine "><span className="">MAXIMUM ORDERS</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
@@ -153,60 +121,45 @@ class CompareAccountEcnM extends Component {
               </div>
               <h4 className="platformText pt-0 mb-0">MetaTrader 5</h4>
                <h4 className="platformText mb-3">MetaTrader 4</h4>
-               <h2 className="compareAccountNorMobText mt-2"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText text-dark"><strong>Leverage/Margin Requriements</strong>: Up to 1:200 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Minimum Deposit: </strong> $1000</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Commission: </strong> $5</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorMobText"><strong>Order Execution: </strong> Market Execution</h2>
+
                <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
-              <h4 className="compareAccountInfoTitle text-black">
-                NOVICE <br />
+              <h4 style={{fontSize:'16px'}} className="compareAccountInfoTitle text-black">
+              EXECUTIVE <br />
                 TRADER
               </h4>
-              <p className="compareAccountTextSm mt-4 text-black">For Small Investment</p>
 
-              <div className="compareAccountBgM title ">
-              <span className="opacityZero">
-                Spread
-                </span>
-              </div>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Fee</p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title"><span className="opacityZero">Commision /Spread Markup</span></h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title"><span className="opacityZero">Instruments</span></h4>
-
-              <p className="text pt-4">
-
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <h4 className="title compareAccountBgM"><span className="opacityZero">RECOMMENDED Deposit</span></h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-              <h4 className="compareAccountBgM title"> <span className="opacityZero">Maximum</span></h4>
-
-              <p className="text">
-
-                Number of Orders:500
-              </p>
-              <hr className="divider" />
+              <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h2 className="compareAccountNorMobText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
+              <p className="compareAccountNorMobText">NILL</p>
+              <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
+              <h2 className="compareAccountNorMobText"> $5</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
+              <h2 className="compareAccountNorMobText"> $1,000</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h2 className="compareAccountNorMobText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
+             <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorMobText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">PRECISION</span></h4>
+             <h2 className="compareAccountNorMobText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MARGIN CALL/STOP OUT LEVEL</span></h4>
+             <h2 className="compareAccountNorMobText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="opacityZero">HeDGING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SCALPING</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorMobText"> ✔</h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
+             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED
               </button>

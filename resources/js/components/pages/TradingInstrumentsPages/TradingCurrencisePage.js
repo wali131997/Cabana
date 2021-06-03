@@ -12,6 +12,7 @@ export default class TradingCurrencisePage extends Component {
           title="EXPLORE CURRENCY TRADING"
           title2="WITH CABANA CAPITALS"
           text="Trade major,minor and exotic currency pairs with True ECN FX broker."
+          bg="cruncciesbanner.jpg"
         />
         <TradingCurrenciesDetail />
         <TradingCurrenciesPairs />

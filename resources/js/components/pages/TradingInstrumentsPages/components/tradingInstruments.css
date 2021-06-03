@@ -12,11 +12,17 @@
   height: 100%;
   padding-bottom: 20px;
 }
+#trading_instruments .textFont{
+    text-align: justify !important;
+}
 
 /* Education Sec CSS */
 .educationQuestionBox {
   padding: 30px;
   background-color: #ffffff;
+}
+.DEPOSITLogoImage{
+    width: 90px;
 }
 .educationQuestionTitle {
   font-size: 0.8rem;

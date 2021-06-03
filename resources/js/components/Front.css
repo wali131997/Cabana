@@ -16,6 +16,9 @@
   .navbar{
     background-color: #181422 !important;
   }
+  .sideBarDropDown{
+      overflow-y: scroll;
+  }
 
   .ph5vw {
     padding-left: 5vw;
@@ -238,11 +241,19 @@
     text-transform: capitalize;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 12px;
+  }
+  .sideBarItemNew {
+    color: #fff;
+    display: block !important;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px !important;
   }
   .sideBarItem:hover,
   .sideBarItem:focus {
-    background-color: #262b2e;
+    /* background-color: #262b2e; */
   }
 
   /* FOOTER CSS */

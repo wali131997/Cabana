@@ -8,7 +8,7 @@ export default class CampareAccountStandard extends Component {
           <div className="compareAccountCard">
           <div className="compareAccountActions">
               <h4 className="compareAccountInfoTitle ">MICRO</h4>
-              <p className="compareAccountPrice">$50/min</p>
+              <p className="compareAccountPrice">$10/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
                 <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
@@ -18,7 +18,13 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountInfo">
-
+            <div className="centerDiv mt-3 ">
+                <img
+                  src="/assets/images/accountsMt5.png"
+                  alt="compare account"
+                  className="compareAccountImg "
+                ></img>
+              </div>
               <div className="centerDiv mt-4">
                 <img
                   src="/assets/images/accountsMt4.png"
@@ -26,69 +32,58 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
-              <div className="centerDiv mt-3 opacityZero">
-                <img
-                  src="/assets/images/accountsMt5.png"
-                  alt="compare account"
-                  className="compareAccountImg "
-                ></img>
-              </div>
-              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $50</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
 
-              <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
+            <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
-                NOVICE <br />
-                TRADER
+                BEGINNERS <br />
+                <span className="opacityZero">TRADER</span>
               </h4>
-              <p className="compareAccountTextSm mt-4">For Small Investment</p>
+              {/* <p className="compareAccountTextSm mt-4">For Small Investment</p> */}
+
+
+
+
               <div className="text-center">
                 <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountButton">
-                  Open Mt4 Micro Account
+                  Open Micro Account
                 </button>
               </div>
             </div>
-
             <div className="compareAccountDetail">
-              <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-              <p className="text">Spread: From 2.5</p>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Free  ✔</p>
-              <hr className="divider" />
-              <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <p className="text pt-4">
-                <span className="bold"> Trading Instruments:</span>
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <hr className="divider" />
-              <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-              <p className="text">
-                <span className="bold">Maximum Number of Orders:</span>
-                500
-              </p>
-              <hr className="divider" />
+            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h2 className="compareAccountNorText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
+              <p className="compareAccountNorText">Spread: From 2.5</p>
+              <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
+              <h2 className="compareAccountNorText"> NIl</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
+              <h2 className="compareAccountNorText"> $10</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
+             <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">PRECISION</span></h4>
+             <h2 className="compareAccountNorText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MARGIN CALL/STOP OUT LEVEL</span></h4>
+             <h2 className="compareAccountNorText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="opacityZero">HeDGING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">SCALPING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+
+
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
@@ -100,7 +95,7 @@ export default class CampareAccountStandard extends Component {
           <div className="compareAccountCard">
           <div className="compareAccountActions compareAccountBg1">
               <h4 className="compareAccountInfoTitle ">Active</h4>
-              <p className="compareAccountPrice">$100/min</p>
+              <p className="compareAccountPrice">$50/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
                 <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
@@ -110,7 +105,13 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountInfo compareAccountBg2 ">
-
+            <div className="centerDiv mt-3 ">
+                <img
+                  src="/assets/images/accountsMt5.png"
+                  alt="compare account"
+                  className="compareAccountImg "
+                ></img>
+              </div>
               <div className="centerDiv mt-4">
                 <img
                   src="/assets/images/accountsMt4.png"
@@ -118,69 +119,56 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
-              <div className="centerDiv mt-3 opacityZero">
-                <img
-                  src="/assets/images/accountsMt5.png"
-                  alt="compare account"
-                  className="compareAccountImg "
-                ></img>
-              </div>
-              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $100</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
-              <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
+            <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
-                NOVICE <br />
+                PROFICIENT <br />
                 TRADER
               </h4>
-              <p className="compareAccountTextSm mt-4">For Small Investment</p>
+              {/* <p className="compareAccountTextSm mt-4">For Small Investment</p> */}
+
+
+
+
               <div className="text-center">
                 <button     onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountButton">
-                  Open Mt4 Micro Account
+                  Open Active Account
                 </button>
               </div>
             </div>
-
             <div className="compareAccountDetail">
+            <h4 className="title d-inine "><span className="">CURRENCY</span></h4>
+            <h2 className="compareAccountNorText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="">SPREAD</span></h4>
+              <p className="compareAccountNorText">Spread: From 2.0</p>
+              <h4 className="title d-inine "><span className="">COMMISION/MARKUP </span></h4>
+              <h2 className="compareAccountNorText"> NIl</h2>
+              <h4 className="title d-inine "><span className="">MINIMUM DEPOSIT</span></h4>
+              <h2 className="compareAccountNorText"> $50</h2>
+              <h4 className="title d-inine "><span className="">LEVERAGE</span></h4>
+              <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="">INSTRUMENTS</span></h4>
+             <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="">SWAP</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="">PRECISION</span></h4>
+             <h2 className="compareAccountNorText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine ">MARGIN CALL/STOP OUT LEVEL</h4>
+             <h2 className="compareAccountNorText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="">HeDGING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="">SCALPING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine ">EXECUTION TIME</h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine ">MAXIMUM ORDERS</h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
 
-              <h4 className="title">Spread</h4>
-              <p className="text">Spread: From 2.0</p>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Free  ✔</p>
-              <hr className="divider" />
-              <h4 className="title">Commision/Spread Markup</h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <p className="text pt-4">
-                <span className="bold"> Trading Instruments:</span>
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <hr className="divider" />
-              <h4 className="title">RECOMMENDED Deposit</h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-              <p className="text">
-                <span className="bold">Maximum Number of Orders:</span>
-                500
-              </p>
-              <hr className="divider" />
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
@@ -192,7 +180,7 @@ export default class CampareAccountStandard extends Component {
           <div className="compareAccountCard">
           <div className="compareAccountActions compareAccountBg3">
               <h4 className="compareAccountInfoTitle ">standard</h4>
-              <p className="compareAccountPrice">$200/min</p>
+              <p className="compareAccountPrice">$100/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
                 <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
@@ -202,7 +190,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountInfo compareAccountBg4 ">
-              <div className="centerDiv mt-3">
+            <div className="centerDiv mt-3">
                 <img
                   src="/assets/images/accountsMt5.png"
                   alt="compare account"
@@ -216,62 +204,56 @@ export default class CampareAccountStandard extends Component {
                   className="compareAccountImg "
                 ></img>
               </div>
-              <h2 className="compareAccountNorText mt-3"><strong>Account Currency</strong>: USD</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText "><strong>Leverage/Margin Requriements</strong>: Up to 1:500 for currencies</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Maximum Deposit: </strong> ✘</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Minimum Deposit: </strong> $200</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Commission: </strong> NIl</h2>
-              <hr className="compareAccountDivider" />
-              <h2 className="compareAccountNorText"><strong>Order Execution: </strong> Market Execution</h2>
-
-              <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
+            <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
-                NOVICE <br />
+                SMART <br />
                 TRADER
               </h4>
-              <p className="compareAccountTextSm mt-4">For Small Investment</p>
+              {/* <p className="compareAccountTextSm mt-4">For Small Investment</p> */}
+
+
+
+
               <div className="text-center">
                 <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountButton">
-                  Open Mt4 Micro Account
+                  Open Standard Account
                 </button>
               </div>
             </div>
-
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-            <p className="text">Spread: From 1.5</p>
-              <hr className="divider" />
-              <p className="text">Stop out: 50%</p>
-              <hr className="divider" />
-              <p className="text">Swap Free  ✔</p>
-              <hr className="divider" />
-              <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-              <p className="text pt-4">
-                <span className="bold"> Pricing:</span> MT4:5 decimals for FX (3
-                on JPY pairs), Spot Metals: 2 decimals for XAUUSD and 3 decimals
-                for XAGUSD
-              </p>
-              <hr className="divider" />
-              <p className="text pt-4">
-                <span className="bold"> Trading Instruments:</span>
-                Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30
-              </p>
-              <hr className="divider" />
-              <h4 className="title d-inine "><span className="opacityZero">ss</span></h4>
-              <p className="text pt-4">
-                <span className="bold">Step Lot:</span>
-                0.01
-              </p>
-              <hr className="divider" />
-              <p className="text">
-                <span className="bold">Maximum Number of Orders:</span>
-                500
-              </p>
-              <hr className="divider" />
+            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h2 className="compareAccountNorText mt-3">USD</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
+              <p className="compareAccountNorText">Spread: From 1.5</p>
+              <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
+              <h2 className="compareAccountNorText"> NIl</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
+              <h2 className="compareAccountNorText"> $100</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
+              <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
+             <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
+             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">Swap Free</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h2 className="compareAccountNorText"> <p className="text">No Commision</p></h2>
+             <h4 className="title d-inine "><span className="opacityZero">PRECISION</span></h4>
+             <h2 className="compareAccountNorText"> 5 decimals for FX (3
+                on JPY pairs), <br/> Spot Metals: 2 decimals for XAUUSD and 3 decimals
+                for XAGUSD</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MARGIN CALL/STOP OUT LEVEL</span></h4>
+             <h2 className="compareAccountNorText"> 80% / 50%</h2>
+             <h4 className="title d-inine "><span className="opacityZero">HeDGING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">SCALPING</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXPERT ADVISOR</span></h4>
+             <h2 className="compareAccountNorText"> <i className="fas fa-check text-success"></i></h2>
+             <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
+             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 ">
                 GET STARTED
               </button>

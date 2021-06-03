@@ -14,6 +14,9 @@
   text-shadow: black;
   padding-top:120px;
 }
+.carousel-root{
+    height: 560px !important;
+}
 .trueTitle {
   font-weight: bolder;
   font-size: 2.8rem;
@@ -123,7 +126,7 @@
 .demoAccountBox {
   background-color: #000000db;
   height: 300px;
-  /* width: 80%; */
+  width: 80%;
   box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   margin-top: 30px;
@@ -189,7 +192,7 @@
   margin-bottom: 20px;
 }
 .howItTitle {
-  font-size: 1.5rem;
+  font-size: 44px;
   font-weight: bolder;
 }
 .howItText {
@@ -244,7 +247,7 @@
   font-weight: bolder;
 }
 .textFont {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .tradingTitle {
   font-size: 1.6rem;
@@ -513,6 +516,9 @@
 @media only screen and (max-width: 480px) {
   .affixBarText {
     font-size: 9px !important;
+  }
+  .demoAccountBox{
+      width: 100% !important;
   }
 }
 /* .navbar-light .navbar-toggler-icon {

@@ -19,7 +19,7 @@ export default class AboutUsDropDown extends Component {
             <Link to="/our-location">
               <div className="headerDropDownItem">Contact Us</div>
             </Link>
-            <Link to="/trading-terms">
+            <Link to="/faqs">
               <div className="headerDropDownItem">FAQ's</div>
             </Link>
           </div>

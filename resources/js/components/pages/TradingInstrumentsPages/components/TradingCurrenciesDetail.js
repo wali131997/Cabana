@@ -42,7 +42,7 @@ export default function TradingCurrenciesDetail() {
           <div className="row basicRow">
             <div className="col-md-6 col-sm-12">
               <img
-                src="/assets/images/eduDetail.png"
+                src="/assets/images/currencyside.jpg"
                 alt="of currencies"
                 className="fitImage verticallyCeneter mb-2"
               ></img>
@@ -79,7 +79,7 @@ export default function TradingCurrenciesDetail() {
               </p>
               <p className="aboutDetailText">
                 Exotic currency pairs are not as widely traded as the majors or
-                the minors. They composed of a major currency pair coupled with
+                the minors. They are composed of a major currency pair coupled with
                 the currency of a developing economy. Some examples that Cabana
                 Capitals offers include the USD/TRY and the EUR/PLN
               </p>

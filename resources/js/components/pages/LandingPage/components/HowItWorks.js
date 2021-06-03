@@ -6,10 +6,10 @@ export default class HowItWorks extends Component {
       <div className="container-fluid howitworkmain">
         <div className="row howItTitleBox">
           <div className="col-12 mt-3">
-            <h2 className="howItTitle">{this.props.title}</h2>
+            <h2 className="howItTitle">HOW IT WORKS</h2>
             <p className="howItText">
               Step-by step guide on how to Create Account and start working with
-              CABANA.
+              Cabana Capitals
             </p>
           </div>
         </div>

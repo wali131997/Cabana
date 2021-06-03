@@ -11,6 +11,12 @@ import MissionAndValues from "./pages/MissionAndValues/MissionAndValues";
 import EducationPage from "./pages/EducationPage/EducationPage";
 import TradingInstrumentPage from "./pages/TradingInstrumentsPages/TradingInstrumentPage";
 import TradingCurrencisePage from "./pages/TradingInstrumentsPages/TradingCurrencisePage";
+import PreciousMetals from "./pages/TradingInstrumentsPages/Preciousmetals";
+import CFDincidies from "./pages/TradingInstrumentsPages/Cfdincidies";
+
+import Commodities from "./pages/TradingInstrumentsPages/Comodities";
+
+
 import EducationsMetaTrader4 from "./pages/EducationPage/EducationsMetaTrader4";
 import PatnershipPage from "./pages/Patnership&Promotion/PatnershipPage";
 import PromotionPage from "./pages/Patnership&Promotion/PromotionPage";
@@ -28,14 +34,37 @@ import RiskPage from "./pages/FooterLinkPages/RiskPage";
 import NewPromo35PerB from "./pages/NewPromoPages/NewPromo35PerB";
 import SafetyOfFunds from "./pages/FooterLinkPages/SafetyOfFunds";
 import Affiliyate from "./pages/Patnership&Promotion/Affiliyate";
+import Mt4 from './pages/PlatformPage/Mt4';
+import Mt5 from './pages/PlatformPage/Mt5';
+import WhiteLABEL from "./pages/Patnership&Promotion/WhiteLabbel";
+import SocialTrading from "./pages/Patnership&Promotion/SocialTrading";
+import Islamic from "./pages/Patnership&Promotion/Islamic";
+import Termonology from "./pages/Patnership&Promotion/Termonology";
+import Faq from "./pages/Faqs/Faqs";
+import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds";
+
  class App extends Component {
   // state
   constructor(props) {
     super(props);
     this.state = { sideBar: false };
+    console.log(this.props)
   }
 
+// componentDidMount(){
+//     this.props.history.listen((location, action) => {
+//         // location is an object like window.location
+//         console.log(action, location.pathname, location.state)
+//     });
+// }
+  componentDidUpdate(prevProps) {
+      console.log("ddd");
+    if (this.props.location !== prevProps.location) {
+        console.log("dfdd");
 
+     window.scrollTo(0,0);
+    }
+  }
   // handle sideBar
 
   handleSideBar  ()  {
@@ -84,6 +113,18 @@ import Affiliyate from "./pages/Patnership&Promotion/Affiliyate";
             component={TradingCurrencisePage}
           ></Route>
           <Route path="/patnership" component={PatnershipPage}></Route>
+          <Route path="/white-label" component={WhiteLABEL}></Route>
+          <Route path="/social-trading" component={SocialTrading}></Route>
+          <Route path="/islamic-trading" component={Islamic}></Route>
+          <Route path="/trading-termonology" component={Termonology}></Route>
+          <Route path="/precious-metals" component={PreciousMetals}></Route>
+          <Route path="/cfd-incdices" component={CFDincidies}></Route>
+          <Route path="/comodoties" component={Commodities}></Route>
+          <Route path="/faqs" component={Faq}></Route>
+          <Route path="/protection-funds" component={ProtectionofFunds}></Route>
+
+          <Route path="/mt4-platform" component={Mt4}></Route>
+          <Route path="/mt5-platform" component={Mt5}></Route>
           <Route path="/promotion"  component={PromotionPage}></Route>
           <Route path="/newPromotion" component={NewPromo35PerB}></Route>
           <Route path="/platform/mt5" component={PlatformMT5}></Route>

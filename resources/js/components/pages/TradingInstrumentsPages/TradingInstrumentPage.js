@@ -44,7 +44,8 @@ export default class TradingInstrumentPage extends Component {
         <HeroSec2
           title="TRADE THE WORLD'S MARKETS"
           text="We offer to a wide range of asset classes, including"
-          text2="FX , precious metals and indices."
+          text2="FX, precious metals and indices"
+          bg="tradinginstrumenbanner.jpg"
         />
         <TradingInstrumentComponent />
         <StepsToOpenAccount />

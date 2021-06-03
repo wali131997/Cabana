@@ -1,29 +1,127 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 export default class LandingSliderSection extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            sliderImages:[
+                {image:'landingBg1.png'},
+                {image:'referafriend.jpg'}
+            ]
+        }
+    }
+
   render() {
     return (
       <div className="">
         <div className="">
-          <div className="landingSliderBg">
-            <div className="container">
-              <div className="row trueRow">
-                <div className="col-12">
-                  <h1 className="trueTitle">
-                    TRUE ECN <br /> FOREX BROKER
-                  </h1>
-                  <p className="trueDescription">
-                    True ECN Spreads From 0.0 Pips
-                  </p>
-                  <div className="trueButtonBox">
-                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
-                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div style={{paddingTop:'85px'}}>
+        <Carousel
+            autoPlay = {true}
+            showArrows={true}
+            infiniteLoop={true}
+            interval={3000}
+            // stopOnHover={true}
+            // showThumbs={true}
+            // showStatus={true}
+            showIndicators={false}
+
+            >
+            {/* {
+                this.state.sliderImages.map((data,index)=>{
+                    return(
+                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/${data.image})`}}>
+                            <div className="container">
+                            <div className="row trueRow">
+                                <div className="col-12">
+                                <h1 className="trueTitle">
+                                    TRUE ECN <br /> FOREX BROKER
+                                </h1>
+                                <p className="trueDescription">
+                                    True ECN Spreads From 0.0 Pips
+                                </p>
+                                <div className="trueButtonBox">
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    )
+                })
+            } */}
+
+                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/landingBg1.png`}}>
+                            <div className="container">
+                            <div className="row trueRow">
+                                <div className="col-12">
+                                <h1 className="trueTitle">
+                                    TRUE ECN <br /> FOREX BROKER
+                                </h1>
+                                <p className="trueDescription">
+                                    True ECN Spreads From 0.0 Pips
+                                </p>
+                                <div className="trueButtonBox">
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/referafriend.jpg`}}>
+                            <div className="container">
+                            <div className="row trueRow" >
+                                <div className="col-12" style={{paddingTop:'230px'}}>
+                                <h1 className="trueTitle ">
+                                REFER A FRIEND
+                                </h1>
+                                <h1 style={{fontSize:'28px'}} className="trueTitle ">
+                                Earn $50 Reward
+                                </h1>
+
+                                {/* <p className="trueDescription">
+                                    Reffer a friend
+                                </p> */}
+                                {/* <div className="trueButtonBox">
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
+                                </div> */}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/ibreward.jpg`}}>
+                            <div className="container">
+                            <div className="row trueRow" >
+                                <div className="col-12" style={{paddingTop:'230px'}}>
+                                <h1 className="trueTitle ">
+                               EXCLUSIVE IB REWARD
+                                </h1>
+                                <h1 style={{fontSize:'28px'}} className="trueTitle ">
+                                PROGRAM
+                                </h1>
+
+                                {/* <p className="trueDescription">
+                                    Reffer a friend
+                                </p> */}
+                                {/* <div className="trueButtonBox">
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
+                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
+                                </div> */}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+        </Carousel>
+
+        </div>
 
           <div className="landingSliderBg2">
             <div className="container-fluid">
@@ -50,7 +148,7 @@ export default class LandingSliderSection extends Component {
                     <h2 className="featureTitle">Swap Free Account</h2>
                     <p className="featureText">
                     Seamless interest-free trading.
-*Swap Free Accounts are available to all clients
+*Swap Free Accounts are available to all our clients
 
                     </p>
                   </div>
@@ -150,7 +248,7 @@ to assist you via various contact channels
 
               <div className="row demoAccountRow">
               <div className="col-md-6 col-sm-12">
-                  <div className="demoAccountBox">
+                  <div className="demoAccountBox mr-0">
                     <div className="demoAccountTitleBox">
                     <h2
                         className="demoAccountTitle"
@@ -160,7 +258,7 @@ to assist you via various contact channels
                       </h2>
                     </div>
 
-                    <div className="demoAccountInfoBox">
+                    <div className="demoAccountInfoBox ">
                       <div className="demoTextFlex mt-2">
                         <h4 className="demoAccountText ">FREE Demo Account</h4>
                         <div className="demoIcon">
@@ -216,7 +314,7 @@ to assist you via various contact channels
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-12">
-                  <div className="demoAccountBox">
+                  <div className="demoAccountBox ml-0">
                     <div className="demoAccountTitleBox">
                     <h2 className="demoAccountTitle">GO LIVE</h2>
 

@@ -26,7 +26,9 @@ export default class CompareAccountPage extends Component {
     const { active } = this.state;
     return (
       <div>
-        <HeroSection title="COMPARE ACCOUNTS" />
+        <HeroSection title="COMPARE ACCOUNTS"
+        bg="accounttypes.jpg"
+        />
         <div className="container">
           <div className="row compareAccountRow">
             <CompareAccoountHeader
@@ -35,31 +37,31 @@ export default class CompareAccountPage extends Component {
             />
           </div>
 
-          {active===true? 
-          
+          {active===true?
+
           <><div
             className="row compareAccountRow d-none d-md-flex"
           >
             <CompareAccountStandard />
           </div>
-          
-          
+
+
           <div className="row compareAccountRowM d-md-none">
             <CompareAccountStandardM/></div> </>:<>
-            
+
              <div
             className="row compareAccountRow d-none d-md-flex"
           >
-            
+
             <CompareAccountEcn />
           </div>
           <div className="row compareAccountRowM d-md-none">
             <CompareAccountEcnM/>
             </div>
-          
+
           </>}
-         
-         
+
+
         </div>
       </div>
     );

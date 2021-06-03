@@ -16,7 +16,7 @@ export default class Refferal extends Component {
             <Link to="/affiliate-program" className="headerLink">
               <div className="headerDropDownItem">Affiliate Program</div>
             </Link>
-            <Link to="/newPromotion" className="headerLink">
+            <Link to="/white-label" className="headerLink">
               <div className="headerDropDownItem">White Label</div>
             </Link>
           </div>

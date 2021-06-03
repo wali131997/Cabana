@@ -7,6 +7,7 @@ import AboutUsGrowthSec from './AboutUsGrowthSec';
 import GuideSec from './components/GuideSec';
 import TradingPlatformNew from './components/TradingPlatformNew';
 import TradeWithCabana from './components/TradeWithCabana';
+import StepsToOpenAccount from '../Deposit&WithdrawPage/components/StepsToOpenAccount';
 
 class AboutUsPage2 extends Component {
     render() {
@@ -17,7 +18,8 @@ class AboutUsPage2 extends Component {
                <AboutUsGrowthSec/>
                <TradeWithCabana />
                <GuideSec />
-               <TradingPlatformNew />
+               {/* <TradingPlatformNew /> */}
+               <StepsToOpenAccount></StepsToOpenAccount>
             </div>
         );
     }

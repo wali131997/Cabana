@@ -10,8 +10,8 @@
    display: flex;
    align-items: center;
 }
-.affliateBg{
-    background-image: url("/assets/images/affiliyatebg.png");
+.mt4Bg{
+    background-image: url("/assets/images/mt4bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,86 @@
    display: flex;
    align-items: center;
 }
+.mt5Bg{
+    background-image: url("/assets/images/mt5bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.ter_bg{
+    background-image: url("/assets/images/ter_bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.islamic_bg{
+    background-image: url("/assets/images/islamic_bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.whiteBg{
+    background-image: url("/assets/images/whitebg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.social_bg2{
+    background-image: url("/assets/images/social_sec_2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+    width: 100%;
+    /* padding-top: 80px; */
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.affliateBg{
+    background-image: url("/assets/images/affiliate.jpg");
+    background-position: top;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.mt4title{
+    font-size: 38px;
+    color: #5b0156;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
 .atitle{
     font-size: 48px;
     color: #5b0156;
@@ -29,9 +109,28 @@
     text-align: center;
     padding: 30px;
 }
+.stitle{
+    font-size: 48px;
+    color: #5b0156;
+    font-weight: bolder;
+    text-align: center;
+    /* padding: 30px; */
+}
 @media screen and (max-width:480px){
         .atitle{
             font-size: 30px !important;
+        }
+        .mt4title{
+            font-size: 20px !important;
+        }
+        .mt4_graph{
+            text-align: center !important;
+        }
+        .mt4title_{
+            font-size: 50px !important;
+        }
+        .social_bg2{
+            height: 650px !important;
         }
 }
 .acard_img{
@@ -39,6 +138,43 @@
     height: 120px;
     text-align: left;
     margin-left: auto;
+}
+.bt4_bottom{
+    background-color: #5b0156;
+}
+.card_title_bg{
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+.card-body-text{
+    font-size: 14px;
+}
+.mt4icontop{
+    width: 230px;
+}
+.mt4icons{
+    width: 60%;
+
+    margin-top: 17px;
+}
+.mt4_graph{
+    text-align: right;
+    width: 70%;
+}
+.download_mmt4{
+    background-color: #c30977;
+    padding: 5px;
+    border-radius: 1px;
+    color: #fff;
+}
+.arrow_img{
+    height: 120px;
+    margin-left: auto;
+    text-align: right;
+    margin-top: -30px;
 }
 .card_light{
     background-color: #f9e7f3;
@@ -51,8 +187,20 @@
     font-size: 18px;
     padding: 20px;
 }
-.affliateBg .title{
+ .title_{
     font: bold 62px gothic  ;
+    color: #fff;
+}
+.mt4title_{
+    font: bold 62px gothic  ;
+    color: #fff;
+}
+.socialtitle_{
+    font: bold 38px gothic  ;
+    color: #fff;
+}
+.title2{
+    font: bold 30px gothic  ;
     color: #fff;
 }
 .affliateBg .title2{

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class DepositeTable extends Component {
+class DEPOSITTable extends Component {
     render() {
         return (
            <>    <div className=" basicRow">
-           <div className="depositeTableWrapper">
-             <table className="table  depositeTable table-striped table-bordered ">
+           <div className="DEPOSITTableWrapper">
+             <table className="table  DEPOSITTable table-striped table-bordered ">
                <thead>
                  <tr>
                    <th>E-wallets</th>
@@ -13,7 +13,7 @@ class DepositeTable extends Component {
                    <th>Currency</th>
                    <th>Fee/Commission</th>
                    <th>Processing Time</th>
-                   <th>Deposite Funds</th>
+                   <th>DEPOSIT Funds</th>
                  </tr>
                </thead>
                <tbody>
@@ -30,7 +30,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -46,7 +46,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -62,7 +62,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -78,7 +78,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -94,7 +94,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -110,7 +110,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
@@ -126,7 +126,7 @@ class DepositeTable extends Component {
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr><tr>
                    <td>
@@ -139,15 +139,15 @@ class DepositeTable extends Component {
                    <td>Bank Wire Transfer</td>
                    <td>USD,AED </td>
                    <td>No Commision*</td>
-                   <td>1 business days</td>
+                   <td>Within 1 Business Day</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/local-deposite-logo.png"
+                       src="/assets/images/bank-wire-logo_.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>
@@ -158,15 +158,15 @@ class DepositeTable extends Component {
                      <br /> local currencies
                    </td>
                    <td>No Commision*</td>
-                   <td>1 business days</td>
+                   <td>Within 1 Business Day</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/local-deposite-logo.png"
+                       src="/assets/images/bank-wire-logo_.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>
@@ -180,21 +180,21 @@ class DepositeTable extends Component {
                    </td>
                    <td>USD,AED,INR</td>
                    <td>No Commision*</td>
-                   <td>1 business days</td>
+                   <td>Within 1 Business Day</td>
                    <td className="text-center">
-                     <button className="depositeOutlineButton">DEPOSITE</button>
+                     <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">DEPOSIT</button>
                    </td>
                  </tr>
                </tbody>
              </table>
            </div>
- 
-         
-         
-         
+
+
+
+
          </div> </>
         );
     }
 }
 
-export default DepositeTable;
+export default DEPOSITTable;

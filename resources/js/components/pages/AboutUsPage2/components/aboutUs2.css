@@ -8,7 +8,7 @@
 }
 .aboutUs2Bg{
     background-color:#291022 ;
-    
+
 }
 .introSecBg1{
     background-color: #C70079;
@@ -24,13 +24,13 @@
     font-weight: bolder;
     font-family: gothic;
     color: white;
-   
-    
+
+
     padding-top: 20px;
 
 }
 .introSecBg2{
-    
+
     background: none;
     height: 400px;
     width: 100%;
@@ -44,12 +44,13 @@
     color: #fff;
 }
 .introSecBg2 .text{
-    font-size: 0.8rem;
+    font-size: 16px;
     font-family: gothic;
-   
-    text-align: center;
+
+    text-align: justify;
     color: #fff;
     padding: 3vw 10vw;
+    text-align-last: center;
 }
 .aboutUsDivider{
     height: 3px;
@@ -65,28 +66,28 @@
     font-size: 1.7rem;
     font-family: gothic;
     font-weight: 700;
-   
+
     color: #53123C;
 }
 .counterSec .text{
     font-size: 0.8rem;
     font-family: gothic;
     padding-right: 30px;
-    
+
     color: rgb(34, 34, 34);
 }
 .counterSec .bigTitle{
     font-size: 5rem;
     font-family: myriad;
     font-weight: bolder;
-   
+
     color: #53123C;
 }
 .counterSec .boldText{
     font-size: 1.5rem;
     font-family: myriad;
     font-weight: bold;
-    
+
     color: #53123C;
 }
 .growthRow{
@@ -112,9 +113,9 @@
     align-items: center;
     flex: 0.2;
     flex-direction: row;
-   
-    
-    
+
+
+
 
 }
 .growthHeight{
@@ -158,7 +159,7 @@
     position: fixed;
     left: 0;
    top: 70px;
-  
+   transition: 2s;
 }
 @media (max-width:480px){
     .fixDiv{
@@ -168,6 +169,36 @@
     .fixDiv2{
         top: 85px !important;
     }
+    .fixDiv3{
+        top: 0px !important;
+        margin-top: 0 !important;
+    }
+    .mainFlex .itemLeft{
+        align-items: center !important;
+    }
+    .tradeWithCabana{
+    height: 700px !important;
+    }
+    .mainFlex .sec-1{
+        margin-top: 30px !important;
+    }
+    .mainFlex .sec-3{
+        margin-top: 30px !important;
+    }
+    .introSecBg2{
+        height: 550px !important;
+    }
+}
+.tradecabanabg{
+    background-image: url("/assets/images/about_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 3vw 10vw;
+    margin-top: 0px;
 }
 .guideBg{
     background-image: url("/assets/images/guideBg.png");
@@ -183,7 +214,7 @@
 .guideTitle2{
     color: #fff;
     font:bold 1.4rem gothic;
-    
+
 }
 .guideTitle{
     color: #fff;
@@ -210,8 +241,8 @@
     background-color: #291022;
     height: 500px;
     width: 100%;
-   
-   
+
+
 }
 .tradingNew{ padding: 6vw 8vw;}
 .tradingNew .title{
@@ -222,7 +253,7 @@
     font:  0.8em gothic;
     color: #fff;
     margin:40px 0;
-    
+
 }
 
 .tradingNew .btn1{
@@ -242,13 +273,36 @@
 }
 .tradeWithCabana{
     padding: 3vw 10vw;
-    margin-top: 500px;
-    height: 800px;
+    /* margin-top: 500px; */
+    height: 700px;
 
 }
+.worldImg{
+    width: 100%;
+}
+.why_cab_icon{
+    width: 80px;
+
+}
+.why_cab_icon1{
+    width: 80px;
+    padding-right: 25px;
+}
+.why_cab_icon2{
+    width: 80px;
+    padding-left: 15px;
+}
 .fixDiv2{
-   
+
     position: fixed;
+    top: 70px;
+    left: 0;
+    margin-top: 60px;
+    width: 100%;
+}
+.fixDiv3{
+
+    position: relative;
     top: 70px;
     left: 0;
     margin-top: 60px;
@@ -273,33 +327,59 @@
    cursor: pointer;
    transition: ease-in 0.4s;
 }
+.mainFlex .itemLeft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+   cursor: pointer;
+   margin-top: 40px;
+   transition: ease-in 0.4s;
+}
+.margin40{
+    margin-top: 40px;
+}
+.mainFlex .itemRight{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end !important;
+    flex-direction: column;
+    text-align: center;
+   cursor: pointer;
+   margin-top: 40px;
+   transition: ease-in 0.4s;
+}
 .mainFlex .sec-1{
     flex: 1;
+    margin-top:130px;
 }
 .mainFlex .sec-2{
     flex: 1;
 }
 .mainFlex .sec-3{
     flex: 1;
+    margin-top:100px;
+
 }
 .mainFlex .item .text{
     font:bolder 1rem gothic;
     margin-bottom:20px
 }
 .mainFlex .itemActive{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 .mainFlex .itemActive .text{
     color: #53123B;
-    
+
 }
 .shapeTradeBg{
      background-image: url("/assets/images/shapeTrade.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   width: 225px;
-   height: 220px;
+   width: 270px;
+   height: 255px;
 flex-direction: column;
 justify-content: center;
    display: flex;
@@ -307,8 +387,8 @@ justify-content: center;
    align-items: center;
    padding: 10px;
    margin: 0 auto;
-   
-   
+
+
 }
 
 .shapeTradeBg .createBtn{
@@ -321,34 +401,34 @@ justify-content: center;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .tradeWithCabana .mainFlex{
-        
+
         flex-direction: row;
-        
-    
+
+
     }
     .tradingNew .btn1{
         font: bold 0.9em gothic;
-       
+
     }
     .tradingNew .btn2{
         font: bold  0.9em gothic;
-       
+
     }
     .guideBg{
-        margin-top: 360px;
+        margin-top: 70px;
     }
     .guideTitle2{
-        
+
         font:bold 1.7rem gothic;
-        
+
     }
     .guideTitle{
-     
+
         font:bolder 2.5rem gothic;
         margin-bottom:60px;
     }
     .guideText{
-      
+
         font: 0.8rem gothic;
         margin-bottom:60px;
     }
@@ -366,7 +446,7 @@ justify-content: center;
         align-items: center;
         flex: 0.2;
         flex-direction: column;
-        
+
     }
     .growthYearContent{
         flex: 0.8;
@@ -386,8 +466,9 @@ justify-content: center;
     .growthContentText{
         font: 1.2em gothic;
         color: #fff;
-        padding: 3vw 4vw;
-        text-align: center;
+        padding: 1vw 4vw;
+        text-align: justify;
+        text-align-last: center;
     }
     .growthBigYearText{
         /* display: flex;
@@ -416,14 +497,14 @@ justify-content: center;
         width: 100%;
     }
     .introSecBg2{
-    
+
         background-image: url("/assets/images/bg-2.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
         width: 100%;
-    
+
     }
     .introSecBg1 .title{
         font-size: 2.5rem;
@@ -435,7 +516,7 @@ justify-content: center;
         align-items: center;
         text-align: center;
         padding-top: 20px;
-    
+
     }
     .introSecBg2 .title{
         font-size: 2rem;
