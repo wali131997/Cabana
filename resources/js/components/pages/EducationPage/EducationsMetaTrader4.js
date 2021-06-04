@@ -11,12 +11,13 @@ export default class EducationsMetaTrader4 extends Component {
         <HeroSec3
           title="EDUCATION"
           text="Learn about Forex Markets with Cabana Capitals"
+          bg="education.jpg"
         />
 
         <div className="greyBg">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row basicRow">
-              <div className="col-12 text-center mb-3">
+              <div className="col-12 text-center mb-3 mt-3">
                 <h4 className="aboutDetailTitle">Setting Up MetaTrader 4</h4>
               </div>
               <div className="col-12">
@@ -56,7 +57,7 @@ export default class EducationsMetaTrader4 extends Component {
         </div>
 
         <TradingComponent />
-        <HowItWorks title="Start Trading in 4 Steps" />
+        {/* <HowItWorks title="Start Trading in 4 Steps" /> */}
       </div>
     );
   }

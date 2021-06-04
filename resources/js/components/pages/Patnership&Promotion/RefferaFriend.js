@@ -33,20 +33,20 @@ export default class PatnershipPage extends Component {
         {/* <TradingComponent /> */}
         {/* <HowItWork title="Start Trading in 4 Steps" /> */}
         <StartTradingSteps></StartTradingSteps>
-        <div className=" greyBg basicRow text-center">
+            <div className=" greyBg basicRow text-center py-5">
 
-        <h4 className="aboutDetailTitle mt-4">
-        FRIENDS ARE FOR SHARING
-          </h4>
-          <p className="textFont">
-          You share, we care! Invite your friends to become a part of world’s leading brokerage firm and start earning huge instant rewards!          </p>
+            <h4 className="aboutDetailTitle mt-4">
+            FRIENDS ARE FOR SHARING
+            </h4>
+            <p className="textFont">
+            You share, we care! Invite your friends to become a part of world’s leading brokerage firm and start earning huge instant rewards!          </p>
 
-          <h4 className="aboutDetailTitle mt-4">
-          Interested to share rewards with your friend now?
-          </h4>
-          <button className="depositButton " style={{padding:"8px 70px"}}>
-          START SHARING </button>
-          </div>
+            <h4 className="aboutDetailTitle mt-4">
+            Interested to share rewards with your friend now?
+            </h4>
+            <button className="depositButton " style={{padding:"8px 70px"}}>
+            START SHARING </button>
+            </div>
           </div>
     );
   }

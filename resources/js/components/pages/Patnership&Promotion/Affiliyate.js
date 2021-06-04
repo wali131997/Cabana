@@ -73,7 +73,8 @@ class Affiliyate extends Component {
                                 <div className="card  card_light">
                                     <h6 className="acard_text">
                                     Opportunity to create and develop a good representative
-web page.
+web page.<br/>
+                                    <br/>
                                     </h6>
                                     <img className="acard_img" src="/assets/images/aicon5.png"></img>
                                 </div>
@@ -81,7 +82,9 @@ web page.
                             <div className="col-md-6 px-2 mt-3 ">
                                 <div className="card  card_light">
                                     <h6 className="acard_text">
-                                    Overall support from the company: in establishing a new office, advertising and marketing activities, staff training and general assisting in the daily business activities.
+                                    Overall support from the company: in establishing a new office, advertising and marketing activities,
+                                    staff training and general assisting in the daily business activities.
+
                                     </h6>
                                     <img className="acard_img" src="/assets/images/aicon6.png"></img>
                                 </div>
