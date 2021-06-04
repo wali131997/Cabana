@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 export default class AccountDropDown extends Component {
   render() {
     return (
@@ -10,43 +10,43 @@ export default class AccountDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">TRADING ACCOUNTS</h5>
-            <Link to="/account-type">
+            <a href="/account-type">
               <div className="headerDropDownItem">Account Type</div>
-            </Link>
-            <Link to="/islamic-trading">
+            </a>
+            <a href="/islamic-trading">
               <div className="headerDropDownItem">Islamic Account</div>
-            </Link>
-            <Link to="/trading-termonology">
-              <div className="headerDropDownItem">Trading Termonology</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/trading-termonology">
+              <div className="headerDropDownItem">Trading Terminology</div>
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">TRADING PLATFORMS</h5>
-            <Link to="/mt4-platform">
+            <a href="/mt4-platform">
 
               <div className="headerDropDownItem">MetaTrader 4</div>
-            </Link>
-            <Link to="/mt5-platform">
+            </a>
+            <a href="/mt5-platform">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
+            </a>
 
           </div>
           <div
@@ -54,42 +54,42 @@ export default class AccountDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">Trading Instruments</h5>
-            <Link to="/trading-instruments">
+            <a href="/trading-instruments">
               <div className="headerDropDownItem">Trading Instruments</div>
-            </Link>
-            <Link to="/trading-currencies">
+            </a>
+            <a href="/trading-currencies">
               <div className="headerDropDownItem">Currencies (FX)</div>
-            </Link>
-            <Link to="/precious-metals" >
+            </a>
+            <a href="/precious-metals" >
               <div className="headerDropDownItem">Precious Metals</div>
-            </Link>
-            <Link to="/comodoties" >
+            </a>
+            <a href="/comodoties" >
               <div className="headerDropDownItem">Commodities</div>
-            </Link>
-            <Link to="/cfd-incdices" >
+            </a>
+            <a href="/cfd-incdices" >
               <div className="headerDropDownItem">CFD Indices Pairs</div>
-            </Link>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">Funds</h5>
-            <Link to="/deposite-withdraw">
+            <a href="/deposite-withdraw">
               <div className="headerDropDownItem">Deposit & Withdrawal</div>
-            </Link>
-            <Link to="/protection-funds">
+            </a>
+            <a href="/protection-funds">
               <div className="headerDropDownItem">Protection of funds</div>
-            </Link>
-            <Link to="/platform/mt5">
+            </a>
+            <a href="/negative-balance-protection">
               <div className="headerDropDownItem">Negative Balance Protection</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
-            <Link to="/mt5-platform" className="opacityZero">
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
-            </Link>
+            </a>
           </div>
           <div className="headerDropDownImgDiv">
             <img

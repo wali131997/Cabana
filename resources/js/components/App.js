@@ -19,7 +19,13 @@ import Commodities from "./pages/TradingInstrumentsPages/Comodities";
 
 import EducationsMetaTrader4 from "./pages/EducationPage/EducationsMetaTrader4";
 import PatnershipPage from "./pages/Patnership&Promotion/PatnershipPage";
+import NegativeBalanceProtection from "./pages/Patnership&Promotion/NegitiveBlanaceProtection";
+
+
 import PromotionPage from "./pages/Patnership&Promotion/PromotionPage";
+import Refferafriend from "./pages/Patnership&Promotion/RefferaFriend";
+
+
 import PlatformMT5 from "./pages/PlatformPage/PlatformMT5";
 import PAMMpage from "./pages/PAMM/PAMMpage";
 import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPage";
@@ -42,6 +48,7 @@ import Islamic from "./pages/Patnership&Promotion/Islamic";
 import Termonology from "./pages/Patnership&Promotion/Termonology";
 import Faq from "./pages/Faqs/Faqs";
 import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds";
+
 
  class App extends Component {
   // state
@@ -112,7 +119,10 @@ import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds
             path="/trading-currencies"
             component={TradingCurrencisePage}
           ></Route>
-          <Route path="/patnership" component={PatnershipPage}></Route>
+          <Route path="/introducing-broker" component={PatnershipPage}></Route>
+          <Route path="/negative-balance-protection" component={NegativeBalanceProtection}></Route>
+          <Route path="/reffer-friend" component={Refferafriend}></Route>
+
           <Route path="/white-label" component={WhiteLABEL}></Route>
           <Route path="/social-trading" component={SocialTrading}></Route>
           <Route path="/islamic-trading" component={Islamic}></Route>

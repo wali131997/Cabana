@@ -7,7 +7,7 @@ export default class pammDetail extends Component {
         <div className="container-fluid">
           <div className="row basicRow">
             <div className="col-12 text-center mb-5">
-              <h4 className="aboutDetailTitle">PAMM Trading Benifits</h4>
+              <h4 className="aboutDetailTitle">PAMM Trading Benefits</h4>
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="missionCard mb-3">

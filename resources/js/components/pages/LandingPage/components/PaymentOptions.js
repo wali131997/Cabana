@@ -6,8 +6,8 @@ export default class PaymentOptions extends Component {
       <div className="container-fluid">
         <div className="row paymentRow">
           <div className="col-md-4 col-sm-12">
-            <h2 className="titleFont text-center">
-              PAYMENT <br />
+            <h2 className="titleFont text-center mt-4">
+              PAYMENT
               OPTIONS
             </h2>
           </div>

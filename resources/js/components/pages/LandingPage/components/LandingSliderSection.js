@@ -77,7 +77,7 @@ export default class LandingSliderSection extends Component {
                         <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/referafriend.jpg`}}>
                             <div className="container">
                             <div className="row trueRow" >
-                                <div className="col-12" style={{paddingTop:'230px'}}>
+                                <div className="col-12 slider_text_padding" >
                                 <h1 className="trueTitle ">
                                 REFER A FRIEND
                                 </h1>
@@ -88,10 +88,9 @@ export default class LandingSliderSection extends Component {
                                 {/* <p className="trueDescription">
                                     Reffer a friend
                                 </p> */}
-                                {/* <div className="trueButtonBox">
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
-                                </div> */}
+                                <div className="">
+                                    <button onClick={()=>{ window.open('/reffer-friend','_self')}} className="light_leaarn_btn btn btn-outline-light text-light">Learn More</button>
+                                </div>
                                 </div>
                             </div>
                             </div>
@@ -99,7 +98,7 @@ export default class LandingSliderSection extends Component {
                         <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/ibreward.jpg`}}>
                             <div className="container">
                             <div className="row trueRow" >
-                                <div className="col-12" style={{paddingTop:'230px'}}>
+                                <div className="col-12 slider_text_padding">
                                 <h1 className="trueTitle ">
                                EXCLUSIVE IB REWARD
                                 </h1>
@@ -110,10 +109,9 @@ export default class LandingSliderSection extends Component {
                                 {/* <p className="trueDescription">
                                     Reffer a friend
                                 </p> */}
-                                {/* <div className="trueButtonBox">
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
-                                </div> */}
+                               <div className="">
+                                    <button onClick={()=>{ window.open('/introducing-broker','_self')}} className="light_leaarn_btn btn btn-outline-light text-light">Learn More</button>
+                                </div>
                                 </div>
                             </div>
                             </div>
@@ -129,7 +127,7 @@ export default class LandingSliderSection extends Component {
                 <div className="col-12">
                   <h3 className="tradeWithTitle">WHY TRADE WITH CABANA</h3>
                   <p className="tradeWithText">
-                  Trade more than 250 products including Forex, Commodities, Indices, and Metals with Cabana Capitals.
+                  Trade multiple financial products which includes Forex, Commodities, Indices, and Metals
                   </p>
                 </div>
               </div>
@@ -145,7 +143,7 @@ export default class LandingSliderSection extends Component {
                         src="/assets/images/fKey.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">Swap Free Account</h2>
+                    <h2 className="featureTitle">Swap Free <br/>Account</h2>
                     <p className="featureText">
                     Seamless interest-free trading.
 *Swap Free Accounts are available to all our clients
@@ -181,7 +179,7 @@ maximum profits at minimum trading cost
                         src="/assets/images/fFixed.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">FIXED & VARIABLE SPREADS</h2>
+                    <h2 className="featureTitle">FIXED &  <br/> VARIABLE SPREADS</h2>
                     <p className="featureText">
                     Offers lowest trading cost in the market (0.0 Pips)
 to earn highest profits possible
@@ -198,7 +196,7 @@ to earn highest profits possible
                         src="/assets/images/fLeverage.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">LEVERAGE UPTO 1:500</h2>
+                    <h2 className="featureTitle">LEVERAGE UPTO  <br/> 1:500</h2>
                     <p className="featureText">
                     Access to a larger portion of financial market
 & increase potential profits

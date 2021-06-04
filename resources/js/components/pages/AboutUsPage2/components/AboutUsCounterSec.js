@@ -9,11 +9,11 @@ class AboutUsCounterSec extends Component {
                   <div className="row counterSec">
                       <div className="col-md-6 col-sm-12">
                      <h4 className="title mb-4">Your Benefits With Cabana Capitals</h4>
-                          <p className="text">Cabana Capital has something for every kind of market. Regardless of whether you are a retail or institutional client, we have just the right trading solutions for all your needs.<br/><br/>
+                          <p className="text">Cabana Capitals has something for every kind of market. Regardless of whether you are a retail or institutional client, we have just the right trading solutions for all your needs.<br/><br/>
 
 Choose from a wide range of markets to trade using our impressive trading tools and instruments. We offer a huge number of currency pairs, spot metals and indices, CFDs, among many others.<br/><br/>
 
-Cabana Capital has the perfect account for every kind of trader. Our trading platforms are based on the latest technology to ensure reliability and security. We try our best to ensure they run smoothly on any device. <br/><br/>
+Cabana Capitals has the perfect account for every kind of trader. Our trading platforms are based on the latest technology to ensure reliability and security. We try our best to ensure they run smoothly on any device. <br/><br/>
 
 To help you play an active part in your trading process, we provide quality and comprehensive education on the trading industry. You are sure to benefit greatly from this program.</p>
                       </div>

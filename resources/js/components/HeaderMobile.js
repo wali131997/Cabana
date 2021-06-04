@@ -239,7 +239,7 @@ export default class HeaderMobile extends Component {
             <Link to="/protection-funds">
               <div className="sideBarItem">Protection of funds</div>
             </Link>
-            <Link to="/platform/mt5">
+            <Link to="/negative-balance-protection">
               <div className="sideBarItem">Negative Balance Protection</div>
             </Link>
                         </div>
@@ -256,7 +256,7 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                          <Link to="/patnership" className="headerLink">
+                          <Link to="/introducing-broker" className="headerLink">
                             <div className="sideBarItem">Inroducing Broker </div>
                             </Link>
                             <Link to="/affiliate-program" className="headerLink">
@@ -322,9 +322,9 @@ export default class HeaderMobile extends Component {
                         <Link to="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
                         </Link>
-                        <Link to="/PAMM">
+                        {/* <Link to="/PAMM">
                         <div className="sideBarItem">Copy Trading</div>
-                        </Link>
+                        </Link> */}
                     </div>
                   </HeaderMobileLastDropDown>
 

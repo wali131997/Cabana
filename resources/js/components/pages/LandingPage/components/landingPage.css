@@ -15,7 +15,7 @@
   padding-top:120px;
 }
 .carousel-root{
-    height: 560px !important;
+    height: 585px ;
 }
 .trueTitle {
   font-weight: bolder;
@@ -121,7 +121,7 @@
 
 /* DEMO ACCOUNT CSS */
 .demoAccountRow {
-  margin: 5vw 5vw;
+  margin: 1vw 5vw;
 }
 .demoAccountBox {
   background-color: #000000db;
@@ -136,7 +136,7 @@
   text-align: center;
 }
 .howitworkmain{
-  margin-top: -100px;
+  margin-top: -250px;
 }
 .demoAccountTitle {
   color: #6DDF65;
@@ -205,8 +205,8 @@
   margin-bottom: 50px;
 }
 .howItFeatureImage {
-  height: 90%;
-  width: 100%;
+  /* height: 90%; */
+  width: 90%;
   padding-top: 10px;
 }
 .howPointsRow {
@@ -229,6 +229,7 @@
 }
 .howPointImage {
   margin: 3px auto;
+  width: 60px;
 }
 
 /* TRADING PLATFORM SECTION CSS */
@@ -240,7 +241,7 @@
 }
 .tradingPlatformRow {
   color: white;
-  padding: 8vw 10vw 30px 10vw;
+  padding: 5vw 10vw 30px 10vw;
 }
 .titleFont {
   font-size: 1.6rem;
@@ -327,8 +328,9 @@
   padding-right: 10vw;
 }
 .eduVideoImage {
-  height: 100%;
-  width: 100%;
+  /* height: 100%; */
+  width: 75%;
+  display: none;
 }
 .btnPrimaryPink {
   background-color: #eb1597;
@@ -418,6 +420,7 @@
 }
 .patnershipText {
   font-size: 0.9rem;
+text-align: justify;
 }
 
 /* ALALYTIC SECTION CSS */
@@ -513,13 +516,31 @@
   justify-content: center;
   align-items: center;
 }
+.light_leaarn_btn:hover{
+    color: #000 !important;
+}
+.slider_text_padding{
+    padding-top: 230px;
+}
 @media only screen and (max-width: 480px) {
+    .slider_text_padding{
+        padding-top: 187px;
+    }
+    .trueTitle{
+        font-size:2.0rem !important;
+    }
   .affixBarText {
     font-size: 9px !important;
   }
   .demoAccountBox{
       width: 100% !important;
   }
+  .carousel-root{
+    height: 560px !important;
+}
+.eduVideoImage {
+    display: block;
+   }
 }
 /* .navbar-light .navbar-toggler-icon {
   background-image: url("../../../images/menu.png") !important;
@@ -630,4 +651,5 @@
     position: relative;
     z-index: -100;
   }
+
 }

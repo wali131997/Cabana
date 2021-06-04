@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 export default class TradingInstrumentLeft extends Component {
   render() {
@@ -12,11 +12,11 @@ export default class TradingInstrumentLeft extends Component {
               <p className="aboutDetailText">{this.props.text}</p>
               {
                   this.props.learnMoreLink ?
-                    <Link to={this.props.learnMoreLink}>
+                    <a href={this.props.learnMoreLink}>
                         <button className="btnPrimaryPink2 pl-4 pr-4 mt-4">
                         LEARN MORE
                         </button>
-                    </Link>
+                    </a>
                  :null
               }
 

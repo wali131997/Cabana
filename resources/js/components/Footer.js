@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -45,48 +45,49 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
+          {/* {"\u00BB"} */}
           <div className="col-md-4 col-sm-12 footerCol">
-            <h3 className=" footerLinkTitle">QUICK LINK</h3>
-            <Link to="/cookie-policy">
-            <p className="footerLinkText">{"\u00BB"} Cookie Policy</p>
-              
-            </Link>
-            <Link to="/regulatory-compliance">
-            <p className="footerLinkText">{"\u00BB"} Regulatory/compliance</p>
+            <h3 className=" footeraTitle">QUICK Links</h3>
+            <a href="/cookie-policy">
+            <p className="footerLinkText"> Cookie Policy</p>
 
-            </Link>
-            
-            <Link to="/privacy-policy">
-            <p className="footerLinkText">{"\u00BB"} Privacy Policy</p>
+            </a>
+            <a href="/regulatory-compliance">
+            <p className="footerLinkText"> Regulatory/compliance</p>
 
-            </Link>
-            <Link to="/risk-disclouser">
-            <p className="footerLinkText">{"\u00BB"} Risk Disclosure</p>
-            </Link>
-            <Link to="/instruction-security">
-            <p className="footerLinkText">{"\u00BB"} Safety Of Fund</p>
-            </Link>
-            
-          
-           
-           
-            <Link to="/terms-and-condition">
-              <p className="footerLinkText">{"\u00BB"} Terms and Conditions</p>
-            </Link>
+            </a>
+
+            <a href="/privacy-policy">
+            <p className="footerLinkText"> Privacy Policy</p>
+
+            </a>
+            <a href="/risk-disclouser">
+            <p className="footerLinkText"> Risk Disclosure</p>
+            </a>
+            <a href="/instruction-security">
+            <p className="footerLinkText"> Safety Of Fund</p>
+            </a>
+
+
+
+
+            <a href="/terms-and-condition">
+              <p className="footerLinkText"> Terms and Conditions</p>
+            </a>
             <a href="https://cabanacapitals.com/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
-            <p className="footerLinkText">{"\u00BB"} Client Agreement</p>
+            <p className="footerLinkText"> Client Agreement</p>
           </a>
-           
+
           </div>
-          
+
           <div className="col-md-4 col-sm-12 footerCol">
-            <h3 className=" footerLinkTitle">CONTACT</h3>
-            <Link to="/our-location" >
+            <h3 className=" footeraTitle">CONTACT</h3>
+            <a href="/our-location" >
 
-            <p className="footerLinkText">{"\u00BB"} Our Location</p>
+            <p className="footerLinkText"> Our Location</p>
 
-            </Link>
-            {/* <p className="footerLinkText">{"\u00BB"} Contact Us</p> */}
+            </a>
+            {/* <p className="footerLinkText"> Contact Us</p> */}
           </div>
         </div>
         <div className="row footerSecondRow">
@@ -99,21 +100,21 @@ export default class Footer extends Component {
             Chapter 149 of the Revised Laws of Saint Vincent and Grenadines,
             2009, in particular but not exclusively all commercial, financial,
             lending, borrowing, trading, service activities and the
-            participation in other enterprises as well as to provide brokerage,
+            participation in other enterprises as well as href provide brokerage,
             training and managed account services in currencies, commodities,
             indexes, CFD's and leveraged financial instruments. Risk Warning:
             Trading Forex and CFDs involves significant risk and can result in
             the loss of your invested capital. You should not invest more than
-            you can afford to lose and should ensure that you fully understand
+            you can afford href lose and should ensure that you fully understand
             the risks involved. Trading leveraged products may not be suitable
             for all investors. Before trading, please take into consideration
             your level of experience, investment objectives and seek independent
             financial advice if necessary. It is the responsibility of the
-            Client to ascertain whether he/she is permitted to use the services
+            Client href ascertain whether he/she is permitted href use the services
             of the Cabana Capitals based on the legal requirements in his/her
             country of residence. Please read Cabana Capitals™ full Risk
             Disclosure. Regional Restrictions: Cabana Capitals does not provide
-            services to residents of the EU Region, USA , Canada , Belgium and
+            services href residents of the EU Region, USA , Canada , Belgium and
             FATF Black Listed Countries. Find out more in the Account Opening
             section of our FAQs.
           </p>
@@ -125,7 +126,7 @@ export default class Footer extends Component {
         </div>
         <div className="row footerRightsRow">
           <h5 className="footerRightsText">
-            Copyright 2020 {"\u00A9"} Cabana Capitals All Right Reserved
+            Copyright 2021 {"\u00A9"} Cabana Capitals All Right Reserved
           </h5>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 export default class PromotionDropDown extends Component {
   render() {
     return (
@@ -10,18 +10,18 @@ export default class PromotionDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">PROMOTION</h5>
-            <Link to="/newPromotion" className="headerLink">
+            <a href="/newPromotion" className="headera">
               <div className="headerDropDownItem">Get 35% bonus on deposit </div>
-            </Link>
+            </a>
           </div>
           {/* <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">PATNERSHIP</h5>
-            <Link to="/patnership" className="headerLink">
+            <a href="/patnership" className="headera">
               <div className="headerDropDownItem">Patnership </div>
-            </Link>
+            </a>
           </div> */}
           <div className="headerDropDownImgDiv">
             <img

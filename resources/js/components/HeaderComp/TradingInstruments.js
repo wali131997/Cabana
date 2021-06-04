@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 export default class TradingInstruments extends Component {
   render() {
@@ -11,9 +11,9 @@ export default class TradingInstruments extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">Trading Instruments</h5>
-            <Link to="/trading-instruments">
+            <a href="/trading-instruments">
               <div className="headerDropDownItem">Trading Instruments</div>
-            </Link>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv "
@@ -22,18 +22,18 @@ export default class TradingInstruments extends Component {
             <h5 className="headerDropDownTitle">More</h5>
 
 
-            <Link to="/trading-currencies">
+            <a href="/trading-currencies">
               <div className="headerDropDownItem">Currencies (FX)</div>
-            </Link>
-            <Link to="/account-type">
+            </a>
+            <a href="/account-type">
               <div className="headerDropDownItem">Precious Metals (Spot)</div>
-            </Link>
-            <Link to="/trading-instruments">
+            </a>
+            <a href="/trading-instruments">
               <div className="headerDropDownItem">Commodities (Spot)</div>
-            </Link>
-            <Link to="/trading-currencies">
+            </a>
+            <a href="/trading-currencies">
               <div className="headerDropDownItem">CFD indices (Spot)</div>
-            </Link>
+            </a>
           </div>
           <div className="headerDropDownImgDiv">
             <img

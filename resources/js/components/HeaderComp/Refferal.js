@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 export default class Refferal extends Component {
   render() {
     return (
@@ -9,26 +9,39 @@ export default class Refferal extends Component {
             className="headerDropDownItemDiv offset-md-1"
             onClick={this.props.dropDownHandler}
           >
-            {/* <h5 className="headerDropDownTitle">PROMOTION</h5> */}
-            <Link to="/patnership" className="headerLink">
+            <h5 className="headerDropDownTitle">PARTNERSHIP PROGRAM</h5>
+            <a href="/introducing-broker" className="headera">
               <div className="headerDropDownItem">Inroducing Broker </div>
-            </Link>
-            <Link to="/affiliate-program" className="headerLink">
+            </a>
+            <a href="/affiliate-program" className="headera">
               <div className="headerDropDownItem">Affiliate Program</div>
-            </Link>
-            <Link to="/white-label" className="headerLink">
-              <div className="headerDropDownItem">White Label</div>
-            </Link>
+            </a>
+
           </div>
-          {/* <div
+          <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">PATNERSHIP</h5>
-            <Link to="/patnership" className="headerLink">
-              <div className="headerDropDownItem">Patnership </div>
-            </Link>
-          </div> */}
+            <h5 className="headerDropDownTitle">REFER</h5>
+            <a href="/reffer-friend" className="headera">
+              <div className="headerDropDownItem">Refer a Friend</div>
+            </a>
+            <a href="/reffer-friend" className="headera opacityZero">
+              <div className="headerDropDownItem">Refer a Friend</div>
+            </a>
+          </div>
+          <div
+            className="headerDropDownItemDiv"
+            onClick={this.props.dropDownHandler}
+          >
+            <h5 className="headerDropDownTitle">CORPORATE</h5>
+            <a href="/white-label" className="headera">
+              <div className="headerDropDownItem">White Label Solution</div>
+            </a>
+            <a href="/reffer-friend" className="headera opacityZero">
+              <div className="headerDropDownItem">Refer a Friend</div>
+            </a>
+          </div>
           <div className="headerDropDownImgDiv">
             <img
               className="headerDropDownImg"

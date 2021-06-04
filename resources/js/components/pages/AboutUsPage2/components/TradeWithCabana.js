@@ -88,7 +88,7 @@ class TradeWithCabana extends Component {
                             <img className="why_cab_icon1" src="/assets/images/leverge.png"></img>
                             <div className="text">Fixed Leverage</div>
                         </div>
-                        <div onClick={()=>this.handleActive("lang")}  className={active==="lang"?"item itemRight margin40 itemActive mt-4 mt-md-2 ":"item margin40 itemRight mt-1 mt-md-2 "}>
+                        <div onClick={()=>this.handleActive("lang")}  className={active==="lang"?"item itemRight margin40 itemActive mt-4 mt-md-2 ":"item margin40 itemRight  "}>
 
                             <img className="why_cab_icon1" src="/assets/images/service.png"></img>
                             <div className="text">24/5 Multilingual<br/>
@@ -107,7 +107,7 @@ class TradeWithCabana extends Component {
                             </div></div>
                     </div>
                     <div className="sec-3">
-                    <div onClick={()=>this.handleActive("deposit")}   className={active==="deposit"?"item itemLeft itemActive mt-1 mt-md-5 pt-0 pt-md-4":"item itemLeft mt-1 mt-md-5 pt-0 pt-md-4"}>
+                    <div onClick={()=>this.handleActive("deposit")}   className={active==="deposit"?"item itemLeft itemActive  mt-md-5 pt-0 pt-md-4":"item itemLeft mt-1 mt-md-5 pt-0 pt-md-4"}>
 
                             <img className="why_cab_icon2" src="/assets/images/fastDeposit_.png"></img>
                             <div className="text">Fast Deposit <br/>

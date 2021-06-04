@@ -13,6 +13,7 @@ export default class EducationPage extends Component {
         <HeroSec3
           title="EDUCATION"
           text="Learn about Forex Markets with Cabana Capitals"
+          bg="education.jpg"
         />
         <div className="greyBg">
           <div className="container-fluid">
@@ -56,8 +57,8 @@ export default class EducationPage extends Component {
             </div>
           </div>
         </div>
-        <TradingComponent />
-        <HowItWorks title="Start Tradind in 4 Steps" />
+        {/* <TradingComponent /> */}
+        {/* <HowItWorks title="Start Tradind in 4 Steps" /> */}
       </div>
     );
   }

@@ -6,7 +6,7 @@ import TradingComponent from '../LandingPage/components/TradingComponent';
 const SafetyOfFunds = () => {
     return (
         <div>
-            
+
             <HeroSection title="CLIENT'S SAFETY OF FUNDS" text="Cabana Capitals - True ECN Forex Broker" />
             <div className=' footerLinkPage'>
                 <div className="basicRow">
@@ -16,7 +16,7 @@ Regardless of the situation, our number one aim is to protect our clients’ inv
                   <div className="qTitle text-center">Encryption</div>
                   <div className="basicText">To ensure our clients’ investment is as safe as possible, all communications in Cabana Capital uses Secure Sockets Layer (SSL). We keep all customer information and transactions confidential. We make sure that the client data reaches the right place through server authentication and user identification policies. We prevent unauthorized access and data theft by encrypting the data. At the same time, we make sure there are no changes to the data during transmission.</div>
 
-        
+
                   <div className="qTitle text-center">Fund Segregation</div>
                   <div className="basicText">As we are dealing with a lot of funds, we have separate accounts for our operational funds and client funds. To make sure the funds are secure, we store them only in the best banks around the world. Cabana Capital will never use our clients’ funds for any company investment or operations. As a result of this, our clients’ data is secure and protected at all times.</div>
                   <div className="qTitle text-center">International Regulation</div>
@@ -25,8 +25,8 @@ Regardless of the situation, our number one aim is to protect our clients’ inv
                   <div className="basicText">At Cabana Capital, we gained the trust of our clients as we store their funds in accounts from reputed banks. If you want more information regarding our partnership with banks, take a look at the accounts section.</div>
                     </div>
                     </div>
-            <TradingComponent />
-            <StepsToOpenAccount />
+            {/* <TradingComponent /> */}
+            {/* <StepsToOpenAccount /> */}
         </div>
     );
 };

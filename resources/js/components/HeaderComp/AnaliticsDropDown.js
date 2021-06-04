@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 export default class AnalyticsDropDown extends Component {
   render() {
     return (
@@ -9,28 +9,20 @@ export default class AnalyticsDropDown extends Component {
             className="headerDropDownItemDiv offset-md-3"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle opacityZero">ANALYTICS</h5>
-            <Link to="/education">
+            <h5 className="headerDropDownTitle ">EDUCATION</h5>
+            <a href="/education">
               <div className="headerDropDownItem">Education</div>
-            </Link>
-            <Link to="/education/meta-trader-4">
-              <div className="headerDropDownItem">Analytics</div>
-            </Link>
+            </a>
+
           </div>
           <div
-            className="headerDropDownItemDiv opacityZero"
+            className="headerDropDownItemDiv "
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">ACCOUNTS</h5>
-            <Link to="">
-              <div className="headerDropDownItem">Account Type</div>
-            </Link>
-            <Link to="">
-              <div className="headerDropDownItem">Trading Instruments</div>
-            </Link>
-            <Link to="">
-              <div className="headerDropDownItem">Currencies (FX)</div>
-            </Link>
+            <h5 className="headerDropDownTitle">ANALYTICS</h5>
+            <a href="/education/meta-trader-4">
+              <div className="headerDropDownItem">Analytics</div>
+            </a>
           </div>
           <div className="headerDropDownImgDiv">
             <img

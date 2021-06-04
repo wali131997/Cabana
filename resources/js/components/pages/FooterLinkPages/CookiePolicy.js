@@ -23,15 +23,15 @@ const CookiePolicy = () => {
                 <div className='basicText'>These cookies are used by third parties and mostly by social media websites like Google+, Facebook or YouTube. Third Party cookies allow us to offer you easy ways to share our content throughout your social media and also present you with the videos we post on YouTube. You can disable the use of these cookies through your browser’s privacy settings but please do note that this will also disable all the functions described above.</div>
                 <div className="qTitle">Why we use cookies</div>
                 <div className='basicText'>As already mentioned, we use cookies to ensure the optimal functionality of our website and cater our content to your personal preferences. As a regulated broker you may rest assured that any personal information we collect, through any means, will not be shared with third-parties.</div>
-                
+
                 </div>
 
-                
-            
+
+
             </div>
-           <TradingComponent />
-            <StepsToOpenAccount title="Start Trading in 4 Steps" />
-           
+           {/* <TradingComponent /> */}
+            {/* <StepsToOpenAccount title="Start Trading in 4 Steps" /> */}
+
         </div>
     );
 };

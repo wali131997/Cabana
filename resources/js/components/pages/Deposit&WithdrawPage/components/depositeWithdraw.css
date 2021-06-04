@@ -125,7 +125,7 @@ margin-top: -20px;
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 .depositCard .Img{
-  width: 70px;  
+  width: 70px;
 }
 .depositCard .title{
   color: #eb1597;
@@ -140,7 +140,7 @@ margin-top: -20px;
   font-size: 1rem;
 }
 .depositCardRow{
-  padding: 3vw 15vw;
+  padding: 1vw 15vw;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

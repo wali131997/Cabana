@@ -60,7 +60,7 @@
     background-color: #f7f7f7;
   }
   .basicRow {
-    padding: 3vw 10vw;
+    padding: 3vw 10vw 0vw;
   }
   .verticallyCeneter {
     vertical-align: middle;
@@ -73,6 +73,19 @@
     padding-left: 1vw;
     padding-right: 1vw;
   }
+#social .termsCardBox {
+    width: 300px !important;
+    height: 270px;
+    padding: 10px;
+
+}
+#social .termsCardText{
+    font-size: 1rem !important;
+    text-align: justify;
+}
+#social .termsCardTitle{
+    font-size: 1.3rem;
+}
   @media (min-width:600px){
     .affixTab {
      font-size: 14px;
@@ -264,7 +277,7 @@
     padding-top: 5vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-bottom: 3vw;
+    /* padding-bottom: 3vw; */
   }
   .footerTitle {
     font-size: 1.2rem;

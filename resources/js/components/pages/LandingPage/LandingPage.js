@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
         <LandingSliderSection />
         <HowItWorks title="HOW IT WORKS" />
         <TradingPlatforms />
-        <Analytics />
+        {/* <Analytics /> */}
         <PaymentOptions />
       </>
     );

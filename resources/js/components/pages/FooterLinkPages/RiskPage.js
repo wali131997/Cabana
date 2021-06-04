@@ -90,13 +90,13 @@ const RiskPage = () => {
 3. The Company may deposit Customer money with a depository who may have a security interest, lien or right of set-off in relation to that money.
 <br/><br/>
 4. A Bank or Broker through whom the Company deals with could have interests contrary to the Customer's Interests.</div>
-               
+
                 </div>
                 </div>
 
-                <TradingComponent/>
-                <StepsToOpenAccount />
-                
+                {/* <TradingComponent/> */}
+                {/* <StepsToOpenAccount /> */}
+
         </div>
     );
 };

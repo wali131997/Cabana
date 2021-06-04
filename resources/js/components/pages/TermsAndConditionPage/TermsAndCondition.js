@@ -12,7 +12,7 @@ export default class TermsAndCondition extends Component {
       <div>
         <HeroSection
           title="TERMS AND CONDITIONS"
-          text="True ECN spreads from 0.0 Pips."
+          text=""
         ></HeroSection>
         <div className=' footerLinkPage'>
                 <div className="basicRow">
@@ -56,8 +56,8 @@ It is also advisable that all investors should seek advice from a professional i
                   <div className="basicText">Any personal information you provide us will be treated as confidential and shared only within the Company, its affiliates and its business partners and will not be disclosed to any third party except under any regulatory or legal proceedings. Web site tracking systems may also collect data detailing the pages you have accessed, how you discovered this site, the frequency of visits and so on. The information we obtain is used to improve the content of our web site and may be used by us to contact you, by any appropriate means, and to provide you with any information we believe may be useful to you.</div>
                   </div>
                 </div>
-        <TradingComponent />
-        <StepsToOpenAccount />
+        {/* <TradingComponent /> */}
+        {/* <StepsToOpenAccount /> */}
       </div>
     );
   }
