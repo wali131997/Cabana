@@ -24,7 +24,7 @@ export default class LandingSliderSection extends Component {
             autoPlay = {true}
             showArrows={true}
             infiniteLoop={true}
-            interval={3000}
+            interval={2000}
             // stopOnHover={true}
             // showThumbs={true}
             // showStatus={true}

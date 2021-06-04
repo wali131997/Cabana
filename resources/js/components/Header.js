@@ -57,21 +57,21 @@ import TradingInstruments from "./HeaderComp/TradingInstruments";
               {/* <HeaderIem title="TRADING INSTRUMENTS">
               <TradingInstruments />
               </HeaderIem> */}
-                <HeaderIem title="Partnership Program">
+                <HeaderIem title="PARTNERSHIP PROGRAM">
                 <Refferal />
               </HeaderIem>
               {/* <HeaderIem title="PAYMENTS">
               <PaymentDropDown />
               </HeaderIem> */}
-              <HeaderIem title="Promotions and Contests">
+              <HeaderIem title="PROMOTIONS AND CONTESTS">
                 <PromotionDropDown />
               </HeaderIem>
 
-              <HeaderIem title="Market Research & Education">
+              <HeaderIem title="MARKET RESEARCH & EDUCATION">
               <AnalyticsDropDown />
                 {/* <PAMMsDropDown /> */}
               </HeaderIem>
-              <HeaderIem title="Cabana Invest">
+              <HeaderIem title="SOCIAL / PAMM">
                 <PAMMsDropDown />
               </HeaderIem>
               {/* <HeaderIem title="SOCIAL TRADING">
