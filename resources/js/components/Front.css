@@ -56,11 +56,14 @@
   .fixed-top{
     top: 34px;
   }
-  .greyBg {
+.greyBg {
     background-color: #f7f7f7;
   }
  #social .basicRow {
     padding: 3vw 10vw 0vw;
+  }
+  .basicRow {
+    padding: 3vw 10vw;
   }
   .verticallyCeneter {
     vertical-align: middle;
