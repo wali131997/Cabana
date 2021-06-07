@@ -9,7 +9,10 @@ export default class PAMMsDropDown extends Component {
             className="headerDropDownItemDiv offset-md-3"
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">CABANA INVEST</h5>
+            <h5 className="headerDropDownTitle">Social Trading</h5>
+            <a href="https://social.cabanacapitals.com:44301/portal/login">
+              <div className="headerDropDownItem">Social Login</div>
+            </a>
             <a href="/social-trading">
               <div className="headerDropDownItem">Social Trading</div>
             </a>
@@ -21,18 +24,19 @@ export default class PAMMsDropDown extends Component {
             </a> */}
           </div>
           <div
-            className="headerDropDownItemDiv opacityZero"
+            className="headerDropDownItemDiv "
             onClick={this.props.dropDownHandler}
           >
-            <h5 className="headerDropDownTitle">ACCOUNTS</h5>
-            <a href="">
-              <div className="headerDropDownItem">Account Type</div>
+
+            <h5 className="headerDropDownTitle">PAMM MANAGER</h5>
+            <a href="/PAMM">
+              <div className="headerDropDownItem">PAMM Manager</div>
             </a>
-            <a href="">
-              <div className="headerDropDownItem">Trading Instruments</div>
+            <a href="/PAMM" >
+              <div className="headerDropDownItem">PAMM Strategy Manager</div>
             </a>
-            <a href="">
-              <div className="headerDropDownItem">Currencies (FX)</div>
+            <a href="/PAMM" className="opacityZero">
+              <div className="headerDropDownItem">PAMM Manager</div>
             </a>
           </div>
           <div className="headerDropDownImgDiv">

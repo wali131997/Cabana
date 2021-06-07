@@ -61,7 +61,9 @@ export default class TradingPlatforms extends Component {
                         <a href="/affiliate-program"><button className="btn btn-outline-secondary mt-2"> AFFILIATE PROGRAMS</button> </a>
 
                     </div>
-                    <div className="">
+                    <br className="display_mob" />
+                    <br  />
+                    <div className=" mob_margin">
 
                         <a href="/white-label">
                         <button className="btn btn-outline-secondary mt-2"> WHITE LABEL</button>

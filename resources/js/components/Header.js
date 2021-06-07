@@ -47,6 +47,7 @@ import TradingInstruments from "./HeaderComp/TradingInstruments";
           <Navbar.Toggle onClick={this.props.handleSideBar} aria-controls="" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto mr-4 d-none d-md-flex navItemRow">
+
                 <HeaderIem styles={{borderLeft:'0'}} title="ABOUT US">
                 <AboutUsDropDown />
                 </HeaderIem>
@@ -71,7 +72,7 @@ import TradingInstruments from "./HeaderComp/TradingInstruments";
               <AnalyticsDropDown />
                 {/* <PAMMsDropDown /> */}
               </HeaderIem>
-              <HeaderIem title="SOCIAL / PAMM">
+              <HeaderIem title="SOCIAL & PAMM">
                 <PAMMsDropDown />
               </HeaderIem>
               {/* <HeaderIem title="SOCIAL TRADING">

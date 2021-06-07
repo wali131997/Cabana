@@ -14,6 +14,18 @@ export default class PromotionDropDown extends Component {
               <div className="headerDropDownItem">Get 35% bonus on deposit </div>
             </a>
           </div>
+          <div
+            className="headerDropDownItemDiv"
+            onClick={this.props.dropDownHandler}
+          >
+            <h5 className="headerDropDownTitle">REFER</h5>
+            <a href="/reffer-friend" className="headera">
+              <div className="headerDropDownItem">Refer a Friend</div>
+            </a>
+            <a href="/reffer-friend" className="headera opacityZero">
+              <div className="headerDropDownItem">Refer a Friend</div>
+            </a>
+          </div>
           {/* <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}

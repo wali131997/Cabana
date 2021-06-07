@@ -59,7 +59,7 @@ export default class LandingSliderSection extends Component {
                         <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/landingBg1.png`}}>
                             <div className="container">
                             <div className="row trueRow">
-                                <div className="col-12">
+                                <div className="col-12 pt-5 ">
                                 <h1 className="trueTitle">
                                     TRUE ECN <br /> FOREX BROKER
                                 </h1>

@@ -522,9 +522,19 @@ text-align: justify;
 .slider_text_padding{
     padding-top: 230px;
 }
+.display_mob{
+    display: none;
+}
+.partnership_btn{
+    width: 200px;
+}
+
 @media only screen and (max-width: 480px) {
     .slider_text_padding{
         padding-top: 187px;
+    }
+    .mob_margin{
+        margin-left: 40px;
     }
     .trueTitle{
         font-size:2.0rem !important;
@@ -540,6 +550,9 @@ text-align: justify;
 }
 .eduVideoImage {
     display: block;
+   }
+   .display_mob{
+       display: block !important;
    }
 }
 /* .navbar-light .navbar-toggler-icon {
