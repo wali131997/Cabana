@@ -12,6 +12,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::post('/get_pamm_accounts', 'FrontController@get_pamm_accounts');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

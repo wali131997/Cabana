@@ -28,6 +28,7 @@
         "@fortawesome/fontawesome-svg-core": "^1.2.34",
         "@fortawesome/free-solid-svg-icons": "^5.15.2",
         "@fortawesome/react-fontawesome": "^0.1.14",
+        "mdbreact": "^5.0.2",
         "react-bootstrap": "^1.4.3",
         "react-responsive-carousel": "^3.2.18",
         "react-router-dom": "^5.2.0"
