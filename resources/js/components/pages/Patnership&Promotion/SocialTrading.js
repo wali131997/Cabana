@@ -56,6 +56,9 @@ class SocialTrading extends Component {
                         </h6>
                     </div>
                 </div>
+                <div className="container mt-5">
+                    <iframe style={{width:'100%',height:'600px'}}  src="https://stats-social.cabanacapitals.com:44301/app/widgets/social_platform_ratings/ratings"></iframe>
+                </div>
                 <div className="greyBg">
           <div className="container-fluid">
             <div className="row basicRow">
