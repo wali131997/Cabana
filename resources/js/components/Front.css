@@ -351,6 +351,10 @@
     font-weight: bold;
   }
 
+  a.mat-stroked-button.mat-button-base {
+    background-image: linear-gradient(to right, #e2318f 0%, #e2318f 100%, #e2318f 100%) !important;
+    color: #000 !important;
+}
   /* MEEDIA QURIES CSS */
 
   /* Extra small devices (phones, 600px and down) */
