@@ -316,9 +316,9 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                       <Link to="/social-trading">
+                       <a href="https://social.cabanacapitals.com/portal/login">
                         <div className="sideBarItem">Social Trading</div>
-                        </Link>
+                        </a>
                         <Link to="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
                         </Link>

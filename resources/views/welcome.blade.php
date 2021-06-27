@@ -4,8 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Cabana Capitals</title>
 
+    <!-- Canonical Tags -->
+
+<link rel="canonical" href="https://www.cabanacapitals.com/" />
+<!-- frontend_index_index -->
+<title>True ECN Forex broker, Online Forex Trading, CFD Trading - Cabana Capitals</title>
+<meta name="description" content="Trade with True ECN Forex Broker and best trading conditions: Low Spreads, No Swaps, No Commissions."/>
+<meta name="keywords" content="cabana capitals, true ecn forex broker, forex, forex trading, broker, currency trading, deposit, bonus, forex broker, no requote, no deposit bonus, deposit bonus, visa, mastercard, octafx, fbs, tickmill, superforex, liteforex, icmarkets, weltrade, iforex, best forex broker, nord forex "/>
+<!-- Open Graph Data -->
+<meta property="og:url" content="https://www.cabanacapitals.com/"/>
+<meta property="og:title" content="True ECN Forex broker, Online Forex Trading, CFD Trading - Cabana Capitals"/>
+<meta property="og:description" content="Trade with True ECN Forex Broker and best trading conditions: Low Spreads, No Swaps, No Commissions."/>
+<meta property="og:type" content="website"/>
+
+<meta property="og:site_name" content="Cabana Capitals">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="thumbnail" content="/assets/images/logo.png" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <title>Cabana Capitals | Forex Trading with True ECN Forex Broker</title>
+  <!-- Font Awesome -->
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet"type="text/css" href="{{asset('css/app.css')}}">

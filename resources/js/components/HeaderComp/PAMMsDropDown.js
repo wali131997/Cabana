@@ -10,7 +10,7 @@ export default class PAMMsDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">Social Trading</h5>
-            <a href="https://social.cabanacapitals.com:44301/portal/login">
+            <a href="https://social.cabanacapitals.com/portal/login">
               <div className="headerDropDownItem">Social Login</div>
             </a>
             <a href="/social-trading">

@@ -23,7 +23,7 @@ class SocialTrading extends Component {
                                 <h6 className="title2 text-dark"><i className="fas fa-check" style={{ color: '#b93b93' }}></i> <span> Trade with high margin level</span></h6>
                                 <h6 className="title2 text-dark"><i className="fas fa-check" style={{ color: '#b93b93' }}></i> <span>     True ECN Spread</span></h6>
                                 <h6 className="title2 text-dark"><i className="fas fa-check" style={{ color: '#b93b93' }}></i> <span>   Negative Balance Protection</span></h6>
-                                <button onClick={()=>{window.open('https://social.cabanacapitals.com:44301/portal/login','_self')}} className="btn download_mmt4 mt-5">START SOCIAL TRADING NOW</button>
+                                <button onClick={()=>{window.open('https://social.cabanacapitals.com/portal/login','_self')}} className="btn download_mmt4 mt-5">START SOCIAL TRADING NOW</button>
 
                             </div>
 
@@ -56,7 +56,7 @@ class SocialTrading extends Component {
                     </div>
                 </div>
                 <div className="container-fluid mt-5">
-                    <iframe style={{width:'100%',height:'600px',border:'1px solid #fff'}}  src="https://stats-social.cabanacapitals.com:44301/app/widgets/social_platform_ratings/ratings"></iframe>
+                    <iframe style={{width:'100%',height:'600px',border:'1px solid #fff'}}  src="https://stats-social.cabanacapitals.com/app/widgets/social_platform_ratings/ratings"></iframe>
                 </div>
                 <div className="greyBg">
           <div className="container-fluid">
