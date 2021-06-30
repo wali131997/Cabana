@@ -14,9 +14,9 @@
 Route::get('/education/meta-trader-4', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 Route::view('/{path?}', 'welcome');
 Route::get('{reactRoutes}', function () {
     return view('welcome');

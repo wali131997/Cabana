@@ -62,6 +62,20 @@ export default class PaymentOptions extends Component {
                   alt="paymentImage"
                 ></img>
               </div>
+              <div className=" ">
+                <img
+                  className="fitImage paymentImage"
+                  src="/assets/images/localbank.png"
+                  alt="paymentImage"
+                ></img>
+              </div>
+              <div className=" ">
+                <img
+                  className="fitImage paymentImage"
+                  src="/assets/images/paytrust.png"
+                  alt="paymentImage"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
