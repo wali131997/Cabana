@@ -19,7 +19,9 @@
   .sideBarDropDown{
       overflow-y: scroll;
   }
-
+.opacityZero{
+  opacity: 0;
+}
   .ph5vw {
     padding-left: 5vw;
     padding-right: 5vw;

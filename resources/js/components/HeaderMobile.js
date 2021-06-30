@@ -138,11 +138,11 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                      <Link to="/about-us">
+                      {/* <Link to="/about-us">
                         <div className="sideBarItem">
                           <span> News and Events</span>
                         </div>
-                      </Link>
+                      </Link> */}
                       <Link to="/about-us">
                         <div className="sideBarItem">
                           <span> Why Cabana</span>
@@ -214,15 +214,25 @@ export default class HeaderMobile extends Component {
                         this.props.closeHeader();
                         return;
                       }}
-                    >
-                           <Link to="/mt4-platform">
-
-                        <div className="sideBarItem">MetaTrader 4</div>
-                        </Link>
-                        <Link to="/mt5-platform">
-                        <div className="sideBarItem">MetaTrader 5</div>
-                        </Link>
-                        </div>
+                    > 
+                        <>
+                         <a href="/trading-instruments">
+                          <div className="sideBarItem">Trading Instruments</div>
+                        </a>
+                        <a href="/trading-currencies">
+                          <div className="sideBarItem">Currencies (FX)</div>
+                        </a>
+                        <a href="/precious-metals" >
+                          <div className="sideBarItem">Precious Metals</div>
+                        </a>
+                        <a href="/comodoties" >
+                          <div className="sideBarItem">Commodities</div>
+                        </a>
+                        <a href="/cfd-incdices" >
+                          <div className="sideBarItem">CFD Indices Pairs</div>
+                        </a>
+                        </>
+                       </div>
                     </HeaderMobileLastDropDown>
                     <HeaderMobileLastDropDown activeDropDown={false} title="FUNDS">
                     <div
