@@ -140,8 +140,8 @@ class TraidingMemory extends Component {
                     <div className="text-center px-2 mt-5 ">
                         <div className="row ml-auto mr-auto">
                             <h1 className="col-md-4"></h1>
-                        <button onClick={()=>{window.open('/pamm','_self')}} className="btn depositeOutlineButton ml-2" style={{padding:"8px 60px",fontSize:'24px'}}>Back To Ranking </button>
-                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton ml-2 rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
+                            <button onClick={()=>{window.open('/pamm','_self')}} className="btn depositeOutlineButton ml-2  mt-2" style={{padding:"8px 60px",fontSize:'24px'}}>Back To Ranking </button>
+                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton ml-2 mt-2 rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
 
                         </div>
 
