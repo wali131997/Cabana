@@ -13,6 +13,10 @@ class FrontController extends Controller
      */
     public function get_pamm_accounts()
     {
+		
+		
+		
+		
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -24,18 +28,51 @@ class FrontController extends Controller
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
+		CURLOPT_SSL_VERIFYPEER => false,
         CURLOPT_HTTPHEADER => array(
             'Authorization: Bearer MzllZjQ4ZGM5MGU3NzVkYzY0Yzc5ZjVhYjAxODg4ZTlkZGY0M2NlOTAwYTZmY2QxNjk2MzVlYTcwMjgwNjQwOQ',
             'Cookie: device_view=full'
         ),
         ));
 
-        $response = curl_exec($curl);
+        $res = curl_exec($curl);
+				curl_close($curl);
+        
+		//$response = ['status' => 200 , 'response' => $res , 'info' => curl_getinfo($curl) , 'errorno' =>  curl_errno($curl) , 'error' => curl_error($curl)];
+        return $res;
 
-        curl_close($curl);
-        return $response;
     }
+    public function get_pamm_account_detail($id)
+    {
+		
+		
+		
+		
+        $curl = curl_init();
 
+        curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://secure.cabanacapitals.com/rest/pamm/account/'.$id.' ?version=1.0.0',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'GET',
+		CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_HTTPHEADER => array(
+            'Authorization: Bearer MzllZjQ4ZGM5MGU3NzVkYzY0Yzc5ZjVhYjAxODg4ZTlkZGY0M2NlOTAwYTZmY2QxNjk2MzVlYTcwMjgwNjQwOQ',
+            'Cookie: device_view=full'
+        ),
+        ));
+
+        $res = curl_exec($curl);
+				curl_close($curl);
+        
+		//$response = ['status' => 200 , 'response' => $res , 'info' => curl_getinfo($curl) , 'errorno' =>  curl_errno($curl) , 'error' => curl_error($curl)];
+        return $res;
+
+    }
     /**
      * Show the form for creating a new resource.
      *

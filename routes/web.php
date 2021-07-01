@@ -14,6 +14,9 @@
 Route::get('/education/meta-trader-4', function () {
     return view('welcome');
 });
+Route::get('/trading-memory/{id}', function () {
+    return view('welcome');
+});
 Route::get('/', function () {
     return view('home');
 });

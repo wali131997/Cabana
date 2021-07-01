@@ -48,7 +48,7 @@ import Islamic from "./pages/Patnership&Promotion/Islamic";
 import Termonology from "./pages/Patnership&Promotion/Termonology";
 import Faq from "./pages/Faqs/Faqs";
 import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds";
-
+import TraidingMemory from "./pages/PAMM/TraidingMemory";
 
  class App extends Component {
   // state
@@ -122,6 +122,7 @@ import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds
           <Route path="/introducing-broker" component={PatnershipPage}></Route>
           <Route path="/negative-balance-protection" component={NegativeBalanceProtection}></Route>
           <Route path="/reffer-friend" component={Refferafriend}></Route>
+          <Route path="/trading-memory/:id" component={TraidingMemory}></Route>
 
           <Route path="/white-label" component={WhiteLABEL}></Route>
           <Route path="/social-trading" component={SocialTrading}></Route>
