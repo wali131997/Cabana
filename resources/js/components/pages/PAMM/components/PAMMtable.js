@@ -5,10 +5,36 @@ import Axios from 'axios';
 
 export default function TopSearchSelect() {
   const [datatable, setDatatable] = React.useState([]);
+  const [originaldata, setOriginaldata] = React.useState([]);
+  const [sort , setSort] = React.useState(10);
 
+  const onchangeshowselection = (value) => {
+
+    let updatedlist = [];
+    if(value != 'All'){
+      if(value < originaldata.length){
+
+        for(var i=0;i<value;i++){
+            updatedlist.push(originaldata[i]);
+        }
+  
+        }else{
+  
+            updatedlist=originaldata;
+        }
+    }else{
+      updatedlist=originaldata
+    }
+   
+      setDatatable(updatedlist);
+  }
   useEffect(()=>{
   Axios.post('/api/get_pamm_accounts').then(res=>{
-      setDatatable(res.data);
+       setOriginaldata(res.data);
+      setDatatable(res.data).then(res=>{
+        onchangeshowselection(20);
+
+      });
   })
   },[])
   return (
@@ -23,7 +49,25 @@ export default function TopSearchSelect() {
           searchTop
           searchBottom={false}
         /> */}
-      <div className="card p-4 " style={{overflowX:'scroll'}}>
+      <div className="card p-4 stats_card" style={{overflowX:'scroll'}}>
+      <div  className="ml-auto ">
+        <div >
+        <div className="d-flex">
+        Showing
+          <select style={{border:'0px'}} onChange={(e)=>{onchangeshowselection(e.target.value)}}  >
+            <option value={20}>20</option>
+            <option value={50}>50</option>
+            <option value={100}>100</option>
+            <option value={200}>200</option>
+            <option value={500}>500</option>
+            <option value={1000}>1000</option>
+            <option value='All'>All</option>
+          
+          </select>
+          of {originaldata.length}
+        </div>
+        </div>
+      </div>
       <table className=" table table-borderless px-5  table-hover mdb-dataTable">
          <thead className="mdb-dataTable-head">
           <tr >
