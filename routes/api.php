@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 */
 Route::post('/get_pamm_accounts', 'FrontController@get_pamm_accounts');
 Route::post('/get_pamm_account_detail/{id}', 'FrontController@get_pamm_account_detail');
+Route::post('/get_client_location', 'FrontController@get_client_location');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

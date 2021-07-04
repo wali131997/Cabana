@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Http\Request;
+use Stevebauman\Location\Facades\Location;
+use Illuminate\Support\Fluent;
 
 class FrontController extends Controller
 {
@@ -13,10 +16,10 @@ class FrontController extends Controller
      */
     public function get_pamm_accounts()
     {
-		
-		
-		
-		
+
+
+
+
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -37,17 +40,17 @@ class FrontController extends Controller
 
         $res = curl_exec($curl);
 				curl_close($curl);
-        
+
 		//$response = ['status' => 200 , 'response' => $res , 'info' => curl_getinfo($curl) , 'errorno' =>  curl_errno($curl) , 'error' => curl_error($curl)];
         return $res;
 
     }
     public function get_pamm_account_detail($id)
     {
-		
-		
-		
-		
+
+
+
+
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -68,10 +71,47 @@ class FrontController extends Controller
 
         $res = curl_exec($curl);
 				curl_close($curl);
-        
+
 		//$response = ['status' => 200 , 'response' => $res , 'info' => curl_getinfo($curl) , 'errorno' =>  curl_errno($curl) , 'error' => curl_error($curl)];
         return $res;
 
+    }
+    protected function url($ip)
+    {
+        return "http://www.geoplugin.net/php.gp?ip=$ip";
+    }
+    public function get_client_location(Request $request){
+        // $position = Location::get($request->ip());
+        // $response = ['res' => $position];
+        // return $response;
+
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+        CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip='.$request->ip,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'GET',
+		CURLOPT_SSL_VERIFYPEER => false,
+
+        ));
+
+        $res = curl_exec($curl);
+		curl_close($curl);
+        $res = unserialize($res);
+        return $res;
+
+        // try {
+        //     $response = unserialize($this->url($request->ip));
+        //     return new Fluent($response);
+        // } catch (Exception $e) {
+        //     return false;
+        // }
     }
     /**
      * Show the form for creating a new resource.
