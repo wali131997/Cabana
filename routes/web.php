@@ -17,9 +17,17 @@ Route::get('/education/meta-trader-4', function () {
 Route::get('/trading-memory/{id}', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return view('home');
+Route::get('/adminpanel/add-promotion', function () {
+    return view('welcome');
 });
+
+Route::get('/adminpanel/promotions', function () {
+    return view('welcome');
+});
+
+// Route::get('/', function () {
+//     return view('home');
+// });
 Route::view('/{path?}', 'welcome');
 Route::get('{reactRoutes}', function () {
     return view('welcome');

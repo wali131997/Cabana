@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Admin;
+use App\Admin_Meta;
+use App\Country;
+use App\Promotion;
 use Exception;
 use Illuminate\Http\Request;
 use Stevebauman\Location\Facades\Location;
 use Illuminate\Support\Fluent;
+use Validator;
 
 class FrontController extends Controller
 {
@@ -112,6 +117,110 @@ class FrontController extends Controller
         // } catch (Exception $e) {
         //     return false;
         // }
+    }
+    public function get_countries(){
+        $countries = Country::all();
+        return $countries;
+    }
+
+
+    public function admin_login(Request $request){
+        $user = Admin::where('username',$request->username)->first();
+        if($user){
+            if($user->password == $request->password){
+                $user_meta = Admin_Meta::
+                        where('user_id',$user->id)
+                        ->where('user_ip',$request->ip())
+                        ->first();
+                        if(!$user_meta){
+                            $user_meta = new Admin_Meta();
+                            $user_meta->token = Hash::make($user->id . time());
+                            $user_meta->user_ip = $request->ip();
+                            $user_meta->user_id = $user->id;
+                            $user_meta->token_validation = date("d-m-Y H:m:sa");
+                            $user_meta->save();
+                        }
+                        $user->token = $user_meta->token;
+                $response = ['status' => 200 , 'msg' => 'Authentication Successfull.','user'=>$user];
+                return $response;
+            }else{
+                $response = ['status' => 404 , 'msg' => 'Password authentication failed.'];
+                return $response;
+            }
+        }else{
+            $response = ['status' => 404 , 'msg' => 'User not found.'];
+            return $response;
+        }
+    }
+    public function admin_check_auth(Request $request){
+        $user = Admin_Meta::where('token',$request->token)->where('user_ip',$request->ip())->first();
+        if($user){
+                $u = Admin::where('id',$user->user_id)->first();
+                $response = ['status' => 200 , 'msg' => 'Authentication Successfull.','user'=>$u];
+                return $response;
+        }else{
+            $response = ['status' => 404 , 'msg' => 'User not found.'];
+            return $response;
+        }
+    }
+    public function add_promotion(Request $request){
+        $validator = Validator::make($request->all(), [
+            'title' => 'required',
+            'link' => 'required',
+            'type' => 'required',
+            'status' => 'required',
+        ]);
+        if($validator->fails()){
+            $response = ['status' => 219 , 'msg' => $validator->errors()->first(),'errors' => $validator->errors()];
+            return $response;
+        }
+        $promotion = new Promotion();
+        $promotion->title = $request->title;
+        $promotion->link = $request->link;
+        $promotion->type = $request->type;
+        $promotion->status = $request->status;
+        if($promotion->type == 2){
+            $promotion->countries = json_encode($request->selected_countries);
+        }
+
+        $promotion->save();
+        return $promotion;
+        $response = ['status' => 200 ];
+        return $response;
+    }
+    public function get_promotion_by_id(Request $request){
+
+    }
+    public function get_promotions(Request $request){
+        $position = $this->get_client_location($request);
+
+        if($position['geoplugin_countryName']){
+            $promotions = [];
+            $country = Country::where('name',$position['geoplugin_countryName'])->first();
+            $all_countries_promotions = Promotion::where('type',1)->where('status',1)->get();
+            $specific_promotions = Promotion::where('type',2)->where('status',1)->get();
+
+            if(sizeof($specific_promotions) > 0){
+                foreach($specific_promotions as $sp){
+                    $sp_countries = json_decode($sp->countries);
+                    if($sp_countries){
+                        foreach($sp_countries as $spc){
+                            if($spc->id == $country->id){
+                                array_push($promotions,$sp);
+                            }
+                        }
+                    }
+                }
+            }
+            $response = ['status' => 200 , 'promotion' => $promotions];
+            return $response;
+
+        }else{
+            $promotions = Promotion::where('type',1)->where('status',1)->get();
+            $response = ['status' => 200 , 'promotion' => $promotions];
+            return $response;
+        }
+
     }
     /**
      * Show the form for creating a new resource.

@@ -87,7 +87,6 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
     return (
       <div >
 
-        <BrowserRouter>
 
         <AffixBar />
         <Header handleSideBar={this.handleSideBar.bind(this)} />
@@ -153,7 +152,7 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
           ></Route>
 
         <Footer />
-        </BrowserRouter>
+
       </div>
     );
   }
