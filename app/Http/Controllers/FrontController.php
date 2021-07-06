@@ -94,7 +94,7 @@ class FrontController extends Controller
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip='.$request->ip,
+        CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip='.$request->ip(),
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
