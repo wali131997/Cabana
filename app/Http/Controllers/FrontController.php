@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use Stevebauman\Location\Facades\Location;
 use Illuminate\Support\Fluent;
 use Validator;
+use Illuminate\Support\Facades\Hash;
 
 class FrontController extends Controller
 {
