@@ -21,6 +21,10 @@ Route::post('/admin_check_auth', 'FrontController@admin_check_auth');
 Route::post('/add_promotion', 'FrontController@add_promotion');
 Route::post('/get_promotions', 'FrontController@get_promotions');
 
+Route::post('/update_promotion', 'FrontController@update_promotion');
+Route::post('/get_promotion_by_id', 'FrontController@get_promotion_by_id');
+Route::post('/get_all_promotions', 'FrontController@get_all_promotions');
+Route::post('/delete_promotion', 'FrontController@delete_promotion');
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

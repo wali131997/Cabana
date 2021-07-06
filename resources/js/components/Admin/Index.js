@@ -28,6 +28,8 @@ import { Link } from 'react-router-dom'
 import AddPromotions from './ManagePromotions/AddPromotions';
 
 import Axios from 'axios';
+import EditPromotion from './ManagePromotions/EditPromotion';
+import PromotionsList from './ManagePromotions/PromotionsList';
 
 const drawerWidth = 210;
 
@@ -184,7 +186,7 @@ function Sidebar(props) {
                   <ListItem button component={Link} to="/adminpanel/add-promotion">
                     <ListItemText ><h6 className={classes.sidebarchilds}>Add Promotion</h6></ListItemText>
                   </ListItem>
-                  <ListItem button component={Link} to="/adminpanel/promotions">
+                  <ListItem button component={Link} to='/adminpanel/promotions'>
                     <ListItemText ><h6 className={classes.sidebarchilds}>Promotions List</h6></ListItemText>
                   </ListItem>
 
@@ -317,6 +319,8 @@ function Sidebar(props) {
               <div className={classes.toolbar} />
 
                   <Route path='/adminpanel/add-promotion' component={AddPromotions}></Route>
+                  <Route path='/adminpanel/edit-promotion/:id' component={EditPromotion}></Route>
+                  <Route path='/adminpanel/promotions' component={PromotionsList}></Route>
             </main>
           </div>
           :

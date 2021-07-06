@@ -24,6 +24,9 @@ Route::get('/adminpanel/add-promotion', function () {
 Route::get('/adminpanel/promotions', function () {
     return view('welcome');
 });
+Route::get('/adminpanel/edit-promotion/{id}', function () {
+    return view('welcome');
+});
 
 // Route::get('/', function () {
 //     return view('home');

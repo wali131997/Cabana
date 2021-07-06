@@ -184,12 +184,44 @@ class FrontController extends Controller
         }
 
         $promotion->save();
-        return $promotion;
+        $response = ['status' => 200 ];
+        return $response;
+    }
+    public function update_promotion(Request $request){
+        $validator = Validator::make($request->all(), [
+            'title' => 'required',
+            'link' => 'required',
+            'type' => 'required',
+            'status' => 'required',
+        ]);
+        if($validator->fails()){
+            $response = ['status' => 219 , 'msg' => $validator->errors()->first(),'errors' => $validator->errors()];
+            return $response;
+        }
+        $promotion = Promotion::where('id',$request->id)->first();
+        $promotion->title = $request->title;
+        $promotion->link = $request->link;
+        $promotion->type = $request->type;
+        $promotion->status = $request->status;
+        if($promotion->type == 2){
+            $promotion->countries = json_encode($request->selected_countries);
+        }
+
+        $promotion->save();
         $response = ['status' => 200 ];
         return $response;
     }
     public function get_promotion_by_id(Request $request){
-
+        $promotion = Promotion::where('id',$request->id)->first();
+        return $promotion;
+    }
+    public function get_all_promotions(Request $request){
+        $promotion = Promotion::all();
+        return $promotion;
+    }
+    public function delete_promotion(Request $request){
+        $promotion = Promotion::where('id',$request->id)->delete();
+        return $promotion;
     }
     public function get_promotions(Request $request){
         $position = $this->get_client_location($request);
@@ -210,6 +242,11 @@ class FrontController extends Controller
                             }
                         }
                     }
+                }
+            }
+            if(sizeof($all_countries_promotions) > 0){
+                foreach($all_countries_promotions as $ac){
+                    array_push($promotions,$ac);
                 }
             }
             $response = ['status' => 200 , 'promotion' => $promotions];
