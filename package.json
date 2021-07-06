@@ -33,8 +33,10 @@
         "mdbreact": "^5.0.2",
         "multiselect-react-dropdown": "^2.0.4",
         "react-bootstrap": "^1.4.3",
+        "react-redux": "^7.2.4",
         "react-responsive-carousel": "^3.2.18",
         "react-router-dom": "^5.2.0",
+        "redux": "^4.1.0",
         "sweetalert2": "^11.0.18"
     }
 }

@@ -50,11 +50,14 @@ import Faq from "./pages/Faqs/Faqs";
 import ProtectionofFunds from "./pages/TradingInstrumentsPages/ProtectionofFunds";
 import TraidingMemory from "./pages/PAMM/TraidingMemory";
 
+import {connect} from 'react-redux'
+import Axios from "axios";
+
  class App extends Component {
   // state
   constructor(props) {
     super(props);
-    this.state = { sideBar: false };
+    this.state = { sideBar: false ,  promotions: [] };
     console.log(this.props)
   }
 
@@ -64,6 +67,17 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
 //         console.log(action, location.pathname, location.state)
 //     });
 // }
+
+
+    componentDidMount() {
+        Axios.post('/api/get_promotions').then(res => {
+                console.log(res)
+                this.props.changePromotions(res.data.promotion);
+                this.setState({
+                promotions:res.data.promotion
+           })
+        })
+    }
   componentDidUpdate(prevProps) {
       console.log("ddd");
     if (this.props.location !== prevProps.location) {
@@ -157,6 +171,17 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
     );
   }
 }
+const mapStateToProps = (state) =>{
+    return{
+        promotions:state.promotions
+    }
+}
 
-export default App;
+const mapDispatchToProps = (dispatch) => {
+    return{
+        changePromotions:(data)=>{dispatch({type:'CHANGE_PROMOTION',payload:data})}
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(App);
 

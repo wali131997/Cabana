@@ -7,7 +7,11 @@ import FrontIndex from './App';
 import AdminLogin from './Admin/Auth/Login';
 import AdminPanel from './Admin/Index';
 
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
+import reducer from './Redux/Reducer';
 
+const store = createStore(reducer);
 
 class Index extends Component {
     constructor(props) {
@@ -49,5 +53,5 @@ class Index extends Component {
 export default Index;
 
 if (document.getElementById('root')) {
-    ReactDOM.render(<Index />, document.getElementById('root'));
+    ReactDOM.render(<Provider store={store}> <Index /> </Provider>, document.getElementById('root'));
 }
