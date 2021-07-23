@@ -8,7 +8,7 @@ const NewPromo35PerB = () => {
                <div className='title'><span className='titleLg'>GET</span><br/>
    <span className="perText"> 35%</span> <br/> OF BONUS AS</div>
    <div className='title title2'>TRADING ACCOUNT DEPOSIT</div>
-   <button type="button" className='btnRegister'>REGISTER NOW</button>
+   <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} type="button" className='btnRegister'>REGISTER NOW</button>
            <div className='text'>*Terms and conditions apply</div></div>
            </div>
 
@@ -17,35 +17,35 @@ const NewPromo35PerB = () => {
 
    <div className='mainFlex'> <div className="contentSec">
         <div className='title'>Cabana Capitals brings a whopping 35% trading bonus (up to $1,000) to your trading account deposit</div>
-        <div className='point'><img src="/assets/images/promoDone.png" className="pointDone" ></img> <span className='text'>Get up to $1,000 in Trading Bonus from Cabana </span></div>     
+        <div className='point'><img src="/assets/images/promoDone.png" className="pointDone" ></img> <span className='text'>Get up to $1,000 in Trading Bonus from Cabana </span></div>
         <div className='point'><img src="/assets/images/promoDone.png" className="pointDone"></img> <span className='text'>Capitals to achieve your Financial goals
- </span></div>     
+ </span></div>
         <div className='point'><img src="/assets/images/promoDone.png" className="pointDone"></img> <span className='text'>Trade with high margin level
- </span></div>     
+ </span></div>
         <div className='point'><img src="/assets/images/promoDone.png" className="pointDone"></img> <span className='text'>Non withdraw-able Trading Bonus
- </span></div>     
-   
-   
+ </span></div>
+
+
     </div>
     <div className="imgSec">
 
         <img src="/assets/images/promoUpto.png" alt="promoUpto" className='img'></img>
     </div></div>
 </div>
-          
+
 
           <div className='basicRow promoOpenAcc'>
 
               <div className="mainFlex">
 
                   <div className="contentSec">
-                      <div className="textFlex"><span className="number">1</span> 
+                      <div className="textFlex"><span className="number">1</span>
                       <div className="innerTextFlex"><div className="title">OPEN AN ACCOUNT</div>
                       <div className="text">Open your live trading account  <br/>
 via Cabana Capitals</div></div></div>
 <img src="/assets/images/promoNewacc.png" alt="promoNewacc" className='img d-block d-md-none'></img>
 
-          <div className='btnFlex'><button className='btnAcc liveAccBtn'>OPEN LIVE ACCOUNT</button> <button className='btnAcc demoAccBtn ml-0 ml-md-4'>OPEN DEMO ACCOUNT</button></div>
+          <div className='btnFlex'><button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className='btnAcc liveAccBtn'>OPEN LIVE ACCOUNT</button> <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className='btnAcc demoAccBtn ml-0 ml-md-4'>OPEN DEMO ACCOUNT</button></div>
                   </div>
 
                   <div className="imgSec d-none d-md-block">
@@ -79,7 +79,7 @@ YOUR ACCOUNT</div></div>
 DEPOSIT WITH OUR <br/>
 BONUS</div>
 <div className="text">Get <span className='colorPromo'> 35% </span >of <span className='colorPromo'>bonus</span></div></div>
-                  
+
 <div className="imgSec ">
 
 <img src="/assets/images/promo3.png" alt="promoNewacc" className='img'></img>
@@ -87,7 +87,7 @@ BONUS</div>
                   </div>
 
 
-                  
+
               </div>
 
 
@@ -98,7 +98,7 @@ BONUS</div>
 <img src="/assets/images/promoTrade.png" alt="promoNewacc" className='img d-block d-md-none'></img>
 <div className="text">Start trading on more<br/>
 than 250 instruments</div>
-<button className="getStarted">GET STARTED</button>
+<button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="getStarted">GET STARTED</button>
                   </div>
 
 
@@ -108,7 +108,7 @@ than 250 instruments</div>
                 </div>
               </div>
           </div>
-         
+
         </div>
     );
 };
