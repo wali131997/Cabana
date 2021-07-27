@@ -27,6 +27,9 @@ Route::get('/adminpanel/promotions', function () {
 Route::get('/adminpanel/edit-promotion/{id}', function () {
     return view('welcome');
 });
+Route::get('/adminpanel/add-slider', function () {return view('welcome');});
+Route::get('/adminpanel/edit-slider/{id}', function () {return view('welcome');});
+Route::get('/adminpanel/manage-sliders', function () {return view('welcome');});
 
 Route::get('/', function () {
     return view('home');

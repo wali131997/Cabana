@@ -6,6 +6,7 @@ use App\Admin;
 use App\Admin_Meta;
 use App\Country;
 use App\Promotion;
+use App\Slider;
 use Exception;
 use Illuminate\Http\Request;
 use Stevebauman\Location\Facades\Location;
@@ -224,6 +225,91 @@ class FrontController extends Controller
         $promotion = Promotion::where('id',$request->id)->delete();
         return $promotion;
     }
+
+    public function add_slider(Request $request){
+        $validator = Validator::make($request->all(), [
+            'title' => 'required',
+            'image' => 'required',
+            'type' => 'required',
+            'status' => 'required',
+        ]);
+        if($validator->fails()){
+            $response = ['status' => 219 , 'msg' => $validator->errors()->first(),'errors' => $validator->errors()];
+            return $response;
+        }
+        $slider = new Slider();
+        $slider->title = $request->title;
+        $slider->image = $request->image;
+        $slider->type = $request->type;
+        $slider->excluded = $request->exluded;
+        $slider->content = $request->content;
+
+        $slider->status = $request->status;
+        if($slider->type == 2){
+            $slider->countries = json_encode($request->selected_countries);
+        }
+
+        $slider->save();
+        $response = ['status' => 200 ];
+        return $response;
+    }
+    public function update_slider(Request $request){
+        $validator = Validator::make($request->all(), [
+            'title' => 'required',
+            'image' => 'required',
+            'type' => 'required',
+            'status' => 'required',
+        ]);
+        if($validator->fails()){
+            $response = ['status' => 219 , 'msg' => $validator->errors()->first(),'errors' => $validator->errors()];
+            return $response;
+        }
+        $slider = Slider::where('id',$request->id)->first();
+        $slider->title = $request->title;
+        $slider->image = $request->image;
+        $slider->type = $request->type;
+        $slider->exluded = $request->exluded;
+        $slider->content = $request->content;
+
+        $slider->status = $request->status;
+        if($slider->type == 2){
+            $slider->countries = json_encode($request->selected_countries);
+        }
+
+        $slider->save();
+        $response = ['status' => 200 ];
+        return $response;
+    }
+    public function get_slider_by_id(Request $request){
+        $slider = Slider::where('id',$request->id)->first();
+        return $slider;
+    }
+    public function get_all_sliders(Request $request){
+        $slider = Slider::all();
+        return $slider;
+    }
+    public function delete_slider(Request $request){
+        $slider = Slider::where('id',$request->id)->delete();
+        return $slider;
+    }
+    public function upload_image(Request $request){
+        try{
+            if ($request->hasFile('image')) {
+                $file = $request->image;
+                $filename = $file->getClientOriginalName();
+                $image = date('His') . $filename;
+                $destination_path = public_path() . '/assets/images';
+                $file->move($destination_path, $image);
+                $url = $image;
+                $response = ['status' => 200 , 'msg' => 'Image  Uploaded.','url' => $url];
+                return $response;
+            }
+        }catch(Exception $e){
+            $response = ['status' => 401 , 'msg' => 'Image not Uploaded.','error' => $e];
+            return $response;
+        }
+    }
+
     public function get_promotions(Request $request){
         $position = $this->get_client_location($request);
 

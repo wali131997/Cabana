@@ -30,6 +30,10 @@ import AddPromotions from './ManagePromotions/AddPromotions';
 import Axios from 'axios';
 import EditPromotion from './ManagePromotions/EditPromotion';
 import PromotionsList from './ManagePromotions/PromotionsList';
+import SliderList from './ManageSliders/SliderList';
+import EditSlider from './ManageSliders/EditSlider';
+import AddSlider from './ManageSliders/AddSlider';
+import { Toaster } from 'react-hot-toast';
 
 const drawerWidth = 210;
 
@@ -217,10 +221,10 @@ function Sidebar(props) {
             <ListItemText ><h6 className={classes.sidebarchilds}>New Custpmer</h6></ListItemText>
             </ListItem> */}
 
-                  <ListItem button component={Link} to="/pos/add-product">
+                  <ListItem button component={Link} to="/adminpanel/add-slider">
                     <ListItemText ><h6 className={classes.sidebarchilds}>Add Slider Image</h6></ListItemText>
                   </ListItem>
-                  <ListItem button component={Link} to="/pos/products-list">
+                  <ListItem button component={Link} to="/adminpanel/manage-sliders">
                     <ListItemText ><h6 className={classes.sidebarchilds}>Images List</h6></ListItemText>
                   </ListItem>
 
@@ -321,6 +325,11 @@ function Sidebar(props) {
                   <Route path='/adminpanel/add-promotion' component={AddPromotions}></Route>
                   <Route path='/adminpanel/edit-promotion/:id' component={EditPromotion}></Route>
                   <Route path='/adminpanel/promotions' component={PromotionsList}></Route>
+
+                  <Route path='/adminpanel/add-slider' component={AddSlider}></Route>
+                  <Route path='/adminpanel/edit-slider/:id' component={EditSlider}></Route>
+                  <Route path='/adminpanel/manage-sliders' component={SliderList}></Route>
+
             </main>
           </div>
           :
@@ -331,7 +340,7 @@ function Sidebar(props) {
           </div>
 
       }
-
+    <Toaster></Toaster>
     </div>
   );
 }
