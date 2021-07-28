@@ -22,10 +22,13 @@ export default class LandingSliderSection extends Component {
             ]
         }
     }
+
     componentDidMount(){
       Axios.post('/api/get_home_sliders').then(res=>{
+          console.log(res);
         if(res.status == 200){
           this.setState({
+            sliders:[],
             sliders:res.data.sliders
           })
         }
@@ -40,49 +43,31 @@ export default class LandingSliderSection extends Component {
             autoPlay = {true}
             showArrows={true}
             infiniteLoop={true}
-            interval={2000}
+            interval={3000}
             // stopOnHover={true}
             // showThumbs={true}
             // showStatus={true}
             showIndicators={false}
 
             >
-            {/* {
-                this.state.sliderImages.map((data,index)=>{
-                    return(
-                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/${data.image})`}}>
-                            <div className="container">
-                            <div className="row trueRow">
-                                <div className="col-12">
-                                <h1 className="trueTitle">
-                                    TRUE ECN <br /> FOREX BROKER
-                                </h1>
-                                <p className="trueDescription">
-                                    True ECN Spreads From 0.0 Pips
-                                </p>
-                                <div className="trueButtonBox">
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    )
-                })
-            } */}
 
-                       {
-                         
-                         this.state.sliders.map((data,index)=>{
-                           return(
-                            <div key={index} dangerouslySetInnerHTML={{__html:data.content}} className="landingSliderBg" style={{backgroundImage:`url(${img_baseurl+data.image})`}}>
-                           
-                           </div>
-                           )
-                         })
-                       }
-                      
+
+                    {
+                        this.state.sliders.map((data,index)=>{
+                            return(
+                             <div key={index}  className="landingSliderBg" style={{backgroundImage:`url(${img_baseurl+data.image})`}}>
+                                 <div dangerouslySetInnerHTML={{__html:data.content}}>
+
+                                 </div>
+                            </div>
+                            )
+                          })
+
+
+
+
+
+  }
 
         </Carousel>
 

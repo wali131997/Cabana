@@ -288,9 +288,9 @@ class FrontController extends Controller
     public function get_all_sliders(Request $request){
         $slider = [];
         $slider = Slider::get();
-        
-        
-     
+
+
+
         return  $slider;
     }
     public function delete_slider(Request $request){
@@ -298,16 +298,15 @@ class FrontController extends Controller
         return $slider;
     }
     public function upload_image(Request $request){
-        // return str_replace('\public','',public_path());
         try{
             if ($request->hasFile('image')) {
                 $file = $request->image;
                 $filename = $file->getClientOriginalName();
-                $image = date('His') . $filename;
-                $destination_path = str_replace('\public','',public_path()) . '/assets/images';
+                $image = date('His') . str_replace(' ','-',$filename);
+                $destination_path = public_path().'/assets/images';
                 $file->move($destination_path, $image);
                 $url = $image;
-                $response = ['status' => 200 , 'msg' => 'Image  Uploaded.','url' => $url];
+                $response = ['status' => 200 , 'msg' => 'Image  Uploaded.','url' => $url , 'path' => $destination_path];
                 return $response;
             }
         }catch(Exception $e){
@@ -382,7 +381,7 @@ class FrontController extends Controller
                                 }
                             }
                         }
-                        
+
                     }
                 }
             }
