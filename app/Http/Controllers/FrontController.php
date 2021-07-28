@@ -298,12 +298,13 @@ class FrontController extends Controller
         return $slider;
     }
     public function upload_image(Request $request){
+        // return str_replace('\public','',public_path());
         try{
             if ($request->hasFile('image')) {
                 $file = $request->image;
                 $filename = $file->getClientOriginalName();
                 $image = date('His') . $filename;
-                $destination_path = public_path() . '/assets/images';
+                $destination_path = str_replace('\public','',public_path()) . '/assets/images';
                 $file->move($destination_path, $image);
                 $url = $image;
                 $response = ['status' => 200 , 'msg' => 'Image  Uploaded.','url' => $url];
