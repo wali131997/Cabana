@@ -241,7 +241,8 @@ class FrontController extends Controller
         $slider->title = $request->title;
         $slider->image = $request->image;
         $slider->type = $request->type;
-        $slider->excluded = $request->exluded;
+        $slider->excluded = $request->excluded;
+        $slider->index = $request->index;
         $slider->content = $request->content;
 
         $slider->status = $request->status;
@@ -268,9 +269,9 @@ class FrontController extends Controller
         $slider->title = $request->title;
         $slider->image = $request->image;
         $slider->type = $request->type;
-        $slider->exluded = $request->exluded;
+        $slider->excluded = $request->excluded;
         $slider->content = $request->content;
-
+        $slider->index = $request->index;
         $slider->status = $request->status;
         if($slider->type == 2){
             $slider->countries = json_encode($request->selected_countries);
@@ -285,8 +286,12 @@ class FrontController extends Controller
         return $slider;
     }
     public function get_all_sliders(Request $request){
-        $slider = Slider::all();
-        return $slider;
+        $slider = [];
+        $slider = Slider::get();
+        
+        
+     
+        return  $slider;
     }
     public function delete_slider(Request $request){
         $slider = Slider::where('id',$request->id)->delete();
@@ -342,6 +347,55 @@ class FrontController extends Controller
         }else{
             $promotions = Promotion::where('type',1)->where('status',1)->get();
             $response = ['status' => 200 , 'promotion' => $promotions];
+            return $response;
+        }
+
+    }
+    public function get_home_sliders(Request $request){
+        $position = $this->get_client_location($request);
+
+        if($position['geoplugin_countryName']){
+            $sliders = [];
+            $country = Country::where('name',$position['geoplugin_countryName'])->first();
+            $all_countries_sliders = Slider::where('type',1)->where('status',1)->get();
+            $specific_sliders = Slider::where('type',2)->where('status',1)->get();
+
+            if(sizeof($specific_sliders) > 0){
+                foreach($specific_sliders as $sp){
+                    $sp_countries = json_decode($sp->countries);
+                    if($sp_countries){
+                        if($sp->excluded == 1){
+                            $check = 0;
+                            foreach($sp_countries as $spc){
+                                if($spc->id == $country->id){
+                                   $check = 1;
+                                }
+                            }
+                            if($check == 0){
+                                array_push($sliders,$sp);
+                            }
+                        }else{
+                            foreach($sp_countries as $spc){
+                                if($spc->id == $country->id){
+                                    array_push($sliders,$sp);
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            if(sizeof($all_countries_sliders) > 0){
+                foreach($all_countries_sliders as $ac){
+                    array_push($sliders,$ac);
+                }
+            }
+            $response = ['status' => 200 , 'sliders' => $sliders];
+            return $response;
+
+        }else{
+            $sliders = Slider::where('type',1)->where('status',1)->get();
+            $response = ['status' => 200 , 'sliders' => $sliders];
             return $response;
         }
 

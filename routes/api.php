@@ -29,8 +29,11 @@ Route::post('/delete_promotion', 'FrontController@delete_promotion');
 Route::post('/add_slider', 'FrontController@add_slider');
 Route::post('/update_slider', 'FrontController@update_slider');
 Route::post('/get_all_sliders', 'FrontController@get_all_sliders');
+Route::post('/get_slider_by_id', 'FrontController@get_slider_by_id');
 Route::post('/delete_slider', 'FrontController@delete_promotion');
+
 Route::post('/upload_image', 'FrontController@upload_image');
+Route::post('/get_home_sliders', 'FrontController@get_home_sliders');
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

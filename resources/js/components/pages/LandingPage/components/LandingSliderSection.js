@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Axios from "axios";
+import { img_baseurl } from "../../../Configs/BaseUrls";
 
 export default class LandingSliderSection extends Component {
     constructor(props) {
@@ -11,10 +13,24 @@ export default class LandingSliderSection extends Component {
             sliderImages:[
                 {image:'landingBg1.png'},
                 {image:'referafriend.jpg'}
+            ],
+            sliders:[
+              {
+                image:'landingBg1.png',
+                content: '<div class="container"><div class="row trueRow"><div class="col-12 pt-5 "><h1 class="trueTitle">TRUE ECN <br /> FOREX BROKER</h1><p class="trueDescription">True ECN Spreads From 0.0 Pips</p><div class="trueButtonBox"><a href="https://secure.cabanacapitals.com/login"><button class="btnLogin">LOG IN</button> </a> <a href="https://secure.cabanacapitals.com/login"><button  class="btnSignUp">SIGN UP</button> </a></div></div></div></div>',
+              }
             ]
         }
     }
-
+    componentDidMount(){
+      Axios.post('/api/get_home_sliders').then(res=>{
+        if(res.status == 200){
+          this.setState({
+            sliders:res.data.sliders
+          })
+        }
+      })
+    }
   render() {
     return (
       <div className="">
@@ -56,66 +72,17 @@ export default class LandingSliderSection extends Component {
                 })
             } */}
 
-                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/landingBg1.png`}}>
-                            <div className="container">
-                            <div className="row trueRow">
-                                <div className="col-12 pt-5 ">
-                                <h1 className="trueTitle">
-                                    TRUE ECN <br /> FOREX BROKER
-                                </h1>
-                                <p className="trueDescription">
-                                    True ECN Spreads From 0.0 Pips
-                                </p>
-                                <div className="trueButtonBox">
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="btnLogin">LOG IN</button>
-                                    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnSignUp">SIGN UP</button>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/referafriend.jpg`}}>
-                            <div className="container">
-                            <div className="row trueRow" >
-                                <div className="col-12 slider_text_padding" >
-                                <h1 className="trueTitle ">
-                                REFER A FRIEND
-                                </h1>
-                                <h1 style={{fontSize:'28px'}} className="trueTitle ">
-                                Earn $50 Reward
-                                </h1>
-
-                                {/* <p className="trueDescription">
-                                    Reffer a friend
-                                </p> */}
-                                <div className="">
-                                    <button onClick={()=>{ window.open('/reffer-friend','_self')}} className="light_leaarn_btn btn btn-outline-light text-light">Learn More</button>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="landingSliderBg" style={{backgroundImage:`url(/assets/images/ibreward.jpg`}}>
-                            <div className="container">
-                            <div className="row trueRow" >
-                                <div className="col-12 slider_text_padding">
-                                <h1 className="trueTitle ">
-                               EXCLUSIVE IB REWARD
-                                </h1>
-                                <h1 style={{fontSize:'28px'}} className="trueTitle ">
-                                PROGRAM
-                                </h1>
-
-                                {/* <p className="trueDescription">
-                                    Reffer a friend
-                                </p> */}
-                               <div className="">
-                                    <button onClick={()=>{ window.open('/introducing-broker','_self')}} className="light_leaarn_btn btn btn-outline-light text-light">Learn More</button>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                       {
+                         
+                         this.state.sliders.map((data,index)=>{
+                           return(
+                            <div key={index} dangerouslySetInnerHTML={{__html:data.content}} className="landingSliderBg" style={{backgroundImage:`url(${img_baseurl+data.image})`}}>
+                           
+                           </div>
+                           )
+                         })
+                       }
+                      
 
         </Carousel>
 

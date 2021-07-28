@@ -309,9 +309,12 @@ export default class HeaderMobile extends Component {
                       <Link to="/education">
                         <div className="headerDropDownItem">Education</div>
                         </Link>
-                        <Link to="/education/meta-trader-4">
-                        <div className="headerDropDownItem">Analytics</div>
+                        <Link to="/analytics">
+                        <div className="headerDropDownItem">How to use Mt4</div>
                         </Link>
+                        <a href="https://blog.cabanacapitals.com">
+                        <div className="headerDropDownItem">Analytics</div>
+                        </a>
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -329,9 +332,9 @@ export default class HeaderMobile extends Component {
                        <a href="https://social.cabanacapitals.com/portal/login">
                         <div className="sideBarItem">Social Trading</div>
                         </a>
-                        <Link to="/PAMM">
+                        {/* <Link to="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
-                        </Link>
+                        </Link> */}
                         {/* <Link to="/PAMM">
                         <div className="sideBarItem">Copy Trading</div>
                         </Link> */}

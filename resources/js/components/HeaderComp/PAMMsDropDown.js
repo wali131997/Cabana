@@ -16,9 +16,9 @@ export default class PAMMsDropDown extends Component {
             <a href="/social-trading">
               <div className="headerDropDownItem">Social Trading</div>
             </a>
-            <a href="/PAMM">
+            {/* <a href="/PAMM">
               <div className="headerDropDownItem">PAMM Manager</div>
-            </a>
+            </a> */}
             {/* <a href="/PAMM">
               <div className="headerDropDownItem">Copy Trading</div>
             </a> */}

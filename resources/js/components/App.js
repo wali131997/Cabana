@@ -121,7 +121,7 @@ import Axios from "axios";
           ></Route>
           <Route path="/education" exact component={EducationPage}></Route>
           <Route
-            path="/education/meta-trader-4"
+            path="/analytics"
             component={EducationsMetaTrader4}
           ></Route>
           <Route

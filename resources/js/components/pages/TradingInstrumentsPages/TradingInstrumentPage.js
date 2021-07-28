@@ -49,8 +49,8 @@ export default class TradingInstrumentPage extends Component {
         />
         <TradingInstrumentComponent />
         <StepsToOpenAccount />
-        <Analyticstable Data={analyticData} />
-        <div className="mb-5"></div>
+        {/* <Analyticstable Data={analyticData} />
+        <div className="mb-5"></div> */}
       </div>
     );
   }

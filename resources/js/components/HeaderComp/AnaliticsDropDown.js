@@ -13,14 +13,16 @@ export default class AnalyticsDropDown extends Component {
             <a href="/education">
               <div className="headerDropDownItem">Education</div>
             </a>
-
+            <a href="/analytics">
+              <div className="headerDropDownItem">How To Use MT4</div>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv "
             onClick={this.props.dropDownHandler}
           >
             <h5 className="headerDropDownTitle">ANALYTICS</h5>
-            <a href="/education/meta-trader-4">
+            <a href="https://blog.cabanacapitals.com">
               <div className="headerDropDownItem">Analytics</div>
             </a>
           </div>

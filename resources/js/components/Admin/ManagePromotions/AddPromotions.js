@@ -109,7 +109,7 @@ class AddPromotions extends Component {
                                     options={this.state.countries} // Options to display in the dropdown
                                     selectedValues={this.state.selected_countries} // Preselected value to persist in dropdown
                                     onSelect={this.countries.bind(this)} // Function will trigger on select event
-
+                                    onRemove={this.countries.bind(this)}
                                     displayValue="name" // Property name to display in the dropdown options
                                     />
                                 </div>

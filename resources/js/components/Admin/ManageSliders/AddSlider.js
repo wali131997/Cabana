@@ -17,9 +17,10 @@ class AddSlider extends Component {
             link:'',
             status:0,
             content:'',
-            exluded:false,
+            excluded:false,
             image:'noimage.png',
-            upload_progress:0
+            upload_progress:0,
+            index:0
         }
     }
     componentDidMount(){
@@ -49,14 +50,19 @@ class AddSlider extends Component {
             content:e.target.value
         })
     }
+    index(e){
+        this.setState({
+            index:e.target.value
+        })
+    }
     status(e){
         this.setState({
             status:e.target.value
         })
     }
-    exluded(e){
+    excluded(e){
         this.setState({
-            exluded: !this.state.exluded
+            excluded: !this.state.excluded
         })
     }
 
@@ -159,18 +165,22 @@ class AddSlider extends Component {
                                     options={this.state.countries} // Options to display in the dropdown
                                     selectedValues={this.state.selected_countries} // Preselected value to persist in dropdown
                                     onSelect={this.countries.bind(this)} // Function will trigger on select event
-
+                                    onRemove={this.countries.bind(this)}
                                     displayValue="name" // Property name to display in the dropdown options
                                     />
                                   <div class="form-group input_div col-md-12 mt-3 d-flex">
-                                    <input className="mt-1 mr-2" checked={this.state.exluded}  onChange={this.exluded.bind(this)}  type="checkbox"  id="exampleInputEmail1" aria-describedby="emailHelp" />
-                                    <label className="input_label" for="exampleInputEmail1">Exluded</label>
+                                    <input className="mt-1 mr-2" checked={this.state.excluded}  onChange={this.excluded.bind(this)}  type="checkbox"  id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                    <label className="input_label" for="exampleInputEmail1">excluded</label>
 
                                 </div>
                                 </div>
                                :
                                null
                             }
+                            <div class="form-group input_div col-md-6">
+                                <label className="input_label" for="exampleInputEmail1">Slider Index</label>
+                                <input value={this.state.index} onChange={this.index.bind(this)}  type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            </div>
                         </div>
                         {
                                 this.state.error_string != '' ?

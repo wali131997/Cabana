@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import StepsToOpenAccount from "../Deposit&WithdrawPage/components/StepsToOpenAccount";
 import HeroSec2 from "./components/HeroSec2";
 import TradingCurrenciesDataTable from "./components/TradingCurrenciesDataTable";
 
@@ -91,7 +92,8 @@ export default class TradingCurrencisePage extends Component {
             </div>
           </div>
         </div>
-        <TradingCurrenciesDataTable />
+        <StepsToOpenAccount></StepsToOpenAccount>
+        {/* <TradingCurrenciesDataTable /> */}
       </div>
     );
   }
