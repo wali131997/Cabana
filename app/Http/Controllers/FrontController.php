@@ -291,7 +291,7 @@ class FrontController extends Controller
         foreach($sliders as $i => $s){
             foreach($sliders as $j => $s1){
                 if($s1->index > $s->index){
-                    echo $s1->index ." - ". $s->index. "\n" ;
+
                     $temp = $sliders[$i];
                     $sliders[$i] = $sliders[$j];
                     $sliders[$j] = $temp;
@@ -402,7 +402,7 @@ class FrontController extends Controller
             foreach($sliders as $i => $s){
                 foreach($sliders as $j => $s1){
                     if($s1->index > $s->index){
-                        echo $s1->index ." - ". $s->index. "\n" ;
+
                         $temp = $sliders[$i];
                         $sliders[$i] = $sliders[$j];
                         $sliders[$j] = $temp;
@@ -417,7 +417,7 @@ class FrontController extends Controller
             foreach($sliders as $i => $s){
                 foreach($sliders as $j => $s1){
                     if($s1->index > $s->index){
-                        echo $s1->index ." - ". $s->index. "\n" ;
+
                         $temp = $sliders[$i];
                         $sliders[$i] = $sliders[$j];
                         $sliders[$j] = $temp;
