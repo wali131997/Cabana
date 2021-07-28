@@ -286,12 +286,21 @@ class FrontController extends Controller
         return $slider;
     }
     public function get_all_sliders(Request $request){
-        $slider = [];
-        $slider = Slider::get();
+        $sliders = [];
+        $sliders = Slider::get();
+        foreach($sliders as $i => $s){
+            foreach($sliders as $j => $s1){
+                if($s1->index > $s->index){
+                    echo $s1->index ." - ". $s->index. "\n" ;
+                    $temp = $sliders[$i];
+                    $sliders[$i] = $sliders[$j];
+                    $sliders[$j] = $temp;
+                }
+            }
+       }
 
 
-
-        return  $slider;
+        return  $sliders;
     }
     public function delete_slider(Request $request){
         $slider = Slider::where('id',$request->id)->delete();
@@ -390,11 +399,33 @@ class FrontController extends Controller
                     array_push($sliders,$ac);
                 }
             }
+            foreach($sliders as $i => $s){
+                foreach($sliders as $j => $s1){
+                    if($s1->index > $s->index){
+                        echo $s1->index ." - ". $s->index. "\n" ;
+                        $temp = $sliders[$i];
+                        $sliders[$i] = $sliders[$j];
+                        $sliders[$j] = $temp;
+                    }
+                }
+           }
             $response = ['status' => 200 , 'sliders' => $sliders];
             return $response;
 
         }else{
             $sliders = Slider::where('type',1)->where('status',1)->get();
+            foreach($sliders as $i => $s){
+                foreach($sliders as $j => $s1){
+                    if($s1->index > $s->index){
+                        echo $s1->index ." - ". $s->index. "\n" ;
+                        $temp = $sliders[$i];
+                        $sliders[$i] = $sliders[$j];
+                        $sliders[$j] = $temp;
+                    }
+                }
+           }
+
+
             $response = ['status' => 200 , 'sliders' => $sliders];
             return $response;
         }
