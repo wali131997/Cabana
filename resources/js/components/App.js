@@ -72,7 +72,7 @@ import Axios from "axios";
     componentDidMount() {
         Axios.post('/api/get_promotions').then(res => {
                 console.log(res)
-                this.props.changePromotions(res.data.promotion);
+                this.props.changePromotions({promotion:res.data.promotion,country:res.data.country});
                 this.setState({
                 promotions:res.data.promotion
            })

@@ -350,12 +350,12 @@ class FrontController extends Controller
                     array_push($promotions,$ac);
                 }
             }
-            $response = ['status' => 200 , 'promotion' => $promotions];
+            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['geoplugin_countryName'] ];
             return $response;
 
         }else{
             $promotions = Promotion::where('type',1)->where('status',1)->get();
-            $response = ['status' => 200 , 'promotion' => $promotions];
+            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['geoplugin_countryName']];
             return $response;
         }
 

@@ -44,18 +44,23 @@ class PromotionDropDown extends Component {
                         }
 
                     </div>
-                    <div
+                    {
+                        this.props.country != 'India' ?
+                        <div
                         className="headerDropDownItemDiv"
                         onClick={this.props.dropDownHandler}
                     >
-                        <h5 className="headerDropDownTitle">REFER</h5>
+                        <h5 className="headerDropDownTitle">REFFER</h5>
                         <a href="/reffer-friend" className="headera">
-                            <div className="headerDropDownItem">Refer a Friend</div>
+                            <div className="headerDropDownItem">Reffer a Friend</div>
                         </a>
                         <a href="/reffer-friend" className="headera opacityZero">
-                            <div className="headerDropDownItem">Refer a Friend</div>
+                            <div className="headerDropDownItem">Reffer a Friend</div>
                         </a>
                     </div>
+                    : null
+                    }
+                   
                     {/* <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
@@ -81,7 +86,8 @@ class PromotionDropDown extends Component {
 
 const mapStateToProps = (state) =>{
     return{
-        promotions:state.promotion
+        promotions:state.promotion,
+        country:state.country
     }
 }
 

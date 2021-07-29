@@ -5,10 +5,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
 
-export default class HeaderMobile extends Component {
+ class HeaderMobile extends Component {
   // state
   constructor(props) {
     super(props);
@@ -289,9 +290,22 @@ export default class HeaderMobile extends Component {
                         return;
                       }}
                     >
-                       <Link to="/newPromotion" className="headerLink">
-                        <div className="sideBarItem">Get 35% bonus on deposit </div>
-                        </Link>
+                    {
+                            this.props.promotions.map((data,index)=>{
+                                return(
+                                    <a href={data.link} className="headerLink">
+                                        <div className="sideBarItem">{data.title}</div>
+                                    </a>
+                                )
+                            })
+                        }
+
+                        {
+                            this.props.promotions.length == 0 ?
+                            <div className="headerDropDownItem">Promotions not available</div>
+                            : null
+                        }
+                      
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -375,3 +389,11 @@ export default class HeaderMobile extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) =>{
+  return{
+      promotions:state.promotion
+  }
+}
+
+export default connect(mapStateToProps)(HeaderMobile);
