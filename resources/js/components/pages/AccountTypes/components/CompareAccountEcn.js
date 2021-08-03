@@ -7,8 +7,8 @@ export default class CampareAccountStandard extends Component {
         <div className="col-md-4 col-sm-12 px-0">
           <div className="compareAccountCard">
           <div className="compareAccountActions">
-              <h4 className="compareAccountInfoTitle ">PREMIUM</h4>
-              <p className="compareAccountPrice">$300/min</p>
+              <h4 className="compareAccountInfoTitle ">Trader</h4>
+              <p className="compareAccountPrice">$250/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
                 <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
@@ -52,11 +52,11 @@ export default class CampareAccountStandard extends Component {
             <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
-              <p className="compareAccountNorText">From 1.0</p>
+              <p className="compareAccountNorText">From 0.6</p>
               <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
               <h2 className="compareAccountNorText"> Nill</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
-              <h2 className="compareAccountNorText"> $300</h2>
+              <h2 className="compareAccountNorText"> $250</h2>
               <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>

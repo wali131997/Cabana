@@ -52,12 +52,12 @@ class WithdrawalTable extends Component {
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/WebMoney-logo.png"
+                       src="/assets/images/paytrust_.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>
                    </td>
-                   <td>WebMoney</td>
+                   <td>Pay Trust</td>
                    <td>USD,EUR,GBP</td>
                    <td>No Commision*</td>
                    <td>Instant</td>
@@ -116,7 +116,7 @@ class WithdrawalTable extends Component {
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/maestro-logo.png"
+                       src="/assets/images/mastercard.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>

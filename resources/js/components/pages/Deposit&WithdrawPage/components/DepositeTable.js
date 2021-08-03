@@ -52,12 +52,12 @@ class DEPOSITTable extends Component {
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/WebMoney-logo.png"
+                       src="/assets/images/paytrust_.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>
                    </td>
-                   <td>WebMoney</td>
+                   <td>Pay Trust</td>
                    <td>USD,EUR,GBP</td>
                    <td>No Commision*</td>
                    <td>Instant</td>
@@ -106,7 +106,7 @@ class DEPOSITTable extends Component {
                      ></img>
                    </td>
                    <td>Visa</td>
-                   <td>USD,AED,INR</td>
+                   <td>INR</td>
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
@@ -116,13 +116,13 @@ class DEPOSITTable extends Component {
                  <tr>
                    <td>
                      <img
-                       src="/assets/images/maestro-logo.png"
+                       src="/assets/images/mastercard.png"
                        className="depositeLogoImage"
                        alt="payment logo"
                      ></img>
                    </td>
                    <td>Mastero</td>
-                   <td>USD,AED,INR</td>
+                   <td>INR</td>
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">

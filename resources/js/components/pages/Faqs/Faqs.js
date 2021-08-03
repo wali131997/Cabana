@@ -74,11 +74,12 @@ class Faq extends Component {
                     answer:`Cabana Capital has something for every kind of market. Regardless of whether you are a retail or institutional client, we have just the right trading solutions for all your needs.Choose from a wide range of markets to trade using our impressive trading tools and instruments. We offer a huge number of currency pairs, spot metals and indices, CFDs, among many others.Cabana Capital has the perfect account for every kind of trader. Our trading platforms are based on the latest technology to ensure reliability and security. We try our best to ensure they run smoothly on any device.`,
                     state:false,
                 },
-                {
-                    question:'Do you have a web-based platform?',
-                    answer:`Yes, you can log into MT4 or MT5 on our dedicated page. This allows you to trade from any browser on any operating system using the well-known interface of the desktop Metatrader 4 and MT5 platform. All major tools are available including one-click trading and chart trading. `,
-                    state:false,
-                },
+                // {
+                //     question:'Do you have a web-based platform?',
+                //     answer:`Yes, you can log into MT4 or MT5 on our dedicated page. This allows you to trade from any browser on any operating system using the well-known interface of the desktop Metatrader 4 and MT5 platform. All major tools are available including one-click trading and chart trading. `,
+                //     state:false,
+                // }
+                // ,
                 {
                     question:'Can I trade with my Android/iOS device?',
                     answer:`Yes, you can install MetaTrader 4 andMetaTrader 5 on your device. Visit our platforms page to find detailed instructions on how you can download MT4 and MT5 to your iOS/Android device`,

@@ -32,7 +32,7 @@ export default class PAMMsDropDown extends Component {
             <a href="/PAMM">
               <div className="headerDropDownItem">PAMM Manager</div>
             </a>
-            <a href="/PAMM" >
+            <a href="/strategy-manager" >
               <div className="headerDropDownItem">PAMM Strategy Manager</div>
             </a>
             <a href="/PAMM" className="opacityZero">

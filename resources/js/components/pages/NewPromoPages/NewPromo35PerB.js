@@ -24,7 +24,9 @@ const NewPromo35PerB = () => {
  </span></div>
         <div className='point'><img src="/assets/images/promoDone.png" className="pointDone"></img> <span className='text'>Non withdraw-able Trading Bonus
  </span></div>
-
+ <div className='point ml-4'>
+    <a href="#" style={{fontSize:'14px'}} className="col-offset-2 " > *Terms and conditions apply</a>
+     </div>
 
     </div>
     <div className="imgSec">

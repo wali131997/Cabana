@@ -54,7 +54,7 @@ this.handleFixDiv=this.handleFixDiv.bind(this)
             case "17":
 
                return <Growth2017 year={activeYear}
-                content = "Cabana Capitals started it's successful journey in 2017 and within first 6 months more than 30,000 clients registered and became a part of Cabana Capitals ever growing family.<br/><br/>"
+                content = "Cabana Capitals started it's successful journey in 2017 and within first 6 months more than 10,000 clients registered and became a part of Cabana Capitals ever growing family.<br/><br/>"
                 img="world.png"
                />
             case "18":
@@ -74,7 +74,7 @@ this.handleFixDiv=this.handleFixDiv.bind(this)
             case "20":
 
                return <Growth2017 year={activeYear}
-               content = "Despite the unprecedented times in 2020, Cabana Capitals reached a milestone and remarkable business growth with a global reach of over 79 countries  and over 800,000 trading accounts worldwide."
+               content = "Despite the unprecedented times in 2020, Cabana Capitals reached a milestone and remarkable business growth with a global reach of over 79 countries  and over 150,000 trading accounts worldwide."
                img="20.png"
                />
             case "21":

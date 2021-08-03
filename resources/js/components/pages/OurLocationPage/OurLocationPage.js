@@ -40,11 +40,11 @@ London, WC2H 9JQ</div>
                </div>
                <div className="locationCard">
                    <div className='title'>Dubai</div>
-                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, Prism Tower,Business Bay,<br/> Dubai, UAE
+                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, Prism Tower, Business Bay, <br/> Dubai, UAE
 
 
                 </span></div>
-                <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 4564 5891</div>
+                <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 (0) 547 468 487</div>
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
                </div>
                <div className="locationCard">

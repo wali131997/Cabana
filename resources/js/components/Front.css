@@ -13,6 +13,12 @@
   body {
     font-family: century !important;
   }
+  .swap_title{
+      font-size: 42px;
+      font-weight: 800;
+      color: #e2318f;
+      padding-top: 20px;
+  }
   .navbar{
     background-color: #181422 !important;
   }

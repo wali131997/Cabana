@@ -21,7 +21,7 @@ To help you play an active part in your trading process, we provide quality and 
                      <div className="centerDiv">
                      <h1 className="bigTitle">79</h1>
                       <h5 className="boldText">countries covered</h5>
-                      <h1 className="bigTitle">800k+</h1>
+                      <h1 className="bigTitle">150k+</h1>
                       <h5 className="boldText">trading accounts opened</h5></div>
                      <div></div>
                       </div>

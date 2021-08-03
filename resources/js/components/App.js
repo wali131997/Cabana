@@ -52,6 +52,7 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
 
 import {connect} from 'react-redux'
 import Axios from "axios";
+import StrategyManage from "./pages/PAMM/StrategyManage";
 
  class App extends Component {
   // state
@@ -164,6 +165,8 @@ import Axios from "axios";
             path="/deposite-withdraw"
             component={DepositWithdrawPage}
           ></Route>
+
+          <Route path="/strategy-manager" component={StrategyManage} />
 
         <Footer />
 

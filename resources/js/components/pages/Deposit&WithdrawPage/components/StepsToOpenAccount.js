@@ -42,9 +42,7 @@ class StepsToOpenAccount extends Component {
             <div className="outerDiv">
             <div className="centerDiv">  <img className="Img" src="/assets/images/deposite4.png" alt="card"></img></div>
               <h4 className="title">Trade</h4>
-              <p className="text">Start trading on
-      more than
-      250 instruments</p>
+              <p className="text">Start trading on more than 80 instruments</p>
             </div>
           </div>
 

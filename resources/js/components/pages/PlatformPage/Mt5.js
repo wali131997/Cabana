@@ -18,7 +18,7 @@ class Mt4 extends Component {
 
                         MetaTrader 5 is an institutional multi-asset platform offering outstanding trading possibilities and technical analysis tools, as well as enabling the use of automated trading systems (trading robots) and copy trading. MetaTrader 5 is an all-in-one platform for trading Forex and Futures.<br/><br/>
 
-                        MetaTrader 5 allows you to enjoy the freedom of movement to the full extent — you can stay active while trading from smartphones and tablets. The Web Platform provides even more possibilities and allows you to work from any device. By choosing the most convenient way from a variety of options, you can trade 24 hours a day!<br/><br/>
+                        MetaTrader 5 allows you to enjoy the freedom of movement to the full extent — you can stay active while trading from smartphones and tablets. By choosing the most convenient way from a variety of options, you can trade 24 hours a day!<br/><br/>
 
                         Additional services expand the functionality of the platform making its capabilities almost limitless. MetaTrader 5 offers the built-in Market of trading robots, Copy Trading and the Virtual Hosting service (Forex VPS). Use all these services from one place, and access new trading opportunities!<br/><br/>
                     </h6>
