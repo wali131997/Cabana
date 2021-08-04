@@ -193,7 +193,7 @@ class CompareAccountStandardM extends Component {
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
               <p className="compareAccountNorMobText">From 1.0</p>
               <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
-              <h2 className="compareAccountNorMobText"> Nill</h2>
+              <h2 className="compareAccountNorMobText"> Nil</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
               <h2 className="compareAccountNorMobText"> $300</h2>
               <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>

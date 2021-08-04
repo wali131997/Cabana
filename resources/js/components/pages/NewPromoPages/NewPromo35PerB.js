@@ -99,7 +99,7 @@ BONUS</div>
                       <div className="textDiv"><div className="number">4</div><div className="title">Trade</div></div>
 <img src="/assets/images/promoTrade.png" alt="promoNewacc" className='img d-block d-md-none'></img>
 <div className="text">Start trading on more<br/>
-than 250 instruments</div>
+than 80 instruments</div>
 <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="getStarted">GET STARTED</button>
                   </div>
 

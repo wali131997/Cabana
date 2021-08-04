@@ -74,7 +74,7 @@ class DEPOSITTable extends Component {
                      ></img>
                    </td>
                    <td>Perfect Money</td>
-                   <td>USD,EUR,GBP</td>
+                   <td>MYR, IDR, THB, VND</td>
                    <td>No Commision*</td>
                    <td>Instant</td>
                    <td className="text-center">
@@ -121,7 +121,7 @@ class DEPOSITTable extends Component {
                        alt="payment logo"
                      ></img>
                    </td>
-                   <td>Mastero</td>
+                   <td>Master Card</td>
                    <td>INR</td>
                    <td>No Commision*</td>
                    <td>Instant</td>

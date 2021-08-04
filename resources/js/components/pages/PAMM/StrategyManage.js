@@ -10,14 +10,20 @@ class StrategyManage extends Component {
                         <h2 className="atitle">Become a Strategy Manager with Cabana Capitals</h2>
 
                         <div className="px-5">
-                            <div className="d-flex ml-4">
-                                <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
-                                Open an account as a Strategy Manager within minutes.
+                            <div className="row">
+                            <h1 className="col-md-3 "></h1>
+                            <div>
+                            <div className="d-flex ml-2">
+                                    <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
+                                    Open an account as a Strategy Manager within minutes.
+                                </div>
+                                <div className="d-flex ml-2">
+                                    <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
+                                    Boost your earnings by allowing others to follow your trading strategies
+                                </div>
                             </div>
-                            <div className="d-flex ml-4">
-                                <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
-                                Boost your earnings by allowing others to follow your trading strategies
                             </div>
+                           
                             <div className='row ml-auto mt-5 mr-auto'>
                                 <h1 className="col-md-4 "></h1>
                                 <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className='btnAcc liveAccBtn'>

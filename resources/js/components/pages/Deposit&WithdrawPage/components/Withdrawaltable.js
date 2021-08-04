@@ -97,7 +97,7 @@ class WithdrawalTable extends Component {
                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">Withdrawal</button>
                    </td>
                  </tr>
-                 <tr>
+                 {/* <tr>
                    <td>
                      <img
                        src="/assets/images/visa-logo.png"
@@ -128,7 +128,8 @@ class WithdrawalTable extends Component {
                    <td className="text-center">
                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositeOutlineButton">Withdrawal</button>
                    </td>
-                 </tr><tr>
+                 </tr> */}
+                 <tr>
                    <td>
                      <img
                        src="/assets/images/bank-wire-logo.png"

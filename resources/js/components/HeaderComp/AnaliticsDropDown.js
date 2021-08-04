@@ -25,6 +25,9 @@ export default class AnalyticsDropDown extends Component {
             <a href="https://blog.cabanacapitals.com">
               <div className="headerDropDownItem">Analytics</div>
             </a>
+            <a href="/mt5-platform" className="opacityZero">
+              <div className="headerDropDownItem">MetaTrader 5</div>
+            </a>
           </div>
           <div className="headerDropDownImgDiv">
             <img

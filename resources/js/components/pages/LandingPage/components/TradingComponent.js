@@ -9,7 +9,7 @@ export default class TradingComponent extends Component {
             <div className="col-md-5 col-sm-12">
               <h2 className="tradingTitle">TRADING PLATFORMS</h2>
               <p className="tradingText">
-                Trade currencies, Gold, Curd Oil, and more using MetaTrader4 and MetaTrader5,
+                Trade currencies, Gold, Curde Oil, and more using MetaTrader4 and MetaTrader5,
                 the world most reliable trading platform
                 <br /><br />
                 Trade the market from any Desktop, Andriod, IOS, Carry your

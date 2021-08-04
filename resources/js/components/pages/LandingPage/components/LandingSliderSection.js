@@ -131,7 +131,7 @@ maximum profits at minimum trading cost
                         src="/assets/images/fFixed.png"
                       ></img>
                     </div>
-                    <h2 className="featureTitle">FIXED &  <br/> VARIABLE SPREADS</h2>
+                    <h2 className="featureTitle">Lowest &  <br/> VARIABLE SPREADS</h2>
                     <p className="featureText">
                     Offers lowest trading cost in the market (0.0 Pips)
 to earn highest profits possible
