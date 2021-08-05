@@ -22,25 +22,28 @@ export default class Footer extends Component {
               </p>
               <div className="footerSocialBox">
                 <div className="footerSocialCircle">
+                    <a href="https://www.facebook.com/CabanaCapitalsDubai/">
                   <img
                     src="/assets/images/socialIcon1.png"
                     alt="social"
                     className="footerSocialImage"
-                  ></img>
+                  ></img> </a>
                 </div>
                 <div className="footerSocialCircle">
+                <a href="https://twitter.com/cabana_capitals">
                   <img
                     src="/assets/images/socialIcon2.png"
                     alt="social"
                     className="footerSocialImage"
-                  ></img>
+                  ></img> </a>
                 </div>
                 <div className="footerSocialCircle">
+                <a href="https://youtube.com/c/CabanaCapitals">
                   <img
                     src="/assets/images/socialIcon3.png"
                     alt="social"
                     className="footerSocialImage"
-                  ></img>
+                  ></img></a>
                 </div>
               </div>
             </div>

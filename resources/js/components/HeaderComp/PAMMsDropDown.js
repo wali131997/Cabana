@@ -28,7 +28,7 @@ export default class PAMMsDropDown extends Component {
             onClick={this.props.dropDownHandler}
           >
 
-            <h5 className="headerDropDownTitle">PAMM MANAGER</h5>
+            <h5 className="headerDropDownTitle mt-4">PAMM MANAGER</h5>
             <a href="/PAMM">
               <div className="headerDropDownItem">PAMM Manager</div>
             </a>

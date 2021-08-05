@@ -25,7 +25,8 @@ class Index extends Component {
             "/precious-metals","/cfd-incdices","/comodoties","/faqs","/protection-funds",
             "/mt4-platform","/mt5-platform","/promotion","/newPromotion","/platform/mt5",
             "/PAMM","/our-location","/cookie-policy","/regulatory-compliance","/privacy-policy",
-            "/risk-disclouser","/instruction-security","/terms-and-condition","/deposite-withdraw","/education",'/analytics','/strategy-manager'
+            "/risk-disclouser","/instruction-security","/terms-and-condition","/deposite-withdraw","/education",'/analytics','/strategy-manager',
+            "/bonas-terms",'/refer-terms'
         ]
         }
     }
