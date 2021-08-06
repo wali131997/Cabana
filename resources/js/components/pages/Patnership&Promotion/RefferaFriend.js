@@ -13,7 +13,7 @@ export default class PatnershipPage extends Component {
           bg="referafriendbanner.jpg"
         /> */}
         <div className="refferBg">
-                    <div >
+                    <div className="container">
                         <div className='title_ text-center'><span className='titleLg text-center'>REFER A FRIEND PROGRAM</span><br /></div>
                         {/* <div className=' title2'>Best IB & Affiliate Program by Cabana Capitals</div> */}
                         </div>
