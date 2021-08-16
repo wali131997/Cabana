@@ -68,7 +68,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
               className="sideBarItem"
               onClick={() => this.handleChangeDropDown("aboutUs")}
             >
-              <span>ABOUT US</span>
+              <span>About Us</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
             <div
@@ -77,7 +77,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                 console.log("click")
                 this.handleChangeDropDown("accounts")}}
             >
-              <span> FX TRADING</span>
+              <span> FX Trading</span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
             <div
@@ -107,7 +107,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
               className="sideBarItem"
               onClick={() => this.handleChangeDropDown("analytic")}
             >
-              <span> Cabana Invest</span>
+              <span> Social & PAMM </span>
               <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
             </div>
             {/* <div
@@ -367,14 +367,17 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
+                       <a href="https://social.cabanacapitals.com/portal/login">
+                        <div className="sideBarItem">Social Login</div>
+                        </a>
                        <Link to="/social-trading">
                         <div className="sideBarItem">Social Trading</div>
                         </Link>
                         <Link to="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
-                        </Link>
-                        <Link to="/PAMM">
-                        <div className="sideBarItem">Copy Trading</div>
+                        </Link> 
+                        <Link to="/strategy-manager">
+                        <div className="sideBarItem">PAMM Strategy Manager</div>
                         </Link>
                     </div>
                   </HeaderMobileLastDropDown>
