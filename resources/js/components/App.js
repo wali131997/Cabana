@@ -169,7 +169,7 @@ import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
           ></Route>
 
           <Route path="/strategy-manager" component={StrategyManage} />
-          <Route path="/bonas-terms" component={Bonus_335per_tc} />
+          <Route path="/bonus-terms" component={Bonus_335per_tc} />
           <Route path="/refer-terms" component={Terms_Refer} />
 
         <Footer />

@@ -9,7 +9,7 @@ const NewPromo35PerB = () => {
    <span className="perText"> 35%</span> <br/> OF BONUS AS</div>
    <div className='title title2'>TRADING ACCOUNT DEPOSIT</div>
    <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} type="button" className='btnRegister'>REGISTER NOW</button>
-          <a href="/bonas-terms"> <div className='text'>*Terms and conditions apply</div></a></div>
+          <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a></div>
            </div>
 
 
@@ -25,7 +25,7 @@ const NewPromo35PerB = () => {
         <div className='point'><img src="/assets/images/promoDone.png" className="pointDone"></img> <span className='text'>Non withdraw-able Trading Bonus
  </span></div>
  <div className='point ml-4'>
-    <a href="/bonas-terms" style={{fontSize:'14px'}} className="col-offset-2 " > *Terms and conditions apply</a>
+    <a href="/bonus-terms" style={{fontSize:'14px'}} className="col-offset-2 " > *Terms and conditions apply</a>
      </div>
 
     </div>

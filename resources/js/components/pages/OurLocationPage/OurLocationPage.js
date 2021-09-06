@@ -11,7 +11,8 @@ const OurLocationPage = () => {
           />
 
            <div style={{position:"relative"}}>
-          <div className='d-none d-md-inline'>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9079806071104!2d-0.12573858434267496!3d51.51490417963637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab2ffaa9%3A0x9192a9c4dd80455b!2sCovent%20Garden!5e0!3m2!1sen!2s!4v1622785627459!5m2!1sen!2s" width="100%" height="450" frameBorder="0" style={{border:'0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe></div>
+          <div className='d-none d-md-inline'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9079806071104!2d-0.12573858434267496!3d51.51490417963637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab2ffaa9%3A0x9192a9c4dd80455b!2sCovent%20Garden!5e0!3m2!1sen!2s!4v1622785627459!5m2!1sen!2s" width="100%" height="450" frameBorder="0" style={{border:'0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe></div>
 
 
            <div className="mapCard">
@@ -40,7 +41,7 @@ London, WC2H 9JQ</div>
                </div>
                <div className="locationCard">
                    <div className='title'>Dubai</div>
-                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, Prism Tower, Business Bay, <br/> Dubai, UAE
+                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, 2306, Prism tower, Business Bay, <br/> Dubai, UAE
 
 
                 </span></div>
