@@ -77,7 +77,7 @@ class CompareAccountEcnM extends Component {
               <h4 className="title d-inine "><span className="">CURRENCY</span></h4>
             <h2 className="compareAccountNorMobText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="">Spread</span></h4>
-              <p className="compareAccountNorMobText">Nil</p>
+              <p className="compareAccountNorMobText">0.0</p>
               <h4 className="title d-inine "><span className="">Commission Markup</span></h4>
               <h2 className="compareAccountNorMobText"> $7</h2>
               <h4 className="title d-inine "><span className="">Minimum Deposit</span></h4>
@@ -131,7 +131,7 @@ class CompareAccountEcnM extends Component {
               <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
             <h2 className="compareAccountNorMobText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
-              <p className="compareAccountNorMobText">Nil</p>
+              <p className="compareAccountNorMobText">0.0</p>
               <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
               <h2 className="compareAccountNorMobText"> $5</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
