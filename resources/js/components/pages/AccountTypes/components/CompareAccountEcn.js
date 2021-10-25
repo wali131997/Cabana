@@ -135,7 +135,7 @@ export default class CampareAccountStandard extends Component {
             <h4 className="title d-inine "><span className="">CURRENCY</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="">Spread</span></h4>
-              <p className="compareAccountNorText">0.0</p>
+              <p className="compareAccountNorText">From 0.0</p>
               <h4 className="title d-inine "><span className="">Commission Markup</span></h4>
               <h2 className="compareAccountNorText"> $7</h2>
               <h4 className="title d-inine "><span className="">Minimum Deposit</span></h4>
@@ -219,7 +219,7 @@ export default class CampareAccountStandard extends Component {
             <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
-              <p className="compareAccountNorText">0.0</p>
+              <p className="compareAccountNorText">From 0.0</p>
               <h4 className="title d-inine "><span className="opacityZero">Commission Markup</span></h4>
               <h2 className="compareAccountNorText"> $5</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
