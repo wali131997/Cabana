@@ -5,6 +5,7 @@ import "./components/tradingInstruments.css";
 import TradingInstrumentComponent from "./components/TradingInstrumentComponent";
 import StepsToOpenAccount from "../Deposit&WithdrawPage/components/StepsToOpenAccount"
 import Analyticstable from "../LandingPage/components/Analyticstable"
+import TraidingCurrenciesTable from "./TraidingCurrenciesTable";
 export default class TradingInstrumentPage extends Component {
   render() {
     const analyticData= [
@@ -48,9 +49,11 @@ export default class TradingInstrumentPage extends Component {
           bg="tradinginstrumenbanner.jpg"
         />
         <TradingInstrumentComponent />
+        {/* <Analyticstable Data={analyticData} /> */}
+        <TraidingCurrenciesTable />
         <StepsToOpenAccount />
-        {/* <Analyticstable Data={analyticData} />
-        <div className="mb-5"></div> */}
+
+        <div className="mb-5"></div>
       </div>
     );
   }
