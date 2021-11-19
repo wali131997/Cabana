@@ -16,20 +16,23 @@ export default class LandingSliderSection extends Component {
             ],
             sliders:[
               {
-                image:'landingBg1.png',
+                image:'landingBg10.png',
                 content: '<div class="container"><div class="row trueRow"><div class="col-12 pt-5 "><h1 class="trueTitle">TRUE ECN <br /> FOREX BROKER</h1><p class="trueDescription">True ECN Spreads From 0.0 Pips</p><div class="trueButtonBox"><a href="https://secure.cabanacapitals.com/login"><button class="btnLogin">LOG IN</button> </a> <a href="https://secure.cabanacapitals.com/login"><button  class="btnSignUp">SIGN UP</button> </a></div></div></div></div>',
               }
-            ]
+            ],
+            payloadResponse:true
         }
     }
 
     componentDidMount(){
+
       Axios.post('/api/get_home_sliders').then(res=>{
           console.log(res);
         if(res.status == 200){
           this.setState({
             sliders:[],
-            sliders:res.data.sliders
+            sliders:res.data.sliders,
+            payloadResponse:false
           })
         }
       })
@@ -39,6 +42,12 @@ export default class LandingSliderSection extends Component {
       <div className="">
         <div className="">
         <div style={{paddingTop:'85px'}}>
+        {
+            this.state.payloadResponse ?
+            <div style={{height:'450px',background:'#19141A'}}>
+
+            </div>
+        :
         <Carousel
             autoPlay = {true}
             showArrows={true}
@@ -70,6 +79,8 @@ export default class LandingSliderSection extends Component {
   }
 
         </Carousel>
+        }
+
 
         </div>
 
