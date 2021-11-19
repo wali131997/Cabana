@@ -14,7 +14,7 @@ export default class CryptoCurrencies extends Component {
            title="Crypto Currencies"
            title2=""
            text=""
-           bg="cc.jpg"
+           bg="cc.jpeg"
         />
        <div className="greyBg">
         <div className="basicRow text-center">

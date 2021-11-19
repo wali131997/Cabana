@@ -26,7 +26,7 @@ class TraidingCurrenciesTable extends Component {
 
     render() {
         return (
-           <>    <div className=" basicRow">
+           <>    <div  style={{overflow:'scroll'}} className=" basicRow">
            <div className="DEPOSITTableWrapper">
                <h3 className="title text-center mb-4">Crypto Currencies</h3>
              <table className="table  DEPOSITTable table-striped table-bordered ">
