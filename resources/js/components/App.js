@@ -55,6 +55,7 @@ import Axios from "axios";
 import StrategyManage from "./pages/PAMM/StrategyManage";
 import Bonus_335per_tc from "./pages/FooterLinkPages/bonus_335per_tc";
 import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
+import CryptoCurrencies from "./pages/TradingInstrumentsPages/CryptoCurrencies";
 
  class App extends Component {
   // state
@@ -171,6 +172,7 @@ import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
           <Route path="/strategy-manager" component={StrategyManage} />
           <Route path="/bonus-terms" component={Bonus_335per_tc} />
           <Route path="/refer-terms" component={Terms_Refer} />
+          <Route path="/crypto-currencies" component={CryptoCurrencies} />
 
         <Footer />
 

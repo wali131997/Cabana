@@ -26,7 +26,7 @@ class Index extends Component {
             "/mt4-platform","/mt5-platform","/promotion","/newPromotion","/platform/mt5",
             "/PAMM","/our-location","/cookie-policy","/regulatory-compliance","/privacy-policy",
             "/risk-disclouser","/instruction-security","/terms-and-condition","/deposite-withdraw","/education",'/analytics','/strategy-manager',
-            "/bonus-terms",'/refer-terms'
+            "/bonus-terms",'/refer-terms','/crypto-currencies'
         ]
         }
     }

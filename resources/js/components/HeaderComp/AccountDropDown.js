@@ -25,6 +25,9 @@ export default class AccountDropDown extends Component {
             <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
             </a>
+            <a href="/mt5-platform" className="opacityZero">
+              <div className="headerDropDownItem">MetaTrader 5</div>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv"
@@ -47,7 +50,9 @@ export default class AccountDropDown extends Component {
             <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>
             </a>
-
+            <a href="/mt5-platform" className="opacityZero">
+              <div className="headerDropDownItem">MetaTrader 5</div>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv"
@@ -69,6 +74,9 @@ export default class AccountDropDown extends Component {
             <a href="/cfd-incdices" >
               <div className="headerDropDownItem">CFD Indices Pairs</div>
             </a>
+            <a href="/crypto-currencies" >
+              <div className="headerDropDownItem">Crypto Currencies</div>
+            </a>
           </div>
           <div
             className="headerDropDownItemDiv"
@@ -83,6 +91,9 @@ export default class AccountDropDown extends Component {
             </a>
             <a href="/negative-balance-protection">
               <div className="headerDropDownItem">Negative Balance Protection</div>
+            </a>
+            <a href="/mt5-platform" className="opacityZero">
+              <div className="headerDropDownItem">MetaTrader 5</div>
             </a>
             <a href="/mt5-platform" className="opacityZero">
               <div className="headerDropDownItem">MetaTrader 5</div>

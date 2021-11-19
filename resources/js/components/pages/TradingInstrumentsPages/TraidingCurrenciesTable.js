@@ -5,21 +5,21 @@ class TraidingCurrenciesTable extends Component {
         super(props);
         this.state={
             data:[
-                {Cryptocurrency:'Bitcoin',Commission:'15 USD',Leverage:'5:01',Swap:'No',ContractSize:'1',SessionTime:'24/7*'},
-                {Cryptocurrency:'Litecoin',Commission:'15 USD',Leverage:'5:01',Swap:'No',ContractSize:'100',SessionTime:'24/7*'},
-                {Cryptocurrency:'Ethereum',Commission:'15 USD',Leverage:'5:01',Swap:'No',ContractSize:'10',SessionTime:'24/7*'},
-                {Cryptocurrency:'Bitcoin Cash',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
-                {Cryptocurrency:'Cardano',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Ripple',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Tron',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Binance coin',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
-                {Cryptocurrency:'Polka Dot',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'1000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Stellar',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Doge coin',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
-                {Cryptocurrency:'Dash',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
-                {Cryptocurrency:'Aave',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
-                {Cryptocurrency:'Link',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'1000',SessionTime:'24/7*'},
-                {Cryptocurrency:'EOS',Commission:'0.05% (On Turnover)',Leverage:'5:01',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Bitcoin',Commission:'15 USD',Leverage:'5:1',Swap:'No',ContractSize:'1',SessionTime:'24/7*'},
+                {Cryptocurrency:'Litecoin',Commission:'15 USD',Leverage:'5:1',Swap:'No',ContractSize:'100',SessionTime:'24/7*'},
+                {Cryptocurrency:'Ethereum',Commission:'15 USD',Leverage:'5:1',Swap:'No',ContractSize:'10',SessionTime:'24/7*'},
+                {Cryptocurrency:'Bitcoin Cash',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
+                {Cryptocurrency:'Cardano',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Ripple',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Tron',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Binance coin',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
+                {Cryptocurrency:'Polka Dot',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'1000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Stellar',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Doge coin',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100000',SessionTime:'24/7*'},
+                {Cryptocurrency:'Dash',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
+                {Cryptocurrency:'Aave',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'100',SessionTime:'24/7*'},
+                {Cryptocurrency:'Link',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'1000',SessionTime:'24/7*'},
+                {Cryptocurrency:'EOS',Commission:'0.05% (On Turnover)',Leverage:'5:1',Swap:'Yes',ContractSize:'10000',SessionTime:'24/7*'},
             ]
         }
     }
