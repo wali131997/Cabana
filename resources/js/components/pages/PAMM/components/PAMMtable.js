@@ -17,23 +17,23 @@ export default function TopSearchSelect() {
         for(var i=0;i<value;i++){
             updatedlist.push(originaldata[i]);
         }
-  
+
         }else{
-  
+
             updatedlist=originaldata;
         }
     }else{
       updatedlist=originaldata
     }
-   
+
       setDatatable(updatedlist);
   }
   useEffect(()=>{
   Axios.post('/api/get_pamm_accounts').then(res=>{
+      console.log(res)
        setOriginaldata(res.data);
       setDatatable(res.data).then(res=>{
         onchangeshowselection(20);
-
       });
   })
   },[])
@@ -62,7 +62,7 @@ export default function TopSearchSelect() {
             <option value={500}>500</option>
             <option value={1000}>1000</option>
             <option value='All'>All</option>
-          
+
           </select>
           of {originaldata.length}
         </div>
@@ -78,11 +78,11 @@ export default function TopSearchSelect() {
             <th class="sorting">Number of Investors</th>
             <th class="sorting">Manager Capital</th>
             <th class="sorting">Action</th>
-          </tr> 
+          </tr>
           </thead>
           <tbody>
             {
-              datatable.map((data,index)=>{
+             datatable ? datatable.map((data,index)=>{
                 return(
                         <tr>
                           <td>{data.nickname}</td>
@@ -96,9 +96,11 @@ export default function TopSearchSelect() {
                         </tr>
                 )
               })
+              :
+              null
             }
           </tbody>
-       
+
       </table>
       </div>
    </div>
