@@ -44,9 +44,9 @@ London, WC2H 9JQ</div>
                    <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, 2306, Prism tower, Business Bay, <br/> Dubai, UAE
 
 
-                </span></div>+971 547468487
+                </span></div>
                 <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 (4) 564 5891</div>
-                <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 547468487</div>
+                <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 5474 68487</div>
 
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
                </div>
