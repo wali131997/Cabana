@@ -41,7 +41,7 @@ London, WC2H 9JQ</div>
                </div>
                <div className="locationCard">
                    <div className='title'>Dubai</div>
-                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2005, 20th Floor, 2306, Prism tower, Business Bay, <br/> Dubai, UAE
+                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2306, Prism tower, Business Bay, <br/> Dubai, UAE
 
 
                 </span></div>
