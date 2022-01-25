@@ -50,7 +50,7 @@ class CompareAccountEcnM extends Component {
              <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorMobText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED
@@ -105,7 +105,7 @@ class CompareAccountEcnM extends Component {
              <h4 className="title d-inine "><span className="">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorMobText"> 500</h2>
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
@@ -159,7 +159,7 @@ class CompareAccountEcnM extends Component {
              <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorMobText"> 500</h2>
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED
               </button>

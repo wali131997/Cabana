@@ -108,7 +108,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title d-inine "> <span className="opacityZero">EXECUTION TIME </span></h4>
              <h2 className="compareAccountNorMobText"> <span className="opacityZero">Execution in under 0.1 second </span></h2>
              <h4 className="title d-inine ">MAXIMUM ORDERS</h4>
-             <h2 className="compareAccountNorMobText"> <span className="opacityZero"> Execution in under 0.1 second </span></h2>
+             <h2 className="compareAccountNorMobText"> <span className="opacityZero"> 500</span></h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
@@ -163,7 +163,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title d-inine "><span className="">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorMobText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2  mt-4  ">
                 GET STARTED
@@ -219,7 +219,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorMobText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorMobText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED

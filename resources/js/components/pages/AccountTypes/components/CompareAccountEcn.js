@@ -80,7 +80,7 @@ export default class CampareAccountStandard extends Component {
              <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
@@ -163,7 +163,7 @@ export default class CampareAccountStandard extends Component {
              <h4 className="title d-inine "><span className="">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
@@ -247,7 +247,7 @@ export default class CampareAccountStandard extends Component {
              <h4 className="title d-inine "><span className="opacityZero">EXECUTION TIME</span></h4>
              <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
              <h4 className="title d-inine "><span className="opacityZero">MAXIMUM ORDERS</span></h4>
-             <h2 className="compareAccountNorText"> Execution in under 0.1 second</h2>
+             <h2 className="compareAccountNorText"> 500</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 ">
                 GET STARTED
