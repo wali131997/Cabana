@@ -53,7 +53,7 @@ export default class CryptoCurrencies extends Component {
               </li>
               <li className="aboutDetailText">5:1 Leverage
 </li>
-<li className="aboutDetailText">Get Expert Advise
+<li className="aboutDetailText">Expert Advisors Allowed
 </li>
             </ul>
           </div>
