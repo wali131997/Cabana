@@ -225,7 +225,7 @@ export default class CampareAccountStandard extends Component {
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
               <h2 className="compareAccountNorText"> $1,000</h2>
               <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
-              <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
+              <h2 className="compareAccountNorText"> Up to 1:200 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
              <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
