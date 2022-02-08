@@ -46,7 +46,7 @@ London, WC2H 9JQ</div>
 
                 </span></div>
                 {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 (4) 564 5891</div> */}
-                <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 5474 68487</div>
+                {/* <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 5474 68487</div> */}
 
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
                </div>
