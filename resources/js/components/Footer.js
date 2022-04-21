@@ -80,7 +80,9 @@ export default class Footer extends Component {
             <a href="https://cabanacapitals.com/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
             <p className="footerLinkText"> Client Agreement</p>
           </a>
-
+          <a href="/files/IB_Agreement.pdf" target="_blank"  >
+            <p className="footerLinkText"> IB Agreement</p>
+          </a>
           </div>
 
           <div className="col-md-4 col-sm-12 footerCol">
