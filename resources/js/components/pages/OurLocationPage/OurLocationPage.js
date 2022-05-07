@@ -16,7 +16,7 @@ const OurLocationPage = () => {
 
 
            <div className="mapCard">
-            <div className="title">London Office</div>
+            <div className="title">Head Office</div>
             <div className="text">Suit 305, Griffith Corporate Centre<br/>
             Beachmont, P.O.Box 1510, Kingstown St.<br/>
             Vincent and the Grenadines</div>
