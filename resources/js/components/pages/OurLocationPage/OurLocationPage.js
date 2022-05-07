@@ -17,9 +17,9 @@ const OurLocationPage = () => {
 
            <div className="mapCard">
             <div className="title">London Office</div>
-            <div className="text">71-75, Shelton Street,<br/>
-Covent Garden,<br/>
-London, WC2H 9JQ</div>
+            <div className="text">Suit 305, Griffith Corporate Centre<br/>
+            Beachmont, P.O.Box 1510, Kingstown St.<br/>
+            Vincent and the Grenadines</div>
 
             <div className="title">Customer Support</div>
             <div className="text">For any enquiries call or whatsapp us .</div>
@@ -32,9 +32,11 @@ London, WC2H 9JQ</div>
           <div className="cardFlex">
                <div className="locationCard">
                    <div className='title'>London</div>
-                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>71-75, Shelton Street,<br/>
-                    Covent Garden,<br/>
-                    London, WC2H 9JQ
+
+
+                   <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Suit 305, Griffith Corporate Centre<br/>
+                    Beachmont, P.O.Box 1510, Kingstown St.<br/>
+                    Vincent and the Grenadines
                 </span></div>
                 <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  /> +44 208 124 4440</div>
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
