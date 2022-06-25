@@ -10,6 +10,22 @@
    display: flex;
    align-items: center;
 }
+
+.lossRefundBg{
+    background-image: url("/assets/images/promobanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10vw;
+   display: flex;
+   align-items: center;
+}
+.img_default{
+    width: 100%;
+}
 .mt4Bg{
     background-image: url("/assets/images/mt4bg.png");
     background-position: center;
@@ -134,6 +150,21 @@
     font-weight: bolder;
     text-align: center;
     padding: 30px;
+}
+.title_loss{
+    font-weight: 700;
+    color: #5b0156;
+    font-size: 20px;
+}
+.title_loss2{
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.loss_desc{
+    font-size: 16px;
+    line-height: 1.5;
 }
 .stitle{
     font-size: 48px;

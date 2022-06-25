@@ -56,6 +56,7 @@ import StrategyManage from "./pages/PAMM/StrategyManage";
 import Bonus_335per_tc from "./pages/FooterLinkPages/bonus_335per_tc";
 import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
 import CryptoCurrencies from "./pages/TradingInstrumentsPages/CryptoCurrencies";
+import lossRefundPromotion from "./pages/NewPromoPages/lossRefundPromotion";
 
  class App extends Component {
   // state
@@ -150,6 +151,7 @@ import CryptoCurrencies from "./pages/TradingInstrumentsPages/CryptoCurrencies";
           <Route path="/comodoties" component={Commodities}></Route>
           <Route path="/faqs" component={Faq}></Route>
           <Route path="/protection-funds" component={ProtectionofFunds}></Route>
+          <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
 
           <Route path="/mt4-platform" component={Mt4}></Route>
           <Route path="/mt5-platform" component={Mt5}></Route>
