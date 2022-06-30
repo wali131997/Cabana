@@ -31,7 +31,7 @@ const OurLocationPage = () => {
           <div className='basicRow'>
           <div className="cardFlex">
                <div className="locationCard">
-                   <div className='title'>London</div>
+                   <div className='title'>Head Office</div>
 
 
                    <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Suit 305, Griffith Corporate Centre<br/>
