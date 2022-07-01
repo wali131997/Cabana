@@ -30,7 +30,7 @@ const lossRefundPromotion = () => {
                         <thead>
                             <tr>
                                 <th>Elligible First Deposit</th>
-                                <th>Amount</th>
+                                <th>Refund</th>
                                 <th>Lots (standard)*</th>
                             </tr>
                         </thead>
@@ -103,6 +103,8 @@ const lossRefundPromotion = () => {
                   <strong>11.</strong>	This offer is valid for new and existing clients.</h4>
                   <h4 className='text-bold title_loss2'>
                 <strong>12.</strong> 	This promotion will run from 1st of July 2022 until further notice.</h4>
+                <h4 className='text-bold title_loss2'>
+                <strong>13.</strong>This promotion cannot be obtained in conjunction with any other promotion.</h4>
                 </div>
                 <div className='col-md-4 hide_on_mob'>
                     <img className='img_default' src='/assets/images/9.png'></img>

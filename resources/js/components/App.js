@@ -57,6 +57,7 @@ import Bonus_335per_tc from "./pages/FooterLinkPages/bonus_335per_tc";
 import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
 import CryptoCurrencies from "./pages/TradingInstrumentsPages/CryptoCurrencies";
 import lossRefundPromotion from "./pages/NewPromoPages/lossRefundPromotion";
+import TadeToWin from "./pages/NewPromoPages/TadeToWin";
 
  class App extends Component {
   // state
@@ -166,6 +167,8 @@ import lossRefundPromotion from "./pages/NewPromoPages/lossRefundPromotion";
           <Route path="/risk-disclouser" component={RiskPage}></Route>
           <Route path="/instruction-security" component={SafetyOfFunds}></Route>
           <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
+          <Route path="/trade-to-win" component={TadeToWin}></Route>
+
           <Route
             path="/deposite-withdraw"
             component={DepositWithdrawPage}
