@@ -41,17 +41,17 @@ const OurLocationPage = () => {
                 <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  /> +44 208 124 4440</div>
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
                </div>
-               <div className="locationCard">
+               {/* <div className="locationCard">
                    <div className='title'>Dubai</div>
                    <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>Office No. 2306, Prism tower, Business Bay, <br/> Dubai, UAE
 
 
                 </span></div>
-                {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 (4) 564 5891</div> */}
-                {/* <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 5474 68487</div> */}
+                <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  />  +971 (4) 564 5891</div>
+                <div className="text mb-1"><i class="fab fa-whatsapp" style={{color:'#ee3f97'}}></i>   +971 5474 68487</div>
 
                 <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97"  /> support@cabanacapitals.com</div>
-               </div>
+               </div> */}
                <div className="locationCard">
                    <div className='title'>Nigeria</div>
                    <div className="text"><FontAwesomeIcon icon={faMapMarkerAlt} color="#ee3f97"  /> <span>4th floor Mosesola House, 103 Allen Avenue,<br/> Ikeja Lagos.
