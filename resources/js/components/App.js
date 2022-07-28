@@ -121,7 +121,13 @@ import TadeToWin from "./pages/NewPromoPages/TadeToWin";
 
           <Route path="/about-us" component={AboutUsPage2}></Route>
           <Route path="/trading-terms" component={TermsAndCondition}></Route>
-          <Route path="/account-type" component={AccountTypesMalaysia}></Route>
+          <Route path="/account-type" component={
+            this.props.country == 'Malaysia' ?
+            AccountTypesMalaysia :
+            AccountTypes
+          }></Route>
+          <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
+
           <Route path="/affiliate-program" component={Affiliyate}></Route>
           <Route
             path="/mission-and-values"
@@ -189,7 +195,7 @@ import TadeToWin from "./pages/NewPromoPages/TadeToWin";
 }
 const mapStateToProps = (state) =>{
     return{
-        promotions:state.promotions
+        country:state.country
     }
 }
 
