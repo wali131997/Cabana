@@ -102,7 +102,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title d-inine "> <span className="opacityZero"> MA </span></h4>
              <h2 className="compareAccountNorMobText"> 50% / 30%</h2>
              <h4 className="title d-inine "><span className="opacityZero">Co</span></h4>
-             <h2 className="compareAccountNorMobText"> 1000</h2>
+             <h2 className="compareAccountNorMobText"> 1,000</h2>
              <h4 className="title d-inine "> <span className="opacityZero">Ord</span></h4>
              <h2 className="compareAccountNorMobText">  Market Execution</h2>
 
@@ -205,7 +205,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title title2 d-inine "> <span className=""> MARGIN CALL/STOP OUT LEVEL </span></h4>
              <h2 className="compareAccountNorMobText"> 50% / 30%</h2>
              <h4 className="title title2 d-inine "><span className="">Contract Size</span></h4>
-             <h2 className="compareAccountNorMobText"> 100000</h2>
+             <h2 className="compareAccountNorMobText"> 100.000</h2>
              <h4 className="title title2 d-inine "> <span className="">Order execution</span></h4>
              <h2 className="compareAccountNorMobText">  Market Execution</h2>
 
