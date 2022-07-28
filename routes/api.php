@@ -34,6 +34,7 @@ Route::post('/delete_slider', 'FrontController@delete_promotion');
 
 Route::post('/upload_image', 'FrontController@upload_image');
 Route::post('/get_home_sliders', 'FrontController@get_home_sliders');
+Route::post('/get-ip/{ip}', 'FrontController@url');
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

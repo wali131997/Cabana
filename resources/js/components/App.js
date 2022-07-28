@@ -7,6 +7,8 @@ import Footer from "./Footer";
 
 import TermsAndCondition from "./pages/TermsAndConditionPage/TermsAndCondition";
 import AccountTypes from "./pages/AccountTypes/CompareAccountPage";
+import AccountTypesMalaysia from "./pages/AccountTypesMalaysia/CompareAccountPage";
+
 import MissionAndValues from "./pages/MissionAndValues/MissionAndValues";
 import EducationPage from "./pages/EducationPage/EducationPage";
 import TradingInstrumentPage from "./pages/TradingInstrumentsPages/TradingInstrumentPage";
@@ -119,7 +121,7 @@ import TadeToWin from "./pages/NewPromoPages/TadeToWin";
 
           <Route path="/about-us" component={AboutUsPage2}></Route>
           <Route path="/trading-terms" component={TermsAndCondition}></Route>
-          <Route path="/account-type" component={AccountTypes}></Route>
+          <Route path="/account-type" component={AccountTypesMalaysia}></Route>
           <Route path="/affiliate-program" component={Affiliyate}></Route>
           <Route
             path="/mission-and-values"

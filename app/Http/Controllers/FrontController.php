@@ -326,7 +326,6 @@ class FrontController extends Controller
 
     public function get_promotions(Request $request){
         $position = $this->get_client_location($request);
-
         if($position['geoplugin_countryName']){
             $promotions = [];
             $country = Country::where('name',$position['geoplugin_countryName'])->first();
