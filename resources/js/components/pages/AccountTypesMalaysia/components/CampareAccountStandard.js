@@ -121,7 +121,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             <p className="compareAccountText mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle">
-                PROFICIENT <br />
+              BEGINNER <br />
                 TRADER
               </h4>
               {/* <p className="compareAccountTextSm mt-4">For Small Investment</p> */}

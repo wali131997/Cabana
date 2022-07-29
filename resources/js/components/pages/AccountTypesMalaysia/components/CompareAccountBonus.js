@@ -74,7 +74,7 @@ export default class CompareAccountBonus extends Component {
              <h4 className="title d-inine "> <span className="opacityZero"> MARGIN CALL/STOP OUT LEVEL </span></h4>
              <h2 className="compareAccountNorText"> 50% / 30%</h2>
              <h4 className="title d-inine "><span className="opacityZero">Contract Size</span></h4>
-             <h2 className="compareAccountNorText"> 100000</h2>
+             <h2 className="compareAccountNorText"> 100,000</h2>
              <h4 className="title d-inine "> <span className="opacityZero">Order execution</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
@@ -153,7 +153,7 @@ export default class CompareAccountBonus extends Component {
              <h4 className="title title2 d-inine "> <span className=""> MARGIN CALL/STOP OUT LEVEL </span></h4>
              <h2 className="compareAccountNorText"> 50% / 30%</h2>
              <h4 className="title title2 d-inine "><span className="">Contract Size</span></h4>
-             <h2 className="compareAccountNorText"> 10,000</h2>
+             <h2 className="compareAccountNorText"> 100,000</h2>
              <h4 className="title title2 d-inine "> <span className="">Order execution</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
