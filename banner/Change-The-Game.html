@@ -1,0 +1,823 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Change The Game - Cabana Capitals</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style type="text/css">
+        canvas {
+            overflow: hidden;
+            width: 100%;
+            height: 460px;
+            background-color: transparent;
+            position: absolute;
+        }
+
+        #main-slider .item {
+  height: 100vh;
+  position: relative;
+}
+#main-sliderr .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main-slider .item .cover {
+  padding: 75px 0;
+  position: absolute;
+  width: 100%;
+  height: 93.5%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+}
+#main-slider .item .cover .header-content {
+  position: relative;
+  padding: 56px;
+  overflow: hidden;
+}
+#main-slider .item .cover .header-content .line {
+  content: "";
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 9px solid #fFF;
+  -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
+header .item .cover .header-content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+}
+#main-slider .item .cover .header-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+#main-slider .item .cover .header-content h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+#main-slider .owl-item.active h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+#main-slider .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+#main-slider .owl-item.active h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+#main-slider .owl-item.active .line {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
+#main-slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+#main-slider .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+#main-slider .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+#main-slider .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+#main-slider .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+#main-slider .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+#main-slider .owl-nav .owl-next:focus {
+  outline: 0;
+}
+#main-slider .owl-nav .owl-next:hover {
+  background: #000 !important;
+}
+#main-slider:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+#main-slider:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex">
+
+            <div class="logo mr-auto">
+                <h1 class="text-light"><a href="index.html"><span><img src="assets/img/logo.png" class="img-fluid"></span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+           <div class="header-social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section>
+     
+ <section style="padding:0; " id="main-slider">
+            <div class="owl-carousel topbanner">
+                <div class="item">
+                    <img src="assets/img/audibanner.png" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line"></div>
+                                <h2 class="text-white">First Prize</h2>
+                                <h1><b style="font-weight: 900;">AUDI A3</b></h1>
+                            </div>
+                        </div>
+                     </div>
+                </div>                    
+                <div class="item">
+                    <img src="assets/img/MGHector.png" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line animated bounceInLeft"></div>
+                                 <h2 class="text-white">Second Prize</h2>
+                                <h1><b style="font-weight: 900;">2<sup>nd</sup> MG HECTOR</b></h1>
+                            </div>
+                        </div>
+                     </div>
+                </div>                
+                <div class="item">
+                    <img src="assets/img/honda-city.png" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line animated bounceInLeft"></div>
+                                 <h2 class="text-white">Third Prize</h2>
+                                <h1><b style="font-weight: 900;">3<sup>rd</sup> Honda City</b></h1>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+         </section>
+
+
+
+        <!-- End Hero -->
+
+        <main id="main">
+
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+                <div class="container bgimages" id="leaves">
+                        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                    <div class="row">
+                        <!-- <div class="col-lg-4" data-aos="zoom-in">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div> -->
+                        <div class="col-lg-12 d-flex flex-column justify-contents-center " data-aos="fade-left">
+                            <div class="content pt-4 pt-lg-0 text-lg-left">
+                                <h3>HOW TO WIN</h3>
+                                <h4>What is the cabana capitals Change The Game 2 Real Contest?</h4>
+                                <p>
+                                    It is a trading contest on real accounts for both novice and experienced traders. In this contest, you can win bundles of smartphones with smartwatches every month, and luxury cars at the end of the year.
+                                </p>
+                                <h4>Is it free?</h4>
+                                <p>Yes. You can participate in the Contest absolutely free of charge. </p>
+                                <h4>How do I win?</h4>
+                                <p>To win monthly prizes, you need to win first place in any of three categories: Gain, Profit Factor, Traded Volume. To win the main yearly prizes, you need to achieve the highest results possible across all three categories throughout the year. The traders performing best will win the main prizes.</p>
+                                <p>Regardless when you enter the race, you can win.</p>
+                                <p>New deposits made to your contest account do not negatively affect your current Gain, can positively affect your future Gain, and increase your chances in the Traded Volume category!</p>
+                                <h4>What should I focus on?</h4>
+                                <p>To win in the Gain or Profit Factor categories, you need to trade well. Every profitable trade will increase your ranking. To win in the Traded Volume category, only the amount of your balance matters. The higher your balance, the more orders you can close and more lots you can trade.</p>
+                                <h4>How is Gain calculated?</h4>
+                                <p>Gain = (Personal Funds + Amount Withdrawn – Personal Funds When Deposited) / Personal Funds When Deposited × 100%</p>
+                                <p>In this equation, Personal Funds are the Contest Account’s current equity excluding bonuses, Amount Withdrawn is the total amount of money withdrawn from the contest account after its checking in for the round or making a deposit to it, Personal Funds When Depositedis an equity of the Contest Account (bonus funds not included) at the moment of making a deposit to it.</p>
+                                <p>If you make several deposits during the round, the total gain is calculated as a sum of separate gains for all timespans between deposits: Gain Sum = Gain 1 (from Initial Deposit to Deposit 2) + Gain 2 (from Deposit 2 to Deposit 3) + Gain N (After Deposit N).</p>
+                                <p>Whenever you make a new deposit to your contest account, we fix the gain that has already been made in this account before the deposit (Gain 1) and then start to calculate the gain after the deposit (Gain 2), until the end of the contest round or another deposit is made.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End About Section -->
+
+            <!-- ======= Features Section ======= -->
+            <section id="features" class="features">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
+                            <h1 data-aos="fade-up">Prize</h1>
+                            <p data-aos="fade-up">What are the main prizes?</p>
+                            <ul class="nav nav-tabs flex-column">
+                                <li class="nav-item" data-aos="fade-up">
+                                    <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                                        <h4>First Prize</h4>
+                                        <p>1<sup>st</sup> PRIZE AUDI A3</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
+                                    <a class="nav-link" data-toggle="tab" href="#tab-2">
+                                        <h4>Second Prize</h4>
+                                        <p>
+                                            <p>2<sup>nd</sup> MG HECTOR</p>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
+                                    <a class="nav-link" data-toggle="tab" href="#tab-3">
+                                        <h4>Third Prize</h4>
+                                        <p>
+                                            <p>3<sup>rd</sup> Honda City</p>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
+                            <div class="tab-content">
+                                <div class="tab-pane active show" id="tab-1">
+                                    <figure>
+                                        <img src="assets/img/audi-A3.png" alt="" class="img-fluid mt-5">
+                                    </figure>
+                                </div>
+                                <div class="tab-pane" id="tab-2">
+                                    <figure>
+                                        <img src="assets/img/MG-Hector.png" alt="" class="img-fluid mt-5">
+                                    </figure>
+                                </div>
+                                <div class="tab-pane" id="tab-3">
+                                    <figure>
+                                        <img src="assets/img/hondacity.png" alt="" class="img-fluid mt-5">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <h4>Will you deliver the prize to my country?</h4>
+                        <p>Yes, we will ship your prize to your location.</p>
+                        <h4 class="mt-3">Can I take money instead of the car?</h4>
+                        <p>We will only transfer money instead of car to you in exceptional cases. If we do, we'll transfer it into your trading account or bank account.</p>
+                        <h4 class="mt-3">How soon will I receive the prize?</h4>
+                        <p>This will take a little time. We will contact you within seven business days after the contest end date.</p>
+                        <p>Keep in mind that we run a background check on the winners, their legitimacy, information validity, and possible violations. You'll need to provide a full set of original documents (passport or other ID certifying your residence) before being able to take the prize. Your ID must be valid.</p>
+                        <p>Only then will we send you your round prize or appoint a date and time for the main prize award ceremony.</p>
+                        <h4 class="mt-3">Will I get all the prizes if I win in several categories or rounds?</h4>
+                        <p>You can win a maximum of four round prizes per year. If you win in several categories in one round (including if you used several contest accounts), you can get several prizes together.</p>
+                        <p>If you win for the fifth time or more, we will pay you out a cash sum of 20% of the monetary value of the prize, and the actual prize will be passed to the participant ranked second in that category.</p>
+                        <p>You cannot win more than one main prize. If several of your trading accounts qualify for the main prize, we will award you with the most valuable prize of those your accounts qualify for. The participants ranked next most successful will get the remaining prizes.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End Features Section -->
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services section-bg">
+                <div class="container" id="leaves">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>Participation</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+                            <div class="icon-box icon-box-pink mb-3 text-lg-left">
+                                <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+
+                                <h4 class="title"><a href="">How do I join the contest?</a></h4>
+                                <p class="description">Sign up or log in to your Personal Area, create a new real account, and check the box 'Sign up account to the Supercharged 2'. Make sure your first deposit amounts at least 50 USD (or its equivalent in EUR).</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="icon-box icon-box-cyan mb-3 text-lg-left">
+
+                                <!--  <div class="icon"><i class="bx bx-file"></i></div> -->
+                                <h4 class="title"><a href="">Can I join the contest right away after signing up?</a></h4>
+                                <p class="description">Yes, you can join the contest at any point. We'll start to record your contest ranking the moment you register for Supercharged 2 with a new or existing trading account containing Personal Funds of 50 USD (or its equivalent in EUR) or more.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon-box icon-box-green text-lg-left">
+                                <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+
+                                <h4 class="title"><a href="">Can I participate in several rounds with one trading account?</a></h4>
+                                <p class="description">Yes, you can. You only need to register your real account once, and it will automatically participate in all subsequent rounds as long as its Personal Funds (equity excluding bonuses) amount to 50 USD or more. If your Personal Funds drop below 50 USD by the beginning of a new round, the account will not qualify for this round until you replenish the Personal Funds to at least 50 USD. However yearly ranking for such account will still be counted.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="icon-box icon-box-blue text-lg-left">
+                                <!--  <div class="icon"><i class="bx bx-world"></i></div> -->
+                                <h4 class="title"><a href="">I registered an account for the contest, but I'm not in the rankings and I did not receive a link to the contest statistics. Why is that?</a></h4>
+                                <p class="description">Simply registering an account for the contest is not enough to participate. Your account will be activated for the contest and its performance will be counted in the ranking only after you top up your balance by enough that its current equity excluding bonuses becomes at least 50 USD (or its equivalent in EUR).</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+                            <div class="icon-box icon-box-pink mb-3 text-lg-left mt-3">
+                                <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+                                <h4 class="title"><a href="">How do I join the contest?</a></h4>
+                                <p class="description">Sign up or log in to your Personal Area, create a new real account, and check the box 'Sign up account to the Supercharged 2'. Make sure your first deposit amounts at least 50 USD (or its equivalent in EUR).</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="icon-box icon-box-cyan mb-3 text-lg-left mt-3">
+                                <!--  <div class="icon"><i class="bx bx-file"></i></div> -->
+                                <h4 class="title"><a href="">Can I join the contest right away after signing up?</a></h4>
+                                <p class="description">Yes, you can join the contest at any point. We'll start to record your contest ranking the moment you register for Supercharged 2 with a new or existing trading account containing Personal Funds of 50 USD (or its equivalent in EUR) or more.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon-box icon-box-green text-lg-left">
+                                <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+                                <h4 class="title"><a href="">Can I participate in several rounds with one trading account?</a></h4>
+                                <p class="description">Yes, you can. You only need to register your real account once, and it will automatically participate in all subsequent rounds as long as its Personal Funds (equity excluding bonuses) amount to 50 USD or more. If your Personal Funds drop below 50 USD by the beginning of a new round, the account will not qualify for this round until you replenish the Personal Funds to at least 50 USD. However yearly ranking for such account will still be counted.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="icon-box icon-box-blue text-lg-left">
+                                <!--  <div class="icon"><i class="bx bx-world"></i></div> -->
+                                <h4 class="title"><a href="">I registered an account for the contest, but I'm not in the rankings and I did not receive a link to the contest statistics. Why is that?</a></h4>
+                                <p class="description">Simply registering an account for the contest is not enough to participate. Your account will be activated for the contest and its performance will be counted in the ranking only after you top up your balance by enough that its current equity excluding bonuses becomes at least 50 USD (or its equivalent in EUR).</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Services Section -->
+
+            <!-- ======= Portfolio Section ======= -->
+            <section id="portfolio" class="portfolio pt-5 pb-5">
+                <div class="container">
+                    <div class="section-title" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 flex-column" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="text-lg-left">
+                                    <img src="assets/img/bg.png" class="img-fluid mt-5">
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-lg-8 d-flex align-items-stretch mb-5 flex-column mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="text-lg-left">
+                                    <h3>Registration</h3>
+                                    <h5 class="mt-3 mb-0"><b>When does registration begin and how long does it last?</b></h5>
+                                    <p>You don't need to register in advance. Just register your real account for the contest at any point. You can do it at any time over the course of the year.We’ll close registration seven days prior to the contest end date.</p>
+                                    <h5 class="mt-3 mb-0"> <b>How do I register for the Supercharged 2 contest?</b></h5>
+                                    <p>You need to register for the contest with a real trading account, plus MetaTrader 4 (Micro) or MetaTrader 5 (Pro), and make sure that your account’s Personal Funds (equity excluding bonuses) are 50 USD (or its equivalent in EUR) or above. You can use your existing account or create a new one.</p>
+                                    <p>To register, click 'Join Contest Now!' on the contest page or navigate to the Contest section of your Personal Area and click 'Sign up account for Supercharged 2'.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Portfolio Section -->
+
+           
+
+            <!-- ======= Cta Section ======= -->
+            <section id="cta" class="cta">
+                <div class="container">
+
+                    <div class="row" data-aos="zoom-in">
+                        <div class="col-lg-12 text-center text-lg-left">
+                            <h3>Rules Of The Change the Game Contest</h3>
+                            <p> Cabana Capital presents a new real contest from the creators of ‘King of the Road’ and ‘Supercharged’! We’ve increased the number of prizes and your chances of winning. Prizes in this contest include: 36 top-class smartphones bundled with smart watches, three bundles each month, and after twelve months, three winners will get a high-end luxury car each. Register for the contest, make a deposit to your account, and trade to become a winner!</p>
+
+                            <h4>Overview</h4>
+                            <ul class="pl-5">
+                                <li>Contest duration: 12 months</li>
+                                <li>Start date: 1 October 2018</li>
+                                <li>End date: 30 September 2019</li>
+                                <li>Round duration: 1 month</li>
+                                <li>Number of rounds: 12 rounds</li>
+                            </ul>
+                            <p>The contest name is ‘Cabana Capital Change the game’ or ‘Supercharged 2’. It is run by cabana capitals Incorporated.</p>
+                            <p>Registration for the Contest is closed 7 days prior to the Contest end date.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Cta Section -->
+
+            <!-- ======= Clients Section ======= -->
+            <!--  <section id="clients" class="clients">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Clients</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in">
+                            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
+                            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
+                            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
+                            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="client-logo">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        -->
+            <!-- End Clients Section -->
+
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <h3><img src="assets/img/logo.png" class="img-fluid"></h3>
+                                <p>
+                                   71-75, Shelton Street,
+
+                                    <br> Covent Garden,
+                                    <br>London, WC2H 9JQ
+                                    <br>
+                                    <br>
+                                    <strong>Phone:</strong> +44 2081244440
+                                    <br>
+                                    <strong>Email:</strong> support@cabanacapitals.com
+                                    <br>
+                                </p>
+                                <div class="social-links mt-3">
+                                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="cookie-policy.html">Cookie Policy</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="regulations-and-licensing.html">Regulatory/compliance</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="policy-statement.html">Privacy Policy</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="risk-disclosure.html">Risk Disclosure</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Our Newsletter</h4>
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                            <form action="" method="post">
+                                <input type="email" name="email">
+                                <input type="submit" value="Subscribe">
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <div>
+            <!-- <img src="assets\img/gif.gif" class="img-fluid" style="width:100%; height:450px;"> -->
+
+        </div>
+
+        <!-- End Footer -->
+
+        <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <!-- Particles JS
+    ============================================ -->
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script>
+            var w = window.innerWidth,
+                h = window.innerHeight,
+                canvas = document.getElementById('test'),
+                ctx = canvas.getContext('2d'),
+                rate = 60,
+                arc = 100,
+                time,
+                count,
+                size = 7,
+                speed = 20,
+                parts = new Array,
+                colors = ['red', '#f57900', 'yellow', '#ce5c00', '#5c3566'];
+            var mouse = {
+                x: 0,
+                y: 0
+            };
+
+            canvas.setAttribute('width', w);
+            canvas.setAttribute('height', h);
+
+            function create() {
+                time = 0;
+                count = 0;
+
+                for (var i = 0; i < arc; i++) {
+                    parts[i] = {
+                        x: Math.ceil(Math.random() * w),
+                        y: Math.ceil(Math.random() * h),
+                        toX: Math.random() * 5 - 1,
+                        toY: Math.random() * 2 - 1,
+                        c: colors[Math.floor(Math.random() * colors.length)],
+                        size: Math.random() * size
+                    }
+                }
+            }
+
+            function particles() {
+                ctx.clearRect(0, 0, w, h);
+                canvas.addEventListener('mousemove', MouseMove, false);
+                for (var i = 0; i < arc; i++) {
+                    var li = parts[i];
+                    var distanceFactor = DistanceBetween(mouse, parts[i]);
+                    var distanceFactor = Math.max(Math.min(15 - (distanceFactor / 10), 10), 1);
+                    ctx.beginPath();
+                    ctx.arc(li.x, li.y, li.size * distanceFactor, 0, Math.PI * 2, false);
+                    ctx.fillStyle = li.c;
+                    ctx.strokeStyle = li.c;
+                    if (i % 2 == 0)
+                        ctx.stroke();
+                    else
+                        ctx.fill();
+
+                    li.x = li.x + li.toX * (time * 0.05);
+                    li.y = li.y + li.toY * (time * 0.05);
+
+                    if (li.x > w) {
+                        li.x = 0;
+                    }
+                    if (li.y > h) {
+                        li.y = 0;
+                    }
+                    if (li.x < 0) {
+                        li.x = w;
+                    }
+                    if (li.y < 0) {
+                        li.y = h;
+                    }
+
+                }
+                if (time < speed) {
+                    time++;
+                }
+                setTimeout(particles, 1000 / rate);
+            }
+
+            function MouseMove(e) {
+                mouse.x = e.layerX;
+                mouse.y = e.layerY;
+
+                //context.fillRect(e.layerX, e.layerY, 5, 5);
+                //Draw( e.layerX, e.layerY );
+            }
+
+            function DistanceBetween(p1, p2) {
+                var dx = p2.x - p1.x;
+                var dy = p2.y - p1.y;
+                return Math.sqrt(dx * dx + dy * dy);
+            }
+            create();
+            particles();
+        </script>
+        <script type="text/javascript">
+  $('.topbanner').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    mouseDrag:false,
+    autoplay:true,
+    animateOut: 'slideOutUp',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+</script>
+
+</body>
+
+</html>

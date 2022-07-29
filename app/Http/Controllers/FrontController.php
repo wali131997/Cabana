@@ -104,7 +104,7 @@ class FrontController extends Controller
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
-		CURLOPT_SSL_VERIFYPEER => false,
+		CURLOPT_SSL_VERIFYPEER => true,
 
         ));
 
@@ -253,6 +253,9 @@ class FrontController extends Controller
         $slider->save();
         $response = ['status' => 200 ];
         return $response;
+    }
+    public function api_check(Request $request){
+        return 'helo';
     }
     public function update_slider(Request $request){
         $validator = Validator::make($request->all(), [
