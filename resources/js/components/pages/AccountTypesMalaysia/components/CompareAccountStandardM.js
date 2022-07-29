@@ -71,7 +71,7 @@ class CompareAccountStandardM extends Component {
 
                <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
               <h4 className="compareAccountInfoTitle text-black">
-              PROFICIENT <br />
+              BEGINNER <br />
                 TRADER
               </h4>
 
@@ -96,7 +96,7 @@ class CompareAccountStandardM extends Component {
              <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
              <h2 className="compareAccountNorMobText"> <p className="text">S</p></h2>
              <h4 className="title d-inine "><span className="opacityZero">Op</span></h4>
-             <h2 className="compareAccountNorMobText"> <p className="text">N</p></h2>
+             <h2 className="compareAccountNorMobText"> <p className="text">No Commision</p></h2>
              <h4 className="title d-inine "><span className="opacityZero">Min</span></h4>
              <h2 className="compareAccountNorMobText"> 0.01</h2>
              <h4 className="title d-inine "> <span className="opacityZero"> MA </span></h4>
