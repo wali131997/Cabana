@@ -60,6 +60,8 @@ import Terms_Refer from "./pages/FooterLinkPages/Terms_Refer";
 import CryptoCurrencies from "./pages/TradingInstrumentsPages/CryptoCurrencies";
 import lossRefundPromotion from "./pages/NewPromoPages/lossRefundPromotion";
 import TadeToWin from "./pages/NewPromoPages/TadeToWin";
+import MerdekaBonus from "./pages/NewPromoPages/MerdekaBonus";
+import NoDeposit30 from "./pages/NewPromoPages/NoDeposit30";
 
  class App extends Component {
   // state
@@ -161,6 +163,8 @@ import TadeToWin from "./pages/NewPromoPages/TadeToWin";
           <Route path="/faqs" component={Faq}></Route>
           <Route path="/protection-funds" component={ProtectionofFunds}></Route>
           <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
+          <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
+          <Route path="" component={NoDeposit30}></Route>
 
           <Route path="/mt4-platform" component={Mt4}></Route>
           <Route path="/mt5-platform" component={Mt5}></Route>
@@ -175,7 +179,7 @@ import TadeToWin from "./pages/NewPromoPages/TadeToWin";
           <Route path="/risk-disclouser" component={RiskPage}></Route>
           <Route path="/instruction-security" component={SafetyOfFunds}></Route>
           <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
-          <Route path="/trade-to-win" component={TadeToWin}></Route>
+         | 55------------------<Route path="/trade-to-win" component={TadeToWin}></Route>
 
           <Route
             path="/deposite-withdraw"
