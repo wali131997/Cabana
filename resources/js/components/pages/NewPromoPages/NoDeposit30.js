@@ -5,7 +5,7 @@ const NoDeposit30 = () => {
         <div>
            <div className="newPromoBg" style={{backgroundImage:"url('/assets/images/nodepositbonus.jpg')", height:'500px'}}>
             <div>
-               <div className='title'><span className='titleLg'>No Deposit Bonus Bonus </span></div>
+               <div className='title'><span className='titleLg'>No Deposit Bonus </span></div>
    <div className='title title2'>Promotion</div>
 
           {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
