@@ -25,9 +25,9 @@ const NoDeposit30 = () => {
 
                      <strong>2.</strong>			“No Deposit Trading Bonus Promotion” is valid only for clients in Malaysia and Brunei.</h4>
                      <h4 className='text-bold title_loss2'>
-                     <strong>3.</strong>			3.	“No Deposit Trading Bonus Promotion” applies only to new clients.</h4>
+                     <strong>3.</strong>			“No Deposit Trading Bonus Promotion” applies only to new clients.</h4>
                   <h4 className='text-bold title_loss2'>
-                  <strong>4.</strong>		4.	All Eligible Clients are permitted to hold only one (1) No Deposit Trading Bonus Account per one (1) unique IP address. Multiple registrations from the same IP are not permitted nor multiple No Deposit Trading Bonus Accounts register with same personal details.
+                  <strong>4.</strong>		All Eligible Clients are permitted to hold only one (1) No Deposit Trading Bonus Account per one (1) unique IP address. Multiple registrations from the same IP are not permitted nor multiple No Deposit Trading Bonus Accounts register with same personal details.
 
 </h4>
 

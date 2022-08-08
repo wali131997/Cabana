@@ -31,7 +31,7 @@ const Terms_Refer = () => {
                  <br></br> <br></br>(d) Only Referees whose trade(s) have a duration of more than two (2) minutes are eligible to participate in the “Refer a Friend Program”; for the purposes hereof, duration is considered the time between opening and closing of a trade.
                  <br></br> <br></br>7. It should be noted that the trading activity performed by the Referee whose trading account is registered under an Introducer of Business, will not be taken into consideration and they will not be rewarded with a refer a friend reward.
                  <br></br> <br></br>8. Referrers are not allowed to refer the same person, as Referee, more than once.
-                 <br></br> <br></br>9. Referrers are not allowed to invite existing XM account holders to the Program.
+                 <br></br> <br></br>9. Referrers are not allowed to invite existing Cabana Capitals account holders to the Program.
         </div>
                 </div>
                 </div>
