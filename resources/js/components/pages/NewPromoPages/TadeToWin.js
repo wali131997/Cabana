@@ -81,7 +81,7 @@ const TadeToWin = () => {
                      <h4 className='text-bold title_loss2'>
                      <strong>8.</strong>	Clients agree that information provided during the registration process may be used by the Company both within the context of the Promotion Campaign and for any other marketing purposes.</h4>
                   <h4 className='text-bold title_loss2'>
-                  <strong>9.</strong>Cabana Capitals, at its reasonable discretion, offers this “Promotion Scheme” to any Client(s) in Pakistan, Nigeria, Malaysia and Bangladesh from 1st of July 2022 until 31st August 2022.
+                  <strong>9.</strong>Cabana Capitals, at its reasonable discretion, offers this “Promotion Scheme” to any Client(s) in Pakistan, Nigeria, Malaysia, Bangladesh, India, Saudi Araibia and United Arab Emirates from 1st of August 2022 until 31st August 2022.
 
 </h4>
 <h4 className='text-bold title_loss2'>
