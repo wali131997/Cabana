@@ -112,7 +112,7 @@ Promotion” or any aspect of it at any time. Prior notice of such changes will 
 clients and Cabana Capitals will not post any such changes on its website. Please note that
 taking part in the “No Deposit Bonus Promotion” constitutes acceptance and agreement to
 abide by any such alterations, amendments and/or changes.	</h4>
-                     <h4 className='text-bold title_loss2'><strong>26.</strong>		This promotion will run from 1st of August 2022 until further notice.</h4>
+                     <h4 className='text-bold title_loss2'><strong>26.</strong>		This promotion will run from 1st of August 2022 till 15th of August 2022.</h4>
 
 
 
