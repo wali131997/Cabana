@@ -62,6 +62,8 @@ import lossRefundPromotion from "./pages/NewPromoPages/lossRefundPromotion";
 import TadeToWin from "./pages/NewPromoPages/TadeToWin";
 import MerdekaBonus from "./pages/NewPromoPages/MerdekaBonus";
 import NoDeposit30 from "./pages/NewPromoPages/NoDeposit30";
+import WelcomeBonus from "./pages/NewPromoPages/WelcomeBonus";
+import NoDeposit30Indonesia from "./pages/NewPromoPages/NoDeposit30Indonesia";
 
  class App extends Component {
   // state
@@ -180,6 +182,9 @@ import NoDeposit30 from "./pages/NewPromoPages/NoDeposit30";
           <Route path="/instruction-security" component={SafetyOfFunds}></Route>
           <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
          <Route path="/trade-to-win" component={TadeToWin}></Route>
+         <Route path="/welcome-bonus-malaysia" component={WelcomeBonus} />
+         <Route path="/no-deposit-bonus-indonesia" component={NoDeposit30Indonesia} />
+
 
           <Route
             path="/deposite-withdraw"
