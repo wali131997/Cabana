@@ -50,7 +50,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h4 className="title d-inine "><span className="opacityZero">CURRENCY*</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
               <p className="compareAccountNorText">Spread: From 2.5</p>
@@ -58,7 +58,7 @@ export default class CampareAccountStandard extends Component {
               <h2 className="compareAccountNorText"> NIl</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
               <h2 className="compareAccountNorText"> $10</h2>
-              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE*</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
@@ -136,7 +136,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h4 className="title d-inine "><span className="opacityZero">CURRENCY*</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">SPREAD</span></h4>
               <p className="compareAccountNorText">Spread: From 2.0</p>
@@ -144,7 +144,7 @@ export default class CampareAccountStandard extends Component {
               <h2 className="compareAccountNorText"> NIl</h2>
               <h4 className="title d-inine "><span className="opacityZero">MINIMUM DEPOSIT</span></h4>
               <h2 className="compareAccountNorText"> $10</h2>
-              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE*</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">INSTRUMENTS</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
@@ -221,7 +221,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="">CURRENCY</span></h4>
+            <h4 className="title d-inine "><span className="">CURRENCY*</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="">Spread</span></h4>
               <p className="compareAccountNorText">Spread: From 1.5</p>
@@ -229,7 +229,7 @@ export default class CampareAccountStandard extends Component {
               <h2 className="compareAccountNorText"> NIl</h2>
               <h4 className="title d-inine "><span className="">Minimum Deposit</span></h4>
               <h2 className="compareAccountNorText"> $50</h2>
-              <h4 className="title d-inine "><span className="">Leverage</span></h4>
+              <h4 className="title d-inine "><span className="">LEVERAGE*</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
               <h4 className="title d-inine "><span className="">Instruments</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>
@@ -305,7 +305,7 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h4 className="title d-inine "><span className="opacityZero">CURRENCY*</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
               <h4 className="title d-inine "><span className="opacityZero">Spread</span></h4>
               <p className="compareAccountNorText">From 1.0</p>
@@ -313,7 +313,7 @@ export default class CampareAccountStandard extends Component {
               <h2 className="compareAccountNorText"> Nil</h2>
               <h4 className="title d-inine "><span className="opacityZero">Minimum Deposit</span></h4>
               <h2 className="compareAccountNorText"> $100</h2>
-              <h4 className="title d-inine "><span className="opacityZero">Leverage</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE*</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:500 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">Instruments</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, GER30</h2>

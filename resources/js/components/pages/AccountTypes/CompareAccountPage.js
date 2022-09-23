@@ -61,6 +61,9 @@ export default class CompareAccountPage extends Component {
 
           </>}
 
+            <div className="text-center">
+                <p>*Refer to Client Agreement</p>
+            </div>
 
         </div>
       </div>
