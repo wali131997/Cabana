@@ -16,7 +16,7 @@ export default class AffixBar extends Component {
                   Email : support@cabanacapitals.com
                 </p>
               </div>
-              <div className="d-inline affixTab">
+              {/* <div className="d-inline affixTab">
                 <img
                   className="d-inline affixIcon"
                   src="/assets/images/callIcon.png"
@@ -25,7 +25,7 @@ export default class AffixBar extends Component {
                 <p className="affixBarText d-inline">
                   Call Us: +44 208 124 4440
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4 col-sm-12 ">
