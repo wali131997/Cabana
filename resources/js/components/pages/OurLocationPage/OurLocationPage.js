@@ -23,7 +23,7 @@ const OurLocationPage = (props) => {
             Vincent and the Grenadines</div>
 
             <div className="title">Customer Support</div>
-            <div className="text">For any enquiries call or whatsapp us .</div>
+            <div className="text">For any enquiries email us on:</div>
             {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff"  /> +44 208 124 4440</div> */}
             <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff"  /> support@cabanacapitals.com</div>
            </div>
