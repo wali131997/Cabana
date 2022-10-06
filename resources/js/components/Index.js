@@ -35,8 +35,8 @@ class Index extends Component {
     render(){
         return (
            <BrowserRouter>
-            <Route exact path="/" component={FrontIndex} ></Route>
-            {
+             <Route exact path="/" component={FrontIndex} ></Route>
+           {
                 this.state.paths.map((data,index)=>{
                     return(
                         <Route key={index} path={data} component={FrontIndex} ></Route>

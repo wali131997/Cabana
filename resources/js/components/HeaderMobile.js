@@ -139,26 +139,26 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                      {/* <Link to="/about-us">
+                      {/* <a href="/about-us">
                         <div className="sideBarItem">
                           <span> News and Events</span>
                         </div>
-                      </Link> */}
-                      <Link to="/about-us">
+                      </a> */}
+                      <a href="/about-us">
                         <div className="sideBarItem">
                           <span> Why Cabana</span>
                         </div>
-                      </Link>
-                      <Link to="/our-location">
+                      </a>
+                      <a href="/our-location">
                         <div className="sideBarItem">
                           <span> Contact Us</span>
                         </div>
-                      </Link>
-                      <Link to="/faqs">
+                      </a>
+                      <a href="/faqs">
                         <div className="sideBarItem">
                           <span> FAQ's</span>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -174,17 +174,17 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                      <Link to="/account-type">
+                      <a href="/account-type">
                         <div className="sideBarItemNew">
                           <span> Account Type</span>
                         </div>
-                      </Link>
-                      <Link to="/islamic-trading">
+                      </a>
+                      <a href="/islamic-trading">
                         <div className="sideBarItemNew">Islamic Account</div>
-                        </Link>
-                        <Link to="/trading-termonology">
+                        </a>
+                        <a href="/trading-termonology">
                         <div className="sideBarItemNew">Trading Termonology</div>
-                        </Link>
+                        </a>
 
 
                     </div>
@@ -198,13 +198,13 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                           <Link to="/mt4-platform">
+                           <a href="/mt4-platform">
 
                         <div className="sideBarItem">MetaTrader 4</div>
-                        </Link>
-                        <Link to="/mt5-platform">
+                        </a>
+                        <a href="/mt5-platform">
                         <div className="sideBarItem">MetaTrader 5</div>
-                        </Link>
+                        </a>
                         </div>
                     </HeaderMobileLastDropDown><br></br>
                     <HeaderMobileLastDropDown activeDropDown={false} title="TRADING INSTRUMENTS">
@@ -215,7 +215,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         this.props.closeHeader();
                         return;
                       }}
-                    > 
+                    >
                         <>
                          <a href="/trading-instruments">
                           <div className="sideBarItem">Trading Instruments</div>
@@ -244,15 +244,15 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                           <Link to="/deposite-withdraw">
+                           <a href="/deposite-withdraw">
               <div className="sideBarItem">Deposit & Withdrawal</div>
-            </Link>
-            <Link to="/protection-funds">
+            </a>
+            <a href="/protection-funds">
               <div className="sideBarItem">Protection of funds</div>
-            </Link>
-            <Link to="/negative-balance-protection">
+            </a>
+            <a href="/negative-balance-protection">
               <div className="sideBarItem">Negative Balance Protection</div>
-            </Link>
+            </a>
                         </div>
                     </HeaderMobileLastDropDown>
                 </>
@@ -267,15 +267,15 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                          <Link to="/introducing-broker" className="headerLink">
+                          <a href="/introducing-broker" className="headerLink">
                             <div className="sideBarItem">Inroducing Broker </div>
-                            </Link>
-                            <Link to="/affiliate-program" className="headerLink">
+                            </a>
+                            <a href="/affiliate-program" className="headerLink">
                             <div className="sideBarItem">Affiliate Program</div>
-                            </Link>
-                            <Link to="/white-label" className="headerLink">
+                            </a>
+                            <a href="/white-label" className="headerLink">
                             <div className="sideBarItem">White Label</div>
-                            </Link>
+                            </a>
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -293,7 +293,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                     {
                             this.props.promotions.map((data,index)=>{
                                 return(
-                                    <a href={data.link} className="headerLink">
+                                    <a href={data.a} className="headerLink">
                                         <div className="sideBarItem">{data.title}</div>
                                     </a>
                                 )
@@ -305,7 +305,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                             <div className="headerDropDownItem">Promotions not available</div>
                             : null
                         }
-                      
+
                     </div>
                   </HeaderMobileLastDropDown>
                 </>
@@ -320,12 +320,12 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         return;
                       }}
                     >
-                      <Link to="/education">
+                      <a href="/education">
                         <div className="headerDropDownItem">Education</div>
-                        </Link>
-                        <Link to="/analytics">
+                        </a>
+                        <a href="/analytics">
                         <div className="headerDropDownItem">How to use Mt4</div>
-                        </Link>
+                        </a>
                         <a href="https://blog.cabanacapitals.com">
                         <div className="headerDropDownItem">Analytics</div>
                         </a>
@@ -346,12 +346,12 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                        <a href="https://social.cabanacapitals.com/portal/login">
                         <div className="sideBarItem">Social Trading</div>
                         </a>
-                        {/* <Link to="/PAMM">
+                        {/* <a href="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
-                        </Link> */}
-                        {/* <Link to="/PAMM">
+                        </a> */}
+                        {/* <a href="/PAMM">
                         <div className="sideBarItem">Copy Trading</div>
-                        </Link> */}
+                        </a> */}
                     </div>
                   </HeaderMobileLastDropDown>
 
@@ -370,15 +370,15 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                        <a href="https://social.cabanacapitals.com/portal/login">
                         <div className="sideBarItem">Social Login</div>
                         </a>
-                       <Link to="/social-trading">
+                       <a href="/social-trading">
                         <div className="sideBarItem">Social Trading</div>
-                        </Link>
-                        <Link to="/PAMM">
+                        </a>
+                        <a href="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
-                        </Link> 
-                        <Link to="/strategy-manager">
+                        </a>
+                        <a href="/strategy-manager">
                         <div className="sideBarItem">PAMM Strategy Manager</div>
-                        </Link>
+                        </a>
                     </div>
                   </HeaderMobileLastDropDown>
                 </>

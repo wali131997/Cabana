@@ -55,6 +55,7 @@ import PlatformMT5 from "./pages/PlatformPage/PlatformMT5";
 import PAMMpage from "./pages/PAMM/PAMMpage";
 import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPage";
 import {BrowserRouter, Route, Switch } from "react-router-dom";
+import { connect } from 'react-redux';
 
 class Routes extends Component {
     render() {
@@ -136,5 +137,9 @@ class Routes extends Component {
         );
     }
 }
-
-export default Routes;
+const mapStateToProps = (state) =>{
+    return{
+        country:state.country
+    }
+}
+export default connect(mapStateToProps)(Routes);
