@@ -90,7 +90,7 @@ class CompareAccountStandardM extends Component {
               <h4 className="title d-inine "><span className="opacityZero">M</span></h4>
               <h2 className="compareAccountNorMobText"> $10</h2>
               <h4 className="title d-inine "><span className="opacityZero">LE</span></h4>
-              <h2 className="compareAccountNorMobText"> Up to 1:100 for currencies</h2>
+              <h2 className="compareAccountNorMobText"> Up to 1:1000 for currencies</h2>
               <h4 className="title d-inine "><span className="opacityZero">I</span></h4>
              <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, NQ</h2>
              <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
@@ -193,7 +193,7 @@ class CompareAccountStandardM extends Component {
               <h4 className="title title2 d-inine "><span className="">MINIMUM DEPOSIT</span></h4>
               <h2 className="compareAccountNorMobText"> $10</h2>
               <h4 className="title title2 d-inine "><span className="">LEVERAGE</span></h4>
-              <h2 className="compareAccountNorMobText"> Up to 1:100 for currencies</h2>
+              <h2 className="compareAccountNorMobText"> Up to 1:1000 for currencies</h2>
               <h4 className="title title2 d-inine "><span className="">INSTRUMENTS</span></h4>
              <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, NQ</h2>
              <h4 className="title title2 d-inine "><span className="">SWAP</span></h4>

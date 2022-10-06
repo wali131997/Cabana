@@ -4,7 +4,7 @@ export default class CompareAccountBonus extends Component {
   render() {
     return (
       <>
-        <div className="col-md-6 col-sm-12 px-0">
+        {/* <div className="col-md-6 col-sm-12 px-0">
           <div className="compareAccountCard">
           <div className="compareAccountActions">
               <h4 className="compareAccountInfoTitle ">No Deposit Bonus Account</h4>
@@ -83,9 +83,9 @@ export default class CompareAccountBonus extends Component {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="col-md-6 col-sm-12 px-0">
+        <div className="col-md-12 col-sm-12 px-0">
           <div className="compareAccountCard">
           <div className="compareAccountActions compareAccountBg1">
               <h4 className="compareAccountInfoTitle ">50% Deposit Bonus Account ($1000 MAX) </h4>
@@ -128,33 +128,31 @@ export default class CompareAccountBonus extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title title2 d-inine "><span className="">CURRENCY</span></h4>
-            <h2 className="compareAccountNorText mt-3">USD</h2>
-              <h4 className="title title2  d-inine "><span className="">SPREAD</span></h4>
+            <h4 className="title  d-inine "><span className="">CURRENCY</span></h4>
               <p className="compareAccountNorText">From 2</p>
-              <h4 className="title title2 d-inine "><span className="">Spread (Gold/SP/NQ/DJ)</span></h4>
+              <h4 className="title  d-inine "><span className="">Spread (Gold/SP/NQ/DJ)</span></h4>
               <p className="compareAccountNorText">From 20/30/200/180</p>
-              <h4 className="title title2 d-inine "><span className="">Limit & Stop Levels</span></h4>
+              <h4 className="title  d-inine "><span className="">Limit & Stop Levels</span></h4>
               <p className="compareAccountNorText">1 spread</p>
-              <h4 className="title title2 d-inine "><span className="">COMMISION/MARKUP </span></h4>
+              <h4 className="title  d-inine "><span className="">COMMISION/MARKUP </span></h4>
               <h2 className="compareAccountNorText"> NIll</h2>
-              <h4 className="title title2 d-inine "><span className="">MINIMUM DEPOSIT</span></h4>
+              <h4 className="title  d-inine "><span className="">MINIMUM DEPOSIT</span></h4>
               <h2 className="compareAccountNorText"> $50</h2>
-              <h4 className="title title2 d-inine "><span className="">LEVERAGE</span></h4>
+              <h4 className="title  d-inine "><span className="">LEVERAGE</span></h4>
               <h2 className="compareAccountNorText"> Up to 1:300 for currencies</h2>
-              <h4 className="title title2 d-inine "><span className="">INSTRUMENTS</span></h4>
+              <h4 className="title  d-inine "><span className="">INSTRUMENTS</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, NQ</h2>
-             <h4 className="title title2 d-inine "><span className="">SWAP</span></h4>
+             <h4 className="title  d-inine "><span className="">SWAP</span></h4>
              <h2 className="compareAccountNorText"> <p className="text">Swap Free</p></h2>
-             <h4 className="title title2 d-inine "><span className="">OVERNIGHT COMMISSIONS</span></h4>
+             <h4 className="title  d-inine "><span className="">OVERNIGHT COMMISSIONS</span></h4>
              <h2 className="compareAccountNorText"> <p className="text">No Commision</p></h2>
-             <h4 className="title title2 d-inine "><span className="">Minimum Volume in Lots per Trade</span></h4>
+             <h4 className="title  d-inine "><span className="">Minimum Volume in Lots per Trade</span></h4>
              <h2 className="compareAccountNorText"> 0.01</h2>
-             <h4 className="title title2 d-inine "> <span className=""> MARGIN CALL/STOP OUT LEVEL </span></h4>
+             <h4 className="title  d-inine "> <span className=""> MARGIN CALL/STOP OUT LEVEL </span></h4>
              <h2 className="compareAccountNorText"> 50% / 30%</h2>
-             <h4 className="title title2 d-inine "><span className="">Contract Size</span></h4>
+             <h4 className="title  d-inine "><span className="">Contract Size</span></h4>
              <h2 className="compareAccountNorText"> 100,000</h2>
-             <h4 className="title title2 d-inine "> <span className="">Order execution</span></h4>
+             <h4 className="title  d-inine "> <span className="">Order execution</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">

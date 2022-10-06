@@ -49,33 +49,33 @@ export default class CampareAccountStandard extends Component {
               </div>
             </div>
             <div className="compareAccountDetail">
-            <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+            <h4 className="title d-inine "><span className="opacityZero">C</span></h4>
             <h2 className="compareAccountNorText mt-3">USD</h2>
-              <h4 className="title d-inine "><span className="opacityZero">SPREAD</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
               <p className="compareAccountNorText">Spread: From 2.0</p>
-              <h4 className="title d-inine "><span className="opacityZero">Spread (Gold/SP/NQ/DJ)</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
               <p className="compareAccountNorText">From 16/25/150/130</p>
-              <h4 className="title d-inine "><span className="opacityZero">Limit & Stop Levels</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">L</span></h4>
               <p className="compareAccountNorText">1 spread</p>
-              <h4 className="title d-inine "><span className="opacityZero">COMMISION/MARKUP </span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">C </span></h4>
               <h2 className="compareAccountNorText"> NIl</h2>
-              <h4 className="title d-inine "><span className="opacityZero">MINIMUM DEPOSIT</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">M</span></h4>
               <h2 className="compareAccountNorText"> $100</h2>
-              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">LE</span></h4>
               <h2 className="compareAccountNorText"> Fixed 1:500 for currencies</h2>
-              <h4 className="title d-inine "><span className="opacityZero">INSTRUMENTS</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">I</span></h4>
              <h2 className="compareAccountNorText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, NQ</h2>
-             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
              <h2 className="compareAccountNorText"> <p className="text">Swap Free</p></h2>
-             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">OV</span></h4>
              <h2 className="compareAccountNorText"> <p className="text">No Commision</p></h2>
-             <h4 className="title d-inine "><span className="opacityZero">Minimum Volume in Lots per Trade</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">Mi</span></h4>
              <h2 className="compareAccountNorText"> 0.01</h2>
-             <h4 className="title d-inine "> <span className="opacityZero"> MARGIN CALL/STOP OUT LEVEL </span></h4>
+             <h4 className="title d-inine "> <span className="opacityZero"> MA </span></h4>
              <h2 className="compareAccountNorText"> 50% / 30%</h2>
-             <h4 className="title d-inine "><span className="opacityZero">Contract Size</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">C</span></h4>
              <h2 className="compareAccountNorText"> 100,000</h2>
-             <h4 className="title d-inine "> <span className="opacityZero">Order execution</span></h4>
+             <h4 className="title d-inine "> <span className="opacityZero">Or</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">

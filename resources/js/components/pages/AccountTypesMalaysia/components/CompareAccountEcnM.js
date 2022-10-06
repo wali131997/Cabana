@@ -18,33 +18,33 @@ class CompareAccountEcnM extends Component {
                 TRADER
               </h4>
 
-              <h4 className="title d-inine "><span className="opacityZero">CURRENCY</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">CU</span></h4>
             <h2 className="compareAccountNorMobText mt-3">USD</h2>
-              <h4 className="title d-inine "><span className="opacityZero">SPREAD</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
               <p className="compareAccountNorMobText">Spread: From 2.0</p>
-              <h4 className="title d-inine "><span className="opacityZero">Spread </span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">Sp </span></h4>
               <p className="compareAccountNorMobText">From 16/25/150/130</p>
-              <h4 className="title d-inine "><span className="opacityZero">Limit </span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">Li </span></h4>
               <p className="compareAccountNorMobText">1 spread</p>
-              <h4 className="title d-inine "><span className="opacityZero">COMMISION/MARKUP </span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">CO </span></h4>
               <h2 className="compareAccountNorMobText"> NIl</h2>
-              <h4 className="title d-inine "><span className="opacityZero">MINIMUM DEPOSIT</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">MI</span></h4>
               <h2 className="compareAccountNorMobText"> $100</h2>
-              <h4 className="title d-inine "><span className="opacityZero">LEVERAGE</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">LE</span></h4>
               <h2 className="compareAccountNorMobText"> Fixed 1:500 for currencies</h2>
-              <h4 className="title d-inine "><span className="opacityZero">INSTRUMENTS</span></h4>
+              <h4 className="title d-inine "><span className="opacityZero">I</span></h4>
              <h2 className="compareAccountNorMobText">  Majors, Minors, Spot Metals - 2, Spot Energy - 2, US30, NQ</h2>
-             <h4 className="title d-inine "><span className="opacityZero">SWAP</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
              <h2 className="compareAccountNorMobText"> <p className="text">Swap Free</p></h2>
-             <h4 className="title d-inine "><span className="opacityZero">OVERNIGHT COMMISSIONS</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">OV</span></h4>
              <h2 className="compareAccountNorMobText"> <p className="text">No Commision</p></h2>
-             <h4 className="title d-inine "><span className="opacityZero">Minimum </span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">M </span></h4>
              <h2 className="compareAccountNorMobText"> 0.01</h2>
-             <h4 className="title d-inine "> <span className="opacityZero"> MARGIN  </span></h4>
+             <h4 className="title d-inine "> <span className="opacityZero"> M  </span></h4>
              <h2 className="compareAccountNorMobText"> 50% / 30%</h2>
-             <h4 className="title d-inine "><span className="opacityZero">Size</span></h4>
+             <h4 className="title d-inine "><span className="opacityZero">S</span></h4>
              <h2 className="compareAccountNorMobText"> 100,000</h2>
-             <h4 className="title d-inine "> <span className="opacityZero">execution</span></h4>
+             <h4 className="title d-inine "> <span className="opacityZero">Ex</span></h4>
              <h2 className="compareAccountNorMobText">  Market Execution</h2>
 
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
