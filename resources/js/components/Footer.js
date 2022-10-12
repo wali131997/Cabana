@@ -107,7 +107,7 @@ export default class Footer extends Component {
         </div>
         <div className="row footerRightsRow">
           <h5 className="footerRightsText">
-            Copyright 2021 {"\u00A9"} Cabana Capitals All Right Reserved
+            Copyright 2022 {"\u00A9"} Cabana Capitals All Right Reserved
           </h5>
         </div>
       </div>
