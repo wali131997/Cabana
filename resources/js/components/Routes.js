@@ -90,7 +90,7 @@ class Routes extends Component {
           ></Route>
           <Route path="/introducing-broker" component={PatnershipPage}></Route>
           <Route path="/negative-balance-protection" component={NegativeBalanceProtection}></Route>
-          <Route path="/reffer-friend" component={Refferafriend}></Route>
+          <Route path="/refer-friend" component={Refferafriend}></Route>
           <Route path="/trading-memory/:id" component={TraidingMemory}></Route>
 
           <Route path="/white-label" component={WhiteLABEL}></Route>

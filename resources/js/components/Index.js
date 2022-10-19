@@ -20,7 +20,7 @@ class Index extends Component {
             paths:["/about-us","/trading-terms","/account-type",
             "/affiliate-program","/mission-and-values","/education/meta-trader-4",
             "/trading-instruments","/trading-currencies","/introducing-broker",
-            "/negative-balance-protection","/reffer-friend","/trading-memory/:id",
+            "/negative-balance-protection","/refer-friend","/trading-memory/:id",
             "/white-label","/social-trading","/islamic-trading","/trading-termonology",
             "/precious-metals","/cfd-incdices","/comodoties","/faqs","/protection-funds",
             "/mt4-platform","/mt5-platform","/promotion","/newPromotion","/platform/mt5",
