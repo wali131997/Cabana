@@ -308,6 +308,20 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
 
                     </div>
                   </HeaderMobileLastDropDown>
+                  <HeaderMobileLastDropDown activeDropDown={true} title="Refer">
+                    <div
+                      onClick={() => {
+                        this.handleChangeDropDown(null);
+                        this.props.closeHeader();
+                        return;
+                      }}
+                    >
+                     <a href='/refer-friend' className="headerLink">
+                                        <div className="sideBarItem">Refer a Friend</div>
+                                    </a>
+
+                    </div>
+                  </HeaderMobileLastDropDown>
                 </>
               )}
               {this.state.activeDropDown === "platform" && (

@@ -52,10 +52,10 @@ class PromotionDropDown extends Component {
                     >
                         <h5 className="headerDropDownTitle mt-4">REFER</h5>
 
-                        <a href="/reffer-friend" className="headera ">
+                        <a href="/refer-friend" className="headera ">
                             <div className="headerDropDownItem">Refer a Friend</div>
                         </a>
-                        <a href="/reffer-friend" className="headera opacityZero">
+                        <a href="/refer-friend" className="headera opacityZero">
                             <div className="headerDropDownItem">Refer a Friend</div>
                         </a>
                     </div>
