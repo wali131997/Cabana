@@ -56,6 +56,7 @@ import PAMMpage from "./pages/PAMM/PAMMpage";
 import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPage";
 import {BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
+import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 
 class Routes extends Component {
     render() {
@@ -105,6 +106,7 @@ class Routes extends Component {
           <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
           <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
           <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
+          <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
 
           <Route path="/mt4-platform" component={Mt4}></Route>
           <Route path="/mt5-platform" component={Mt5}></Route>

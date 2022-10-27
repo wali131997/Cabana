@@ -27,7 +27,8 @@ class Index extends Component {
             "/PAMM","/our-location","/cookie-policy","/regulatory-compliance","/privacy-policy",
             "/risk-disclouser","/instruction-security","/terms-and-condition","/deposite-withdraw","/education",'/analytics','/strategy-manager',
             "/bonus-terms",'/refer-terms','/crypto-currencies','/loss-refund-promotion','/trade-to-win',
-            '/account-type-malaysia','/merdeka-bonus','/no-deposit-bonus','/welcome-bonus-malaysia','/no-deposit-bonus-indonesia'
+            '/account-type-malaysia','/merdeka-bonus','/no-deposit-bonus','/welcome-bonus-malaysia','/no-deposit-bonus-indonesia',
+            '/lucky-draw-promotion'
         ]
         }
     }

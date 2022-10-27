@@ -25,16 +25,16 @@ export default class compareAccoountHeader extends Component {
           <div
             className={
               active === true
-                ? " col-6 standardAccountDiv standardAccountActive"
-                : " col-6 standardAccountDiv"
+                ? " col-12 standardAccountDiv standardAccountActive"
+                : " col-12 standardAccountDiv"
             }
             onClick={() => handleActiveFun()}
           >
             <h3 className="compareAccountTitle mt-2 mt-sm-3">
-              Standard Accounts
+              Traiding Accounts
             </h3>
           </div>
-          <div
+          {/* <div
             className={
               active === false
                 ? " col-6 standardAccountDiv standardAccountActive"
@@ -43,7 +43,7 @@ export default class compareAccoountHeader extends Component {
             onClick={() => handleActiveFun()}
           >
             <h3 className="compareAccountTitle mt-2 mt-sm-3">Trader Accounts</h3>
-          </div>
+          </div> */}
         </div>
       </div>
     );
