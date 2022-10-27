@@ -31,6 +31,7 @@ import TraidingMemory from "./pages/PAMM/TraidingMemory";
 import TermsAndCondition from "./pages/TermsAndConditionPage/TermsAndCondition";
 import AccountTypes from "./pages/AccountTypes/CompareAccountPage";
 import AccountTypesMalaysia from "./pages/AccountTypesMalaysia/CompareAccountPage";
+import AccountTypesPakistan from "./pages/AccountTypesPakistan/CompareAccountPage";
 
 import MissionAndValues from "./pages/MissionAndValues/MissionAndValues";
 import EducationPage from "./pages/EducationPage/EducationPage";
@@ -59,6 +60,7 @@ import { connect } from 'react-redux';
 import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 
 class Routes extends Component {
+
     render() {
         return (
             <div>
@@ -67,7 +69,7 @@ class Routes extends Component {
           <Route path="/account-type" component={
             this.props.country == 'Malaysia' ?
             AccountTypesMalaysia :
-            AccountTypes
+            this.props.country == 'Pakistan' ? AccountTypesPakistan : AccountTypes
           }></Route>
           <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
 
