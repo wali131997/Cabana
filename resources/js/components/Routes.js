@@ -72,6 +72,7 @@ class Routes extends Component {
             this.props.country == 'Pakistan' ? AccountTypesPakistan : AccountTypes
           }></Route>
           <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
+          <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
 
           <Route path="/affiliate-program" component={Affiliyate}></Route>
           <Route

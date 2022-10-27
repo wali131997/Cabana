@@ -70,7 +70,7 @@ class CompareAccountStandardM extends Component {
                <h4 className="platformText mb-3">MetaTrader 4</h4>
 
                <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
-              <h4 className="compareAccountInfoTitle text-black">
+              <h4 className="compareAccountInfoTitle text-black"  style={{fontSize:'16px'}}>
               PROFICIENT <br />
                 TRADER
               </h4>
@@ -229,7 +229,7 @@ class CompareAccountStandardM extends Component {
               </div>
               <div className="col-4 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack border-none">
-               <h4 className="compareAccountInfoTitle text-black  ">RAW ECN</h4>
+               <h4 className="compareAccountInfoTitle text-black  ">RAW ECN Account</h4>
                <p className="compareAccountPrice text-black">$1000/min</p>
 
 
