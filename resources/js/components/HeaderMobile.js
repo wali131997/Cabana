@@ -293,7 +293,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                     {
                             this.props.promotions.map((data,index)=>{
                                 return(
-                                    <a href={data.a} className="headerLink">
+                                    <a href={data.link} className="headerLink">
                                         <div className="sideBarItem">{data.title}</div>
                                     </a>
                                 )
