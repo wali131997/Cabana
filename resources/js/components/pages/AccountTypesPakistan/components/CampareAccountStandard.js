@@ -264,7 +264,7 @@ export default class CampareAccountStandard extends Component {
         <div className="col-md-4 col-sm-12 px-0">
           <div className="compareAccountCard">
           <div className="compareAccountActions compareAccountBg3">
-              <h4 className="compareAccountInfoTitle ">Pro Account</h4>
+              <h4 className="compareAccountInfoTitle ">Pro</h4>
               <p className="compareAccountPrice">$100/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">

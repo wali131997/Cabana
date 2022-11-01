@@ -175,7 +175,7 @@ class CompareAccountStandardM extends Component {
 
               <div className="col-4 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack">
-               <h4 className="compareAccountInfoTitle text-black ">Pro Account</h4>
+               <h4 className="compareAccountInfoTitle text-black ">Pro </h4>
                <p className="compareAccountPrice text-black">$100/min</p>
               </div>
               <h4 className="platformText pt-0 mb-0">MetaTrader 5</h4>
@@ -229,7 +229,7 @@ class CompareAccountStandardM extends Component {
               </div>
               <div className="col-4 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack border-none">
-               <h4 className="compareAccountInfoTitle text-black  ">RAW ECN Account</h4>
+               <h4 className="compareAccountInfoTitle text-black  ">ECN</h4>
                <p className="compareAccountPrice text-black">$1000/min</p>
 
 

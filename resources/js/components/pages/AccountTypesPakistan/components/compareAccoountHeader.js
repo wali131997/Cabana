@@ -31,7 +31,7 @@ export default class compareAccoountHeader extends Component {
             onClick={() => handleActiveFun()}
           >
             <h3 className="compareAccountTitle mt-2 mt-sm-3">
-              Traiding Accounts
+              Trading Accounts
             </h3>
           </div>
           {/* <div
