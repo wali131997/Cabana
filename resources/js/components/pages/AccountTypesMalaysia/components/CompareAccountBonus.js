@@ -88,7 +88,7 @@ export default class CompareAccountBonus extends Component {
         <div className="col-md-12 col-sm-12 px-0">
           <div className="compareAccountCard">
           <div className="compareAccountActions compareAccountBg1">
-              <h4 className="compareAccountInfoTitle ">50% Deposit Bonus Account ($1000 MAX) </h4>
+              <h4 className="compareAccountInfoTitle "> Bonus Account ($1000 MAX) </h4>
               <p className="compareAccountPrice">$50/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">

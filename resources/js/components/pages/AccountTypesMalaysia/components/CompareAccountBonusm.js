@@ -55,7 +55,7 @@ class CompareAccountBonusm extends Component {
               </div> */}
            <div className="col-12 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack">
-               <h4 className="compareAccountInfoTitle text-black ">50% Deposit Bonus Account</h4>
+               <h4 className="compareAccountInfoTitle text-black "> Bonus Account</h4>
                <p className="compareAccountPrice text-black">$50/min</p>
 
 

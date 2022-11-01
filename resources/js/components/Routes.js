@@ -64,7 +64,7 @@ class Routes extends Component {
 
     render() {
         const accountType =   this.props.country == 'Malaysia' ? AccountTypesMalaysia :  this.props.country == 'Pakistan' ? AccountTypesPakistan :
-        this.props.country == 'Indonesia' ? AccountTypesIndonesia : AccountTypes
+         AccountTypes
         return (
             <div>
                  <Route path="/about-us" component={AboutUsPage2}></Route>
