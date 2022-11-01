@@ -278,8 +278,6 @@ class CompareAccountStandardM extends Component {
               <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-2 pr-2 mr-0 mt-4 mb-5">
                 GET STARTED
               </button>
-
-
               </div>
            </>
         );

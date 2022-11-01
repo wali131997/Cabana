@@ -32,6 +32,7 @@ import TermsAndCondition from "./pages/TermsAndConditionPage/TermsAndCondition";
 import AccountTypes from "./pages/AccountTypes/CompareAccountPage";
 import AccountTypesMalaysia from "./pages/AccountTypesMalaysia/CompareAccountPage";
 import AccountTypesPakistan from "./pages/AccountTypesPakistan/CompareAccountPage";
+import AccountTypesIndonesia from "./pages/AccountTypesIndonesia/CompareAccountPage";
 
 import MissionAndValues from "./pages/MissionAndValues/MissionAndValues";
 import EducationPage from "./pages/EducationPage/EducationPage";
@@ -62,17 +63,18 @@ import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 class Routes extends Component {
 
     render() {
+        const accountType =   this.props.country == 'Malaysia' ? AccountTypesMalaysia :  this.props.country == 'Pakistan' ? AccountTypesPakistan :
+        this.props.country == 'Indonesia' ? AccountTypesIndonesia : AccountTypes
         return (
             <div>
                  <Route path="/about-us" component={AboutUsPage2}></Route>
           <Route path="/trading-terms" component={TermsAndCondition}></Route>
           <Route path="/account-type" component={
-            this.props.country == 'Malaysia' ?
-            AccountTypesMalaysia :
-            this.props.country == 'Pakistan' ? AccountTypesPakistan : AccountTypes
+           accountType
           }></Route>
           <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
           <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
+          <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
 
           <Route path="/affiliate-program" component={Affiliyate}></Route>
           <Route
