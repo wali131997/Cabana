@@ -8,7 +8,7 @@ const NewPromo35PerB = () => {
                <div className='title'><span className='titleLg'>GET</span><br/>
    <span className="perText"> 35%</span> <br/> OF BONUS AS</div>
    <div className='title title2'>TRADING ACCOUNT DEPOSIT</div>
-   <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} type="button" className='btnRegister'>REGISTER NOW</button>
+   <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} type="button" className='btnRegister'>REGISTER NOW</button>
           <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a></div>
            </div>
 
@@ -47,7 +47,7 @@ const NewPromo35PerB = () => {
 via Cabana Capitals</div></div></div>
 <img src="/assets/images/promoNewacc.png" alt="promoNewacc" className='img d-block d-md-none'></img>
 
-          <div className='btnFlex'><button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className='btnAcc liveAccBtn'>OPEN LIVE ACCOUNT</button> <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className='btnAcc demoAccBtn ml-0 ml-md-4'>OPEN DEMO ACCOUNT</button></div>
+          <div className='btnFlex'><button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className='btnAcc liveAccBtn'>OPEN LIVE ACCOUNT</button> <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className='btnAcc demoAccBtn ml-0 ml-md-4'>OPEN DEMO ACCOUNT</button></div>
                   </div>
 
                   <div className="imgSec d-none d-md-block">
@@ -100,7 +100,7 @@ BONUS</div>
 <img src="/assets/images/promoTrade.png" alt="promoNewacc" className='img d-block d-md-none'></img>
 <div className="text">Start trading on more<br/>
 than 80 instruments</div>
-<button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="getStarted">GET STARTED</button>
+<button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="getStarted">GET STARTED</button>
                   </div>
 
 

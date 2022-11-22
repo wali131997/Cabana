@@ -11,10 +11,10 @@ export default class CampareAccountStandard extends Component {
               <p className="compareAccountPrice">$100/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
-                <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
+                <div onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountActionButton border-none">
                   LIVE
                 </div>
-                <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton">Demo</div>
+                <div onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountActionButton">Demo</div>
               </div>
             </div>
             <div className="compareAccountInfo">
@@ -43,7 +43,7 @@ export default class CampareAccountStandard extends Component {
 
 
               <div className="text-center">
-                <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountButton">
+                <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountButton">
                   Open PREMIUM Account
                 </button>
               </div>
@@ -78,7 +78,7 @@ export default class CampareAccountStandard extends Component {
              <h4 className="title d-inine "> <span className="opacityZero">Or</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
-              <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
+              <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
             </div>
@@ -92,10 +92,10 @@ export default class CampareAccountStandard extends Component {
               <p className="compareAccountPrice">$100/min</p>
               <hr className="compareAccountDivider" />
               <div className="compareAccountActionRow">
-                <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton border-none">
+                <div onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountActionButton border-none">
                   LIVE
                 </div>
-                <div onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountActionButton">Demo</div>
+                <div onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountActionButton">Demo</div>
               </div>
             </div>
             <div className="compareAccountInfo compareAccountBg2 ">
@@ -122,7 +122,7 @@ export default class CampareAccountStandard extends Component {
 
 
                 <div className="text-center">
-                <button     onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="compareAccountButton">
+                <button     onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="compareAccountButton">
                   Open ELITE Account
                 </button>
               </div>
@@ -157,7 +157,7 @@ export default class CampareAccountStandard extends Component {
              <h4 className="title title2 d-inine "> <span className="">Order execution</span></h4>
              <h2 className="compareAccountNorText">  Market Execution</h2>
 
-              <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
+              <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
                 GET STARTED
               </button>
             </div>

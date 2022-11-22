@@ -48,7 +48,7 @@ class StepsToOpenAccount extends Component {
           <div className="col-12 text-center mt-5 mb-5">
           <a href="/refer-terms">
           <p>*Terms And Conditions Apply</p> </a>
-          <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="depositButton " style={{padding:"8px 70px"}} >Get Started</button>
+          <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="depositButton " style={{padding:"8px 70px"}} >Get Started</button>
           </div>
             </div>
           </div>

@@ -80,7 +80,7 @@ class TraidingMemory extends Component {
                             </div>
                             <div className="text-center px-2 mt-2 ">
                             {/* <td><button onClick={()=>{window.open('/trading-memory/'+data.id,'_self')}} className="btn depositeOutlineButton ">Invest </button></td> */}
-                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
+                            <button onClick={()=>{ window.open('https://secure.cabana-global.com/login/','_self')}} className="depositButton rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
 
                             </div>
                         </div>
@@ -141,7 +141,7 @@ class TraidingMemory extends Component {
                         <div className="row ml-auto mr-auto">
                             <h1 className="col-md-4"></h1>
                             <button onClick={()=>{window.open('/pamm','_self')}} className="btn depositeOutlineButton ml-2  mt-2" style={{padding:"8px 60px",fontSize:'24px'}}>Back To Ranking </button>
-                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton ml-2 mt-2 rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
+                            <button onClick={()=>{ window.open('https://secure.cabana-global.com/login/','_self')}} className="depositButton ml-2 mt-2 rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
 
                         </div>
 

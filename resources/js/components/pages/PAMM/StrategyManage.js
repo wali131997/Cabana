@@ -23,10 +23,10 @@ class StrategyManage extends Component {
                                 </div>
                             </div>
                             </div>
-                           
+
                             <div className='row ml-auto mt-5 mr-auto'>
                                 <h1 className="col-md-4 "></h1>
-                                <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className='btnAcc liveAccBtn'>
+                                <button onClick={() => { window.open('https://secure.cabana-global.com/register/', '_self') }} className='btnAcc liveAccBtn'>
                                     BECAME A STRATEGY MANAGER</button>
                                 <button onClick={() => { window.open('/PAMM', '_self') }}
                                     className='btnAcc liveAccBtn ml-0 ml-md-4'>
@@ -64,7 +64,7 @@ class StrategyManage extends Component {
 
                         <div className='row ml-auto mt-5 mr-auto promoOpenAcc bg-transparent'>
                             <h1 className="col-md-4 "></h1>
-                            <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className='btnAcc liveAccBtn'>
+                            <button onClick={() => { window.open('https://secure.cabana-global.com/register/', '_self') }} className='btnAcc liveAccBtn'>
                                 BECAME A STRATEGY MANAGER</button>
                             <button onClick={() => { window.open('/PAMM', '_self') }}
                                 className='btnAcc liveAccBtn ml-0 ml-md-4'>

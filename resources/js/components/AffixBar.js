@@ -36,7 +36,7 @@ export default class AffixBar extends Component {
                   src="/assets/images/loginIcon.png"
                   alt="emailPng"
                 ></img>
-                <p onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="affixBarText_login d-inline">Login</p>
+                <p onClick={()=>{ window.open('https://secure.cabana-global.com/login/','_self')}} className="affixBarText_login d-inline">Login</p>
               </div>
               <div className="d-inline affixTab pointer">
                 <img
@@ -44,7 +44,7 @@ export default class AffixBar extends Component {
                   src="/assets/images/signUpIcon.png"
                   alt="emailPng"
                 ></img>
-                <p onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="affixBarText_login d-inline">SignUp</p>
+                <p onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="affixBarText_login d-inline">SignUp</p>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ export default class LandingSliderSection extends Component {
             sliders:[
               {
                 image:'landingBg10.png',
-                content: '<div class="container"><div class="row trueRow"><div class="col-12 pt-5 "><h1 class="trueTitle">TRUE ECN <br /> FOREX BROKER</h1><p class="trueDescription">True ECN Spreads From 0.0 Pips</p><div class="trueButtonBox"><a href="https://secure.cabanacapitals.com/login"><button class="btnLogin">LOG IN</button> </a> <a href="https://secure.cabanacapitals.com/login"><button  class="btnSignUp">SIGN UP</button> </a></div></div></div></div>',
+                content: '<div class="container"><div class="row trueRow"><div class="col-12 pt-5 "><h1 class="trueTitle">TRUE ECN <br /> FOREX BROKER</h1><p class="trueDescription">True ECN Spreads From 0.0 Pips</p><div class="trueButtonBox"><a href="https://secure.cabana-global.com/login"><button class="btnLogin">LOG IN</button> </a> <a href="https://secure.cabana-global.com/login"><button  class="btnSignUp">SIGN UP</button> </a></div></div></div></div>',
               }
             ],
             payloadResponse:true
@@ -268,7 +268,7 @@ to assist you via various contact channels
                       </div>
                     </div>
                     <div className="text-center">
-                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnDemoAccount">
+                      <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="btnDemoAccount">
                        Open Demo Account
                       </button>
                     </div>
@@ -330,7 +330,7 @@ to assist you via various contact channels
                       </div>
                     </div>
                     <div className="text-center">
-                      <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnDemoAccount_live">
+                      <button onClick={()=>{ window.open('https://secure.cabana-global.com/register/','_self')}} className="btnDemoAccount_live">
                         OPEN LIVE ACCOUNT
                       </button>
                     </div>
