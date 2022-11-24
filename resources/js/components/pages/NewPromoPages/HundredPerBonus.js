@@ -16,7 +16,10 @@ const HundredPerBonus = () => {
            </div> */}
         <div className='container'>
 
-            <div className='row mt-5 '>
+
+
+
+            <div className='row  mb-5'>
                 <div className='col-md-8'>
                 <h1 className="text-left mt4title p-0">100% Bonus Promotion</h1>
                     <h4 className='text-bold title_loss2'>
@@ -31,19 +34,6 @@ const HundredPerBonus = () => {
 
 </h4>
 
-                </div>
-                <div className='col-md-4 hide_on_mob'>
-                    <img className='img_default' src='/assets/images/9.png'></img>
-                    <img className='img_default' src='/assets/images/9.png'></img>
-
-
-
-                </div>
-            </div>
-
-
-            <div className='row  mb-5'>
-                <div className='col-md-8'>
                     <h4 className='text-bold title_loss2'>
                     <strong>5.</strong>	Profitsfrom trading on 100% Bonus Accounts may be withdrawn anytime.</h4>
                      <h4 className='text-bold title_loss2'>
@@ -74,6 +64,8 @@ const HundredPerBonus = () => {
 
                 </div>
                 <div className='col-md-4 hide_on_mob'>
+                <img className='img_default' src='/assets/images/9.png'></img>
+                    <img className='img_default' src='/assets/images/9.png'></img>
                     <img className='img_default' src='/assets/images/9.png'></img>
                     <img className='img_default' src='/assets/images/9.png'></img>
                     <img className='img_default' src='/assets/images/9.png'></img>
