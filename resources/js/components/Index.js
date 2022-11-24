@@ -28,7 +28,7 @@ class Index extends Component {
             "/risk-disclouser","/instruction-security","/terms-and-condition","/deposite-withdraw","/education",'/analytics','/strategy-manager',
             "/bonus-terms",'/refer-terms','/crypto-currencies','/loss-refund-promotion','/trade-to-win',
             '/account-type-malaysia','/merdeka-bonus','/no-deposit-bonus','/welcome-bonus-malaysia','/no-deposit-bonus-indonesia',
-            '/lucky-draw-promotion','/account-type-pakistan','/account-type-indonesia'
+            '/lucky-draw-promotion','/account-type-pakistan','/account-type-indonesia','/hundred-percent-bonus'
         ]
         }
     }

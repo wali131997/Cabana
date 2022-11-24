@@ -59,6 +59,7 @@ import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPag
 import {BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
 import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
+import HundredPerBonus from './pages/NewPromoPages/HundredPerBonus';
 
 class Routes extends Component {
 
@@ -110,6 +111,8 @@ class Routes extends Component {
           <Route path="/protection-funds" component={ProtectionofFunds}></Route>
           <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
           <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
+          <Route path="/hundred-percent-bonus" component={HundredPerBonus}></Route>
+
           <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
           <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
 
