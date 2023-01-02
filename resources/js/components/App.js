@@ -33,7 +33,7 @@ import Routes from "./Routes";
     componentDidMount() {
         Axios.post('/api/get_promotions').then(res => {
                 console.log(res)
-                this.props.changePromotions({promotion:res.data.promotion,country:res.data.country});
+                this.props.changePromotions({promotion:res.data.promotion,country:res.data.country,continent:res.data.continent});
                 this.setState({
                 promotions:res.data.promotion
            })

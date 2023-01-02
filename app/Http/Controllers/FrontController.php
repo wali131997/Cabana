@@ -97,6 +97,8 @@ class FrontController extends Controller
 
         curl_setopt_array($curl, array(
         CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip='.$request->ip(),
+        // CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip=41.66.128.0'.$request->ip(),
+
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -352,7 +354,10 @@ class FrontController extends Controller
                     array_push($promotions,$ac);
                 }
             }
-            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['geoplugin_countryName'] ];
+            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['geoplugin_countryName'] , 'continent' =>
+            // 'Africa'
+            $position['geoplugin_continentName']
+        ];
             return $response;
 
         }else{

@@ -1,7 +1,12 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import { a } from "react-router-dom";
 
-export default class Footer extends Component {
+class Footer extends Component {
+    constructor(props){
+        super(props);
+        console.log('props',this.props)
+    }
   render() {
     return (
       <div className="container-fluid">
@@ -94,11 +99,37 @@ export default class Footer extends Component {
             </a>
             {/* <p className="footerLinkText"> Contact Us</p> */}
           </div>
+
         </div>
         <div className="row footerSecondRow">
+            {
+                this.props.continent != 'Africa' ?
+                <p className="footerText footerText_justify">
+                <span className="textBold">Legal:</span> Cabana Capitals Limited is incorporated in St. Vincent & the Grenadines as an International Broker Company with the registration number 24185 IBC 2017. The objects of the Company are all subject matters not forbidden by International Business Companies (Amendment and Consolidation) Act, Chapter 149 of the Revised Laws of Saint Vincent and Grenadines, 2009, in particular but not exclusively all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments. Risk Warning: Trading Forex and CFDs involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford href lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client href ascertain whether he/she is permitted href use the services of the Cabana Capitals based on the legal requirements in his/her country of residence. Please read Cabana Capitals™ full Risk Disclosure. Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
+              </p>
+              :
+              <></>
+            }
+          {
+                this.props.continent == 'Africa' && this.props.country != 'South Africa' ?
+                    <p className="footerText footerText_justify">
+                        <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
+                        Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
+                        <br/> <br/>Cabana Capitals brand is represented by the following entities and regulations:
+                        <br/><br/>Cabana Capitals Ltd incorporate in St. Vincent & the Grenadines with company registration number 24185 IBC 2017.
+                        <br/><br/>Gao Financial Services (Pty) Ltd. holds a Financial Service Provider (FSP) licence number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
+                    </p>:
+                    <></>
+            }
+             {
+                this.props.continent == 'Africa' && this.props.country == 'South Africa' ?
           <p className="footerText footerText_justify">
-            <span className="textBold">Legal:</span> Cabana Capitals Limited is incorporated in St. Vincent & the Grenadines as an International Broker Company with the registration number 24185 IBC 2017. The objects of the Company are all subject matters not forbidden by International Business Companies (Amendment and Consolidation) Act, Chapter 149 of the Revised Laws of Saint Vincent and Grenadines, 2009, in particular but not exclusively all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments. Risk Warning: Trading Forex and CFDs involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford href lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client href ascertain whether he/she is permitted href use the services of the Cabana Capitals based on the legal requirements in his/her country of residence. Please read Cabana Capitals™ full Risk Disclosure. Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
-          </p>
+            <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
+            <br/><br/> Gao Financial Services (Pty) Ltd. holds a Financial Service Provider (FSP) licence number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
+            <br/><br/> Gao Financial Services (Pty) Ltd. has the authority to operate under the Cabana Capitals brand and trademarks.
+          </p>:
+          <></>
+             }
           {/* <p className="footerText">
             CCL FINTECH LIMITED is registered in the United Kindom, Company
             number 11501218. Registered address: 71-75 Shelton Street, London,
@@ -107,10 +138,18 @@ export default class Footer extends Component {
         </div>
         <div className="row footerRightsRow">
           <h5 className="footerRightsText">
-            Copyright 2022 {"\u00A9"} Cabana Capitals All Right Reserved
+            Copyright {(new Date().getFullYear())} {"\u00A9"} Cabana Capitals All Right Reserved
           </h5>
         </div>
       </div>
     );
   }
 }
+const mapStateToProps = (state) =>{
+    return{
+        country:state.country,
+        continent:state.continent
+    }
+}
+
+export default connect(mapStateToProps)(Footer);
