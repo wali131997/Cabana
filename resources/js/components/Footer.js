@@ -117,7 +117,7 @@ class Footer extends Component {
                         Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
                         <br/> <br/>Cabana Capitals brand is represented by the following entities and regulations:
                         <br/><br/>Cabana Capitals Ltd incorporate in St. Vincent & the Grenadines with company registration number 24185 IBC 2017.
-                        <br/><br/>Gao Financial Services (Pty) Ltd. holds a Financial Service Provider (FSP) licence number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
+                        <br/><br/> Cabana Capitals is regulated in South Africa under the name of Gao Financial Services (Pty) Ltd and holds a Financial Service Provider (FSP) license number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
                     </p>:
                     <></>
             }
