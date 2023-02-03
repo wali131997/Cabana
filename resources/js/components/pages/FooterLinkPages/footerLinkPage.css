@@ -12,3 +12,12 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.bgpurple{
+    background-color: #571e6a;
+}
+.text-bold{
+    font-weight:800 ;
+}
+.bgpurple-light{
+    background-color: #1c0125;
+}

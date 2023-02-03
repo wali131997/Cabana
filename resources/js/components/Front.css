@@ -363,6 +363,11 @@
     background-image: linear-gradient(to right, #e2318f 0%, #e2318f 100%, #e2318f 100%) !important;
     color: #000 !important;
 }
+
+.fifty_per_page .text{
+    font-weight: 600;
+}
+
   /* MEEDIA QURIES CSS */
 
   /* Extra small devices (phones, 600px and down) */

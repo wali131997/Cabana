@@ -60,6 +60,7 @@ import {BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
 import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 import HundredPerBonus from './pages/NewPromoPages/HundredPerBonus';
+import FiftypercentBonus from './pages/NewPromoPages/FiftypercentBonus';
 
 class Routes extends Component {
 
@@ -132,6 +133,7 @@ class Routes extends Component {
          <Route path="/trade-to-win" component={TadeToWin}></Route>
          <Route path="/welcome-bonus-malaysia" component={WelcomeBonus} />
          <Route path="/no-deposit-bonus-indonesia" component={NoDeposit30Indonesia} />
+         <Route path="/fifty-percent-bonus" component={FiftypercentBonus} />
 
 
           <Route
