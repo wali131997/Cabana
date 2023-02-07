@@ -3,7 +3,7 @@ import "./components/newPromoPage.css"
 const FiftypercentBonus = () => {
     return (
         <div>
-            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/layer5.png')", height: '500px' }}>
+            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/fiftybonus.jpg')", height: '700px', backgroundPosition:'inherit' }}>
                 <div>
                     <div className='title'><span className='titleLg'>Get Upto 50% bonus</span></div>
                     <div className='title title2'>ON EVERY DEPOSIT AS CREDIT</div>
@@ -37,7 +37,7 @@ const FiftypercentBonus = () => {
                         <h4 className='text  text-center text-dark mt-3 px-3' style={{ fontSize: '18px' }}>       Switch to Cabana Capitals and get benefit of 50% Bonus.
                             Deposit now and get 50% Bonus on your deposit in Cabana Capitals  as credit.  </h4>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-dark rounded'>Get Started</button>
+                            <button className='btn  btn-dark rounded' onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}}>Get Started</button>
                         </div>
 
                     </div>
@@ -60,7 +60,7 @@ const FiftypercentBonus = () => {
                         <div className='col-md-2'>
 
                         </div>
-                        <div className='col-md-9'>
+                        <div className='col-md-9 ml-3'>
                             <div className='mt-5 text-light'>
                                 <h4 className='text-bold'> Free Margin Upscale </h4>
                                 <h5>Open higher-volume positions</h5>
@@ -76,8 +76,6 @@ const FiftypercentBonus = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
