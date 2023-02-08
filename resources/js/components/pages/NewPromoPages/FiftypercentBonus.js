@@ -3,11 +3,11 @@ import "./components/newPromoPage.css"
 const FiftypercentBonus = () => {
     return (
         <div>
-            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/fiftybonus.jpg')", height: '700px', backgroundPosition:'inherit' }}>
+            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/fiftybonus.jpg')", height: '700px', backgroundPosition: 'inherit' }}>
                 <div>
                     <div className='title'><span className='titleLg'>Get Upto 50% bonus</span></div>
                     <div className='title title2'>ON EVERY DEPOSIT AS CREDIT</div>
-
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -37,7 +37,7 @@ const FiftypercentBonus = () => {
                         <h4 className='text  text-center text-dark mt-3 px-3' style={{ fontSize: '18px' }}>       Switch to Cabana Capitals and get benefit of 50% Bonus.
                             Deposit now and get 50% Bonus on your deposit in Cabana Capitals  as credit.  </h4>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-dark rounded' onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}}>Get Started</button>
+                            <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                         </div>
 
                     </div>
@@ -56,8 +56,11 @@ const FiftypercentBonus = () => {
                     </div>
                 </div>
                 <div className='col-md-6'>
+
                     <div className='row'>
-                        <div className='col-md-2'>
+
+                        <div className='col-md-2 hide_on_mob'>
+                            <i style={{ fontSize: '50px', marginTop: '53px' }} class="fas fa-arrow-right text-light"></i>
 
                         </div>
                         <div className='col-md-9 ml-3'>
@@ -65,14 +68,34 @@ const FiftypercentBonus = () => {
                                 <h4 className='text-bold'> Free Margin Upscale </h4>
                                 <h5>Open higher-volume positions</h5>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div className='row'>
+
+                        <div className='col-md-2 hide_on_mob'>
+                            <i style={{ fontSize: '50px', marginTop: '53px' }} class="fas fa-arrow-right text-light"></i>
+
+                        </div>
+                        <div className='col-md-9 ml-3'>
                             <div className='mt-5 text-light'>
-                                <h4 className='text-bold'> Easy Withdrawal  </h4>
+                                <h4 className='text-bold'> Easy Withdrawal </h4>
                                 <h5>Quick withdrawal of Bonus Funds</h5>
                             </div>
 
+                        </div>
+                    </div>
+
+                    <div className='row'>
+
+                        <div className='col-md-2 hide_on_mob'>
+                            <i style={{ fontSize: '50px', marginTop: '53px' }} class="fas fa-arrow-right text-light"></i>
+                        </div>
+                        <div className='col-md-9 ml-3'>
                             <div className='mt-5 text-light'>
-                                <h4 className='text-bold'> Bonus Payout </h4>
-                                <h5>Get your Bonus converted to Balance instantly after  achieving </h5>
+                                <h4 className='text-bold'> Bonus Payout  </h4>
+                                <h5>Get your Bonus converted to Balance instantly after  achieving</h5>
                             </div>
                         </div>
                     </div>
@@ -88,7 +111,7 @@ const FiftypercentBonus = () => {
                             Deposit Bonus
                         </h1>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-6' >
                         <h4>
                             <span className='title titlelg text-bold'>1</span>  Apply For a 50% Bonus.
                         </h4>
@@ -106,67 +129,69 @@ const FiftypercentBonus = () => {
                 <div className='container'>
                     <h4 className='text-bold title title2 text-center pt-4'>Promotion Rules</h4>
                     <div className=' p-3 text-light'>
-                        This Bonus can only be claimed by a verified customer of Cabana Capitals.
+                        <ul>
+                            <li>  This Bonus can only be claimed by a verified customer of Cabana Capitals.</li>
 
-                        <br></br>The Bonus promotion is only available for Clients using Cabana Capitals Mt4/MT5 Trading platform.
+                            <li>The Bonus promotion is only available for Clients using Cabana Capitals Mt4/MT5 Trading platform.</li>
 
-                        <br></br>Up to 50% Bonus is available on all new deposit amounts in Clients Trading Account (at Cabana Capitals).
+                            <li>Up to 50% Bonus is available on all new deposit amounts in Clients Trading Account (at Cabana Capitals).</li>
 
-                        <br></br>The Bonus can be claimed up to 50% on a deposit in Cabana Capitals MT4/MT5 trading account by accepting terms and conditions via email confirmation.
+                            <li>The Bonus can be claimed up to 50% on a deposit in Cabana Capitals MT4/MT5 trading account by accepting terms and conditions via email confirmation.</li>
 
-                        <br></br>The Bonus cannot be added to internal transfer deposits and to deposits from other promotions and contests.
+                            <li>The Bonus cannot be added to internal transfer deposits and to deposits from other promotions and contests.</li>
 
-                        <br></br>It is advised to claim a bonus right after your deposit is credited to your trading account.
+                            <li>It is advised to claim a bonus right after your deposit is credited to your trading account.</li>
 
-                        <br></br>Customer Bonus is applicable on Premium and Premium Line Account at Cabana Capitals.
+                            <li>Customer Bonus is applicable on Premium and Premium Line Account at Cabana Capitals.</li>
 
-                        <br></br>The Bonus shall be credited into your account and locked until terms and conditions are met. Once terms and conditions are completed, the Bonus will be deducted from your MT5 credit and simultaneously deposited into your balance. The operation will be processed on a daily basis after receiving the processing request from client.
+                            <li>The Bonus shall be credited into your account and locked until terms and conditions are met. Once terms and conditions are completed, the Bonus will be deducted from your MT5 credit and simultaneously deposited into your balance. The operation will be processed on a daily basis after receiving the processing request from client.</li>
 
-                        <br></br>It is required to trade (Credit Amount)/3, standard lots to be able to request transfer of the Bonus from Credit to Balance.
-                        Example:
-                        If client deposit $100 into cabana live trading account client will get $50 credit as 50% Bonus, these $50 will be added to the balance once client complete 50/3=16.7 lots.
 
-                        <br></br>If client deposit $2,000 into cabana live trading account client will get $1,000 credit as 50% Bonus, these $1,000 will be added to the balance once client complete 1,000/3=333.33 lots.
-                        <br></br>If client deposit $10,000 into cabana live trading account client will get $5,000 credit as 50% Bonus, these $5,000 will be added to the balance once client complete 5,000/3=1,666.67 lots.
+                            <li>It is required to trade (Credit Amount)/3, standard lots to be able to request transfer of the Bonus from Credit to Balance.
+                                Example:
+                                If client deposit $100 into cabana live trading account client will get $50 credit as 50% Bonus, these $50 will be added to the balance once client complete 50/3=16.7 lots.</li>
 
-                        <br></br>If client deposit $20,000 into cabana live trading account client will get $5,000 credit as 50% Bonus, these $5,000 will be added to the balance once client complete 5,000/3=1,666.67 lots.
+                            <li>If client deposit $2,000 into cabana live trading account client will get $1,000 credit as 50% Bonus, these $1,000 will be added to the balance once client complete 1,000/3=333.33 lots.</li>
+                            <li>If client deposit $10,000 into cabana live trading account client will get $5,000 credit as 50% Bonus, these $5,000 will be added to the balance once client complete 5,000/3=1,666.67 lots.</li>
 
-                        Volume calculation starts from the moment the Bonus is credited into clients account. Any volume traded before that will not be included. It is advised to claim the Bonus right after your deposit in your trading account.
+                            <li>If client deposit $20,000 into cabana live trading account client will get $5,000 credit as 50% Bonus, these $5,000 will be added to the balance once client complete 5,000/3=1,666.67 lots.
 
-                        <br></br>The bonus for each deposit is considered a separate bonus.
+                                Volume calculation starts from the moment the Bonus is credited into clients account. Any volume traded before that will not be included. It is advised to claim the Bonus right after your deposit in your trading account.</li>
 
-                        <br></br>The Client can only claim a new bonus if the sum of the current bonus and the amount of all other bonus funds in the relevant trading account is less than the amount of the Client’s funds (excluding bonuses) in this account’s free margin.
+                            <li>The bonus for each deposit is considered a separate bonus.</li>
 
-                        <br></br>If the equity of your account becomes less than your bonus amount or equal to it, the bonus will be cancelled or if the negative floating on your account becomes higher than your balance, the bonus will be cancelled.
+                            <li>The Client can only claim a new bonus if the sum of the current bonus and the amount of all other bonus funds in the relevant trading account is less than the amount of the Client’s funds (excluding bonuses) in this account’s free margin.</li>
 
-                        <br></br>If the amount of the client's personal funds in the trading account upon withdrawal/internal transfer becomes less than or equal to the Bonus amount, the Bonus will be cancelled.
+                            <li>If the equity of your account becomes less than your bonus amount or equal to it, the bonus will be cancelled or if the negative floating on your account becomes higher than your balance, the bonus will be cancelled.</li>
 
-                        <br></br> If any amount of trader’s own funds is withdrawn after the Bonus has been claimed, the Bonus will be cancelled.
-                        Example:
+                            <li>If the amount of the client's personal funds in the trading account upon withdrawal/internal transfer becomes less than or equal to the Bonus amount, the Bonus will be cancelled.</li>
 
-                        If you deposit $500 into your account and receive $250 (50% Bonus) and then withdraw $1, the Bonus will be cancelled. However, if you make profit you can withdraw the profit made anytime and it will not affect your Bonus.
-                        Expert Advisors (EA’s) are not allowed on accounts active for Customer Bonus promotion.
+                            <li> If any amount of trader’s own funds is withdrawn after the Bonus has been claimed, the Bonus will be cancelled.
+                                Example:
 
-                        <br></br> Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or externally (using other trading accounts held with other brokers) to avoid market risk is not allowed.
+                                If you deposit $500 into your account and receive $250 (50% Bonus) and then withdraw $1, the Bonus will be cancelled. However, if you make profit you can withdraw the profit made anytime and it will not affect your Bonus.
+                                Expert Advisors (EA’s) are not allowed on accounts active for Customer Bonus promotion.</li>
 
-                        <br></br>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage (including but not limited to risk free profiting), abuse (including but not limited to participant's trading activity patterns that indicate that the participant solely aims to benefit financially from the Customer Bonus without being genuinely interested in trading in the markets and/or taking market risk), Hedging, fraud, manipulation, cash-back arbitrage or any other forms of deceitful or fraudulent activity, will nullify previously credited Customer Bonus of the Eligible Client’s real trading Accounts with Cabana Capitals and/or any and all transactions carried and/or profits garnered therein.
+                            <li> Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or externally (using other trading accounts held with other brokers) to avoid market risk is not allowed.</li>
 
-                        <br></br>Cabana Capitals may reject Bonus application(s) at any time without prior notification or reasons for such decision.
+                            <li>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage (including but not limited to risk free profiting), abuse (including but not limited to participant's trading activity patterns that indicate that the participant solely aims to benefit financially from the Customer Bonus without being genuinely interested in trading in the markets and/or taking market risk), Hedging, fraud, manipulation, cash-back arbitrage or any other forms of deceitful or fraudulent activity, will nullify previously credited Customer Bonus of the Eligible Client’s real trading Accounts with Cabana Capitals and/or any and all transactions carried and/or profits garnered therein.</li>
 
-                        <br></br>Clients agree that information provided during the registration process may be used by the Company both within the context of the Bonus Account Campaign and for any other marketing purposes.
+                            <li>Cabana Capitals may reject Bonus application(s) at any time without prior notification or reasons for such decision.</li>
 
-                        <br></br>Cabana Capitals reserves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.
+                            <li>Clients agree that information provided during the registration process may be used by the Company both within the context of the Bonus Account Campaign and for any other marketing purposes.</li>
 
-                        <br></br>Cabana Capitals may cancel a client's bonus at any time without prior notification.
+                            <li>Cabana Capitals reserves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.</li>
 
-                        <br></br>Any situation not described in these rules shall be subject to the Company's decision.
+                            <li>Cabana Capitals may cancel a client's bonus at any time without prior notification.</li>
 
-                        <br></br>Cabana Capitals reserves the right to change, update or cancel this promotion without any prior notification.
+                            <li>Any situation not described in these rules shall be subject to the Company's decision.</li>
 
-                        <br></br>This Bonus promotion is for all countries where Cabana Capitals is operating except India.
+                            <li>Cabana Capitals reserves the right to change, update or cancel this promotion without any prior notification.</li>
 
-                        <br></br>This promotion will run from 25th Jan 2024 until further notice.
+                            <li>This Bonus promotion is for all countries where Cabana Capitals is operating except India.</li>
 
+                            <li>This promotion will run from 25th Jan 2024 until further notice.</li>
+                        </ul>
                         <br></br><br></br>Note: This offer cannot be clubbed with any other offer, bonus promotions.
                     </div>
                 </div>
