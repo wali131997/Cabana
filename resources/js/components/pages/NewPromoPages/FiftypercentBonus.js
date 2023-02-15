@@ -76,7 +76,6 @@ const FiftypercentBonus = () => {
 
                         <div className='col-md-2 hide_on_mob'>
                             <i style={{ fontSize: '50px', marginTop: '53px' }} class="fas fa-arrow-right text-light"></i>
-
                         </div>
                         <div className='col-md-9 ml-3'>
                             <div className='mt-5 text-light'>

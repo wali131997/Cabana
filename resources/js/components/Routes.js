@@ -61,6 +61,9 @@ import { connect } from 'react-redux';
 import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 import HundredPerBonus from './pages/NewPromoPages/HundredPerBonus';
 import FiftypercentBonus from './pages/NewPromoPages/FiftypercentBonus';
+import BoosterBonus from './pages/NewPromoPages/BoosterBonus';
+import LoootBonus from './pages/NewPromoPages/LoootBonus';
+import UltimateBonus from './pages/NewPromoPages/UltimateBonus';
 
 class Routes extends Component {
 
@@ -134,6 +137,9 @@ class Routes extends Component {
          <Route path="/welcome-bonus-malaysia" component={WelcomeBonus} />
          <Route path="/no-deposit-bonus-indonesia" component={NoDeposit30Indonesia} />
          <Route path="/fifty-percent-bonus" component={FiftypercentBonus} />
+         <Route path="/booster-bonus" component={BoosterBonus} />
+         <Route path="/loot-bonus" component={LoootBonus} />
+         <Route path="/ultimate-bonus" component={UltimateBonus} />
 
 
           <Route
