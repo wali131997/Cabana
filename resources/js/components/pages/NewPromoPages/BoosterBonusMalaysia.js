@@ -6,8 +6,8 @@ const BoosterBonusMalaysia = () => {
             <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/booster-bonus.png')", height: '700px' }}>
                 <div>
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
-                    <div style={{ fontSize: '22px' }} className='title title2'>Switch toCabana Capitalsand get benefit of100%Booster Bonus.
-                    <br></br>Deposit now and get 100%boosteron your deposits (Up to $1000)in Cabana Capitalsas credit. </div>
+                    <div style={{ fontSize: '22px' }} className='title title2'>Switch to Cabana Capitals and get benefit of 100% Booster Bonus
+                    <br></br>on your deposits (Up to $1000)in Cabana Capitalsas credit. </div>
                     <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
@@ -98,7 +98,7 @@ const BoosterBonusMalaysia = () => {
 <li>If any amount of trader’s own funds is withdrawn after the Bonus has been claimed, the bonus will be cancelled. The profit from clients trading can be withdrawn at any time.</li>
 
 <li>For profit withdrawal your withdrawable balance should always be more than your deposited balance amount.
-Balance± Floating-Margin Required = Withdrawable Balance</li>
+<strong>Balance± Floating-Margin Required = Withdrawable Balance</strong></li>
 
 <li>In case of cancelation or removal of Booster Bonus, Booster Bonus cannot be reinstated.</li>
 <li>Expert Advisors (EA’s) are not allowed on accounts active forBooster Bonuspromotion.</li>
