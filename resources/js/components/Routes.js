@@ -65,6 +65,7 @@ import BoosterBonus from './pages/NewPromoPages/BoosterBonus';
 import LoootBonus from './pages/NewPromoPages/LoootBonus';
 import UltimateBonus from './pages/NewPromoPages/UltimateBonus';
 import BoosterBonusMalaysia from './pages/NewPromoPages/BoosterBonusMalaysia';
+import BoosterBonusIndia from './pages/NewPromoPages/BoosterBonusIndia';
 
 class Routes extends Component {
 
@@ -116,6 +117,7 @@ class Routes extends Component {
           <Route path="/protection-funds" component={ProtectionofFunds}></Route>
           <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
           <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
+          <Route path="/booster-bonus-india" component={BoosterBonusIndia}></Route>
           <Route path="/hundred-percent-bonus" component={HundredPerBonus}></Route>
 
           <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
