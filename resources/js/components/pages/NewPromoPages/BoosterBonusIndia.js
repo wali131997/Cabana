@@ -107,6 +107,8 @@ const BoosterBonusIndia = () => {
                             <li>The Client hereby acknowledges that Forex and Contract For Differences (“CFDs“) are leveraged products which involve a high level of risk. It should be noted that when trading in the aforementioned products, it is possible for Clients to lose all their invested capital. These products may not be suitable for everyone and Clients should ensure that they understand the risks involved. Electing to utilize the Bonus may increase the risk of losing all assets. Clients should seek an independent advice, if necessary. </li>
                             <li>The above Bonus is subject to the Company’s Terms of Business available on the   Company’s       website and Client Area which may be amended from time to time. </li>
                             <li> In case of any discrepancy between the meanings of any translated versions of this Agreement, or any other communications forming part of this Agreement in any other language the meaning of the English language version shall prevail.</li>
+
+                            <li>Forex trading can be very risky and is not appropriate for all investors. Forex trade regulation depends on the jurisdiction. kindly ensure you country regulation before investing.</li>
                             <li>This promotion will run from 1st of June 2023 until 31st of August 2023</li>
 
 
