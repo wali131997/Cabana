@@ -66,6 +66,7 @@ import LoootBonus from './pages/NewPromoPages/LoootBonus';
 import UltimateBonus from './pages/NewPromoPages/UltimateBonus';
 import BoosterBonusMalaysia from './pages/NewPromoPages/BoosterBonusMalaysia';
 import BoosterBonusIndia from './pages/NewPromoPages/BoosterBonusIndia';
+import EidBonus from './pages/NewPromoPages/EidBonus';
 
 class Routes extends Component {
 
@@ -144,6 +145,7 @@ class Routes extends Component {
          <Route path="/loot-bonus" component={LoootBonus} />
          <Route path="/ultimate-bonus" component={UltimateBonus} />
          <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
+         <Route path="/eid-cashback-bonus" component={EidBonus} />
 
 
           <Route
