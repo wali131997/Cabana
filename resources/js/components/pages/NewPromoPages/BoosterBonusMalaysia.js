@@ -7,7 +7,7 @@ const BoosterBonusMalaysia = () => {
                 <div>
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
                     <div style={{ fontSize: '22px' }} className='title title2'>Switch to Cabana Capitals and get benefit of 100% Booster Bonus
-                    <br></br>on your deposits (Up to $1000)in Cabana Capitalsas credit. </div>
+                        <br></br>on your deposits (Up to $1000)in Cabana Capitalsas credit. </div>
                     <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
@@ -81,47 +81,31 @@ const BoosterBonusMalaysia = () => {
                     <h4 className='text-bold title title2 text-center pt-4 text-dark'>Promotion Rules</h4>
                     <div className=''>
                         <ul>
-                        <li>100% Booster Bonusis available on 1st deposit, 50% on 2nd deposit and 30% on 3rddeposit (maximum accumulated bonus up to $1000) and can only be claimed by verified Malaysian/Bruneicustomers of Cabana Capitals. </li>
-                        <li>For verification, clients have to upload their verification documents along with a live selfie.</li>
-                        <li>Booster Bonus is available on deposits in Clients Booster Bonus Account.</li>
-                        <li>The client must deposit a minimum amount of $100 to claim thisBooster Bonus. In case the deposit is less than $100, the Booster Bonus request will be rejected.</li>
-<li>TheBooster Bonus promotion is available on Mt4/MT5 Trading platforms.</li>
-<li>All Eligible Clients are permitted to hold only one (1) Booster Bonus Account. Multiple registrations from the same IP or same person claiming this Booster Bonus from Multiple IP’s are not permitted.</li>
-<li>The BoosterBonus Account can be requested from Client Area (only one account per Client/IP).</li>
-<li>Any such request to create Booster Bonus Account means that Client has already read and accepted these terms and conditions.</li>
-<li>TheBooster Bonus cannot be added to internal transfer, IB transfers and deposits from other promotions and contests.</li>
-<li>Internal Transfers or External Transfers of Equity/Funds/Balance are not allowed from Booster Bonus Account. </li>
-<li>Booster Bonuscredited to Booster Bonus Account right after you make deposit in to your Booster BonusAccount.</li>
-<li>Booster Bonus is not withdrawable.</li>
-<li>Scalping is not allowed on Booster Bonus promotion.Any trade which does not have a gap of 2 minutes between open and close time will be considered as scalping and will be removed from trading along with their profit.</li>
-<li>If equity falls below the deposit of trader’s own funds after the Bonus has been claimed, the bonus will be cancelled.</li>
-<li>If any amount of trader’s own funds is withdrawn after the Bonus has been claimed, the bonus will be cancelled. The profit from clients trading can be withdrawn at any time.</li>
+                            <li> The Booster Bonus is limit to 10,000 USD per profile. </li>
+                            <li>The Bonus will be deposited to the Trading Account right after the deposit into trading account. </li>
+                            <li>The Bonus will be applicable only for Premium Bonus Account,  Standard Bonus Account and Micro Bonus Account.</li>
+                            <li>The Bonus cannot be transferred between the Trading Accounts.</li>
+                            <li>The Bonus will be removed automatically in below mentioned cases:</li>
+                            <ul>
+                                <li>	If equity fallsunder the bonus amount.</li>
+                                <li>	Once equity has fallen below the bonus amount, bonus can be removed any time even if it comes back above the bonus amount (Subject to the system processing speed).</li>
+                                For Example: Client has deposited 1000 USD and received 1000 USD Bonus = 2000 USD(Equity), if equity goes below 2000 USD upon transfer or withdrawal, bonus will be removed.
+                                <li>	If any withdrawal or internal transfer results the equity falling below Deposit+ Bonus amount. </li>
+                            </ul>
 
-<li>For profit withdrawal your withdrawable balance should always be more than your deposited balance amount.
-<strong>Balance± Floating-Margin Required = Withdrawable Balance</strong></li>
+                            <li> If the Company suspects that the Client has abused or attempted to abuse the Terms and Conditions contained herein, or otherwise acted in a bad faith towards the Company, then the Company reserves the right, at its sole discretion, to deny, withhold or withdraw from that Client the Bonus and, if necessary, block and/or terminate the Client’s access to the Trading Account.</li>
 
-<li>In case of cancelation or removal of Booster Bonus, Booster Bonus cannot be reinstated.</li>
-<li>Expert Advisors (EA’s) are not allowed on accounts active forBooster Bonuspromotion.</li>
-<li>Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or externally (using other trading accounts held with other brokers) to avoid market risk is strictly prohibited.</li>
-<li>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage (including but not limited to risk free profiting), abuse (including but not limited to participant's trading activity patterns that indicate that the participant solely aims to benefit financially from the Customer Bonus without being genuinely interested in trading in the markets and/or taking market risk), Hedging, fraud, manipulation, cash-back arbitrage or any other forms of deceitful or fraudulent activity, will nullify previously credited Customer Bonus of the Eligible Client’s real trading Accounts with Cabana Capitals and/or any and all transactions carried and/or profits garnered therein.</li>
-<li>The Client is not allowed to enter into any form of prohibited trading i.e. certain trading techniques commonly known as "arbitrage trading", "picking/ sniping" or the use of certain automated trading systems or “Expert Advisors”; and/or follow an abusive trading strategy i.e. any trading activity which is aiming towards potential riskless profit by opening opposite orders, during periods of volatile market conditions, during news announcements, on opening gaps (trading sessions starts), or on possible gaps where the underlying instrument has been suspended or restricted on a particular market, between same or different trading accounts. The Client agrees and acknowledges that if the Company considers that the Client has been acting in any of the manners described above; the Company may at its sole discretion and without prior notice to the Client, take one or more, or any portion of, the following actions:
-<ol>
-<li> close the Client's account; </li>
-<li> suspend the Client's account for an indefinite period of time; </li>
-<li> carry out an investigation on the Client's account for an indefinite period of time; </li>
-<li> charge a penalty fee to the Client in the same or greater amount of money that resulted from the Client using such techniques; or </li>
-<li> close the account, confiscate any profits that arose from prohibited trading techniques and return the original deposit(s) to the account holder. If profits arising out of Prohibited Trading were already withdrawn, profits can be confiscated from the Client’s related accounts in order to make up for the difference.</li>
+                            <li>In such cases, the Company will not be liable for any other consequences that result from the Bonus cancellation and/or removal. If the Client has Open Positions and in the event, that any losses incurred as a result of such cancelation of the Bonus the Company will not be held liable.</li>
 
-</ol></li>
-<li>Cabana Capitals may rejectBooster Bonus application(s) at any time without prior notification or reasons for such decision.</li>
-<li>Clients agree that information provided during the registration process may be used by the Company both within the context of the Booster Bonus Account Campaign and for any other marketing purposes.</li>
-<li>Cabana Capitals reserves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.</li>
-<li>Cabana Capitals may cancel a client's bonus at any time without prior notification.</li>
-<li>Any situation not described in these rules shall be subject to the Company's decision.</li>
-<li>Cabana Capitals reserves the right to change, update or cancel this promotion without any prior notification.</li>
-<li>This Bonus promotion is for Malaysia/Brunei only.</li>
-<li>This promotion will run from 1st to until 30th  April 2023.</li>
-<li>Note: This offer cannot be clubbed with any other offer, bonus promotions.</li>
+                            <li>The decision whether the Client is abusing and/or manipulating the Company’s trading platform and/or its Bonus is at the Company’s sole and exclusive discretion. The Company reserves the right to revoke or change the Bonus at any time. In such cases the Company may at its sole and absolute discretion give the Client the option to either continue using the Bonus already provided, accept the new Terms and Conditions of Bonus, or to cancel the Bonus without any cost and without being considered that the Bonus conditions have not been fulfilled.</li>
+
+                            <li>The Company does not recommend taking the Bonus unless the Client knows how to make it work in his/her advantage.</li>
+                            <li> The Client understands that the Bonus gives him/her increased value and extra trading leverage. Having said that a caution must be exercised at all times when using the Bonus. By using the Bonus higher trades may be closed thus more money can be made, however the Client may also lose a lot of money. </li>
+
+                            <li>The Client hereby acknowledges that Forex and Contract For Differences (“CFDs“) are leveraged products which involve a high level of risk. It should be noted that when trading in the aforementioned products, it is possible for Clients to lose all their invested capital. These products may not be suitable for everyone and Clients should ensure that they understand the risks involved. Electing to utilize the Bonus may increase the risk of losing all assets. Clients should seek an independent advice, if necessary. </li>
+                            <li>The above Bonus is subject to the Company’s Terms of Business available on the   Company’s       website and Client Area which may be amended from time to time. </li>
+                            <li> In case of any discrepancy between the meanings of any translated versions of this Agreement, or any other communications forming part of this Agreement in any other language the meaning of the English language version shall prevail.</li>
+
 
 
                         </ul>

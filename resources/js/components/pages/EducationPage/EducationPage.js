@@ -5,7 +5,7 @@ import {
   eduIntermediateData,
 } from "./components/educationData";
 import HeroSec3 from "./components/HeroSec3";
-import HowItWorks from "../LandingPage/components/HowItWorks";
+
 import StepsToOpenAccount from "../Deposit&WithdrawPage/components/StepsToOpenAccount";
 export default class EducationPage extends Component {
   render() {

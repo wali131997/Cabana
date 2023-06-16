@@ -12,6 +12,7 @@
   }
   body {
     font-family: century !important;
+    overflow-x: hidden;
   }
   .swap_title{
       font-size: 42px;

@@ -44,10 +44,9 @@ const CompliancePage = () => {
 13. The Customer is wholly responsible for the privacy of the information received from the Company and accepts the risk of any financial losses caused by the unauthorised access of a third party to the Customer's Trading Account.
 <br/><br/>
 14. The Company has no responsibility if authorized/unauthorised third persons have access to information, including electronic addresses, electronic communication and personal data, access data when the above are transmitted between the Company or any other party, using the internet or other network communication facilities, telephone, or any other electronic means. Force Majeure Event
-<br></br>
-15. Legal: Cabana (Markets) Limited is regulated by the financial services commission (FSC) of Republic of Mauritius, category 1 Global Business No. GB22200748License | Company Reg. No 195270 GBC.
+
 <br/><br/>
-16. In case of a Force Majeure Event the Customer shall accept the risk of financial losses.</div>
+15. In case of a Force Majeure Event the Customer shall accept the risk of financial losses.</div>
                 </div>
             </div>
         </div>
