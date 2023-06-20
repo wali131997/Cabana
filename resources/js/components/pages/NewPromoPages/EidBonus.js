@@ -20,11 +20,11 @@ const EidBonus = () => {
 
                         <div className='col-md-8 px-4'>
                             <h3 className='text-bold mt-4 mb-2'>Terms and Conditions</h3>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>1.</strong>	Subject to, and without prejudice to, all other Business Terms and Policies, the offer is available to
                                 Cabana Capitals Clients who have satisfied the Eligibility Criteria for the offer (“Eligible Clients”) as
                                 set out in the sections following hereinafter.</h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>2.</strong>Only persons who can form legally binding contracts under the laws applicable in their country of
                                 residence may participate in the “Eid Cash Back Promotion”. Without limiting the foregoing,
                                 participation in the “Eid Cash Back Promotion” is not allowed for persons under the age of 18 or
@@ -32,7 +32,7 @@ const EidBonus = () => {
                                 participate in the “Eid Cash Back Promotion”.
 
                             </h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>3.</strong>	“ The Cabana Capitals “Eid Cash Back promotion” Terms & Conditions are applicable to all Clients of
                                 Cabana Capitals who are approved, are eligible to trade and who make a new deposit during the
                                 Promotion period:</h4>
@@ -48,16 +48,16 @@ const EidBonus = () => {
 
                                 </h6>
                             </div>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>4.</strong>The Eid Cash Back promotion is applicable to the following accounts only: Premium Accounts.
 
                             </h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>5.</strong>	This Eid Cash Back promotion is applicable to all CFDs, Forex, and precious metals only.
                             </h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>6.</strong>	Use of Expert Advisor is not allowed for this promotion.</h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>7.</strong>	 Eid Cash Back shall be calculated according to cash back levels given in the table below at the
                                 promotion end according to the client’s deposit in combination with the volume traded by the
                                 client in his trading account during the promotion period.
@@ -138,35 +138,35 @@ const EidBonus = () => {
                                     matches a higher level, the client will be eligible for Eid cash back as per his/her
                                     deposit level. </li>
                             </ul>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>8.</strong>	 Transfers of funds between accounts are not considered as deposits for the promotion</h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>9.</strong>	For existing clients, Cabana Capitals shall take into consideration the Deposit and Volume
                                 generated during the promotion period only after acceptance of terms & conditions.
                             </h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>10.</strong> New deposit for existing clients means that it’s a fresh deposit and that the funds they were
                                 holding in their trading account previously has not been withdrawn 24 hours before the
                                 promotion start date and then redeposited.</h4>
-                            <h4 className='text-bold title_loss2'>
+                            <h4 className='title_loss2'>
                                 <strong>11</strong> 	New Clients with deposits and volume generated without acceptance of Eid Cash Back T&Cs shall
                                 not be taken into consideration </h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>12. The maximum Eid cash back of any level shall be as mentioned in maximum cash back column (for
-                                    that particular level) in the table above. </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>13.  Maximum cash back and/or total entitlement under the current Eid cash back terms &
+                            <h4 className='title_loss2'>
+                                <strong>12.</strong> The maximum Eid cash back of any level shall be as mentioned in maximum cash back column (for
+                                    that particular level) in the table above. </h4>
+                            <h4 className='title_loss2'>
+                                <strong>13. </strong> Maximum cash back and/or total entitlement under the current Eid cash back terms &
                                     conditions cannot exceed from the amount mentioned in the level table above.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>14. The Eid cash back calculated as per eligibility level for the calendar month shall be credited to the
-                                    clients account by 15th of July</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>15. Only positions that were opened and closed during the calendar month, provided that they
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>14.</strong> The Eid cash back calculated as per eligibility level for the calendar month shall be credited to the
+                                    clients account by 15th of July</h4>
+                            <h4 className='title_loss2'>
+                                <strong>15. </strong>Only positions that were opened and closed during the calendar month, provided that they
                                     were open for more than 2 minutes, will be eligible in accordance with the current Eid cash back
-                                    terms & conditions.</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>16. Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage
+                                    terms & conditions.</h4>
+                            <h4 className='title_loss2'>
+                                <strong>16. </strong>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage
                                     (including but not limited to risk free profiting, latency arbitrage, triangular arbitrage), abuse
                                     (including but not limited to participant’s trading activity patterns that indicate that the participant
                                     solely aims to benefit financially from this offer without being genuinely interested in trading in the
@@ -174,25 +174,25 @@ const EidBonus = () => {
                                     fraud, market manipulation strategies, cash-back arbitrage or any other forms of deceitful or
                                     fraudulent activity, will nullify previously credited Cash back of the Eligible Client’s Trading Accounts
                                     with Cabana Capitals and/or any and all transactions carried and/or profits garnered therein.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>17. Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>17. </strong>Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or
                                     externally (using other trading accounts held with other brokers) to avoid market risk is not allowed.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>18. Scalping is not allowed on accounts active for Eid Cashback Promotion.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>19. Expert Advisors (EA’s) are not allowed on accounts active for Eid Cashback Promotion</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>20. In the event of any dispute or misinterpretation of the above applicable cash back terms &
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>18.</strong> Scalping is not allowed on accounts active for Eid Cashback Promotion.
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>19.</strong> Expert Advisors (EA’s) are not allowed on accounts active for Eid Cashback Promotion</h4>
+                            <h4 className='title_loss2'>
+                                <strong>20.</strong> In the event of any dispute or misinterpretation of the above applicable cash back terms &
                                     conditions, such dispute or misinterpretation shall be resolved by Cabana Capitals, acting in good
                                     faith and as it shall, in its sole and absolute discretion, deem fit and proper. Cabana Capital’s
-                                    decision shall be final and binding</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>21. Cabana Capital has the right to disqualify any client who has accepted the current Eid cash back
+                                    decision shall be final and binding</h4>
+                            <h4 className='title_loss2'>
+                                <strong>21.</strong> Cabana Capital has the right to disqualify any client who has accepted the current Eid cash back
                                     terms & conditions if:
-                                </strong></h4>
+                                </h4>
                             <ul>
                                 <li> A breach of these Eid cash back terms & conditions and/or of any term of the
                                     Operative Agreements occurs</li>
@@ -202,31 +202,31 @@ const EidBonus = () => {
                                 <li>  The Client acts in bad faith and/or abusively and/or fraudulently and/or in a manner that is
                                     not in the spirit of the current Eid cash back terms & conditions.</li>
                             </ul>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>22. Cabana Capital has the right to change or update the Eid cash back terms & conditions or cancel this
+                            <h4 className='title_loss2'>
+                                <strong>22.</strong> Cabana Capital has the right to change or update the Eid cash back terms & conditions or cancel this
                                     promotion at its discretion without any prior notification. Cabana Capital may suspend or terminate
                                     the current Eid cash back terms & conditions if a situation arises where the conditions are unfair for
                                     more participants. Cabana Capital has the right to suspend or terminate the current Eid cash back
                                     terms & conditions if its continuation is rendered impossible due to extraordinary circumstances
-                                    beyond the control of Cabana Capital (natural disasters, political conflicts etc.)</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>23. By accepting the current Eid Cash Back terms & conditions, the client acknowledges that he has
+                                    beyond the control of Cabana Capital (natural disasters, political conflicts etc.)</h4>
+                            <h4 className='title_loss2'>
+                                <strong>23.</strong> By accepting the current Eid Cash Back terms & conditions, the client acknowledges that he has
                                     read and agreed to be bound by these back terms & conditions together with the operative
                                     agreements as well as to all other business terms and conditions as these may be applicable and/or
-                                    amended from time to time</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>24. Any situation not described in these rules shall be subject to the Company's decision.</strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>25.  Notwithstanding the translated language of this document, the English wording shall be the binding
+                                    amended from time to time</h4>
+                            <h4 className='title_loss2'>
+                                <strong>24.</strong> Any situation not described in these rules shall be subject to the Company's decision.</h4>
+                            <h4 className='title_loss2'>
+                                <strong>25. </strong> Notwithstanding the translated language of this document, the English wording shall be the binding
                                     version in the event of any discrepancy between the two languages.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>26.  This Bonus promotion is for Pakistan, Bangladesh, GCC Countries, Nigeria, Malaysia and Indonesia.
-                                </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>27. This promotion cannot be obtained in conjunction with any other promotion. </strong></h4>
-                            <h4 className='text-bold title_loss2'>
-                                <strong>28. This promotion cannot be obtained in conjunction with any other promotion. </strong></h4>
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>26.  </strong>This Bonus promotion is for Pakistan, Bangladesh, GCC Countries, Nigeria, Malaysia and Indonesia.
+                                </h4>
+                            <h4 className='title_loss2'>
+                                <strong>27. </strong>This promotion cannot be obtained in conjunction with any other promotion. </h4>
+                            <h4 className='title_loss2'>
+                                <strong>28.</strong> This promotion cannot be obtained in conjunction with any other promotion. </h4>
 
                         </div>
                         <div className='col-md-4 hide_on_mob'>
