@@ -3,7 +3,7 @@ import "./components/newPromoPage.css"
 const EidBonus = () => {
     return (
         <div>
-            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/luckydrawbanner.jpg')", height: '500px' }}>
+            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/eidbonusbanner.jpg')", height: '500px' }}>
                 <div>
                     <div className='title'><span className='titleLg'>Eid Cash Back <br /> Promotion
                     </span></div>
