@@ -385,7 +385,7 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                         <div className="sideBarItem">Social Login</div>
                         </a>
                        <a href="/social-trading">
-                        <div className="sideBarItem">Social Trading</div>
+                        <div className="sideBarItem">Copy Trading</div>
                         </a>
                         <a href="/PAMM">
                         <div className="sideBarItem">PAMM Manager</div>
