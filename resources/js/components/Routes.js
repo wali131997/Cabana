@@ -145,7 +145,7 @@ class Routes extends Component {
          <Route path="/loot-bonus" component={LoootBonus} />
          <Route path="/ultimate-bonus" component={UltimateBonus} />
          <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
-         <Route path="/eid-cashback-bonus" component={EidBonus} />
+         <Route path="/cashback-bonus" component={EidBonus} />
 
 
           <Route
