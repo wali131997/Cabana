@@ -67,6 +67,7 @@ import UltimateBonus from './pages/NewPromoPages/UltimateBonus';
 import BoosterBonusMalaysia from './pages/NewPromoPages/BoosterBonusMalaysia';
 import BoosterBonusIndia from './pages/NewPromoPages/BoosterBonusIndia';
 import EidBonus from './pages/NewPromoPages/EidBonus';
+import BoosterBonusIndiaThirtyFivePer from './pages/NewPromoPages/BoosterBonusIndiaThirtyFivePer';
 
 class Routes extends Component {
 
@@ -146,6 +147,7 @@ class Routes extends Component {
          <Route path="/ultimate-bonus" component={UltimateBonus} />
          <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
          <Route path="/cashback-bonus" component={EidBonus} />
+         <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
 
 
           <Route
