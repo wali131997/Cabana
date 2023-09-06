@@ -4,8 +4,8 @@ const BoosterBonusIndiaThirtyFivePer = () => {
     return (
         <div id="india-bonus">
             <div style={{height:'80px'}}></div>
-            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/Banner2-min.jpg')", height: '700px' }}>
-               {/*  <div>
+           {/*  <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/Banner2-min.jpg')", height: '700px' }}>
+                <div>
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
                     <div style={{ fontSize: '22px' }} className='title title2'>100% Bonus applied to your Deposit into the live account.
                     <br></br> Boost your trading potential with 100% Deposit Bonus.
@@ -14,7 +14,9 @@ const BoosterBonusIndiaThirtyFivePer = () => {
                     <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                      <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a>
                 </div> */}
-            </div>
+                          <img src='/assets/images/Banner2-min.jpg' style={{ width: '100%' }}></img>
+
+
             <div className='container fifty_per_page'>
                 <div className='row mt-5'>
                     <div className='col-md-12'>
@@ -43,9 +45,7 @@ const BoosterBonusIndiaThirtyFivePer = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-5 '>
-                <img src='/assets/images/dollar-bonus.png' style={{ width: '100%' }}></img>
-            </div>
+
 
             <h4 className='text  text-center text-dark mt-5 px-3' style={{ fontSize: '24px', fontWeight: 700 }}>      Cabana Capitals brings a whopping 35% trading bonus (up to $3500) to your trading account deposit.    </h4>
             <div className='text-center mt-3'>
@@ -121,12 +121,10 @@ it will be cancelled at the same time and all deals placed will be declared null
                             <li>Any suspicious activity including hedging, arbitrage is not allowed and can cause suspension
 of trading on the suspected account.
 </li>
-                            <li> Any suspicious activity including hedging, arbitrage is not allowed and can cause suspension
-of trading on the suspected account.
-</li>
+
 
                             <li>. Any situation not described in these rules shall be subject to the Company’s Decision.  </li>
-                            <li>This promotion will run from 1st of June 2023 until 31st of August 2023</li>
+                            <li>This promotion will run from 6th of September 2023 until 31st of December 2023</li>
                             <li>Cabana Capitals reserves the right to change, update or cancel this promotion. The client will
 be notified via email or will be announced on the Website’s promotion menu. </li>
 
