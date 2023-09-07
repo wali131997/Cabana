@@ -32,11 +32,11 @@ const BoosterBonusIndiaThirtyFivePer = () => {
                             </div>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/save-money.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Request a Booster Bonus Account.</h4>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}></h4>Request a  Standard Bonus 35% & Micro Bonus 35% Account Types.
                             </div>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/money.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Deposit minimum of $100 in the Booster Bonus Account.</h4>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Deposit minimum of $100 in the Bonus Account.</h4>
                             </div>
                         </div>
 
