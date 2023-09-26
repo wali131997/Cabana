@@ -45,11 +45,11 @@ class PromotionDropDown extends Component {
 
                     </div>
                     {
-                        this.props.country != 'India' ?
+                        this.props.country != 'Pakistan' ?
                         <div
                         className="headerDropDownItemDiv"
                         onClick={this.props.dropDownHandler}
-                    >
+                            >
                         <h5 className="headerDropDownTitle mt-4">REFER</h5>
 
                         <a href="/refer-friend" className="headera ">
