@@ -109,7 +109,7 @@ const BoosterBonusIndia = () => {
                             <li> In case of any discrepancy between the meanings of any translated versions of this Agreement, or any other communications forming part of this Agreement in any other language the meaning of the English language version shall prevail.</li>
 
                             <li>Forex trading can be very risky and is not appropriate for all investors. Forex trade regulation depends on the jurisdiction. kindly ensure you country regulation before investing.</li>
-                            <li>This promotion will run from 1st of June 2023 until 31st of August 2023</li>
+                            <li>This promotion will run from 2nd of October 2023 until 30th of December 2023</li>
 
 
                         </ul>
