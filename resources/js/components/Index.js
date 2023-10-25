@@ -29,7 +29,8 @@ class Index extends Component {
             "/bonus-terms",'/refer-terms','/crypto-currencies','/loss-refund-promotion','/trade-to-win',
             '/account-type-malaysia','/merdeka-bonus','/no-deposit-bonus','/welcome-bonus-malaysia','/no-deposit-bonus-indonesia',
             '/lucky-draw-promotion','/account-type-pakistan','/account-type-indonesia','/hundred-percent-bonus','/fifty-percent-bonus','/booster-bonus',
-            '/loot-bonus','/ultimate-bonus','/booster-bonus-malaysia','/booster-bonus-india','/cashback-bonus','/booster-bonus-thirtyfive-percent'
+            '/loot-bonus','/ultimate-bonus','/booster-bonus-malaysia','/booster-bonus-india','/cashback-bonus','/booster-bonus-thirtyfive-percent',
+            '/booster-bonus-promotion'
         ]
         }
     }

@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+import { connect } from "react-redux";
 
-export default class PaymentOptions extends Component {
+class PaymentOptions extends Component {
   render() {
     return (
       <div className="container-fluid">
@@ -48,6 +49,9 @@ export default class PaymentOptions extends Component {
                   alt="paymentImage"
                 ></img>
               </div>
+              {
+                this.props.country != 'Mauritius' &&
+                <Fragment>
               <div className=" ">
                 <img
                   className="fitImage paymentImage"
@@ -62,6 +66,9 @@ export default class PaymentOptions extends Component {
                   alt="paymentImage"
                 ></img>
               </div>
+
+                </Fragment>
+              }
               <div className=" ">
                 <img
                   className="fitImage paymentImage"
@@ -83,3 +90,10 @@ export default class PaymentOptions extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) =>{
+    return{
+        country:state.country
+    }
+}
+export default connect(mapStateToProps)(PaymentOptions);
