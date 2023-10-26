@@ -91,7 +91,7 @@ const BoosterBonusIndia = () => {
                                     className="text mt-2"
                                     style={{ fontSize: "18px" }}
                                 >
-                                    Deposit minimum of $100 in the Booster Bonus
+                                    Deposit minimum of $100 in the 35% Bonus
                                     Account.
                                 </h4>
                             </div>
