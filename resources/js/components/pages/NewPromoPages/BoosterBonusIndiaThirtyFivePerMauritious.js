@@ -12,7 +12,7 @@ const BoosterBonusIndia = () => {
             >
                 <div>
                     <div className="title">
-                        <span className="titleLg"> 35%  Booster Bonus</span>
+                        <span className="titleLg"> 35%   Bonus</span>
                     </div>
                     <div style={{ fontSize: "22px" }} className="title title2">
                         Switch to Cabana Capitals and get benefit of  35%  Booster
@@ -99,12 +99,12 @@ const BoosterBonusIndia = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-5 ">
+            {/* <div className="mt-5 ">
                 <img
                     src="/assets/images/dollar-bonus.png"
                     style={{ width: "100%" }}
                 ></img>
-            </div>
+            </div> */}
 
             <h4
                 className="text  text-center text-dark mt-5 px-3"
@@ -159,7 +159,7 @@ const BoosterBonusIndia = () => {
                     <div className="">
                         <ul>
                             <li>
-                                 35%  Bonusis available on alldeposits (maximum
+                                 35%  Bonusis available on every deposits (maximum
                                 accumulated bonus up to $10000) and can only be
                                 claimed by verified Malaysian, Brunei, Vietnam,
                                 Sri Lanka, and Philippineclients of Cabana
@@ -390,6 +390,10 @@ const BoosterBonusIndia = () => {
                                 {" "}
                                 This promotion will run from 25th October 2023
                                 until further notice.
+                            </li>
+                            <li>
+                                {" "}
+                               This offer is valid for all clients new as well as for existing clients.
                             </li>
                             <li>
                                 {" "}
