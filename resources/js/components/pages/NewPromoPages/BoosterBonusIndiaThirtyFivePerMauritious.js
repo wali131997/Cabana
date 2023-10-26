@@ -15,7 +15,7 @@ const BoosterBonusIndia = () => {
                         <span className="titleLg"> 35%   Bonus</span>
                     </div>
                     <div style={{ fontSize: "22px" }} className="title title2">
-                        Switch to Cabana Capitals and get benefit of  35%  Booster
+                        Switch to Cabana Capitals and get benefit of  35%
                         Bonus.
                         <br /> Deposit now and get  35%  booster on your deposits
                         (Up to $10000)

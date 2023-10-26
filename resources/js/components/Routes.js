@@ -149,7 +149,7 @@ class Routes extends Component {
          <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
          <Route path="/cashback-bonus" component={EidBonus} />
          <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
-         <Route path="/booster-bonus-promotion" component={BoosterBonusIndiaThirtyFivePerMauritious} />
+         <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
 
           <Route
             path="/deposite-withdraw"
