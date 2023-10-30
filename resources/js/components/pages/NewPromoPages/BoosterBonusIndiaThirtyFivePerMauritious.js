@@ -159,10 +159,10 @@ const BoosterBonusIndia = () => {
                     <div className="">
                         <ul>
                             <li>
-                                 35%  Bonusis available on every deposits (maximum
+                                 35%  Bonus is available on every deposits (maximum
                                 accumulated bonus up to $10000) and can only be
                                 claimed by verified Malaysian, Brunei, Vietnam,
-                                Sri Lanka, and Philippineclients of Cabana
+                                Sri Lanka, and Philippine clients of Cabana
                                 Capitals.
                             </li>
                             <li>
@@ -263,13 +263,13 @@ const BoosterBonusIndia = () => {
                             </li>
                             <li>
                                 {" "}
-                                In case of cancelation or removal of Bonus,Bonus
+                                In case of cancelation or removal of Bonus, Bonus
                                 cannot be reinstated.
                             </li>
                             <li>
                                 {" "}
                                 Expert Advisors (EA’s) are not allowed on
-                                accounts active for 35%  Bonuspromotion.
+                                accounts active for 35%  Bonus promotion.
                             </li>
                             <li>
                                 {" "}
