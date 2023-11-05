@@ -66,7 +66,7 @@ class CompareAccountPage extends Component {
 
           </> : null}
 
-          {this.props.account_type == 'b'?
+          {/* {this.props.account_type == 'b'?
             <>
              <div
             className="row compareAccountRow d-none d-md-flex"
@@ -78,7 +78,7 @@ class CompareAccountPage extends Component {
             <CompareAccountBonusM/>
             </div>
 
-          </> : null}
+          </> : null} */}
 
 
         </div>

@@ -11,7 +11,7 @@ import './Front.css';
 
 import {connect} from 'react-redux'
 import Axios from "axios";
-import Routes from "./Routes";
+// import Routes from "./Routes";
 
 
  class App extends Component {
@@ -71,7 +71,7 @@ import Routes from "./Routes";
         />
 
           <Route path="/" exact component={LandingPage}></Route>
-        <Routes></Routes>
+        {/* <Routes></Routes> */}
 
 
         <Footer />

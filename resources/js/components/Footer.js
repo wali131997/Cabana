@@ -138,6 +138,15 @@ class Footer extends Component {
                             </p> :
                             <></>
                     }
+                    {
+                        this.props.country == 'Mauritius' ?
+                            <p className="footerText footerText_justify">
+                                Cabana capitals is regulated in Mauritius under the name of Cabana (Markets) Limited and is regulated by the Financial Services Commision of Mauritius (FSC) under the license number
+                                GB22200748. The FSC is the principal regulator of the financial services industry in Mauritius.
+
+                            </p> :
+                            <></>
+                    }
                     {/* <p className="footerText">
             CCL FINTECH LIMITED is registered in the United Kindom, Company
             number 11501218. Registered address: 71-75 Shelton Street, London,
