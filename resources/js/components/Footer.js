@@ -139,7 +139,7 @@ class Footer extends Component {
                             <></>
                     }
                     {
-                        this.props.country == 'Mauritius' ?
+                        this.props.country != 'India' &&   this.props.country != 'South Africa' && this.props.country != 'United Arab Emirates' ?
                             <p className="footerText footerText_justify">
                                 Cabana capitals is regulated in Mauritius under the name of Cabana (Markets) Limited and is regulated by the Financial Services Commision of Mauritius (FSC) under the license number
                                 GB22200748. The FSC is the principal regulator of the financial services industry in Mauritius.
