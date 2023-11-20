@@ -12,6 +12,7 @@ import './Front.css';
 import {connect} from 'react-redux'
 import Axios from "axios";
 import Routes from "./Routes";
+import { Toaster } from "react-hot-toast";
 
 
  class App extends Component {
@@ -75,7 +76,7 @@ import Routes from "./Routes";
 
 
         <Footer />
-
+        <Toaster position="bottom"></Toaster>
       </div>
     );
   }

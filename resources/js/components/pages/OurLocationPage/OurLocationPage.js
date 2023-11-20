@@ -4,6 +4,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import HeroSection from '../AboutUsPage/components/HeroSection';
 import "./components/ourLocation.css"
+import ContactForm from './contactForm';
 const OurLocationPage = (props) => {
     return (
         <div className="ourLocation">
@@ -77,6 +78,8 @@ const OurLocationPage = (props) => {
           :
           null
           }
+
+          <ContactForm></ContactForm>
         </div>
     );
 };

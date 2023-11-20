@@ -65,9 +65,9 @@ export default class TradingPlatforms extends Component {
                     <br  />
                     <div className=" mob_margin">
 
-                        <a href="/white-label">
+                        {/* <a href="/white-label">
                         <button className="btn btn-outline-secondary mt-2"> WHITE LABEL</button>
-                        </a>
+                        </a> */}
 
                     </div>
                   </div>
