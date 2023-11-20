@@ -19,7 +19,7 @@ export default class Refferal extends Component {
 
           </div>
 
-          <div
+          {/* <div
             className="headerDropDownItemDiv"
             onClick={this.props.dropDownHandler}
           >
@@ -30,7 +30,7 @@ export default class Refferal extends Component {
             <a href="/reffer-friend" className="headera opacityZero">
               <div className="headerDropDownItem">Refer a Friend</div>
             </a>
-          </div>
+          </div> */}
           <div className="headerDropDownImgDiv">
             <img
               className="headerDropDownImg"

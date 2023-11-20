@@ -273,9 +273,9 @@ import HeaderMobileLastDropDown from "./HeaderComp/HeaderMobileLastDropDown";
                             <a href="/affiliate-program" className="headerLink">
                             <div className="sideBarItem">Affiliate Program</div>
                             </a>
-                            <a href="/white-label" className="headerLink">
+                            {/* <a href="/white-label" className="headerLink">
                             <div className="sideBarItem">White Label</div>
-                            </a>
+                            </a> */}
                     </div>
                   </HeaderMobileLastDropDown>
                 </>

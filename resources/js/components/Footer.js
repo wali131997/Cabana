@@ -21,9 +21,9 @@ class Footer extends Component {
                             <h3 className="footerTitle">Registered Office</h3>
                             <p className="footerText">
                                 Cabana Capitals <br />
-                                Suit 305, Griffith Corporate Centre <br />
-                                Beachmont, P.O.Box 1510, Kingstown St. <br />
-                                Vincent and the Grenadines
+                                Office no. 212, Ground floor ,block A,
+                                <br/>The junction Business Hub, <br/>
+                                Calebasses Branch Rd, Calebasses
                             </p>
                             <div className="footerSocialBox">
                                 <div className="footerSocialCircle">
@@ -123,7 +123,7 @@ class Footer extends Component {
                             <p className="footerText footerText_justify">
                                 <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
                                 Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
-                                <br /> <br />Cabana Capitals brand is represented by the following entities and regulations:
+                                {/* <br /> <br />Cabana Capitals brand is represented by the following entities and regulations: */}
                                 <br /><br />Cabana Capitals Ltd incorporate in St. Vincent & the Grenadines with company registration number 24185 IBC 2017.
                                 <br /><br /> Cabana Capitals is regulated in South Africa under the name of Gao Financial Services (Pty) Ltd and holds a Financial Service Provider (FSP) license number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
                             </p> :

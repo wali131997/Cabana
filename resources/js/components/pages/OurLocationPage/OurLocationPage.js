@@ -18,13 +18,21 @@ const OurLocationPage = (props) => {
 
            <div className="mapCard">
             <div className="title">Head Office</div>
-            <div className="text">Suit 305, Griffith Corporate Centre<br/>
+            <div className="text">
+                {/* Suit 305, Griffith Corporate Centre<br/>
             Beachmont, P.O.Box 1510, Kingstown St.<br/>
-            Vincent and the Grenadines</div>
+            Vincent and the Grenadines */}
+
+            Office no. 212, Ground floor ,block A,
+                                <br/>The junction Business Hub, <br/>
+                                Calebasses Branch Rd, Calebasses
+                                <br/>
+
+            </div>
 
             <div className="title">Customer Support</div>
             <div className="text">For any enquiries email us on:</div>
-            {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff"  /> +44 208 124 4440</div> */}
+            <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff"  /> +44 230 245 8606</div>
             <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff"  /> support@cabanacapitals.com</div>
            </div>
            </div>
