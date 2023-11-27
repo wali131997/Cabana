@@ -37,7 +37,7 @@ const ContactForm = () => {
   });
 
   return (
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="mt-5 mb-5 d-flex justify-content-center align-items-center">
 
 
 
