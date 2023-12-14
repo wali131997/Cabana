@@ -69,6 +69,8 @@ import BoosterBonusIndia from './pages/NewPromoPages/BoosterBonusIndia';
 import EidBonus from './pages/NewPromoPages/EidBonus';
 import BoosterBonusIndiaThirtyFivePer from './pages/NewPromoPages/BoosterBonusIndiaThirtyFivePer';
 import BoosterBonusIndiaThirtyFivePerMauritious from './pages/NewPromoPages/BoosterBonusIndiaThirtyFivePerMauritious';
+import DubaiLuxuryPromotion from './pages/NewPromoPages/DubaiLuxuryPromotion';
+import ThailandPromotion from './pages/NewPromoPages/ThailandPromotion';
 
 class Routes extends Component {
 
@@ -150,6 +152,8 @@ class Routes extends Component {
          <Route path="/cashback-bonus" component={EidBonus} />
          <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
          <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
+         <Route path="/dubai-luxury-promotion" component={DubaiLuxuryPromotion} />
+         <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
 
           <Route
             path="/deposite-withdraw"
