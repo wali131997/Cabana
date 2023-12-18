@@ -1,10 +1,101 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import accounts from "./accountTypesData.json";
 
 class CompareAccountEcnM extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            accountsState: []
+        }
+    }
+
+    componentDidMount(){
+        let filteredAccounts = [];
+        accounts.ecnAccounts.map((data,index)=>{
+            if(data.country == this.props.country){
+                filteredAccounts.push(data)
+            }
+        })
+
+        if(filteredAccounts.length == 0){
+            accounts.ecnAccounts.map((data,index)=>{
+                if(data.country == 'restOffWorld'){
+                    filteredAccounts.push(data)
+                }
+            })
+        }
+
+        this.setState({
+            accountsState: filteredAccounts
+        })
+
+    }
     render() {
         return (
            <>
-           <div className="col-4 px-0 standardM compareAccountDetail">
+
+{
+        this.state.accountsState.map((account, index)=>{
+
+            return(
+           <div className="col-md-12 px-0 standardM compareAccountDetail">
+               <div className="compareAccountBgM borderRightBlack">
+               <h4 className="compareAccountInfoTitle text-black ">{account.accountTitle}</h4>
+               <p className="compareAccountPrice text-black">{account.minimumDeposit}/min</p>
+
+
+              </div>
+              <h4 className="platformText pt-0 mb-0">MetaTrader 5</h4>
+               <h4 className="platformText mb-3">MetaTrader 4</h4>
+
+               <p className="compareAccountText text-black mt-4">RECOMMENDED FOR:</p>
+              <h4 className="compareAccountInfoTitle text-black" dangerouslySetInnerHTML= {{__html:account.recommendedFor}}>
+
+              </h4>
+
+
+
+              <h4 className="title d-inine "><span className={account.headingClass}>CURRENCY*</span></h4>
+                  <h2 className={`${account.valueTagMobClass} mt-3`}>{account.currency}</h2>
+                    <h4 className="title d-inine "><span className={account.headingClass}>SPREAD</span></h4>
+                    <p className={account.valueTagMobClass}>{account.spread}</p>
+                    <h4 className="title d-inine "><span className={account.headingClass}>COMMISION/MARKUP </span></h4>
+                    <h2 className={account.valueTagMobClass}> {account.commissionMarkup}</h2>
+                    <h4 className="title d-inine "><span className={account.headingClass}>MINIMUM DEPOSIT</span></h4>
+                    <h2 className={account.valueTagMobClass}> {account.minimumDeposit}</h2>
+                    <h4 className="title d-inine "><span className={account.headingClass}>LEVERAGE*</span></h4>
+                    <h2 className={account.valueTagMobClass}> {account.leverage}</h2>
+                    <h4 className="title d-inine "><span className={account.headingClass}>INSTRUMENTS</span></h4>
+                   <h2 className={account.valueTagMobClass}>  {account.instruments}</h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>SWAP</span></h4>
+                   <h2 className={account.valueTagMobClass}> <p className="text">{account.swap}</p></h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>Min/Max Volume</span></h4>
+                   <h2 className={account.valueTagMobClass}> <p className="text">{account.minmaxVolume}</p></h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>Order Execution</span></h4>
+                   <h2 className={account.valueTagMobClass}>{account.orderExecution} </h2>
+                   <h4 className="title d-inine "> <span className={account.headingClass}> MARGIN CALL/STOP OUT LEVEL </span></h4>
+                   <h2 className={account.valueTagMobClass}>{account.marginCall}</h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>Contract Size</span></h4>
+                   <h2 className={account.valueTagMobClass}> {account.contractSize}</h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>SCALPING</span></h4>
+                   <h2 className={account.valueTagMobClass}> {account.scalping}</h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}>EXPERT ADVISOR</span></h4>
+                   <h2 className={account.valueTagMobClass}> {account.ea}</h2>
+                   <h4 className="title d-inine "><span className={account.headingClass}> Maximum trades</span> </h4>
+                   <h2 className={account.valueTagMobClass}> {account.maxTrades}</h2>
+
+              <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/register/','_self')}} className="btnPrimaryPink2 pl-4 pr-4 mt-4 mb-5 mr-0">
+                GET STARTED
+              </button>
+
+
+              </div>
+        )}  )
+        }
+
+           {/* <div className="col-4 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack">
                <h4 className="compareAccountInfoTitle text-black ">Trader</h4>
                <p className="compareAccountPrice text-black">$250/min</p>
@@ -165,11 +256,15 @@ class CompareAccountEcnM extends Component {
               </button>
 
 
-              </div>
+              </div> */}
 
            </>
         );
     }
 }
-
-export default CompareAccountEcnM;
+const mapStateToProps = (state) =>{
+    return{
+        country:state.country
+    }
+}
+export default connect(mapStateToProps)(CompareAccountEcnM);

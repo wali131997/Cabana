@@ -42,7 +42,7 @@ export default class compareAccoountHeader extends Component {
             }
             onClick={() => handleActiveFun()}
           >
-            <h3 className="compareAccountTitle mt-2 mt-sm-3">Trader Accounts</h3>
+            <h3 className="compareAccountTitle mt-2 mt-sm-3">ECN Accounts</h3>
           </div>
         </div>
       </div>
