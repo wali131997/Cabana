@@ -83,7 +83,7 @@ class Routes extends Component {
                  <Route path="/about-us" component={AboutUsPage2}></Route>
           <Route path="/trading-terms" component={TermsAndCondition}></Route>
           <Route path="/account-type" component={
-           accountType
+           AccountTypes
           }></Route>
           <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
           <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
