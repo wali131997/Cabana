@@ -20,10 +20,12 @@ class Footer extends Component {
                             ></img>
                             <h3 className="footerTitle">Registered Office</h3>
                             <p className="footerText">
-                                Cabana Capitals <br />
-                                Office no. 212, Ground floor ,block A,
+                            Cabana Capitals Limited<br />
+Suite 305, Griffith Corporate Centre,<br /> PO Box 1510, Beachmont, Kingstown,<br /> Saint Vincent and the Grenadines
+<br /><br />Cabana Capitals Limited<br />
+                                Office no. 212, Ground floor ,Block A,
                                 <br/>The junction Business Hub, <br/>
-                                Calebasses Branch Rd, Calebasses
+                                Calebasses Branch Rd, Calebasses, Mauritius
                             </p>
                             <div className="footerSocialBox">
                                 <div className="footerSocialCircle">
