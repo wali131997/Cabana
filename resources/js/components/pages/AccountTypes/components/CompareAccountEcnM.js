@@ -40,7 +40,7 @@ class CompareAccountEcnM extends Component {
         this.state.accountsState.map((account, index)=>{
 
             return(
-           <div className="col-md-12 px-0 standardM compareAccountDetail">
+           <div className="col-4 px-0 standardM compareAccountDetail">
                <div className="compareAccountBgM borderRightBlack">
                <h4 className="compareAccountInfoTitle text-black ">{account.accountTitle}</h4>
                <p className="compareAccountPrice text-black">{account.minimumDeposit}/min</p>

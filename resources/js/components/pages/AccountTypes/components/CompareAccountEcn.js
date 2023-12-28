@@ -39,7 +39,7 @@ componentDidMount(){
       {
         this.state.accountsState.map((account, index)=>{
             return(
-                <div className="col-md-4 offset-md-4 col-sm-12 px-0">
+                <div className="col-md-4 col-sm-12 px-0">
                 <div className="compareAccountCard">
                 <div className="compareAccountActions ">
                     <h4 className="compareAccountInfoTitle ">{account.accountTitle}</h4>

@@ -17,7 +17,7 @@ class Index extends Component {
     constructor(props) {
         super(props);
         this.state={
-            paths:["/about-us","/trading-terms","/account-typ",
+            paths:["/about-us","/trading-terms","/account-type",
             "/affiliate-program","/mission-and-values","/education/meta-trader-4",
             "/trading-instruments","/trading-currencies","/introducing-broker",
             "/negative-balance-protection","/refer-friend","/trading-memory/:id",
