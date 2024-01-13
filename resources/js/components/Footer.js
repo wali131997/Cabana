@@ -22,7 +22,7 @@ class Footer extends Component {
                             <p className="footerText">
                             Cabana Capitals Limited<br />
 Suite 305, Griffith Corporate Centre,<br /> PO Box 1510, Beachmont, Kingstown,<br /> Saint Vincent and the Grenadines
-<br /><br />Cabana Capitals Limited<br />
+<br /><br />Cabana Markets Limited<br />
                                 Office no. 212, Ground floor ,Block A,
                                 <br/>The junction Business Hub, <br/>
                                 Calebasses Branch Rd, Calebasses, Mauritius

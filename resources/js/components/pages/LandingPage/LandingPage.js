@@ -6,8 +6,15 @@ import PaymentOptions from "./components/PaymentOptions";
 import TradingPlatforms from "./components/TradingPlatforms";
 
 import "./components/landingPage.css";
+import AlertModal from "./components/AlertModal";
+import { connect } from "react-redux";
 
-export default class LandingPage extends Component {
+ class LandingPage extends Component {
+    constructor(props) {
+        super(props);
+
+    }
+
   render() {
     return (
       <>
@@ -16,7 +23,19 @@ export default class LandingPage extends Component {
         <TradingPlatforms />
         {/* <Analytics /> */}
         <PaymentOptions />
+       {
+        this.props.country == 'Pakistan'  &&  <AlertModal></AlertModal>
+        }
+
       </>
     );
   }
 }
+const mapStateToProps = (state) => {
+    return {
+        country: state.country,
+        continent: state.continent
+    }
+}
+
+export default connect(mapStateToProps)(LandingPage);
