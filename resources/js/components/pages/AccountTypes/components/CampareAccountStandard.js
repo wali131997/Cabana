@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import accounts from "./accountTypesData.json";
+import accountsData from "./accountTypesData.json";
+import accountsThailand from "./accountTypesThailand.json";
 import { connect } from "react-redux";
  class CampareAccountStandard extends Component {
 
@@ -11,6 +12,7 @@ constructor(props) {
 }
 
 componentDidMount(){
+    let accounts = this.props.country == 'Thailand' ? accountsThailand : accountsData
     let filteredAccounts = [];
     accounts.data.map((data,index)=>{
         if(data.country == this.props.country){
