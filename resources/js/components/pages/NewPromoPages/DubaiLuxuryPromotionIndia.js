@@ -1,6 +1,6 @@
 import React from 'react';
 import "./components/newPromoPage.css"
-const DubaiLuxuryPromotion = () => {
+const DubaiLuxuryPromotionIndia = () => {
     return (
         <div>
             <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/Design4_2-min.jpg')", height: '700px' }}>
@@ -27,7 +27,7 @@ financial achievements <br/>with an extravagant travel experience.
                             </div>
                             <div className='col-md-4 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $5,000 in your Cabana Capitals trading account
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $10,000 in your Cabana Capitals trading account
 method</h4>
                             </div>
                             {/* <div className='col-md-3 text-center'>
@@ -36,7 +36,7 @@ method</h4>
                             </div> */}
                             <div className='col-md-4 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/money.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>2.	Achieve a minimum trading volume of 500 qualiﬁed standard lots during the Promotion Period. (minimum diﬀerence between open and close should not be less than 2 minutes)</h4>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>2.	Achieve a minimum trading volume of 1000 qualiﬁed standard lots during the Promotion Period. (minimum diﬀerence between open and close should not be less than 2 minutes)</h4>
                             </div>
                         </div>
 
@@ -130,9 +130,9 @@ trading volume requirements.
 </ul>
 <li><strong>	Qualiﬁcation Requirement </strong></li>
 <ul>
-<li>	To qualify for the Dubai Luxury Trip Promotion, Participants are required to deposit a minimum amount of $5,000 into their Cabana Capitals trading account during the Promotion Period.</li>
+<li>	To qualify for the Dubai Luxury Trip Promotion, Participants are required to deposit a minimum amount of $10,000 into their Cabana Capitals trading account during the Promotion Period.</li>
 
-<li>	In addition to the minimum deposit requirement, Participants must also achieve a minimum trading volume of 500 qualiﬁed standard lots (minimum diﬀerence between open and close should not be less than 2 minutes) during the Promotion Period to become eligible for the Dubai Luxury Trip.</li>
+<li>	In addition to the minimum deposit requirement, Participants must also achieve a minimum trading volume of 1000 qualiﬁed standard lots (minimum diﬀerence between open and close should not be less than 2 minutes) during the Promotion Period to become eligible for the Dubai Luxury Trip.</li>
 
 <li>	This oﬀer is only valid on Standard, Ultra and Elite Account.</li>
 </ul>
@@ -237,4 +237,4 @@ If Cabana Capitals determines that a client has engaged in prohibited activities
     );
 };
 
-export default DubaiLuxuryPromotion;
+export default DubaiLuxuryPromotionIndia;

@@ -72,6 +72,8 @@ import BoosterBonusIndiaThirtyFivePerMauritious from './pages/NewPromoPages/Boos
 import DubaiLuxuryPromotion from './pages/NewPromoPages/DubaiLuxuryPromotion';
 import ThailandPromotion from './pages/NewPromoPages/ThailandPromotion';
 import AdditionalUSDTPromotion from './pages/NewPromoPages/AdditionalUSDTPromotion';
+import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotionIndia';
+import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 
 class Routes extends Component {
 
@@ -154,6 +156,8 @@ class Routes extends Component {
          <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
          <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
          <Route path="/dubai-luxury-promotion" component={DubaiLuxuryPromotion} />
+         <Route path="/umrah-package-promotion" component={UmrahpackagePromotion} />
+         <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
          <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
          <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
 
