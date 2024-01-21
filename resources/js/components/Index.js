@@ -17,7 +17,8 @@ class Index extends Component {
     constructor(props) {
         super(props);
         this.state={
-            paths:["/about-us","/trading-terms","/account-type",
+            paths:[
+                "/about-us","/trading-terms","/account-type",
             "/affiliate-program","/mission-and-values","/education/meta-trader-4",
             "/trading-instruments","/trading-currencies","/introducing-broker",
             "/negative-balance-protection","/refer-friend","/trading-memory/:id",
@@ -31,7 +32,7 @@ class Index extends Component {
             '/lucky-draw-promotion','/account-type-pakistan','/account-type-indonesia','/hundred-percent-bonus','/fifty-percent-bonus','/booster-bonus',
             '/loot-bonus','/ultimate-bonus','/booster-bonus-malaysia','/booster-bonus-india','/cashback-bonus','/booster-bonus-thirtyfive-percent',
             '/thirtyfive-percent-bonus', '/dubai-luxury-promotion-india' , '/thailand-welcome-bonus-promotion',
-            '/additional-usdt-deposit-promotion','/umrah-package-promotion'
+            '/additional-usdt-deposit-promotion','/umrah-package-promotion','/dubai-luxury-promotion'
         ]
         }
     }
