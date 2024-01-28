@@ -30,7 +30,6 @@ class CompareAccountEcnM extends Component {
         this.setState({
             accountsState: filteredAccounts
         })
-
     }
     render() {
         return (
