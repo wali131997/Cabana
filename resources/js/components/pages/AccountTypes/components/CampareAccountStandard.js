@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import accountsData from "./accountTypesData.json";
-import accountsThailand from "./accountTypesThailand.json";
+import accounts from "./accountTypesData.json";
 import { connect } from "react-redux";
  class CampareAccountStandard extends Component {
 
@@ -12,17 +11,17 @@ constructor(props) {
 }
 
 componentDidMount(){
-    let accounts = this.props.country == 'Thailand' ? accountsThailand : accountsData
+
     let filteredAccounts = [];
     accounts.data.map((data,index)=>{
-        if(data.country == this.props.country){
+        if(data?.country.find((country) => country == this.props.country)){
             filteredAccounts.push(data)
         }
     })
 
     if(filteredAccounts.length == 0){
         accounts.data.map((data,index)=>{
-            if(data.country == 'restOffWorld'){
+            if(data?.country.find((country) => country == 'restOffWorld')){
                 filteredAccounts.push(data)
             }
         })

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import accountsData from "./accountTypesData.json";
+import accounts from "./accountTypesData.json";
 import accountsThailand from "./accountTypesThailand.json";
 class CompareAccountStandardM extends Component {
 
@@ -12,18 +12,16 @@ class CompareAccountStandardM extends Component {
     }
 
     componentDidMount(){
-    let accounts = this.props.country == 'Thailand' ? accountsThailand : accountsData
-
         let filteredAccounts = [];
         accounts.data.map((data,index)=>{
-            if(data.country == this.props.country){
+            if(data?.country.find((country) => country == this.props.country)){
                 filteredAccounts.push(data)
             }
         })
 
         if(filteredAccounts.length == 0){
             accounts.data.map((data,index)=>{
-                if(data.country == 'restOffWorld'){
+                if(data?.country.find((country) => country == 'restOffWorld')){
                     filteredAccounts.push(data)
                 }
             })
