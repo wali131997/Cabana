@@ -612,7 +612,7 @@
             "country" : ["restOffWorld"],
             "headingClass" : "",
             "valueTagClass" : "compareAccountNorText",
- "valueTagMobClass" : "compareAccountNorMobText",
+            "valueTagMobClass" : "compareAccountNorMobText",
             "accountTitle": "Elite Account",
             "minimumDeposit": "$500",
             "recommendedFor" : "PROFFESSIONAL <br/> TRADER",
