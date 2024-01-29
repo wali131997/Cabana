@@ -13,7 +13,7 @@ class CompareAccountEcnM extends Component {
 
     componentDidMount(){
         let filteredAccounts = [];
-        accounts.data.map((data,index)=>{
+        accounts.ecnAccounts.map((data,index)=>{
             if(data?.country.find((country) => country == this.props.country)){
                 filteredAccounts.push(data)
             }
