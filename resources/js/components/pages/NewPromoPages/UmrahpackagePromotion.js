@@ -25,7 +25,7 @@ const UmrahpackagePromotion = () => {
                             </div>
                             <div className='col-md-4 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $2000 in your Cabana Capitals trading account during the
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $2500 in your Cabana Capitals trading account during the
 promotion period</h4>
                             </div>
                             {/* <div className='col-md-3 text-center'>
@@ -126,15 +126,15 @@ into a journey of faith that will stay with you forever
 
         <li><strong>Qualification Requirement:</strong>
             <ul>
-                <li>To be eligible for the Umrah Package Promotion, Participants must make a minimum deposit of $2000 in their trading account during the Promotion Period.</li>
-                <li>In addition to the minimum deposit requirement, Participants must also achieve a minimum trading volume of 200 qualified standard lots (any trade which is open for less than 2 minutes will not be considered as a qualified lot) during the Promotion Period to qualify for the Umrah Package.</li>
+                <li>To be eligible for the Umrah Package Promotion, Participants must make a minimum deposit of $2500 in their trading account during the Promotion Period.</li>
+                <li>In addition to the minimum deposit requirement, Participants must also achieve a minimum trading volume of 500 qualified standard lots (any trade which is open for less than 2 minutes will not be considered as a qualified lot) during the Promotion Period to qualify for the Umrah Package.</li>
                 <li>This offer is only valid on Standard, Ultra, and Elite Account.</li>
             </ul>
         </li>
 
         <li><strong>Promotion Period:</strong>
             <ul>
-                <li>The Promotion Period is defined as the period starting from 15th January 2024 and ending on 31st March 2024. All eligible deposits and trading activity must occur within this specified timeframe.</li>
+                <li>The Promotion Period is defined as the period starting from 15th February 2024 and ending on 15th May 2024. All eligible deposits and trading activity must occur within this specified timeframe.</li>
             </ul>
         </li>
 

@@ -138,8 +138,7 @@ trading volume requirements.
 </ul>
 <li>	<strong>Promotion Period </strong></li>
 <ul>
-<li>The Promotion Period begins on January 15th 2024 and concludes on March
-31th 2024. All eligible deposits and trading activities must occur within this speciﬁed timeframe.
+<li>The Promotion Period begins on February 15th 2024 and concludes on MMay 15th 2024. All eligible deposits and trading activities must occur within this speciﬁed timeframe.
 </li></ul>
 
 
