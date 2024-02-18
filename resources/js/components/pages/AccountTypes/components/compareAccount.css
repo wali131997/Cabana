@@ -1,0 +1,228 @@
+.compareAccountRow {
+  padding: 0;
+}
+.compareAccountTopHeader {
+  margin-top: -60px;
+  position: relative;
+  z-index: 200;
+  height: 60px;
+}
+.standardAccountDiv {
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: rgba(235, 22, 151, 0.5);
+  transition: ease-in 0.2s;
+}
+.compareAccountCard {
+  top: 0px;
+  animation: showNow ease-out 0.5s;
+  position: relative;
+}
+@keyframes showNow {
+  0% {
+    top: 100px;
+    opacity: 0;
+  }
+  25% {
+    top: 75px;
+    opacity: 0.25;
+  }
+  50% {
+    top: 50x;
+    opacity: 0.5;
+  }
+  75% {
+    top: 25px;
+    opacity: 0.75;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+.standardAccountActive {
+  opacity: 1;
+}
+.compareAccountTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.compareAccountInfo {
+  background-color: #b41375;
+  height: 370px;
+  padding: 30px;
+}
+.compareAccountImg {
+  width: 150px;
+}
+.compareAccountInfoTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.centerDiv {
+  margin: 0 auto;
+  width: fit-content;
+}
+.compareAccountText {
+  color: #fff;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.compareAccountNorText {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  .compareAccountNorMobText {
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+  }
+.compareAccountTextSm {
+  color: #fff;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.compareAccountButton {
+  color: #fff;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #e7acd0;
+  padding: 5px 10px;
+  transition: ease-in 0.3s;
+  margin-top: 35px;
+}
+.compareAccountButton:hover {
+  background-color: #e7acd0;
+  color: #000;
+  font-weight: bold;
+}
+.compareAccountActions {
+  background-color: #be1d79;
+  padding: 30px 20%;
+  height: 220px;
+  text-align: center;
+}
+.compareAccountPrice {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.compareAccountDivider {
+  background-color: #e7acd0;
+}
+.compareAccountActionRow {
+  display: flex;
+
+  justify-content: center;
+}
+.compareAccountActionButton {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border-left: 2px solid #fff;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.compareAccountActionButton:hover {
+  color: #e7acd0;
+}
+.border-none {
+  border: none !important;
+}
+.compareAccountDetail {
+  text-align: center;
+  /* padding: 0 20px; */
+}
+.compareAccountDetail .title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #F6F7F8;
+}
+.compareAccountDetail .text {
+  font-size: 0.6rem;
+
+  color: #000;
+  padding: 0 5px;
+}
+.compareAccountDetail .divider {
+  width: 40%;
+  background-color: #e7acd0;
+}
+.compareAccountDetail .bold {
+  font-weight: bold;
+}
+.compareAccountBg1 {
+  background-color: #a31167;
+}
+.compareAccountBg2 {
+  background-color: #91185d;
+}
+.compareAccountBg3 {
+  background-color: #7d004d;
+}
+.compareAccountBg4 {
+  background-color: #65093f;
+}
+
+.compareAccountBgM{
+  background-color: #F6F7F8;
+}
+.text-black{
+  color: #000;
+}
+.borderRightBlack{
+  border-right: 1px solid #000;
+}
+.standardM{
+  text-align: center;
+}
+.standardM .platformText{
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+ text-align: center;
+ padding-top: 10px;
+}
+
+.opacityZero{
+  opacity: 0;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .compareAccountRow {
+    padding: 0 4vw;
+  }
+  .compareAccountInfoTitle{
+    font-size: 1.6rem;
+  }
+  .compareAccountDetail .title{
+    font-size: 1rem;
+  }
+  .compareAccountDetail .text {
+    font-size: 14px;
+
+    color: #000;
+  }
+  .compareAccountText {
+    font-size: 0.7em;
+  }
+}

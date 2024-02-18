@@ -1,0 +1,532 @@
+@font-face{
+    font-family: gothic;
+    src: url("/fonts/Century Gothic.ttf");
+}
+@font-face{
+    font-family: myriad;
+    src: url("/fonts/FontsFree-Net-MYRIADPRO-BOLD.ttf");
+}
+.aboutUs2Bg{
+    background-color:#291022 ;
+
+}
+
+.introSecBg1{
+    background-color: #C70079;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.introSecBg1 .title{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: gothic;
+    color: white;
+
+
+    padding-top: 20px;
+
+}
+.introSecBg2{
+
+    background: none;
+    height: 400px;
+    width: 100%;
+     padding: 20px 0;
+}
+.introSecBg2 .title{
+    font-size: 1.6rem;
+    font-family: gothic;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.introSecBg2 .text{
+    font-size: 16px;
+    font-family: gothic;
+
+    text-align: justify;
+    color: #fff;
+    padding: 3vw 10vw;
+    text-align-last: center;
+}
+.aboutUsDivider{
+    height: 3px;
+    width:95%;
+    margin: 5vw auto;
+    border-radius: 5px;
+    background-color: #ECB6DD;
+}
+.counterSec{
+    padding: 0 5vw;
+}
+.counterSec .title{
+    font-size: 1.7rem;
+    font-family: gothic;
+    font-weight: 700;
+
+    color: #53123C;
+}
+.counterSec .text{
+    font-size: 0.8rem;
+    font-family: gothic;
+    padding-right: 30px;
+
+    color: rgb(34, 34, 34);
+}
+.counterSec .bigTitle{
+    font-size: 5rem;
+    font-family: myriad;
+    font-weight: bolder;
+
+    color: #53123C;
+}
+.counterSec .boldText{
+    font-size: 1.5rem;
+    font-family: myriad;
+    font-weight: bold;
+
+    color: #53123C;
+}
+.growthRow{
+    padding: 4.8vw 0;
+    transition: ease-in 2s;
+}
+.growthTitle{
+    font: bolder 2.5rem gothic;
+    color: #fff;
+    padding-left: 6vw;
+}
+.growthflex{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-top: 40px;
+    position: relative;
+}
+.growthYearBar{
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+    flex-direction: row;
+
+
+
+
+}
+.growthHeight{
+    height: 3000px;
+    background-color: #fff;
+}
+.growthYearContent{
+    flex: 0.8;
+}
+.growthYearItem{
+    font: 800 1.4rem gothic;
+    padding: 10px;
+    text-align: center;
+    background-color:transparent ;
+    color: #fff;
+    cursor: pointer;
+}
+.growthYearItemActive{
+    background-color: #6E134C;
+    width: 100%;
+}
+.growthContentText{
+    font: 1.2em gothic;
+    color: #fff;
+    padding: 3vw 4vw;
+    text-align: center;
+}
+.growthBigYearText{
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%; */
+    position: absolute;
+    right: 0;
+     top:0;
+    font: bolder 30rem myriad;
+    color: #53123B;
+}
+.fixDiv{
+    position: fixed;
+    left: 0;
+   top: 70px;
+   transition: 2s;
+}
+@media (max-width:480px){
+    .fixDiv{
+        top: 85px !important;
+
+    }
+    .fixDiv2{
+        top: 85px !important;
+    }
+    .fixDiv3{
+        top: 0px !important;
+        margin-top: 0 !important;
+    }
+    .mainFlex .itemLeft{
+        align-items: center !important;
+    }
+    .tradeWithCabana{
+    height: 700px !important;
+    }
+    .mainFlex .sec-1{
+        margin-top: 30px !important;
+    }
+    .mainFlex .sec-3{
+        margin-top: 30px !important;
+    }
+    .introSecBg2{
+        height: 550px !important;
+    }
+}
+.tradecabanabg{
+    background-image: url("/assets/images/about_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 3vw 10vw;
+    margin-top: 0px;
+}
+.guideBg{
+    background-image: url("/assets/images/guideBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 3vw 10vw;
+    margin-top: 0px;
+}
+.guideTitle2{
+    color: #fff;
+    font:bold 1.4rem gothic;
+
+}
+.guideTitle{
+    color: #fff;
+    font:bolder 2rem gothic;
+    margin-bottom:20px;
+}
+.guideText{
+    color: #fff;
+    font: 0.8rem gothic;
+    margin-bottom:20px;
+}
+.guideLunchBtn{
+    font: 600 1.2rem gothic;
+    color: #fff;
+    background-color:#53123B ;
+    border: none;
+    padding: 10px 30px;
+}
+.tradingNewBg{
+    /* background-image: url("/assets/images/tradingBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #291022;
+    height: 500px;
+    width: 100%;
+
+
+}
+.tradingNew{ padding: 6vw 8vw;}
+.tradingNew .title{
+    font: bolder 2.5em gothic;
+    color: #fff;
+}
+.tradingNew .text{
+    font:  0.8em gothic;
+    color: #fff;
+    margin:40px 0;
+
+}
+
+.tradingNew .btn1{
+    font: bold 0.7em gothic;
+    color: #fff;
+    background-color:#E2A6D2 ;
+    border: none;
+    padding: 10px 20px;
+}
+.tradingNew .btn2{
+    font: bold  0.7em gothic;
+    color: #53123B;
+    background-color:#fff ;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+.tradeWithCabana{
+    padding: 3vw 10vw;
+    /* margin-top: 500px; */
+    height: 700px;
+
+}
+.worldImg{
+    width: 100%;
+}
+.why_cab_icon{
+    width: 80px;
+
+}
+.why_cab_icon1{
+    width: 80px;
+    padding-right: 25px;
+}
+.why_cab_icon2{
+    width: 80px;
+    padding-left: 15px;
+}
+.fixDiv2{
+
+    position: fixed;
+    top: 70px;
+    left: 0;
+    margin-top: 60px;
+    width: 100%;
+}
+.fixDiv3{
+
+    position: relative;
+    top: 70px;
+    left: 0;
+    margin-top: 60px;
+    width: 100%;
+}
+.tradeWithCabana  .title{
+  font:bold 1.4rem gothic;
+  text-align: center;
+}
+.tradeWithCabana .mainFlex{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+
+}
+.mainFlex .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   cursor: pointer;
+   transition: ease-in 0.4s;
+}
+.mainFlex .itemLeft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+   cursor: pointer;
+   margin-top: 40px;
+   transition: ease-in 0.4s;
+}
+.margin40{
+    margin-top: 40px;
+}
+.mainFlex .itemRight{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end !important;
+    flex-direction: column;
+    text-align: center;
+   cursor: pointer;
+   margin-top: 40px;
+   transition: ease-in 0.4s;
+}
+.mainFlex .sec-1{
+    flex: 1;
+    margin-top:145px;
+}
+.mainFlex .sec-2{
+    flex: 1;
+}
+.mainFlex .sec-3{
+    flex: 1;
+    margin-top:100px;
+
+}
+.mainFlex .item .text{
+    font:bolder 1rem gothic;
+    margin-bottom:20px
+}
+.mainFlex .itemActive{
+    transform: scale(1.2);
+}
+.mainFlex .itemActive .text{
+    color: #53123B;
+
+}
+.shapeTradeBg{
+     background-image: url("/assets/images/shapeTrade.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 270px;
+   height: 255px;
+flex-direction: column;
+justify-content: center;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   padding: 10px;
+   margin: 0 auto;
+
+
+}
+
+.shapeTradeBg .createBtn{
+    font: bold 0.8rem gothic;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    background-color: #53123B;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tradeWithCabana .mainFlex{
+
+        flex-direction: row;
+
+
+    }
+    .tradingNew .btn1{
+        font: bold 0.9em gothic;
+
+    }
+    .tradingNew .btn2{
+        font: bold  0.9em gothic;
+
+    }
+    .guideBg{
+        margin-top: 70px;
+    }
+    .guideTitle2{
+
+        font:bold 1.7rem gothic;
+
+    }
+    .guideTitle{
+
+        font:bolder 2.5rem gothic;
+        margin-bottom:60px;
+    }
+    .guideText{
+
+        font: 0.8rem gothic;
+        margin-bottom:60px;
+    }
+    .growthflex{
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        margin-top: 40px;
+        flex-direction: row;
+        position: relative;
+    }
+    .growthYearBar{
+        display: flex;
+        align-items: center;
+        flex: 0.2;
+        flex-direction: column;
+
+    }
+    .growthYearContent{
+        flex: 0.8;
+    }
+    .growthYearItem{
+        font: 800 1.4rem gothic;
+        padding: 10px;
+        text-align: center;
+        background-color:transparent ;
+        color: #fff;
+        cursor: pointer;
+    }
+    .growthYearItemActive{
+        background-color: #6E134C;
+        width: 100%;
+    }
+    .growthContentText{
+        font: 1.2em gothic;
+        color: #fff;
+        padding: 1vw 4vw;
+        text-align: justify;
+        text-align-last: center;
+    }
+    .growthBigYearText{
+        /* display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%; */
+        position: absolute;
+        right: 0;
+         top:0;
+        font: bolder 30rem myriad;
+        color: #53123B;
+    }
+    .growthTitle{
+        font: bolder 3.5rem gothic;
+        color: #fff;
+        padding-left: 6vw;
+    }
+    .introSecBg1{
+        background-image: url("/assets/images/bg-1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .introSecBg2{
+
+        background-image: url("/assets/images/bg-2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+
+    }
+    .introSecBg1 .title{
+        font-size: 2.5rem;
+        font-weight: bolder;
+        font-family: gothic;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .introSecBg2 .title{
+        font-size: 2rem;
+        font-family: gothic;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+    }
+    .introSecBg2 .text{
+        padding: 3vw 15vw;
+    }
+}

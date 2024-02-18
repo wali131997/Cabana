@@ -1,0 +1,668 @@
+/* LandingSliderSection Css */
+.landingSliderBg {
+  background-image: url("/assets/images/landingBg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+.trueRow {
+  color: white;
+  padding-top: 10vw;
+  text-align: center;
+  text-shadow: black;
+  padding-top:120px;
+}
+.carousel-root{
+    height: 585px ;
+}
+.trueTitle {
+  font-weight: bolder;
+  font-size: 2.8rem;
+}
+.trueDescription {
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+.trueButtonBox {
+  padding-top: 30px;
+}
+.btnLogin {
+  background-color: #eb1597;
+  border: 1px solid #eb1597;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 35px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb1597;
+}
+@media only screen and (max-width: 600px) {
+  .tradeWithFRow {
+    color: #ffffff !important;
+    text-align: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background: #19141a !important;
+  }
+  .howitworkmain{
+    margin-top: 0px !important;
+  }
+}
+.btnSignUp {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 35px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff;
+  margin-left: 20px;
+}
+.tradeWithRow {
+  margin-top: -120px;
+  color: white;
+  text-align: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.landingSliderBg2 {
+  background-image: none;
+}
+.tradeWithFRow {
+  color: #000;
+  text-align: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.tradeWithTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tradeWithText {
+  font-size: 0.8rem;
+}
+.tradeFeatureBox {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.featureImageCircle {
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  padding: 20px 20px;
+}
+.featureImage {
+  margin: 0 auto;
+
+  height: 100%;
+  width: 100%;
+}
+.featureTitle {
+  font-size: 0.9rem;
+  padding: 10px 0 0;
+  font-weight: bolder;
+}
+.featureText {
+  font-size: 0.7rem;
+  padding: 0 10px;
+}
+
+/* DEMO ACCOUNT CSS */
+.demoAccountRow {
+  margin: 1vw 5vw;
+}
+.demoAccountBox {
+  background-color: #000000db;
+  height: 300px;
+  width: 80%;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.demoAccountTitleBox {
+  /* background-color: #87888a; */
+  text-align: center;
+}
+.howitworkmain{
+  margin-top: -250px;
+}
+.demoAccountTitle {
+  color: #6DDF65;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.demoAccountInfoBox {
+  padding: 10px 40px;
+  /* background-color: #212529; */
+}
+.demoAccountText {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+}
+.demoTextFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.btnDemoAccount_live{
+  background-color: #6DDF65;
+  border: 1px solid #6DDF65;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #6DDF65;
+  margin-top: 10px;
+}
+.btnDemoAccount {
+  background-color:orange;
+  border: 1px solid orange;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  /* text-shadow: 0px 1px 0px #eb1597; */
+  margin-top: 10px;
+}
+
+/* HOW IT WORKS SECTION CSS */
+.howItTitleBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.howItTitle {
+  font-size: 44px;
+  font-weight: bolder;
+}
+.howItText {
+  font-size: 0.9rem;
+  color: #9e9e9e;
+}
+.howItFeatureRow {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-bottom: 50px;
+}
+.howItFeatureImage {
+  /* height: 90%; */
+  width: 90%;
+  padding-top: 10px;
+}
+.howPointsRow {
+  margin-top: 20px;
+}
+.howPointTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.howPointsShape {
+  background: linear-gradient(
+    360deg,
+    rgba(190, 17, 122, 1) 25%,
+    rgba(235, 21, 151, 1) 73%
+  );
+  height: 80px;
+  width: 90px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+.howPointImage {
+  margin: 3px auto;
+  width: 60px;
+}
+
+/* TRADING PLATFORM SECTION CSS */
+.tradingBg1 {
+  background-color: #291022;
+}
+.tradingSectionBg {
+  background-color: #000;
+}
+.tradingPlatformRow {
+  color: white;
+  padding: 5vw 10vw 30px 10vw;
+}
+.titleFont {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.textFont {
+  font-size: 1rem;
+}
+.tradingTitle {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.tradingText {
+  font-size: 0.9rem;
+}
+.tradingButtons {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.btnTradingLive {
+  background-color: #eb1597;
+  border: 1px solid #eb1597;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb1597;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btnTradingDemo {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff;
+}
+.fitImage {
+  height: auto;
+  width: 100%;
+}
+.chatCol {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.chatImageBox {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+.chatImage {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+/* EDU VIDEO CSS */
+.tradingBg2 {
+  background-color: #19141a;
+  margin-top: 0;
+  width: 100%;
+}
+.eduVideoRow {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.eduVideoImage {
+  /* height: 100%; */
+  width: 75%;
+  display: none;
+}
+.btnPrimaryPink {
+  background-color: #eb1597;
+  border: 1px solid #eb1597;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb1597;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btnPrimaryPink2 {
+  background-color: #eb1597;
+  border: 1px solid #eb1597;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb1597;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btnPrimaryOutline {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/* PATNERSHIP PROGRAM CSS */
+/* #patnershipId .container-fluid {
+  padding-right: 5px !important;
+} */
+/* .patnershipBg {
+  background-color: #f7f7f7;
+} */
+.patnershipCol {
+  padding-top: 5vw;
+  float: right;
+}
+.patnershipPointRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.patnershipPointText {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.patnershipPoint {
+  text-align: center;
+  padding: 8px;
+}
+.patnershipPoint:hover {
+  background-color: #eb1597;
+  color: #fff;
+}
+.activePatnership {
+  background-color: #eb1597;
+  color: #fff;
+}
+.patnerShipImage {
+  width: 100%;
+  height: 100%;
+}
+.patnershipTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.patnershipText {
+  font-size: 0.9rem;
+text-align: justify;
+}
+
+/* ALALYTIC SECTION CSS */
+
+.analyticBox {
+  padding: 5vw 3vw;
+  background-color: #291023;
+  color: white;
+  text-align: center;
+}
+.dateTimeRow {
+  display: flex;
+  justify-content: space-between;
+}
+.mainAnalyticBox {
+  width: 100%;
+  margin: 30px auto;
+  padding-top: 30px;
+}
+.analyticButtonRow {
+  display: flex;
+}
+.tableOuterBox {
+  width: 100%;
+  height: 200px;
+}
+.tableHeader {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #000;
+  display: flex;
+}
+.headerTime {
+  width: var(--smallWidth);
+}
+.headerCurrency {
+  width: var(--smallWidth);
+  display: none;
+}
+.headerEvent {
+  width: var(--largewidth);
+}
+.headerActual {
+  width: var(--smallWidth);
+}
+.headerForcast {
+  width: var(--smallWidth);
+}
+.headerPrevious {
+  width: var(--smallWidth);
+}
+.tableContentBox {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.contentRow {
+  display: flex;
+  color: #000;
+  padding: 12px 0;
+}
+.contentRow:hover {
+  background-color: #fff;
+}
+.contentText {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+.eventColorBox {
+  height: 10px;
+  width: 10px;
+}
+/* PAYMENT OPTIONS CSS  */
+.paymentRow {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+.paymentImageCol {
+  width: 100%;
+}
+.paymentImage {
+  padding: 10px 3px;
+  height: 70px;
+  width: 100px;
+  margin: 0px auto;
+}
+.paymentFlex {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.light_leaarn_btn:hover{
+    color: #000 !important;
+}
+.slider_text_padding{
+    padding-top: 230px;
+}
+.display_mob{
+    display: none;
+}
+.partnership_btn{
+    width: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    .slider_text_padding{
+        padding-top: 187px;
+    }
+    .mob_margin{
+        margin-left: 40px;
+    }
+    .trueTitle{
+        font-size:2.0rem !important;
+    }
+  .affixBarText {
+    font-size: 9px !important;
+  }
+  .demoAccountBox{
+      width: 100% !important;
+  }
+  .carousel-root{
+    height: 560px !important;
+}
+.eduVideoImage {
+    display: block;
+   }
+   .display_mob{
+       display: block !important;
+   }
+}
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url("../../../images/menu.png") !important;
+} */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav {
+    margin-left: auto !important;
+  }
+  .landingSliderBg2 {
+    background-image: url("/assets/images/landingBg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    width: 100%;
+  }
+  .tradeWithRow {
+    margin-top: -35px;
+  }
+  .tradeWithFRow {
+    color: #fff;
+  }
+  .featureImageCircle {
+    background-color: #fff;
+  }
+  .demoAccountRow {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .demoAccountBox {
+    height: 300px;
+  }
+  .howItFeatureRow {
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+  .footerCol {
+    text-align: left;
+  }
+  .footerSocialBox {
+    margin: 0 0;
+  }
+  .headerCurrency {
+    display: inline-block;
+  }
+  .mainAnalyticBox {
+    width: 80%;
+  }
+  .paymentImage {
+    padding: 10px 3px;
+    height: 90%;
+    width: 76px;
+    margin: 0px 0px;
+  }
+  .navBrand {
+    padding-left: 0rem;
+  }
+  /* .navItemRow {
+    padding-left: 1rem;
+  } */
+  .demoAccountText {
+    font-size: 1rem;
+    color: white;
+  }
+  .btnPrimaryOutline,
+  .btnPrimaryPink2 {
+    font-size: 0.7rem;
+  }
+
+
+  .tradingBg1 {
+    background-image: url("/assets/images/pink_layer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    z-index: 100;
+  }
+  .footerText_justify {
+    font-size: 0.7rem !important;
+    text-align: justify;
+  }
+  .tradingBg2 {
+    margin-top: -150px;
+    background-image: url("/assets/images/black_layers.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    background-color: transparent;
+  }
+  .paymentFlex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .patnerShipImage {
+    width: 102%;
+    height: auto;
+    margin-top: -120px;
+    position: relative;
+    z-index: -100;
+  }
+
+}

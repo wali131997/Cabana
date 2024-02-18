@@ -1,0 +1,406 @@
+:root {
+    --smallWidth: 12%;
+    --largewidth: 40%;
+  }
+  /* .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  } */
+  @font-face {
+    font-family: century;
+    src: url('/fonts/Century Gothic.ttf');
+  }
+  body {
+    font-family: century !important;
+    overflow-x: hidden;
+  }
+  .swap_title{
+      font-size: 42px;
+      font-weight: 800;
+      color: #e2318f;
+      padding-top: 20px;
+  }
+  .navbar{
+    background-color: #181422 !important;
+  }
+  .sideBarDropDown{
+      overflow-y: scroll;
+  }
+.opacityZero{
+  opacity: 0;
+}
+  .ph5vw {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .ph8vw {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .ph10vw {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .mh10vw {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .pv5vw {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button:focus {
+    outline: none;
+  }
+  .fixed-top{
+    top: 34px;
+  }
+.greyBg {
+    background-color: #f7f7f7;
+  }
+ #social .basicRow {
+    padding: 3vw 10vw 0vw;
+  }
+  .basicRow {
+    padding: 3vw 10vw;
+  }
+  .verticallyCeneter {
+    vertical-align: middle;
+  }
+  /* AffixBar css */
+  .affixBarBox {
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+#social .termsCardBox {
+    width: 300px !important;
+    height: 270px;
+    padding: 10px;
+
+}
+#social .termsCardText{
+    font-size: 1rem !important;
+    text-align: justify;
+}
+#social .termsCardTitle{
+    font-size: 1.3rem;
+}
+  @media (min-width:600px){
+    .affixTab {
+     font-size: 14px;
+    }
+    .hide_on_web{
+      display: none;
+    }
+
+  }
+  @media (max-width:480px){
+    .hide_on_mob{
+      display: none;
+    }
+  }
+  .affixBarText {
+    color: #291023;
+    font-size: 0.7rem;
+  }
+  /* .affixBarText_login{
+    font-size: 0.8rem !important;
+  } */
+  .affixTab {
+    padding-left: 9px;
+  }
+  .affixIcon {
+    padding-right: 5px;
+  }
+  .centerBox {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  /* Header CSS */
+
+  .headerLogo {
+    width: 120px;
+    height: 40px;
+    margin-left: 5vw;
+  }
+  .navbar {
+    width: 100% !important;
+  }
+  .navItemRow {
+    padding-left: 0.8rem;
+  }
+
+  .navBarItem {
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #fff !important;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 20px;
+    border-left: 1px solid #f7f7f749;
+    padding-bottom: 15px;
+    transition: ease-in 0.2s;
+  }
+  .navBarItem:hover {
+    /* background-color: #f67280; */
+    background-color: #181422d8;
+    color: #fff !important;
+    cursor: pointer;
+  }
+  .headerDropDown {
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: ease-in 0.2s;
+    background-color: #181422f6;
+    cursor: default;
+  }
+  .navbar {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .dropdown-toggle:after {
+    display: none;
+  }
+  .headerDropDownItemDiv {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    justify-content: center;
+
+    margin-top: 20px;
+  }
+  .headerDropDownItem {
+    padding: 5px 10px;
+    color: white;
+  }
+  .headerDropDownTitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  .header_mob {
+    font-size: 22px;
+    /* font-weight: 500; */
+    color: #fff;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  .headerDropDownImg {
+    width: 200px;
+    height: auto;
+  }
+
+  /* sidebar csss */
+  .headerMobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 22222222222;
+    right: 0;
+    min-width: 320px;
+    height: 100vh;
+    transform: translateX(-103vw);
+    transition-delay: 0.6s;
+    -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #291023;
+  }
+  .headerMobileActive {
+    transform: translateX(0);
+  }
+  .sideBarHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-top: 40px;
+  }
+  .sideBarBody {
+    position: absolute;
+    display: inline-block;
+    overflow-y: auto;
+    width: 100vw;
+    vertical-align: top;
+    -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .activeDropDown {
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .sideBarItem {
+    color: #fff;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+  }
+  .sideBarItemNew {
+    color: #fff;
+    display: block !important;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px !important;
+  }
+  .sideBarItem:hover,
+  .sideBarItem:focus {
+    /* background-color: #262b2e; */
+  }
+
+  /* FOOTER CSS */
+
+  .footerRow {
+    background-color: #000;
+    color: #fff;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* padding-bottom: 3vw; */
+  }
+  .footerTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .footerText {
+    font-size: 0.8rem;
+  }
+  .footerLogo {
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  .footerSocialBox {
+    display: flex;
+    margin: 10px auto;
+    width: fit-content;
+  }
+  .footerSocialCircle {
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 20px;
+    border: 2px solid #252525;
+    margin-right: 10px;
+  }
+  .footerSocialImage {
+    padding: 12px;
+  }
+  .footerSocialCircle:hover {
+    background-color: #eb1597;
+    border: 2px solid #eb1597;
+  }
+  .footerLinkTitle {
+    font-size: 1.2rem;
+    color: #eb1597;
+  }
+  .footerLinkText {
+    font-size: 0.8rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .footerLinkText:hover {
+    color: #eb1597;
+  }
+  .textBold {
+    font-weight: bold;
+  }
+  .footerCol {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footerSecondRow {
+    background-color: #202020;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 20;
+  }
+  .footerRightsRow {
+    background-color: #fff;
+    text-align: center;
+  }
+  .footerRightsText {
+    font-size: 0.7rem;
+    padding: 15px;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  a.mat-stroked-button.mat-button-base {
+    background-image: linear-gradient(to right, #e2318f 0%, #e2318f 100%, #e2318f 100%) !important;
+    color: #000 !important;
+}
+
+.fifty_per_page .text{
+    font-weight: 500;
+}
+
+  /* MEEDIA QURIES CSS */
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .fixed-top{
+      top: 58px !important;
+    }
+    .introSecBg1{
+      padding-top: 100px;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .footerCol {
+      text-align: left;
+    }
+    .footerSocialBox {
+      margin: 0 0;
+    }
+    .margin_left{
+      margin-left:10% !important;
+    }
+
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }

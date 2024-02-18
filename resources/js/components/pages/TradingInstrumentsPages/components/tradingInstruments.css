@@ -1,0 +1,48 @@
+.tradingInfoDiv {
+  float: right;
+  padding-left: 40px;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+.tradingInstrumentRow {
+  padding: 0 10vw;
+}
+.tradingInstrumentImg {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+#trading_instruments .textFont{
+    text-align: justify !important;
+}
+
+/* Education Sec CSS */
+.educationQuestionBox {
+  padding: 30px;
+  background-color: #ffffff;
+}
+.DEPOSITLogoImage{
+    width: 90px;
+}
+.educationQuestionTitle {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: #7a727e;
+}
+.dataTableRes {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+
+table.dataTable tbody td,
+table.dataTable thead th {
+  font-size: 0.7rem;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .tradingInstrumentImg {
+    width: 106%;
+    height: 100%;
+    padding-bottom: 0;
+  }
+}
