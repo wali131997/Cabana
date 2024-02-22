@@ -51,6 +51,7 @@ class PaymentOptions extends Component {
               </div>
               {
                 this.props.country != 'Mauritius' &&
+                this.props.country != 'Nigeria' &&
                 <Fragment>
               <div className=" ">
                 <img
