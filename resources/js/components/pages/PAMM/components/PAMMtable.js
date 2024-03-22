@@ -29,13 +29,13 @@ export default function TopSearchSelect() {
       setDatatable(updatedlist);
   }
   useEffect(()=>{
-  Axios.post('/api/get_pamm_accounts').then(res=>{
-      console.log(res)
-       setOriginaldata(res.data);
-      setDatatable(res.data).then(res=>{
-        onchangeshowselection(20);
-      });
-  })
+//   Axios.post('/api/get_pamm_accounts').then(res=>{
+//       console.log(res)
+//        setOriginaldata(res.data);
+//       setDatatable(res.data).then(res=>{
+//         onchangeshowselection(20);
+//       });
+//   })
   },[])
   return (
    <div className="container-fluid web_padding mt-5" >
@@ -49,7 +49,7 @@ export default function TopSearchSelect() {
           searchTop
           searchBottom={false}
         /> */}
-      <div className="card p-4 stats_card" style={{overflowX:'scroll'}}>
+      {/* <div className="card p-4 stats_card" style={{overflowX:'scroll'}}>
       <div  className="ml-auto ">
         <div >
         <div className="d-flex">
@@ -82,7 +82,7 @@ export default function TopSearchSelect() {
           </thead>
           <tbody>
             {
-             datatable ? datatable.map((data,index)=>{
+             datatable ? datatable?.map((data,index)=>{
                 return(
                         <tr>
                           <td>{data.nickname}</td>
@@ -92,7 +92,7 @@ export default function TopSearchSelect() {
                           <td>{data.numberOfInvestors}</td>
                           <td>{data.managerCapital.toFixed(2)}</td>
                           <td><button onClick={()=>{window.open('/trading-memory/'+data.id,'_self')}} className="btn depositeOutlineButton ">Invest </button></td>
-                          {/* <td>{data.nickname}</td> */}
+                          <td>{data.nickname}</td>
                         </tr>
                 )
               })
@@ -102,7 +102,8 @@ export default function TopSearchSelect() {
           </tbody>
 
       </table>
-      </div>
+      </div> */}
+      <iframe style={{width:'100%' , height: '700px' , border: '0px'}} src='https://stats-social.cabanacapitals.com/widgets/ratings?widgetKey=social_platform_ratings'></iframe>
    </div>
   );
 }
