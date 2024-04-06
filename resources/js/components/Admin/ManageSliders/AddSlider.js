@@ -112,7 +112,6 @@ class AddSlider extends Component {
 
                 }
             })
-
         }
 
 

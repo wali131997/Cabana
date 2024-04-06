@@ -14,30 +14,30 @@ const UmrahpackagePromotion = () => {
                         <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Cabana Capitals is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
                         <div className='row mt-5 text-center'>
                         <h4 className='text-bold atitle text-center pb-2 col-md-12' style={{color:'#9b005f'}}>What’s Included? </h4>
-                            <div className='col-md-4 text-center'>
+                            <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/1.png"></img>
                                 <h4 className='text mt-2' style={{ fontSize: '18px' }}>Accommodation at a <br />
  reputable hotel for 7<br />
  number of nights</h4>
                             </div>
-                            <div className='col-md-4 text-center'>
+                            <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/2.png"></img>
                                 <h4 className='text mt-2' style={{ fontSize: '18px' }}></h4>Round-trip airline <br /> ticket to Umrah Pilgrimage
                             </div>
-                            <div className='col-md-4 text-center'>
+                            <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/3.png"></img>
                                 <h4 className='text mt-2' style={{ fontSize: '18px' }}>Umrah visa<br />
 processing fees</h4>
                             </div>
-                            <div className='col-md-2 text-center'>
+                            <div className='col-md-3 text-center'>
 
                             </div>
-                            <div className='col-md-4 text-center'>
+                            <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/4.png"></img>
                                 <h4 className='text mt-2' style={{ fontSize: '18px' }}>Ground transportation<br />
  within the destination city</h4>
                             </div>
-                            <div className='col-md-4 text-center'>
+                            <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/5.png"></img>
                                 <h4 className='text mt-2' style={{ fontSize: '18px' }}>Guided assistance during<br />
  the Umrah pilgrimage</h4>
@@ -64,19 +64,16 @@ processing fees</h4>
                </div>
                <div className='col-md-4 row'>
                     <img  className='col-md-3 p-0' src='/assets/images/umrahpromotion/Deposit.png'></img>
-                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Make minimum deposit
-of $2,000</h2>
+                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Make a minimum deposit</h2>
                </div>
                <div className='col-md-4 row'>
                     <img  className='col-md-3 p-0' src='/assets/images/umrahpromotion/Dollar.png'></img>
-                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Achieve minimum
-200 standard lot</h2>
+                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Start trading to win Dubai trip</h2>
                </div>
 
             </div>
             <p className='text-center mt-2'>*Terms and Conditions Apply</p>
             </div>
-            <img style={{width:'100%'}} src='/assets/images/umrahpromotion/image.jpg'></img>
 
 
             <div className='text-center mt-5'>

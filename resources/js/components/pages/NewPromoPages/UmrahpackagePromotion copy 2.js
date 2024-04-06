@@ -3,49 +3,39 @@ import "./components/newPromoPage.css"
 const UmrahpackagePromotion = () => {
     return (
         <div>
-             <div>
-                <img style={{width:'100%'}} src='/assets/images/umrahpromotion/TopBanner.jpg'></img>
-           </div>
+            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/booster-bonus.png')", height: '700px' }}>
+                <div>
+                    <div className='title'><span className='titleLg'> Umrah Package Promotion</span></div>
+                    <div style={{ fontSize: '22px' }} className='title title2'>Start your journey of faith with Cabana Capitals today, <br />and let your dreams take flight.
+</div>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
+                </div>
+            </div>
             <div className='container fifty_per_page'>
-                <div className='row mt-3'>
+                <div className='row mt-5'>
                     <div className='col-md-12'>
-                        <h4 className='text-bold atitle text-center pb-2' style={{color:'#9b005f'}}>Umrah Package Promotion </h4>
-                        <h5 className='text-bold title text-center mt-2' >Embark on a Spritual Pilgrimage to Holy Ka'abah!</h5>
-                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Cabana Capitals is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
-                        <div className='row mt-5 text-center'>
-                        <h4 className='text-bold atitle text-center pb-2 col-md-12' style={{color:'#9b005f'}}>What’s Included? </h4>
+                        <h4 className='text-bold title title2 text-center text-dark'>Participate with Ease
+</h4>
+                        <div className='row mt-5'>
                             <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/1.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Accommodation at a <br />
- reputable hotel for 7<br />
- number of nights</h4>
+                                <img style={{ width: '40%' }} src="/assets/images/verified-account.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Register with Cabana Capitals Premium Bonus Account
+</h4>
                             </div>
                             <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/2.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}></h4>Round-trip airline <br /> ticket to Umrah Pilgrimage
+                                <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $2500 in your Cabana Capitals trading account during the
+promotion period</h4>
                             </div>
+                            {/* <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/save-money.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}> Request Bonus</h4>
+                            </div> */}
                             <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/3.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Umrah visa<br />
-processing fees</h4>
+                                <img style={{ width: '40%' }} src="/assets/images/money.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Achieve a minimum trading volume of 200 standard lots during the Promotion Period</h4>
                             </div>
-                            <div className='col-md-2 text-center'>
-
-                            </div>
-                            <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/4.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Ground transportation<br />
- within the destination city</h4>
-                            </div>
-                            <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/umrahpromotion/5.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Guided assistance during<br />
- the Umrah pilgrimage</h4>
-                            </div>
-
-
-
-
                         </div>
 
 
@@ -53,37 +43,70 @@ processing fees</h4>
                     </div>
                 </div>
             </div>
-
-            <div className='container mt-5 px-5'>
-                    <h1 className='text-bold atitle  text-center' style={{color:'#9b005f'}}>How to Works?</h1>
+            {/* <div className='mt-5 '>
+                <img src='/assets/images/dollar-bonus.png' style={{ width: '100%' }}></img>
+            </div> */}
+            <div className='container-fluid mt-5 px-5'>
 
             <div className='row '>
-               <div className='col-md-4 row'>
-                    <img  className='col-md-3 p-0' src='/assets/images/umrahpromotion/Register.png'></img>
-                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Sign up</h2>
-               </div>
-               <div className='col-md-4 row'>
-                    <img  className='col-md-3 p-0' src='/assets/images/umrahpromotion/Deposit.png'></img>
-                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Make minimum deposit
-of $2,000</h2>
-               </div>
-               <div className='col-md-4 row'>
-                    <img  className='col-md-3 p-0' src='/assets/images/umrahpromotion/Dollar.png'></img>
-                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Achieve minimum
-200 standard lot</h2>
-               </div>
+                <div className='col-md-5 offset-md-2'>
+                    <h1 className='text-bold title title2 text-dark'>What Awaits You?</h1>
+                    <h3 className='text' style={{ fontSize: '18px' }}>By participating in this exclusive promotion, you stand a chance to secure an all-inclusive
+Umrah Package, which includes:
+<br/><br/>- Round-trip airline ticket to the sacred destination
+<br/>- Comfortable accommodation for the duration of your stay
+<br/>- Umrah visa processing fees
+<br/>- Reliable ground transportation within the destination city
+<br/>- Guided assistance during your Umrah pilgrimage
 
+<br/><br/>Your spiritual journey becomes more accessible than ever, by meeting the minimum
+deposit and trading volume requirements, you can transform your forex trading success
+into a journey of faith that will stay with you forever
+</h3>
+                </div>
+                <div className='col-md-4 '>
+                    <img src='/assets/images/types-of-umrah.jpg' style={{width:'80%' , borderRadius:'7px'}}></img>
+                </div>
             </div>
-            <p className='text-center mt-2'>*Terms and Conditions Apply</p>
             </div>
-            <img style={{width:'100%'}} src='/assets/images/umrahpromotion/image.jpg'></img>
 
+            {/* <h4 className='text  text-center text-dark mt-5 px-3' style={{ fontSize: '24px', fontWeight: 700 }}>   Explore the Dubai Luxury Trip Promotion
+            <br></br>
 
-            <div className='text-center mt-5'>
-                    <h1 className='text-bold atitle  text-center' style={{color:'#9b005f'}}><span className='text-dark'>Why Trade with </span>Cabana Capitals?</h1>
+               </h4> */}
+           {/* <h6 className='text  text-center text-dark  px-3' style={{ fontSize: '18px', fontWeight: 600 }}>
+           The Dubai Luxury Trip Promotion is not just another trading incentive; it's your <br />
+           ticket to an extravagant voyage to the dazzling city of Dubai. Cabana Capitals oﬀers <br />
+           you the chance to experience the epitome of luxury in one of the world's most iconic destinations.
+           </h6>
+            <div className='text-center mt-3'>
+                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+            </div> */}
+{/*
+            <div className="newPromoBg px-0 mt-4" style={{ backgroundImage: "url('/assets/images/crystals.png')", height: '450px', backgroundPosition: 'inherit' }}>
+                <div className='container  mb-5'>
+                    <div className='text-light text-center'>
+                        <h1 className='title titlelg text-bold '>
+                            100% Booster Bonus
 
-                    <img style={{width:'100%'}} src='/assets/images/umrahpromotion/Footer.jpg'></img>
-            </div>
+                        </h1>
+                        <br></br>
+                        <h4>
+                            Double your trading game with a minimum deposit of  $100 only
+                        </h4> <br></br>
+                        <h4>
+                            DOUBLE TRading power with 100% Booster Bonus
+                        </h4> <br></br>
+                        <h4>
+                            TRADE FOR AS LOW AS $100
+                        </h4> <br></br>
+                        <div className='text-center mt-3'>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+
 
 
 
