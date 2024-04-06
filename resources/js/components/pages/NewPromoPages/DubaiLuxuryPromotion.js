@@ -3,41 +3,67 @@ import "./components/newPromoPage.css"
 const DubaiLuxuryPromotion = () => {
     return (
         <div>
-            <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/Design4_2-min.jpg')", height: '700px' }}>
-                <div>
-                    <div className='title'><span className='titleLg'> Dubai Luxury Trip Promotion</span></div>
-                    <div style={{ fontSize: '22px' }} className='title title2'>Cabana Capitals is thrilled to introduce
-the "Dubai Luxury Trip PromoCon," <br/>a unique opportunity designed to combine
-financial achievements <br/>with an extravagant travel experience.
-</div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
-                    {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
-                </div>
-            </div>
+           <div>
+                <img style={{width:'100%'}} src='/assets/images/dubaipromotion/topbanner.jpg'></img>
+           </div>
             <div className='container fifty_per_page'>
-                <div className='row mt-5'>
+                <div className='row mt-3'>
                     <div className='col-md-12'>
-                        <h4 className='text-bold title title2 text-center text-dark'>Participate with Ease
-</h4>
-                        <div className='row mt-5'>
-                            <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/verified-account.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Register with Cabana Capitals Premium Bonus Account
-</h4>
+                        <h4 className='text-bold atitle text-center pb-2' style={{color:'#9b005f'}}>Dubai Luxury Trip Promotion </h4>
+                        <h5 className='text-bold title text-center mt-2' >Start Your Journey of Luxury with Cabana Capitals Today!</h5>
+                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Cabana Capitals is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
+                        <div className='row mt-5 text-center'>
+                        <h4 className='text-bold atitle text-center pb-2 col-md-12' style={{color:'#9b005f'}}>What’s Included? </h4>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/1.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>4 nights Luxury <br/>trip in Dubai</h4>
                             </div>
-                            <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Make a minimum deposit of $5,000 in your Cabana Capitals trading account
-method</h4>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/2.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}></h4>Round-trip airline <br />ticket to Dubai
                             </div>
-                            {/* <div className='col-md-3 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/save-money.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}> Request Bonus</h4>
-                            </div> */}
-                            <div className='col-md-4 text-center'>
-                                <img style={{ width: '40%' }} src="/assets/images/money.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>2.	Achieve a minimum trading volume of 500 qualiﬁed standard lots during the Promotion Period. (minimum diﬀerence between open and close should not be less than 2 minutes)</h4>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/3.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>A lavish stay at prestigious <br/>
+hotel for 4 nights.</h4>
                             </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/4.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Dubai City Tour</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/5.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Dubai City Tour</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/6.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Visit to Burj Khalifa</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/7.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Dessert Safari with <br/>  Dinner & Entertainment</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/8.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Airport pick up <br/>
+and drop off</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/9.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Chauffeured transport<br/>
+during the stay for the<br/>
+expenditions</h4>
+                            </div>
+                            <div className='col-md-3 text-center'>
+                                <img style={{ width: '40%' }} src="/assets/images/dubaipromotion/10.png"></img>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Visa processing fees<br/>
+for your visit to Dubai</h4>
+                            </div>
+
+
                         </div>
 
 
@@ -45,69 +71,35 @@ method</h4>
                     </div>
                 </div>
             </div>
-            {/* <div className='mt-5 '>
-                <img src='/assets/images/dollar-bonus.png' style={{ width: '100%' }}></img>
-            </div> */}
-            <div className='container-fluid mt-5 px-5'>
+
+            <div className='container mt-5 px-5'>
+                    <h1 className='text-bold atitle  text-center' style={{color:'#9b005f'}}>How to Works?</h1>
 
             <div className='row '>
-                <div className='col-md-5 offset-md-2'>
-                    <h1 className='text-bold title title2 text-dark'>What Awaits You?</h1>
-                    <h3 className='text' style={{ fontSize: '18px' }}>By participating in this exclusive promotion, you stand a chance to secure a truly
-luxurious Dubai trip, which includes:
-<br/><br/>- 4 nights Luxury trip in Dubai for the winner.
-<br/>- Round-trip economy class airline tickets to the vibrant city of Dubai.
-<br/>- A luxurious stay at a top-tier hotel for a set number of nights.
-<br/>- Visa processing fees for your visit to the United Arab Emirates.
-<br/>- Visit to Dubai's most sought-after attractions.
-<br/>- See Trip details below for full list of included items.
-<br/><br/>The Dubai Luxury Trip is designed to offer you a taste of opulence that only Dubai
-can provide, and it's all within your reach by meeting the minimum deposit and
-trading volume requirements.
-</h3>
-                </div>
-                <div className='col-md-4 '>
-                    <img src='/assets/images/dubai-trip.jpg' style={{width:'80%' , borderRadius:'7px'}}></img>
-                </div>
+               <div className='col-md-4 row'>
+                    <img  className='col-md-3 p-0' src='/assets/images/dubaipromotion/Register.png'></img>
+                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Sign up</h2>
+               </div>
+               <div className='col-md-4 row'>
+                    <img  className='col-md-3 p-0' src='/assets/images/dubaipromotion/Deposit.png'></img>
+                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Make a minimum deposit</h2>
+               </div>
+               <div className='col-md-4 row'>
+                    <img  className='col-md-3 p-0' src='/assets/images/dubaipromotion/Dollar.png'></img>
+                    <h2 className='col-md-9 text-bold title text-left mt-4' style={{fontSize:'22px'}}>Start trading to win Dubai trip</h2>
+               </div>
+
             </div>
+            <p className='text-center mt-2'>*Terms and Conditions Apply</p>
             </div>
 
-            <h4 className='text  text-center text-dark mt-5 px-3' style={{ fontSize: '24px', fontWeight: 700 }}>   Explore the Dubai Luxury Trip Promotion
-            <br></br>
 
-               </h4>
-           <h6 className='text  text-center text-dark  px-3' style={{ fontSize: '18px', fontWeight: 600 }}>
-           The Dubai Luxury Trip Promotion is not just another trading incentive; it's your <br />
-           ticket to an extravagant voyage to the dazzling city of Dubai. Cabana Capitals oﬀers <br />
-           you the chance to experience the epitome of luxury in one of the world's most iconic destinations.
-           </h6>
-            <div className='text-center mt-3'>
-                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+            <div className='text-center mt-5'>
+                    <h1 className='text-bold atitle  text-center' style={{color:'#9b005f'}}><span className='text-dark'>Why Trade with </span>Cabana Capitals?</h1>
+
+                    <img style={{width:'100%'}} src='/assets/images/dubaipromotion/Footer.jpg'></img>
             </div>
-{/*
-            <div className="newPromoBg px-0 mt-4" style={{ backgroundImage: "url('/assets/images/crystals.png')", height: '450px', backgroundPosition: 'inherit' }}>
-                <div className='container  mb-5'>
-                    <div className='text-light text-center'>
-                        <h1 className='title titlelg text-bold '>
-                            100% Booster Bonus
 
-                        </h1>
-                        <br></br>
-                        <h4>
-                            Double your trading game with a minimum deposit of  $100 only
-                        </h4> <br></br>
-                        <h4>
-                            DOUBLE TRading power with 100% Booster Bonus
-                        </h4> <br></br>
-                        <h4>
-                            TRADE FOR AS LOW AS $100
-                        </h4> <br></br>
-                        <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
 
 
 
