@@ -98,6 +98,9 @@
 #social .termsCardTitle{
     font-size: 1.3rem;
 }
+.mobileMargin{
+    margin-top: 50px;
+}
   @media (min-width:600px){
     .affixTab {
      font-size: 14px;
@@ -110,6 +113,9 @@
   @media (max-width:480px){
     .hide_on_mob{
       display: none;
+    }
+    .mobileMargin{
+        margin-top: 100px;
     }
   }
   .affixBarText {

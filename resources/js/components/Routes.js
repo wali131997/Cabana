@@ -56,7 +56,7 @@ import Refferafriend from "./pages/Patnership&Promotion/RefferaFriend";
 import PlatformMT5 from "./pages/PlatformPage/PlatformMT5";
 import PAMMpage from "./pages/PAMM/PAMMpage";
 import DepositWithdrawPage from "./pages/Deposit&WithdrawPage/DepositWithdrawPage";
-import {BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
 import luckydrawpromotion from './pages/NewPromoPages/luckydrawpromotion';
 import HundredPerBonus from './pages/NewPromoPages/HundredPerBonus';
@@ -74,109 +74,111 @@ import ThailandPromotion from './pages/NewPromoPages/ThailandPromotion';
 import AdditionalUSDTPromotion from './pages/NewPromoPages/AdditionalUSDTPromotion';
 import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotionIndia';
 import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
+import Autochartist from './pages/NewPromoPages/Autochatist';
 
 class Routes extends Component {
 
     render() {
-        const accountType =   this.props.country == 'Malaysia' ? AccountTypesMalaysia :  this.props.country == 'Pakistan' ? AccountTypesPakistan :
-         AccountTypes
+        const accountType = this.props.country == 'Malaysia' ? AccountTypesMalaysia : this.props.country == 'Pakistan' ? AccountTypesPakistan :
+            AccountTypes
         return (
             <div>
-                 <Route path="/about-us" component={AboutUsPage2}></Route>
-          <Route path="/trading-terms" component={TermsAndCondition}></Route>
-          <Route path="/account-type" component={
-           AccountTypes
-          }></Route>
-          <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
-          <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
-          <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
+                <Route path="/about-us" component={AboutUsPage2}></Route>
+                <Route path="/trading-terms" component={TermsAndCondition}></Route>
+                <Route path="/account-type" component={
+                    AccountTypes
+                }></Route>
+                <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
+                <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
+                <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
 
-          <Route path="/affiliate-program" component={Affiliyate}></Route>
-          <Route
-            path="/mission-and-values"
-            component={MissionAndValues}
-          ></Route>
-          <Route path="/education" exact component={EducationPage}></Route>
-          <Route
-            path="/analytics"
-            component={EducationsMetaTrader4}
-          ></Route>
-          <Route
-            path="/trading-instruments"
-            component={TradingInstrumentPage}
-          ></Route>
-          <Route
-            path="/trading-currencies"
-            component={TradingCurrencisePage}
-          ></Route>
-          <Route path="/introducing-broker" component={PatnershipPage}></Route>
-          <Route path="/negative-balance-protection" component={NegativeBalanceProtection}></Route>
-          <Route path="/refer-friend" component={Refferafriend}></Route>
-          <Route path="/trading-memory/:id" component={TraidingMemory}></Route>
+                <Route path="/affiliate-program" component={Affiliyate}></Route>
+                <Route
+                    path="/mission-and-values"
+                    component={MissionAndValues}
+                ></Route>
+                <Route path="/education" exact component={EducationPage}></Route>
+                <Route
+                    path="/analytics"
+                    component={EducationsMetaTrader4}
+                ></Route>
+                <Route
+                    path="/trading-instruments"
+                    component={TradingInstrumentPage}
+                ></Route>
+                <Route
+                    path="/trading-currencies"
+                    component={TradingCurrencisePage}
+                ></Route>
+                <Route path="/introducing-broker" component={PatnershipPage}></Route>
+                <Route path="/negative-balance-protection" component={NegativeBalanceProtection}></Route>
+                <Route path="/refer-friend" component={Refferafriend}></Route>
+                <Route path="/trading-memory/:id" component={TraidingMemory}></Route>
+                <Route path="/autochartist" component={Autochartist}></Route>
 
-          <Route path="/white-label" component={WhiteLABEL}></Route>
-          <Route path="/social-trading" component={SocialTrading}></Route>
-          <Route path="/islamic-trading" component={Islamic}></Route>
-          <Route path="/trading-termonology" component={Termonology}></Route>
-          <Route path="/precious-metals" component={PreciousMetals}></Route>
-          <Route path="/cfd-incdices" component={CFDincidies}></Route>
-          <Route path="/comodoties" component={Commodities}></Route>
-          <Route path="/faqs" component={Faq}></Route>
-          <Route path="/protection-funds" component={ProtectionofFunds}></Route>
-          <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
-          <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
-          <Route path="/booster-bonus-india" component={BoosterBonusIndia}></Route>
-          <Route path="/hundred-percent-bonus" component={HundredPerBonus}></Route>
+                <Route path="/white-label" component={WhiteLABEL}></Route>
+                <Route path="/social-trading" component={SocialTrading}></Route>
+                <Route path="/islamic-trading" component={Islamic}></Route>
+                <Route path="/trading-termonology" component={Termonology}></Route>
+                <Route path="/precious-metals" component={PreciousMetals}></Route>
+                <Route path="/cfd-incdices" component={CFDincidies}></Route>
+                <Route path="/comodoties" component={Commodities}></Route>
+                <Route path="/faqs" component={Faq}></Route>
+                <Route path="/protection-funds" component={ProtectionofFunds}></Route>
+                <Route path="/loss-refund-promotion" component={lossRefundPromotion}></Route>
+                <Route path="/merdeka-bonus" component={MerdekaBonus}></Route>
+                <Route path="/booster-bonus-india" component={BoosterBonusIndia}></Route>
+                <Route path="/hundred-percent-bonus" component={HundredPerBonus}></Route>
 
-          <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
-          <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
+                <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
+                <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
 
-          <Route path="/mt4-platform" component={Mt4}></Route>
-          <Route path="/mt5-platform" component={Mt5}></Route>
-          <Route path="/promotion"  component={PromotionPage}></Route>
-          <Route path="/newPromotion" component={NewPromo35PerB}></Route>
-          <Route path="/platform/mt5" component={PlatformMT5}></Route>
-          <Route path="/PAMM" component={PAMMpage}></Route>
-          <Route path="/our-location" component={OurLocationPage}></Route>
-          <Route path="/cookie-policy" component={CookiePolicy}></Route>
-          <Route path="/regulatory-compliance" component={CompliancePage}></Route>
-          <Route path="/privacy-policy" component={PrivacyPolicy}></Route>
-          <Route path="/risk-disclouser" component={RiskPage}></Route>
-          <Route path="/instruction-security" component={SafetyOfFunds}></Route>
-          <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
-         <Route path="/trade-to-win" component={TadeToWin}></Route>
-         <Route path="/welcome-bonus-malaysia" component={WelcomeBonus} />
-         <Route path="/no-deposit-bonus-indonesia" component={NoDeposit30Indonesia} />
-         <Route path="/fifty-percent-bonus" component={FiftypercentBonus} />
-         <Route path="/booster-bonus" component={BoosterBonus} />
-         <Route path="/loot-bonus" component={LoootBonus} />
-         <Route path="/ultimate-bonus" component={UltimateBonus} />
-         <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
-         <Route path="/cashback-bonus" component={EidBonus} />
-         <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
-         <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
-         <Route path="/dubai-luxury-promotion" component={DubaiLuxuryPromotion} />
-         <Route path="/umrah-package-promotion" component={UmrahpackagePromotion} />
-         <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
-         <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
-         <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
+                <Route path="/mt4-platform" component={Mt4}></Route>
+                <Route path="/mt5-platform" component={Mt5}></Route>
+                <Route path="/promotion" component={PromotionPage}></Route>
+                <Route path="/newPromotion" component={NewPromo35PerB}></Route>
+                <Route path="/platform/mt5" component={PlatformMT5}></Route>
+                <Route path="/PAMM" component={PAMMpage}></Route>
+                <Route path="/our-location" component={OurLocationPage}></Route>
+                <Route path="/cookie-policy" component={CookiePolicy}></Route>
+                <Route path="/regulatory-compliance" component={CompliancePage}></Route>
+                <Route path="/privacy-policy" component={PrivacyPolicy}></Route>
+                <Route path="/risk-disclouser" component={RiskPage}></Route>
+                <Route path="/instruction-security" component={SafetyOfFunds}></Route>
+                <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
+                <Route path="/trade-to-win" component={TadeToWin}></Route>
+                <Route path="/welcome-bonus-malaysia" component={WelcomeBonus} />
+                <Route path="/no-deposit-bonus-indonesia" component={NoDeposit30Indonesia} />
+                <Route path="/fifty-percent-bonus" component={FiftypercentBonus} />
+                <Route path="/booster-bonus" component={BoosterBonus} />
+                <Route path="/loot-bonus" component={LoootBonus} />
+                <Route path="/ultimate-bonus" component={UltimateBonus} />
+                <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
+                <Route path="/cashback-bonus" component={EidBonus} />
+                <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
+                <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
+                <Route path="/dubai-luxury-promotion" component={DubaiLuxuryPromotion} />
+                <Route path="/umrah-package-promotion" component={UmrahpackagePromotion} />
+                <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
+                <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
+                <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
 
-          <Route
-            path="/deposite-withdraw"
-            component={DepositWithdrawPage}
-          ></Route>
+                <Route
+                    path="/deposite-withdraw"
+                    component={DepositWithdrawPage}
+                ></Route>
 
-          <Route path="/strategy-manager" component={StrategyManage} />
-          <Route path="/bonus-terms" component={Bonus_335per_tc} />
-          <Route path="/refer-terms" component={Terms_Refer} />
-          <Route path="/crypto-currencies" component={CryptoCurrencies} />
+                <Route path="/strategy-manager" component={StrategyManage} />
+                <Route path="/bonus-terms" component={Bonus_335per_tc} />
+                <Route path="/refer-terms" component={Terms_Refer} />
+                <Route path="/crypto-currencies" component={CryptoCurrencies} />
             </div>
         );
     }
 }
-const mapStateToProps = (state) =>{
-    return{
-        country:state.country
+const mapStateToProps = (state) => {
+    return {
+        country: state.country
     }
 }
 export default connect(mapStateToProps)(Routes);
