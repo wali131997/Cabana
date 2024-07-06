@@ -349,6 +349,10 @@ class HeaderMobile extends Component {
                                             <a href="https://blog.cabanacapitals.com">
                                                 <div className="headerDropDownItem">Analytics</div>
                                             </a>
+                                            <a href="/autochartist">
+                                                <div className="headerDropDownItem">Autochartist</div>
+                                            </a>
+
                                         </div>
                                     </HeaderMobileLastDropDown>
                                 </>
