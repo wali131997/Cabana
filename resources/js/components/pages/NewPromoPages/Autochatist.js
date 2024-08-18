@@ -242,11 +242,6 @@ const Autochartist = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
         </div >
     );
 };
