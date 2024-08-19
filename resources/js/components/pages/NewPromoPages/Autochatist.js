@@ -4,7 +4,7 @@ const Autochartist = () => {
     return (
         <div>
             <div>
-                <img className='mobileMargin' style={{ width: '100%' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
+                <img onClick={() => { window.open('https://secure.cabanacapitals.com/pages/47/', '_blank') }} className='mobileMargin' style={{ width: '100%', cursor: 'pointer' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
             </div>
             <div className='container fifty_per_page'>
                 <div className='row mt-3'>
