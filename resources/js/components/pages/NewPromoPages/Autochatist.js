@@ -53,22 +53,35 @@ const Autochartist = () => {
                             <img style={{ width: '65px' }} src='/assets/images/autochartist/stars.png'></img>
                             <h2 className='text-bold font-weight-bolder text-left' style={{ fontSize: '20px' }}> In-Depth Market Analysis</h2>
                             <h5 className='font-weight-light title text-left mt-2' style={{ fontSize: '18px' }} >
-                                Get a thorough rundown of all the goings-on in the Forex market to start your day. Gain insight into current market movements and future patterns for indexes, commodities, and currencies.
-
+                                Discover comprehensive insights into the
+                                financial market with Autochartist. Start
+                                your day informed about current trends
+                                and upcoming opportunities across
+                                indexes, commodities, and currencies that
+                                drive better strategies.
                             </h5>
                         </div>
                         <div className='col-md-4 text-center'>
                             <img style={{ width: '65px' }} src='/assets/images/autochartist/stars.png'></img>
                             <h2 className='text-bold font-weight-bolder text-left' style={{ fontSize: '20px' }}> Key Price Levels and Chart Patterns</h2>
                             <h5 className='font-weight-light title text-left mt-2' style={{ fontSize: '18px' }} >
-                                Get a thorough rundown of all the goings-on in the Forex market to start your day. Gain insight into current market movements and future patterns for indexes, commodities, and currencies.
+                                Explore advanced trading with Autochartist: Key
+                                Levels, Chart Patterns, and Fibonacci Patterns are
+                                analyzed automatically, surpassing human
+                                capabilities to identify the most promising trade
+                                setups based on your selected preferences.
                             </h5>
                         </div>
                         <div className='col-md-4 text-center'>
                             <img style={{ width: '65px' }} src='/assets/images/autochartist/stars.png'></img>
                             <h2 className=' text-left' style={{ fontSize: '20px', fontWeight: 800 }}> Global Economic Event Updates</h2>
                             <h5 className='font-weight-light title text-left mt-2' style={{ fontSize: '18px' }} >
-                                Get a thorough rundown of all the goings-on in the Forex market to start your day. Gain insight into current market movements and future patterns for indexes, commodities, and currencies.
+                                Stay ahead with Autochartists Global Economic
+                                Event Updates. Our economic calendar and
+                                timely emails keep you informed about
+                                upcoming market movements, ensuring you're
+                                always prepared for shifts in the trading
+                                landscape.
                             </h5>
                         </div>
                     </div>
