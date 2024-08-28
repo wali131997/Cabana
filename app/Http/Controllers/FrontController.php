@@ -503,4 +503,35 @@ class FrontController extends Controller
     {
         //
     }
+
+public function sendContactEmail(Request $request)
+{
+    $validator = Validator::make($request->all(), [
+        'name' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required',
+        'message' => 'required',
+    ]);
+
+    if ($validator->fails()) {
+        $response = ['status' => 219, 'msg' => $validator->errors()->first(), 'errors' => $validator->errors()];
+        return $response;
+    }
+
+    $data = [
+        'name' => $request->name,
+        'email' => $request->email,
+        'phone' => $request->phone,
+        'message' => $request->message,
+    ];
+
+    Mail::send('emails.contact', $data, function ($message) use ($data) {
+        $message->from($data['email'], $data['name']);
+        $message->to('your_email@example.com', 'Your Name');
+        $message->subject('Contact Form Submission');
+    });
+
+    $response = ['status' => 200, 'msg' => 'Email sent successfully.'];
+    return $response;
+}
 }

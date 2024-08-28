@@ -75,6 +75,7 @@ import AdditionalUSDTPromotion from './pages/NewPromoPages/AdditionalUSDTPromoti
 import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotionIndia';
 import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 import Autochartist from './pages/NewPromoPages/Autochatist';
+import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
 
 class Routes extends Component {
 
@@ -115,6 +116,7 @@ class Routes extends Component {
                 <Route path="/refer-friend" component={Refferafriend}></Route>
                 <Route path="/trading-memory/:id" component={TraidingMemory}></Route>
                 <Route path="/autochartist" component={Autochartist}></Route>
+                <Route path="/financial-fitness" component={SeminarFinantialFitness}></Route>
 
                 <Route path="/white-label" component={WhiteLABEL}></Route>
                 <Route path="/social-trading" component={SocialTrading}></Route>

@@ -181,7 +181,7 @@ const Autochartist = () => {
                             Autochartist Performance
                             Stats</h4>
                         <h5 className='font-weight-light title text-left mt-2' style={{ fontSize: '16px' }} >
-                            everage the Autochartist Performance Statistics Tool to improve your trading strategy. This tool assesses the success rate of Autochartist forecasts over the last six months, offering traders valuable insights into the accuracy and reliability of historical pattern outcomes.
+                            Leverage the Autochartist Performance Statistics Tool to improve your trading strategy. This tool assesses the success rate of Autochartist forecasts over the last six months, offering traders valuable insights into the accuracy and reliability of historical pattern outcomes.
 
                             <br></br><br></br> <strong style={{ fontWeight: 800 }}>- Gain confidence with verified success rates.</strong>
                             <br></br><strong style={{ fontWeight: 800 }}>- Enhance decision-making with historical pattern data.</strong>
