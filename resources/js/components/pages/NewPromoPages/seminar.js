@@ -58,8 +58,8 @@ const SeminarFinantialFitness = () => {
                         <div className='col-md-6 pt-5 text-light'>
                             <h1 className='title text-light text-bolder'>Lagos Seminar
                             </h1>
-                            <h3> Friday 30.08.2024 &
-                                Saturday 31.08.2024
+                            <h3> Saturday 21.09.2024 &
+                                Sunday 22.09.2024
                                 Cabana Capitals Lagos Office
 
                             </h3>
