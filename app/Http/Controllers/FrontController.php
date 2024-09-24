@@ -13,6 +13,7 @@ use Stevebauman\Location\Facades\Location;
 use Illuminate\Support\Fluent;
 use Validator;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class FrontController extends Controller
 {
@@ -534,4 +535,39 @@ public function sendContactEmail(Request $request)
     $response = ['status' => 200, 'msg' => 'Email sent successfully.'];
     return $response;
 }
+
+    public function sendSeminarEmail(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'phone' => 'required|string',
+            'date' => 'required|string', // Changed to string
+            'message' => 'nullable|string',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['status' => 422, 'errors' => $validator->errors()], 422);
+        }
+
+        $data = [
+            'name' => strval($request->name),
+            'email' => strval($request->email),
+            'phone' => strval($request->phone),
+            'date' => strval($request->date), // Ensure it's a string
+            'message' => $request->message ? strval($request->message) : '',
+        ];
+
+        try {
+            Mail::send('emails.seminar', $data, function ($message) use ($data) {
+                $message->from('info@cabanacapitals.com', 'Cabana Capitals');
+                $message->to('info@cabanacapitals.com', 'Seminar Organizer');
+                $message->subject('Seminar Registration for ' . $data['date']);
+            });
+
+            return response()->json(['status' => 200, 'message' => 'Registration successful. We will contact you soon.']);
+        } catch (\Exception $e) {
+            return response()->json(['status' => 500, 'message' => 'An error occurred while processing your request.'], 500);
+        }
+    }
 }

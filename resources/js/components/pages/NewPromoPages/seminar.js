@@ -1,17 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./components/newPromoPage.css"
 import { useFormik } from 'formik';
+import axios from 'axios';
+import { toast } from 'react-toastify';
+
 const SeminarFinantialFitness = () => {
-    const { errors, values, touched, handleChange, handleSubmit } = useFormik({
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const { errors, values, touched, handleChange, handleSubmit, setFieldValue } = useFormik({
         initialValues: {
             name: '',
             email: '',
+            phone: '',
+            date: '',
             message: '',
-            phone: ''
         },
-        onSubmit: (values) => {
-            console.log('Form submitted:', values);
-            toast.success("form submitted.")
+        onSubmit: async (values) => {
+            setIsSubmitting(true);
+            try {
+                const response = await axios.post('/api/seminar-registration', values);
+                if (response.data.status === 200) {
+                    toast.success(response.data.message);
+                    // Reset form
+                    Object.keys(values).forEach(key => setFieldValue(key, ''));
+                } else {
+                    toast.error('An error occurred. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                toast.error('An error occurred. Please try again.');
+            } finally {
+                setIsSubmitting(false);
+            }
         },
         validate: (values) => {
             const errors = {};
@@ -26,9 +46,13 @@ const SeminarFinantialFitness = () => {
                 errors.email = 'Invalid email address';
             }
 
-            //   if (!values.message) {
-            //     errors.message = 'This field is required';
-            //   }
+            if (!values.phone) {
+                errors.phone = 'Phone field is required';
+            }
+
+            if (!values.date) {
+                errors.date = 'Please select a seminar date';
+            }
 
             return errors;
         },
@@ -58,8 +82,8 @@ const SeminarFinantialFitness = () => {
                         <div className='col-md-6 pt-5 text-light'>
                             <h1 className='title text-light text-bolder'>Lagos Seminar
                             </h1>
-                            <h3> Saturday 21.09.2024 &
-                                Sunday 22.09.2024
+                            <h3> Friday 18.10.2024 &
+                                Saturday 19.10.2024
                                 Cabana Capitals Lagos Office
 
                             </h3>
@@ -75,34 +99,45 @@ const SeminarFinantialFitness = () => {
                             <div className='card p-3'>
                                 <div className='card-body'>
                                     <form onSubmit={handleSubmit} className='form' style={{ minWidth: '0' }}>
-                                        <h1 class="title text-center mb-4">Reserve your spot today! </h1>
-                                        <div class="form-group position-relative">
-
-                                            <input onChange={handleChange} value={values.name} type="text" id="formName" name='name' class="form-control form-control-lg thick" placeholder="Name" />
+                                        <h1 className="title text-center mb-4">Reserve your spot today! </h1>
+                                        <div className="form-group position-relative">
+                                            <input onChange={handleChange} value={values.name} type="text" id="formName" name='name' className="form-control form-control-lg thick" placeholder="Name" />
                                             {touched.name && errors.name && <p className='text-danger mt-2'>{errors.name}</p>}
                                         </div>
-                                        <div class="form-group position-relative">
-
-                                            <input type="email" onChange={handleChange} value={values.email} name='email' id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail" />
+                                        <div className="form-group position-relative">
+                                            <input type="email" onChange={handleChange} value={values.email} name='email' id="formEmail" className="form-control form-control-lg thick" placeholder="E-mail" />
                                             {touched.email && errors.email && <p className='text-danger mt-2'>{errors.email}</p>}
-
                                         </div>
-                                        <div class="form-group position-relative">
-
-                                            <input type="phone" onChange={handleChange} value={values.phone} name='phone' id="formEmail" class="form-control form-control-lg thick" placeholder="Phone" />
+                                        <div className="form-group position-relative">
+                                            <select
+                                                onChange={handleChange}
+                                                value={values.date}
+                                                name='date'
+                                                id="formSeminarDate"
+                                                className="form-control form-control-lg thick"
+                                            >
+                                                <option value="">Select a seminar date</option>
+                                                <option value="2024-10-18">Friday, 18 October 2024</option>
+                                                <option value="2024-10-19">Saturday, 19 October 2024</option>
+                                            </select>
+                                            {touched.date && errors.date && <p className='text-danger mt-2'>{errors.date}</p>}
+                                        </div>
+                                        <div className="form-group position-relative">
+                                            <input type="tel" onChange={handleChange} value={values.phone} name='phone' id="formPhone" className="form-control form-control-lg thick" placeholder="Phone" />
                                             {touched.phone && errors.phone && <p className='text-danger mt-2'>{errors.phone}</p>}
-
                                         </div>
-                                        <div class="form-group message">
-                                            <textarea id="formMessage" onChange={handleChange} name='message' value={values.message} class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+                                        <div className="form-group message">
+                                            <textarea id="formMessage" onChange={handleChange} name='message' value={values.message} className="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
                                         </div>
                                         <div>
-                                            <input type='checkbox'></input> <span>I hereby consent to the collection, processing, and use of my personal
+                                            <input type='checkbox' required /> <span>I hereby consent to the collection, processing, and use of my personal
                                                 data by Cabana Capitals for marketing purposes in accordance with
                                                 the privacy policy.</span>
                                         </div>
-                                        <div class="text-center mt-2">
-                                            <button onClick={handleSubmit} type="submit" class="btn btnSubmitContactUs " tabIndex="-1">Send message</button>
+                                        <div className="text-center mt-2">
+                                            <button type="submit" className="btn btnSubmitContactUs" disabled={isSubmitting}>
+                                                {isSubmitting ? 'Sending...' : 'Send message'}
+                                            </button>
                                         </div>
                                     </form>
                                 </div>

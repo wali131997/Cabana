@@ -39,7 +39,7 @@ Route::post('/get-ip/{ip}', 'FrontController@url');
 
 Route::post('/api_check', 'FrontController@api_check');
 
-
+Route::post('/seminar-registration', 'FrontController@sendSeminarEmail');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
