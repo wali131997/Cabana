@@ -11,7 +11,7 @@ import './Front.css';
 
 import { connect } from 'react-redux'
 import Axios from "axios";
-import Routes from "./Routes";
+// import Routes from "./Routes";
 import { Toaster } from "react-hot-toast";
 
 
@@ -62,8 +62,6 @@ class App extends Component {
     render() {
         return (
             <div >
-
-
                 <AffixBar />
                 <Header handleSideBar={this.handleSideBar.bind(this)} />
                 <HeaderMobile
@@ -72,7 +70,7 @@ class App extends Component {
                 />
 
                 <Route path="/" exact component={LandingPage}></Route>
-                <Routes></Routes>
+                {/* <Routes></Routes> */}
 
 
                 <Footer />

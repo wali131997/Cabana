@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import FrontIndex from './App';
-import AdminLogin from './Admin/Auth/Login';
-import AdminPanel from './Admin/Index';
+// import AdminLogin from './Admin/Auth/Login';
+// import AdminPanel from './Admin/Index';
 
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
@@ -42,7 +42,7 @@ class Index extends Component {
         return (
             <BrowserRouter>
                 <Route exact path="/" component={FrontIndex} ></Route>
-                {
+                {/* {
                     this.state.paths.map((data, index) => {
                         return (
                             <Route key={index} path={data} component={FrontIndex} ></Route>
@@ -51,7 +51,7 @@ class Index extends Component {
                     })
                 }
                 <Route path="/adminpanel" component={AdminPanel} ></Route>
-                <Route path="/admin-login" component={AdminLogin} ></Route>
+                <Route path="/admin-login" component={AdminLogin} ></Route> */}
             </BrowserRouter>
         );
     }
