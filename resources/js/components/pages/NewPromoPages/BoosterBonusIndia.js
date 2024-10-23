@@ -7,9 +7,9 @@ const BoosterBonusIndia = () => {
                 <div>
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
                     <div style={{ fontSize: '22px' }} className='title title2'>100% Bonus applied to your Deposit into the live account.
-                    <br></br> Boost your trading potential with 100% Deposit Bonus.
-                    <br></br>
-                    Booster Bonus helps you maximize your profit with larger trading lots available.  </div>
+                        <br></br> Boost your trading potential with 100% Deposit Bonus.
+                        <br></br>
+                        Booster Bonus helps you maximize your profit with larger trading lots available.  </div>
                     <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
@@ -21,7 +21,7 @@ const BoosterBonusIndia = () => {
                         <div className='row mt-5'>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/verified-account.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Sign up with Cabana Capitals</h4>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Sign up with Aurum Markets</h4>
                             </div>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>

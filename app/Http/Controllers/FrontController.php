@@ -560,12 +560,12 @@ public function sendContactEmail(Request $request)
 
         try {
             Mail::send('emails.seminar', $data, function ($message) use ($data) {
-                $message->from('info@cabanacapitals.com', 'Cabana Capitals');
+                $message->from('info@cabanacapitals.com', 'Aurum Markets');
                 $message->to('promotions@cabanacapitals.com', 'Seminar Organizer');
                 $message->subject('Seminar Registration for ' . $data['date']);
             });
             Mail::send('emails.seminar', $data, function ($message) use ($data) {
-                $message->from('info@cabanacapitals.com', 'Cabana Capitals');
+                $message->from('info@cabanacapitals.com', 'Aurum Markets');
                 $message->to($data['email'], 'Seminar Organizer');
                 $message->subject('Seminar Registration for ' . $data['date']);
             });

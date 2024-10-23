@@ -6,8 +6,8 @@ const BoosterBonusMalaysia = () => {
             <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/booster-bonus.png')", height: '700px' }}>
                 <div>
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
-                    <div style={{ fontSize: '22px' }} className='title title2'>Switch to Cabana Capitals and get benefit of 100% Booster Bonus
-                        <br></br>on your deposits (Up to $1000)in Cabana Capitalsas credit. </div>
+                    <div style={{ fontSize: '22px' }} className='title title2'>Switch to Aurum Markets and get benefit of 100% Booster Bonus
+                        <br></br>on your deposits (Up to $1000)in Aurum Marketsas credit. </div>
                     <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
@@ -19,7 +19,7 @@ const BoosterBonusMalaysia = () => {
                         <div className='row mt-5'>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/verified-account.png"></img>
-                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Sign up with Cabana Capitals</h4>
+                                <h4 className='text mt-2' style={{ fontSize: '18px' }}>Sign up with Aurum Markets</h4>
                             </div>
                             <div className='col-md-3 text-center'>
                                 <img style={{ width: '40%' }} src="/assets/images/deposit.png"></img>

@@ -45,7 +45,7 @@ const luckydrawpromotion = () => {
 
                 </div>
                 <div className='text-center mt4title mt-3' style={{ fontSize: '28px' }} >
-                    Cabana Capitals brings this amazing Lucky Draw oﬀer for our  Malaysian  clients.  Open  an  Account today with Cabana Capitals and enter in the Lucky Draw. There i s a chance for everyone to win a prize!
+                    Aurum Markets brings this amazing Lucky Draw oﬀer for our  Malaysian  clients.  Open  an  Account today with Aurum Markets and enter in the Lucky Draw. There i s a chance for everyone to win a prize!
 
 
                 </div>
@@ -60,7 +60,7 @@ const luckydrawpromotion = () => {
                                 Draw ”.
                             </h4>
                             <h4 className='text-bold title_loss2'>
-                                <strong>3.</strong>	“ Lucky Draw ” promotion is an exclusive monthly contest introduced by Cabana Capitals for all existingand new clients. The rules for the Lucky Draw Promotion are as following:</h4>
+                                <strong>3.</strong>	“ Lucky Draw ” promotion is an exclusive monthly contest introduced by Aurum Markets for all existingand new clients. The rules for the Lucky Draw Promotion are as following:</h4>
                             <div className='ml-3'>
                                 <h6 className='loss_desc'>
                                     <strong>a.</strong>		Interested Participants needs to have an active account opened in their client area.
@@ -75,29 +75,29 @@ const luckydrawpromotion = () => {
                                 </h6>
                             </div>
                             <h4 className='text-bold title_loss2'>
-                                <strong>4.</strong>Cabana Capitals reser ves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.
+                                <strong>4.</strong>Aurum Markets reser ves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.
 
                             </h4>
                             <h4 className='text-bold title_loss2'>
-                                <strong>5.</strong>	Under no circumstances shall Cabana Capitals be liable  for  any  consequences  of  contest  cancelation  or  decline,  including,  but  not  limited to, order( s) closure by Stop Out.</h4>
+                                <strong>5.</strong>	Under no circumstances shall Aurum Markets be liable  for  any  consequences  of  contest  cancelation  or  decline,  including,  but  not  limited to, order( s) closure by Stop Out.</h4>
                             <h4 className='text-bold title_loss2'>
                                 <strong>6.</strong>	Use of Expert Advisor is not allowed for this promotion.</h4>
                             <h4 className='text-bold title_loss2'>
                                 <strong>7.</strong>	 Any indication or suspicion, in the Company ’s reasonable discretion, of any form of arbitrage
                                 ( including but not limited to r isk free profiting), abuse ( including but  not  limited to  participant’s trading activity patterns that  indicate that the par t icipant solely aims to benefit financially  from  the  Promotion scheme  without being  genuinely interested in  trading in  the  markets and/ or taking market risk), Bonus Hedging, fraud, manipulation, cash- back arbitrage connected to Promotion or any other forms of
-                                deceitful or f raudulent activity, will nullify all transactions carried and/ or profits or losses garnered therein. Hedging trading positions internally ( using other trading accounts held with Cabana Capitals) or externally ( using other trading accounts held  with  other brokers) to  avoid market r isk  is  not  allowed. In  these circumstances, Cabana Capitals reser ves  the  r ight, at  i ts  reasonable discretion, to  close/ suspend ( either temporarily or permanently) all such Eligible Client’s real trading Account( s) with Cabana Capitals, cancel all  orders  and  annul  all profits of such par t icipants. In these circumstances, Cabana Capitals shall not be l iable for any  consequences  of  the  trading  bonus cancelation, including, but not l imited to, order( s) closure by Stop Out.
+                                deceitful or f raudulent activity, will nullify all transactions carried and/ or profits or losses garnered therein. Hedging trading positions internally ( using other trading accounts held with Aurum Markets) or externally ( using other trading accounts held  with  other brokers) to  avoid market r isk  is  not  allowed. In  these circumstances, Aurum Markets reser ves  the  r ight, at  i ts  reasonable discretion, to  close/ suspend ( either temporarily or permanently) all such Eligible Client’s real trading Account( s) with Aurum Markets, cancel all  orders  and  annul  all profits of such par t icipants. In these circumstances, Aurum Markets shall not be l iable for any  consequences  of  the  trading  bonus cancelation, including, but not l imited to, order( s) closure by Stop Out.
 
 
 
                             </h4>
                             <h4 className='text-bold title_loss2'>
-                                <strong>8.</strong>	 In the event that Account becomes dormant  all  previously  awarded  Promotions  will  be  immediately  withdrawn  f rom  the respective Eligible Clients real Account with Cabana Capitals.</h4>
+                                <strong>8.</strong>	 In the event that Account becomes dormant  all  previously  awarded  Promotions  will  be  immediately  withdrawn  f rom  the respective Eligible Clients real Account with Aurum Markets.</h4>
                             <h4 className='text-bold title_loss2'>
                                 <strong>9.</strong>	Clients agree that  information provided during the  registration process may  be  used  by  the  Company both  within the  context of    the Promotion Campaign and for any other marketing purposes.</h4>
                             <h4 className='text-bold title_loss2'>
-                                <strong>10.</strong>	Cabana Capitals reser ves the right to alter, amend or terminate the “ Lucky Draw ” or any aspect of it at any time. Prior notice of such changes will not be  given to  clients and  Cabana Capitals will  not  post  any  such  changes on  i ts  website. Please note  that  taking part  in  the “ Contest” constitutes acceptance and agreement to abide by any such alterations, amendments and/or changes.</h4>
+                                <strong>10.</strong>	Aurum Markets reser ves the right to alter, amend or terminate the “ Lucky Draw ” or any aspect of it at any time. Prior notice of such changes will not be  given to  clients and  Aurum Markets will  not  post  any  such  changes on  i ts  website. Please note  that  taking part  in  the “ Contest” constitutes acceptance and agreement to abide by any such alterations, amendments and/or changes.</h4>
                             <h4 className='text-bold title_loss2'>
-                                <strong>11</strong> 	 Cabana Capitals, at its  reasonable discretion, oﬀers this “ Lucky Draw ”  only  to  the  Client(s) in Malaysia.</h4>
+                                <strong>11</strong> 	 Aurum Markets, at its  reasonable discretion, oﬀers this “ Lucky Draw ”  only  to  the  Client(s) in Malaysia.</h4>
                             <h4 className='text-bold title_loss2'>
                                 <strong>12.</strong>This promotion cannot  be  obtained  in  conjunction  with  any  other promotion. 13 . This promotion will run f rom 24 th of October 2022 until fur ther notice.</h4>
                         </div>

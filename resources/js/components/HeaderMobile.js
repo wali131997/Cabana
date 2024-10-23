@@ -147,7 +147,7 @@ class HeaderMobile extends Component {
                       </a> */}
                                             <a href="/about-us">
                                                 <div className="sideBarItem">
-                                                    <span> Why Cabana</span>
+                                                    <span> Why Aurum Markets</span>
                                                 </div>
                                             </a>
                                             <a href="/our-location">
@@ -359,7 +359,7 @@ class HeaderMobile extends Component {
                             )}
                             {this.state.activeDropDown === "promotion" && (
                                 <>
-                                    <HeaderMobileLastDropDown activeDropDown={true} title="Cabana Invest">
+                                    <HeaderMobileLastDropDown activeDropDown={true} title="Aurum Markets Invest">
                                         <div
                                             onClick={() => {
                                                 this.handleChangeDropDown(null);
@@ -383,7 +383,7 @@ class HeaderMobile extends Component {
                             )}
                             {this.state.activeDropDown === "analytic" && (
                                 <>
-                                    <HeaderMobileLastDropDown activeDropDown={true} title="Cabana Invest">
+                                    <HeaderMobileLastDropDown activeDropDown={true} title="Aurum Markets Invest">
                                         <div
                                             onClick={() => {
                                                 this.handleChangeDropDown(null);
