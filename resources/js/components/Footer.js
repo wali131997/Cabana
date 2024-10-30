@@ -21,7 +21,11 @@ class Footer extends Component {
                             <h3 className="footerTitle">Registered Office</h3>
                             <p className="footerText">
                                 Aurum Markets Limited<br />
-                                Suite 305, Griffith Corporate Centre,<br /> PO Box 1510, Beachmont, Kingstown,<br /> Saint Vincent and the Grenadines
+                                Office 212, Block A, The Junction<br />
+                                Business Hub, Calebasses Branch  <br />
+                                Road, Calebasses, 20201, Mauritius
+
+
                                 {/*<br /><br />Aurum Markets Markets Limited<br />
                                 Office no. 212, Ground floor ,Block A,
                                 <br />The junction Business Hub, <br />

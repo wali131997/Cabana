@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import AffixBar from "./AffixBar";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import Header from "./Header";
