@@ -12,7 +12,7 @@ const UltimateBonus = () => {
 
                         Trade with Aurum Markets now & get a chance to
                         win maximum prizes</div>
-                    {/* <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button> */}
+                    {/* <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button> */}
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -82,7 +82,7 @@ const UltimateBonus = () => {
                         <br></br>
                         <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

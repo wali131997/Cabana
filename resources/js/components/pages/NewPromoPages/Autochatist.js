@@ -87,7 +87,7 @@ const Autochartist = () => {
                     </div>
                     {/* <div className='text-center'>
 
-                        <button className='btn  btn-dark btn-lg  mt-4 p-3' style={{ backgroundColor: '#000', borderRadius: '7px' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Create an Account - It’s Free!</button>
+                        <button className='btn  btn-dark btn-lg  mt-4 p-3' style={{ backgroundColor: '#000', borderRadius: '7px' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Create an Account - It’s Free!</button>
                     </div> */}
 
                 </div>
@@ -109,7 +109,7 @@ const Autochartist = () => {
 
                 <div className='text-center'>
 
-                    <button className='btn  btn-dark btn-lg  mt-2 px-5' style={{ backgroundColor: '#A2237E', borderRadius: '7px' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Login to Portal</button>
+                    <button className='btn  btn-dark btn-lg  mt-2 px-5' style={{ backgroundColor: '#A2237E', borderRadius: '7px' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Login to Portal</button>
                 </div> */}
 
                 <div className='container'>

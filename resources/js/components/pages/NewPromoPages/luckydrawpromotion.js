@@ -9,7 +9,7 @@ const luckydrawpromotion = () => {
                     </span></div>
                     <div className='title title2'>THE MORE YOU DEPOSIT,THE GREATER THE <br />CHANCES TO WIN
                     </div>
-                    <button onClick={() => { window.open('https://secure.cabanacapitals.com/login/', '_self') }} className="btn download_mmt4">GET STARTED</button>
+                    <button onClick={() => { window.open('https://portal.aurummarkets.com/login/', '_self') }} className="btn download_mmt4">GET STARTED</button>
 
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
@@ -41,7 +41,7 @@ const luckydrawpromotion = () => {
                 <div className='text-center mt4title mt-4' >THE MORE YOU TRADE,THE MORE CHANCES YOU GET TO WIN WEEKLY CASH PRIZE
 
                     <br />
-                    <button onClick={() => { window.open('https://secure.cabanacapitals.com/login/', '_self') }} className="btn btn-rounded download_mmt4">Trade To Win</button>
+                    <button onClick={() => { window.open('https://portal.aurummarkets.com/login/', '_self') }} className="btn btn-rounded download_mmt4">Trade To Win</button>
 
                 </div>
                 <div className='text-center mt4title mt-3' style={{ fontSize: '28px' }} >

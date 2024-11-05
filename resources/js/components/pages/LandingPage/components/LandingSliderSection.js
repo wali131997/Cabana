@@ -268,7 +268,7 @@ export default class LandingSliderSection extends Component {
                                             </div>
                                         </div>
                                         <div className="text-center">
-                                            <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className="btnDemoAccount">
+                                            <button onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }} className="btnDemoAccount">
                                                 Open Demo Account
                                             </button>
                                         </div>
@@ -330,7 +330,7 @@ export default class LandingSliderSection extends Component {
                                             </div>
                                         </div>
                                         <div className="text-center">
-                                            <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className="btnDemoAccount_live">
+                                            <button onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }} className="btnDemoAccount_live">
                                                 OPEN LIVE ACCOUNT
                                             </button>
                                         </div>

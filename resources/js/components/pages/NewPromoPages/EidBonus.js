@@ -7,7 +7,7 @@ const EidBonus = () => {
                 <div>
                     <div className='title'><span className='titleLg'>Cash Back <br /> Promotion
                     </span></div>
-                    <button onClick={() => { window.open('https://secure.cabanacapitals.com/login/', '_self') }} className="btn download_mmt4">GET STARTED</button>
+                    <button onClick={() => { window.open('https://portal.aurummarkets.com/login/', '_self') }} className="btn download_mmt4">GET STARTED</button>
 
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>

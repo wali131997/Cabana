@@ -8,7 +8,7 @@ const BoosterBonusMalaysia = () => {
                     <div className='title'><span className='titleLg'> Booster Bonus</span></div>
                     <div style={{ fontSize: '22px' }} className='title title2'>Switch to Aurum Markets and get benefit of 100% Booster Bonus
                         <br></br>on your deposits (Up to $1000)in Aurum Marketsas credit. </div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -46,7 +46,7 @@ const BoosterBonusMalaysia = () => {
 
             <h4 className='text  text-center text-dark mt-5 px-3' style={{ fontSize: '24px', fontWeight: 700 }}>      IT'S TIME TO ENJOY YOUR REWARDS WITH OUR 100% BONUS OFFER    </h4>
             <div className='text-center mt-3'>
-                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
             </div>
 
             {/* <div className="newPromoBg px-0 mt-4" style={{ backgroundImage: "url('/assets/images/crystals.png')", height: '450px', backgroundPosition: 'inherit' }}>
@@ -67,7 +67,7 @@ const BoosterBonusMalaysia = () => {
                             TRADE FOR AS LOW AS $100
                         </h4> <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

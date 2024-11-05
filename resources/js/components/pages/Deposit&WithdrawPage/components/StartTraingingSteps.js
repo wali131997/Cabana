@@ -46,7 +46,7 @@ class StepsToOpenAccount extends Component {
           </div>
 
           <div className="col-12 text-center mt-5 mb-5">
-            <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className="depositButton " style={{ padding: "8px 70px" }} >Get Started</button>
+            <button onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }} className="depositButton " style={{ padding: "8px 70px" }} >Get Started</button>
           </div>
         </div>
       </div>

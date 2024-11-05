@@ -26,7 +26,7 @@ const BoosterBonusIndia = () => {
                         style={{ backgroundColor: "#A2237E" }}
                         onClick={() => {
                             window.open(
-                                "https://secure.cabanacapitals.com/register/",
+                                "https://portal.aurummarkets.com/register/",
                                 "_self"
                             );
                         }}
@@ -118,7 +118,7 @@ const BoosterBonusIndia = () => {
                     className="btn  btn-dark rounded"
                     onClick={() => {
                         window.open(
-                            "https://secure.cabanacapitals.com/register/",
+                            "https://portal.aurummarkets.com/register/",
                             "_self"
                         );
                     }}
@@ -145,7 +145,7 @@ const BoosterBonusIndia = () => {
                             TRADE FOR AS LOW AS $100
                         </h4> <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ const DubaiLuxuryPromotion = () => {
                         the "Dubai Luxury Trip PromoCon," <br />a unique opportunity designed to combine
                         financial achievements <br />with an extravagant travel experience.
                     </div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -82,7 +82,7 @@ const DubaiLuxuryPromotion = () => {
                 you the chance to experience the epitome of luxury in one of the world's most iconic destinations.
             </h6>
             <div className='text-center mt-3'>
-                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
             </div>
             {/*
             <div className="newPromoBg px-0 mt-4" style={{ backgroundImage: "url('/assets/images/crystals.png')", height: '450px', backgroundPosition: 'inherit' }}>
@@ -103,7 +103,7 @@ const DubaiLuxuryPromotion = () => {
                             TRADE FOR AS LOW AS $100
                         </h4> <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

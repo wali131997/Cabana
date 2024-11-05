@@ -7,7 +7,7 @@ const FiftypercentBonus = () => {
                 <div>
                     <div className='title'><span className='titleLg'>Get Upto 50% bonus</span></div>
                     <div className='title title2'>ON EVERY DEPOSIT AS CREDIT</div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -37,7 +37,7 @@ const FiftypercentBonus = () => {
                         <h4 className='text  text-center text-dark mt-3 px-3' style={{ fontSize: '18px' }}>       Switch to Aurum Markets and get benefit of 50% Bonus.
                             Deposit now and get 50% Bonus on your deposit in Aurum Markets  as credit.  </h4>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-dark rounded' onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
 
                     </div>

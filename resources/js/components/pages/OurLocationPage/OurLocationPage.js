@@ -52,7 +52,7 @@ const OurLocationPage = (props) => {
                                     Vincent and the Grenadines
                                 </span></div>
                                 {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  /> +44 208 124 4440</div> */}
-                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" /> support@cabanacapitals.com</div>
+                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" /> support@aurunmarkets.com</div>
                             </div>
                             {/* <div className="locationCard">
                    <div className='title'>Dubai</div>

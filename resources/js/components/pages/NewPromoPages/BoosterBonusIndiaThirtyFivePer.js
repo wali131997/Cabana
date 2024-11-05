@@ -11,7 +11,7 @@ const BoosterBonusIndiaThirtyFivePer = () => {
                     <br></br> Boost your trading potential with 100% Deposit Bonus.
                     <br></br>
                     Booster Bonus helps you maximize your profit with larger trading lots available.  </div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                      <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a>
                 </div> */}
             <img src='/assets/images/Banner2-min.jpg' style={{ width: '100%' }}></img>
@@ -49,7 +49,7 @@ const BoosterBonusIndiaThirtyFivePer = () => {
 
             <h4 className='text  text-center text-dark mt-5 px-3' style={{ fontSize: '24px', fontWeight: 700 }}>      Aurum Markets brings a whopping 35% trading bonus (up to $3500) to your trading account deposit.    </h4>
             <div className='text-center mt-3'>
-                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                <button className='btn  btn-dark rounded' onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
             </div>
 
             {/* <div className="newPromoBg px-0 mt-4" style={{ backgroundImage: "url('/assets/images/crystals.png')", height: '450px', backgroundPosition: 'inherit' }}>
@@ -70,7 +70,7 @@ const BoosterBonusIndiaThirtyFivePer = () => {
                             TRADE FOR AS LOW AS $100
                         </h4> <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>
