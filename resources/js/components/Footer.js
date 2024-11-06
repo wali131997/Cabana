@@ -113,7 +113,7 @@ class Footer extends Component {
                             <p className="footerText footerText_justify">
                                 <span className="textBold">Legal: </span>
                                 Aurum Markets Limited is incorporated in St. Vincent & the Grenadines as an International Broker Company
-                                with the registration number 24185 IBC 2017. The objects of the Company are all subject matters not forbidden
+                                with the registration number 195270 GBC. The objects of the Company are all subject matters not forbidden
                                 by International Business Companies (Amendment and Consolidation) Act, Chapter 149 of the Revised Laws of Saint
 
                                 Vincent and Grenadines, 2009, in particular but not exclusively all commercial, financial, lending, borrowing,
@@ -130,7 +130,7 @@ class Footer extends Component {
                                 <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
                                 Regional Restrictions: Aurum Markets does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
                                 {/* <br /> <br />Aurum Markets brand is represented by the following entities and regulations: */}
-                                <br /><br />Aurum Markets Ltd incorporate in St. Vincent & the Grenadines with company registration number 24185 IBC 2017.
+                                <br /><br />Aurum Markets Ltd incorporate in St. Vincent & the Grenadines with company registration number 195270 GBC.
                                 {/* <br /><br /> Aurum Markets is regulated in South Africa under the name of Gao Financial Services (Pty) Ltd and holds a Financial Service Provider (FSP) license number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa. */}
                             </p> :
                             <></>
@@ -148,7 +148,7 @@ class Footer extends Component {
                     {this.props.country != 'India' && this.props.country != 'South Africa' && this.props.country != 'United Arab Emirates' ?
                         <p className="footerText footerText_justify">
                             Aurum markets is regulated in Mauritius under the name of Aurum Markets (Markets) Limited and is regulated by the Financial Services Commision of Mauritius (FSC) under the license number
-                            GB22200748. The FSC is the principal regulator of the financial services industry in Mauritius.
+                            195270 GBC. The FSC is the principal regulator of the financial services industry in Mauritius.
 
                         </p> :
                         <></>

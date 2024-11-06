@@ -13,7 +13,7 @@ export default class AffixBar extends Component {
                                     alt="emailPng"
                                 ></img>
                                 <p className="affixBarText d-inline">
-                                    Email : support@cabanacapitals.com
+                                    Email : support@aurummarkets.com
                                 </p>
                             </div>
                             {/* <div className="d-inline affixTab">
