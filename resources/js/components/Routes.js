@@ -77,6 +77,7 @@ import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 import Autochartist from './pages/NewPromoPages/Autochatist';
 import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
 import IbRewardsPromotion from './pages/NewPromoPages/IbRewardsPromotion';
+import UnlimitedCashback from './pages/NewPromoPages/UnlimitedCashback';
 
 class Routes extends Component {
 
@@ -166,6 +167,7 @@ class Routes extends Component {
                 <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
                 <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
                 <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
+                <Route path="/unlimited-cashback-promotion" component={UnlimitedCashback} />
 
                 <Route
                     path="/deposite-withdraw"
