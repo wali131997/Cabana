@@ -56,7 +56,7 @@ class CopyTrading extends Component {
                     </div>
                 </div>
                 <div className="container-fluid mt-5">
-                    <iframe style={{ width: '100%', height: '600px', border: '1px solid #fff' }} src="https://stats-social.cabanacapitals.com/app/widgets/social_platform_ratings/ratings"></iframe>
+                    <iframe style={{ width: '100%', height: '600px', border: '1px solid #fff' }} src="https://stats-social.aurummarkets.com/widgets/ratings?widgetKey=social_platform_ratings"></iframe>
                 </div>
                 <div className="greyBg">
                     <div className="container-fluid">

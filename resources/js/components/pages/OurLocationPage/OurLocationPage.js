@@ -34,7 +34,7 @@ const OurLocationPage = (props) => {
                     <div className="title">Customer Support</div>
                     <div className="text">For any enquiries email us on:</div>
                     <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff" /> 230 245 8606</div>
-                    <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff" /> support@cabanacapitals.com</div>
+                    <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff" /> support@aurummarkets.com</div>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ const OurLocationPage = (props) => {
                                     Vincent and the Grenadines
                                 </span></div>
                                 {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97"  /> +44 208 124 4440</div> */}
-                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" /> support@aurunmarkets.com</div>
+                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" />  support@aurummarkets.com</div>
                             </div>
                             {/* <div className="locationCard">
                    <div className='title'>Dubai</div>
@@ -71,7 +71,7 @@ const OurLocationPage = (props) => {
 
                                 </span></div>
                                 <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#ee3f97" /> +234 805 653 1053.</div>
-                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" /> hu@cabanacapitals.com</div>
+                                <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#ee3f97" /> hu@aurummarkets.com</div>
                             </div>
                         </div>
                     </div>
