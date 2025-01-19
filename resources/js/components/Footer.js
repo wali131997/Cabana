@@ -88,7 +88,7 @@ class Footer extends Component {
                         <a href="/terms-and-condition">
                             <p className="footerLinkText"> Terms and Conditions</p>
                         </a>
-                        <a href="https://cabanacapitals.com/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
+                        <a href="/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
                             <p className="footerLinkText"> Client Agreement</p>
                         </a>
                         <a href="/files/IB_Agreement.pdf" target="_blank"  >
