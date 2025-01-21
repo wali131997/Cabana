@@ -8,13 +8,13 @@
 
     <!-- Canonical Tags -->
 
-    <link rel="canonical" href="https://www.cabanacapitals.com/" />
+    <link rel="canonical" href="https://aurummarkets.com/" />
     <!-- frontend_index_index -->
     <title>True ECN Forex broker, Online Forex Trading, CFD Trading - Aurum Markets</title>
     <meta name="description" content="Trade with True ECN Forex Broker and best trading conditions: Low Spreads, No Swaps, No Commissions." />
     <meta name="keywords" content="aurum markets, true ecn forex broker, forex, forex trading, broker, currency trading, deposit, bonus, forex broker, no requote, no deposit bonus, deposit bonus, visa, mastercard, octafx, fbs, tickmill, superforex, liteforex, icmarkets, weltrade, iforex, best forex broker, nord forex " />
     <!-- Open Graph Data -->
-    <meta property="og:url" content="https://www.cabanacapitals.com/" />
+    <meta property="og:url" content="https://aurummarkets.com/" />
     <meta property="og:title" content="True ECN Forex broker, Online Forex Trading, CFD Trading - Aurum Markets" />
     <meta property="og:description" content="Trade with True ECN Forex Broker and best trading conditions: Low Spreads, No Swaps, No Commissions." />
     <meta property="og:type" content="website" />
