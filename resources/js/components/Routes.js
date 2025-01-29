@@ -76,6 +76,8 @@ import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotio
 import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 import Autochartist from './pages/NewPromoPages/Autochatist';
 import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
+import TwentyFiveThousandBonusPromotion from './pages/NewPromoPages/TwentyFiveThousandBonusPromotion';
+import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
 
 class Routes extends Component {
 
@@ -134,6 +136,8 @@ class Routes extends Component {
 
                 <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
                 <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
+                <Route path="/twenty-five-thousand-bonus-promotion" component={TwentyFiveThousandBonusPromotion}></Route>
+                <Route path="/signup-bonus-promotion" component={SignUpBonusPromotion}></Route>
 
                 <Route path="/mt4-platform" component={Mt4}></Route>
                 <Route path="/mt5-platform" component={Mt5}></Route>
