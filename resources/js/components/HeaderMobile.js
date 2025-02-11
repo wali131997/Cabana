@@ -346,7 +346,7 @@ class HeaderMobile extends Component {
                                             <a href="/analytics">
                                                 <div className="headerDropDownItem">How to use Mt4</div>
                                             </a>
-                                            <a href="https://blog.cabanacapitals.com">
+                                            <a href="https://blog.aurummarkets.com/">
                                                 <div className="headerDropDownItem">Analytics</div>
                                             </a>
                                             <a href="/autochartist">
