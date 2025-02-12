@@ -4,7 +4,7 @@ const Autochartist = () => {
     return (
         <div>
             <div>
-                <img onClick={() => { window.open('https://secure.cabanacapitals.com/pages/47/', '_blank') }} className='mobileMargin' style={{ width: '100%', cursor: 'pointer' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
+                <img onClick={() => { window.open('https://portal.aurummarkets.com/pages/47/', '_blank') }} className='mobileMargin' style={{ width: '100%', cursor: 'pointer' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
             </div>
             <div className='container fifty_per_page'>
                 <div className='row mt-3'>
@@ -237,7 +237,7 @@ const Autochartist = () => {
                     </div>
                 </div>
 
-                <div className='text-center mt-5'>
+                {/* <div className='text-center mt-5'>
                     <h3>Check out our <strong>social media links</strong></h3>
                 </div>
                 <div className='row'>
@@ -253,7 +253,7 @@ const Autochartist = () => {
                     <div className='col-md-3 p-2'>
                         <img style={{ width: '100%' }} src='/assets/images/autochartist/4.jpg'></img>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div >
     );
